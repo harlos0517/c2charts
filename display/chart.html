@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cytus II Charts</title>
+	<link href="chart.css" rel="stylesheet">
+	<!--BOOTSTRAP-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!--VUE-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body class='bg-dark text-light'>
+	<div id="main" class="container-fluid">
+		<div id="title" class="row text-center py-3">
+			<div class="col-2">{{ character }}</div>
+			<div class="col-4">{{ songName }}</div>
+			<div class="col-4">{{ composer }}</div>
+			<div class="col-2">{{ difficulty.toUpperCase() }} {{ level }}</div>
+		</div>
+		<div id="charts" class="row">
+			<div v-for="(page, index) in chartData.page_list" class="chart col-3 p-1">
+				<img :src="`../images/output/${charId}/${songId}/${difficulty}/${`${index}`.padStart(3, '0')}.png`" alt="	">
+			</div>
+		</div>
+	</div>
+	<script src="chart.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Rajdhani';
+	src: url('Rajdhani-SemiBold.ttf');
+}
+
+body {
+	font-family: 'Rajdhani'!important;
+	font-size: 20px!important;
+}
+
+.table-fix-head>thead>tr>th {
+	position: sticky;
+	top: 0;
+}
+
+.table td.fill {
+	padding: 0!important;
+}
+
+.table td.fill>* {
+	display: block;
+	height: 100%;
+	line-height: 54px;
+	vertical-align: middle;
+	text-align: center;
+}

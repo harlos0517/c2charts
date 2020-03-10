@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Rajdhani';
+	src: url('Rajdhani-SemiBold.ttf');
+}
+
+body {
+	font-family: 'Rajdhani'!important;
+	font-size: 20px!important;
+}
+
+.chart {
+	width: 25%;
+}
+
+.chart>img {
+	width: 100%;
+}

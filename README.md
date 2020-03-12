@@ -7,12 +7,13 @@ This project is composed of two parts:
 2. diaplay
 	Webpage that displays the song list and charts. Uses `vue.js` and `bootstrap`.
 
+This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:2501).
+
 ## project stucture
 
 ### `images/`
 
-* `data/sample_V.json` : original chart data
-* `output/sample_V/*.png` : rendered chart images
+* `data/sample_V.json` : sample chart data
 * `sample.js` : Entry point for sample convert. Usage: `node sample.js`
 * `batch.js` : Entry point for batch convert. You don't need this unless you have all charts data.
 * `chart2images.js` : The converter core.
@@ -24,12 +25,12 @@ This project is composed of two parts:
 
 * `index.*` CYTUS II song list
 * `chart.*` chart display
-* `songs.json` : CYTUS II character and song data
+* `songs.json` : CYTUS II character and song data - different from the other one, generated with more chart details
 * `Rajdhani-SemiBold.ttf` : the font used for webpage
 
 ### `.gitignore`
 
-Every Git users know this.
+Every Git user knows this.
 
 ### `README.md`
 

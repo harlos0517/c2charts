@@ -17,17 +17,8 @@ function getSongs(ele) {
 		ele.character = char.name
 		ele.songName = song.name
 		ele.composer = song.composer
-		ele.level = song.level[ele.difficulty]
-	}
-}
-
-function getChartData(ele) {
-	var req = new XMLHttpRequest()
-	req.open('GET', `../images/data/${ele.charId}_${ele.songId}_${ele.diffId}_decrypted.json`)
-	req.responseType = 'json'
-	req.send()
-	req.onload = function() {
-		ele.chartData = req.response
+		ele.level = song.charts[ele.difficulty].level
+		ele.pageNum = song.charts[ele.difficulty].pageNum
 	}
 }
 
@@ -42,7 +33,7 @@ var main = new Vue({
 		difficulty: '',
 		diffId: 0,
 		level: 0,
-		chartData: {}
+		pageNum: 0
 	}, 
 	mounted: function() {
 		var self = this
@@ -52,6 +43,5 @@ var main = new Vue({
 		self.difficulty = params.get('diff')
 		self.diffId = diffId(self.difficulty)
 		getSongs(self)
-		getChartData(self)
 	}
 })

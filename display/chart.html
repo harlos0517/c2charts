@@ -20,8 +20,8 @@
 			<div class="col-2">{{ difficulty.toUpperCase() }} {{ level }}</div>
 		</div>
 		<div id="charts" class="row">
-			<div v-for="(page, index) in chartData.page_list" class="chart col-12 col-md-6 col-xl-3 p-1">
-				<img :src="`../images/output/${charId}/${songId}/${difficulty}/${`${index}`.padStart(3, '0')}.png`" alt="	">
+			<div v-for="index in pageNum" class="chart col-12 col-md-6 col-xl-3 p-1">
+				<img :src="`http://linux1.csie.ntu.edu.tw:2502/${charId}/${songId}/${difficulty}/${`${index-1}`.padStart(3, '0')}.png`" alt="	">
 			</div>
 		</div>
 	</div>

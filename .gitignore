@@ -1,5 +1,5 @@
 node_modules/
-images/data/*
-images/output/*
-!images/data/sample_V.json
+chart2images/data/*
+chart2images/output/*
+!chart2images/data/sample_V.json
 *.zip

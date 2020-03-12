@@ -6,6 +6,7 @@ This project is composed of two parts:
 2. `web` : Webpage that displays the song list and charts. Uses `vue.js` and `bootstrap`.
 
 This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:2501/index.html).
+
 If you want to test on your own, you can setup a static server serving at `web/`.
 
 ## project stucture

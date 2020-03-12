@@ -7,7 +7,7 @@ This project is composed of two parts:
 2. diaplay
 	Webpage that displays the song list and charts. Uses `vue.js` and `bootstrap`.
 
-This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:2501).
+This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:2501/index.html).
 
 ## project stucture
 

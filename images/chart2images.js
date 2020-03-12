@@ -2,8 +2,6 @@ const fs = require('fs')
 const { createCanvas, loadImage, registerFont } = require('canvas')
 const assert = require('assert')
 
-const characters = require('./songs.json')
-
 const width = 1920
 const height = 1440
 const margin = {
@@ -194,7 +192,9 @@ function fetchPage(page_index, note_index, data) {
 }
 
 function processData(data, path) {
-	console.time(`Written to ${path}`)
+	// Check directory existance
+	if (!fs.existsSync(path))
+		fs.mkdirSync(path)
 
 	let cur_note = 0
 	let cur_tempo = 0
@@ -204,7 +204,6 @@ function processData(data, path) {
 	let nextNotes = []
 
 	data.page_list.forEach((page, page_index, page_list)=>{
-
 		let canvas = createCanvas(width, height)
 		let ctx = canvas.getContext('2d')
 
@@ -266,50 +265,9 @@ function processData(data, path) {
 		fs.writeFileSync(`${path}/${`${page_index}`.padStart(3, '0')}.png`, canvas.toBuffer())
 		//console.log(`Written to ${path}/${page_index}.png`)
 	})
-
-	console.timeEnd(`Written to ${path}`)
 }
 
-
-function processChart(song, difficulty_id, character, path) {
-	// Check directory existance
-	if (!fs.existsSync(path))
-		fs.mkdirSync(path)
-	let data = require(`./data/${character.id}_${song.id}_${difficulty_id}_decrypted.json`)
-
-	// check completeness (disable this line to restart totally)
-	let complete = true
-	for (let page_index = 0; page_index < data.page_list.length; page_index++) {
-		if (!fs.existsSync(`${path}/${`${page_index}`.padStart(3, '0')}.png`)) {
-			processData(data, path)
-			break
-		}
-	}
+module.exports = {
+	loadAssets: loadAssets,
+	processData: processData
 }
-
-function processSong(song, character, path) {
-	if(song.level.easy  ) processChart(song, 0, character, `${path}/easy`  )
-	if(song.level.hard  ) processChart(song, 1, character, `${path}/hard`  )
-	if(song.level.chaos ) processChart(song, 2, character, `${path}/chaos` )
-	if(song.level.glitch) processChart(song, 3, character, `${path}/glitch`)
-}
-
-function process() {
-	loadAssets(()=>{
-		characters.forEach(character=>{
-			// Check directory existance
-			if (!fs.existsSync(`output/${character.id}`))
-				fs.mkdirSync(`output/${character.id}`)
-			character.songs.forEach(song=>{
-				// Check directory existance
-				if (!fs.existsSync(`output/${character.id}/${song.id}`))
-					fs.mkdirSync(`output/${character.id}/${song.id}`)
-
-				console.log(`[ Process Song ] ${character.name} - ${song.name}`)
-				processSong(song, character, `output/${character.id}/${song.id}`)
-			})
-		})
-	})
-}
-
-process()

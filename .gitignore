@@ -1,4 +1,5 @@
 node_modules/
 images/data/*
 images/output/*
+!images/data/sample_V.json
 *.zip

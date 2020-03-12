@@ -2,16 +2,14 @@
 
 This project is composed of two parts:
 
-1. images
-	Converts the chart data into images. Uses `node.js` with `canvas` module.
-2. diaplay
-	Webpage that displays the song list and charts. Uses `vue.js` and `bootstrap`.
+1. `chart2images` : Converts the chart data into images. Uses `node.js` with `canvas` module.
+2. `web` : Webpage that displays the song list and charts. Uses `vue.js` and `bootstrap`.
 
 This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:2501/index.html).
 
 ## project stucture
 
-### `images/`
+### `chart2images/`
 
 * `data/sample_V.json` : sample chart data
 * `sample.js` : Entry point for sample convert. Usage: `node sample.js`
@@ -21,7 +19,7 @@ This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:250
 * `Rajdhani-SemiBold.ttf` : the font used for rendering chart images
 * `package-lock.json` : the annoying thing `node.js` creates
 
-### `display/`
+### `web/`
 
 * `index.*` CYTUS II song list
 * `chart.*` chart display

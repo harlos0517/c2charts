@@ -651,10 +651,15 @@
 },{
 	"name": "Other",
 	"songs": [
-		{ "id":"story_004", "name": "story_004" , "chart": {}},
-		{ "id":"story_im02", "name": "story_im02" , "chart": {}},
-		{ "id":"SelectForPaffGameplay", "name": "SelectForPaffGameplay" , "chart": {}},
-		{ "id":"FinalBossStage_1", "name": "FinalBossStage_1" , "chart": {}},
-		{ "id":"FinalBossStage_2", "name": "FinalBossStage_2" , "chart": {}}
+		{ "id":"story_004", "name": "story_004",
+		  "charts": { "easy": { "level": "?" } }},
+		{ "id":"story_im02", "name": "story_im02",
+		  "charts": { "easy": { "level": "?" } }},
+		{ "id":"SelectForPaffGameplay", "name": "SelectForPaffGameplay",
+		  "charts": { "easy": { "level": "?" } }},
+		{ "id":"FinalBossStage_1", "name": "FinalBossStage_1",
+		  "charts": { "easy": { "level": "?" } }},
+		{ "id":"FinalBossStage_2", "name": "FinalBossStage_2",
+		  "charts": { "easy": { "level": "?" } }}
 	]
 }]

@@ -33,14 +33,12 @@ function processChart(chart, song, character, difficulty_id, path) {
 	chart.pageNum = data.page_list.length
 }
 
-function processSong(song, character, path, other) {
-	if (character.name !== 'Other') {
-		for (let i = 0; i < 4; i++)
-			if (song.charts[difficulty[i]])
-				processChart(song.charts[difficulty[i]], song, character, i, `${path}/${difficulty[i]}`)
-	} else {
-		processChart(song.chart, song, character, -1, `${path}`)
-	}
+function processSong(song, character, path) {
+	let fullId = (character.name === 'Other') ? `${song.id}` : `${character.id}_${song.id}`
+	for (let i = 0; i < 4; i++)
+		if (song.charts[difficulty[i]])
+			processChart(song.charts[difficulty[i]], song, character, i,
+				`${path}/${difficulty[i]}`, `${fullId}_${i}_decrypted.json`)
 }
 
 function process() {

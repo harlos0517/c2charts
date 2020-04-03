@@ -32,13 +32,13 @@
 					<td class="align-middle">{{ song.name }}</td>
 					<td class="align-middle">{{ song.composer }}</td>
 					<td class="text-center align-middle fill">
-						<a :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=easy`">{{ song.charts.easy.level }}</a>
+						<a v-if="song.charts.easy" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=easy`">{{ song.charts.easy.level }}</a>
 					</td>
 					<td class="text-center align-middle fill">
-						<a :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=hard`">{{ song.charts.hard.level }}</a>
+						<a v-if="song.charts.hard" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=hard`">{{ song.charts.hard.level }}</a>
 					</td>
 					<td class="text-center align-middle fill">
-						<a :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=chaos`">{{ song.charts.chaos.level }}</a>
+						<a v-if="song.charts.chaos" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=chaos`">{{ song.charts.chaos.level }}</a>
 					</td>
 					<td class="text-center align-middle fill">
 						<a v-if="song.charts.glitch" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=glitch`">

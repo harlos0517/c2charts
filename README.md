@@ -7,6 +7,8 @@ This project is composed of two parts:
 
 This webpage is currently been deployed [here](http://linux1.csie.ntu.edu.tw:2501/index.html).
 
+If you want to test on your own, you can setup a static server serving at `web/`.
+
 ## project stucture
 
 ### `chart2images/`

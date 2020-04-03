@@ -137,9 +137,9 @@
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 13 }, "glitch": { "level": 15 }}},
 		{ "id": "037", "name": "Rei", "composer": "Catalyst",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},
-		{ "id": "037", "name": "響け！", "composer": "	Kry.exe",
+		{ "id": "038", "name": "響け！", "composer": "Kry.exe",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},
-		{ "id": "037", "name": "気楽なCloudy", "composer": "technoplanet feat. はるの",
+		{ "id": "039", "name": "気楽なCloudy", "composer": "technoplanet feat. はるの",
 		  "charts": { "easy": { "level": 5 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}}
 	]
 },{

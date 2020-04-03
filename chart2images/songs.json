@@ -650,6 +650,7 @@
 	]
 },{
 	"name": "Other",
+	"id": "other",
 	"songs": [
 		{ "id":"story_004", "name": "story_004",
 		  "charts": { "easy": { "level": "?" } }},

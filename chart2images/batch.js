@@ -12,9 +12,7 @@ function processChart(chart, song, character, difficulty_id, path) {
 	if (!fs.existsSync(path))
 		fs.mkdirSync(path)
 
-	let data = (difficulty_id >= 0) ?
-		require(`./data/${character.id}_${song.id}_${difficulty_id}_decrypted.json`) :
-		require(`./data/${song.id}_0_decrypted.json`)
+	let data = require(`./data/${character.id}_${song.id}_${difficulty_id}_decrypted.json`)
 
 	// check completeness
 	let complete = true // set this to false and disable the following block to startover
@@ -34,11 +32,9 @@ function processChart(chart, song, character, difficulty_id, path) {
 }
 
 function processSong(song, character, path) {
-	let fullId = (character.name === 'Other') ? `${song.id}` : `${character.id}_${song.id}`
 	for (let i = 0; i < 4; i++)
 		if (song.charts[difficulty[i]])
-			processChart(song.charts[difficulty[i]], song, character, i,
-				`${path}/${difficulty[i]}`, `${fullId}_${i}_decrypted.json`)
+			processChart(song.charts[difficulty[i]], song, character, i, `${path}/${difficulty[i]}`)
 }
 
 function process() {

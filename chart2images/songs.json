@@ -55,7 +55,9 @@
 		{ "id": "025", "name": "I Wish You Were Mine", "composer": "GALAXIKA, ELIN",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},
 		{ "id": "026", "name": "PIXIE DUST", "composer": "上村叶恵",
-		  "charts": {  "easy":{ "level":   1}, "hard":{ "level":  5 }, "chaos": { "level": 10 }}}
+		  "charts": {  "easy":{ "level": 1 }, "hard":{ "level":  5 }, "chaos": { "level": 10 }}},
+		{ "id": "027", "name": "Sleeping Beast", "composer": "SNoW",
+		  "charts": {  "easy":{ "level": 4 }, "hard":{ "level":  7 }, "chaos": { "level": 11 }}}
 	]
 },{
 	"name": "NEKO#ΦωΦ",
@@ -134,7 +136,11 @@
 		{ "id": "036", "name": "Rebirth", "composer": "3R2 & SIHanatsuka",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 13 }, "glitch": { "level": 15 }}},
 		{ "id": "037", "name": "Rei", "composer": "Catalyst",
-		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}}
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},
+		{ "id": "037", "name": "響け！", "composer": "	Kry.exe",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},
+		{ "id": "037", "name": "気楽なCloudy", "composer": "technoplanet feat. はるの",
+		  "charts": { "easy": { "level": 5 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}}
 	]
 },{
 	"name": "ROBO_Head",
@@ -314,6 +320,37 @@
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 11 }}},
 		{ "id": "013", "name": "The Cross (feat. Silvia Su)", "composer": "Lyc",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 6 }, "chaos": { "level": 11 }}}
+	]
+},{
+	"name": "Vanessa",
+	"id": "vanessa001",
+	"songs": [
+		{ "id": "001", "name": "Anchor", "composer": "Iris ft. Victor Kong & Ruri Matsumura",
+		  "charts": { "easy": { "level": 1 }, "hard": { "level": 5 }, "chaos": { "level": 10 }}},
+		{ "id": "002", "name": "syūten", "composer": "Apo11o\"COLLAPSAR\"program ft.大瀬良あい",
+		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 11 }}},
+		{ "id": "003", "name": "Rosa Rubus", "composer": "SIHanatsuka",
+		  "charts": { "easy": { "level": 2 }, "hard": { "level": 6 }, "chaos": { "level": 11 }}},
+		{ "id": "004", "name": "XYZ", "composer": "technoplanet",
+		  "charts": { "easy": { "level": 5 }, "hard": { "level": 9 }, "chaos": { "level": 15 }}},
+		{ "id": "005", "name": "II-V", "composer": "Ring",
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
+		{ "id": "006", "name": "Chaos and Abyss -3rd Movement-", "composer": "Ayatsugu_Revolved",
+		  "charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 15 }}},
+		{ "id": "007", "name": "Duality", "composer": "3R2",
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 8 }, "chaos": { "level": 12 }}},
+		{ "id": "008", "name": "Ra", "composer": "溝口ゆうま feat. テヅカ",
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
+		{ "id": "009", "name": "CHAOS //System Offline//", "composer": "Cytus",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 12 }}},
+		{ "id": "010", "name": "V. //System Offline//", "composer": "Cytus",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
+		{ "id": "011", "name": "II", "composer": "Cytus",
+		  "charts": { "easy": { "level": 5 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}},
+		{ "id": "012", "name": "Used to be", "composer": "KIVΛ",
+		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 9 }}},
+		{ "id": "013", "name": "The Whole Rest", "composer": "KIVΛ",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}}
 	]
 },{
 	"name": "Miku",
@@ -610,5 +647,14 @@
 		  "charts": { "easy": { "level": 6 }, "hard": { "level": 9 }, "chaos": { "level": 15 }}},
 		{ "id": "011", "name": "R.I.P.", "composer": "eicateve",
 		  "charts": { "easy": { "level": 5 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}}
+	]
+},{
+	"name": "Other",
+	"songs": [
+		{ "id":"story_004", "name": "story_004" , "chart": {}},
+		{ "id":"story_im02", "name": "story_im02" , "chart": {}},
+		{ "id":"SelectForPaffGameplay", "name": "SelectForPaffGameplay" , "chart": {}},
+		{ "id":"FinalBossStage_1", "name": "FinalBossStage_1" , "chart": {}},
+		{ "id":"FinalBossStage_2", "name": "FinalBossStage_2" , "chart": {}}
 	]
 }]

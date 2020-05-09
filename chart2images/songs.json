@@ -140,7 +140,17 @@
 		{ "id": "038", "name": "響け！", "composer": "Kry.exe",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},
 		{ "id": "039", "name": "気楽なCloudy", "composer": "technoplanet feat. はるの",
-		  "charts": { "easy": { "level": 5 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}}
+		  "charts": { "easy": { "level": 5 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
+		{ "id": "040", "name": "Caliburne ～Story of the Legendary sword～", "composer": "Project Grimoire",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 15 }}},
+		{ "id": "041", "name": "DON'T STOP ROCKIN'", "composer": "EB (aka EarBreaker)",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
+		{ "id": "042", "name": "Glorious Crown", "composer": "xi",
+		  "charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 15 }}},
+		{ "id": "043", "name": "Oshama Scramble!", "composer": "t+pazolite",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},
+		{ "id": "044", "name": "超常マイマイン", "composer": "ナユタン星人",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}}
 	]
 },{
 	"name": "ROBO_Head",
@@ -288,7 +298,11 @@
 		{ "id": "036", "name": "Symmetry", "composer": "SIHanatsuka",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 9 }, "chaos": { "level": 15 }}},
 		{ "id": "037", "name": "Time to Fight", "composer": "Paul Bazooka",
-		  "charts": { "easy": { "level": 5 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}}
+		  "charts": { "easy": { "level": 5 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}},
+		{ "id": "038", "name": "conflict", "composer": "siromaru + cranky",
+		  "charts": { "easy": { "level": 6 }, "hard": { "level": 9 }, "chaos": { "level": 15 }, "glitch": { "level": 14 }}},
+		{ "id": "039", "name": "FREEDOM DiVE", "composer": "xi",
+		  "charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 15 }}}
 	]
 },{
 	"name": "Crystal PuNK",
@@ -550,7 +564,7 @@
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
 		{ "id": "002", "name": "The Grand Debate", "composer": "Sherwin",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
-		{ "id": "003", "name": "三灯火", "composer": "yukitoworks",
+		{ "id": "003", "name": "三灯火", "composer": "yuritoworks",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
 		{ "id": "004", "name": "「妖怪録、我し来にけり。」", "composer": "TEZUKApo11o band ft.ランコ(豚乙女)+OFFICE萬田㈱",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},

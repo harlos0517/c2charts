@@ -11,7 +11,7 @@ const margin = {
 }
 const noteAreaWidth = width - 2 * margin.side
 const noteAreaHeight = height - margin.top - margin.bottom
-const noteRatio = 0.8
+const noteRatio = 1
 
 var noteType = {}
 
@@ -124,7 +124,7 @@ function drawLongHoldTail(note, page, ctx) {
 	let longHoldTail = noteType.longHoldTail
 
 	if (dir === 1) [verPos, verPosEnd] = [verPosEnd, verPos]
-	for (let point = verPos; point<verPosEnd; point += longHoldTail.height*noteRatio-1) {
+	for (let point = verPos; point<verPosEnd; point += longHoldTail.height*noteRatio) {
 		ctx.drawImage(longHoldTail,
 			horPos - longHoldTail.width*noteRatio/2, point,
 			longHoldTail.width*noteRatio, Math.min(longHoldTail.height*noteRatio, verPosEnd - point)

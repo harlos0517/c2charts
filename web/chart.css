@@ -3,8 +3,13 @@
 	src: url('Rajdhani-SemiBold.ttf');
 }
 
+@font-face {
+	font-family: 'Electrolize';
+	src: url('Electrolize-Regular.ttf');
+}
+
 body {
-	font-family: 'Rajdhani'!important;
+	font-family: 'Electrolize'!important;
 	font-size: 20px!important;
 }
 

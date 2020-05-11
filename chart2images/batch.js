@@ -38,7 +38,7 @@ function processSong(song, character, path) {
 }
 
 function process() {
-	chart2images.loadAssets(()=>{
+	chart2images.loadAssets().then(()=>{
 		// Check directory existance
 		if (!fs.existsSync(rootPath))
 			fs.mkdirSync(rootPath)

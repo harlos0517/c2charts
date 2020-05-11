@@ -38,10 +38,9 @@ var main = new Vue({
 	}, 
 	mounted: function() {
 		var self = this
-		let params = new URLSearchParams(window.location.search)
-		self.charId = params.get('charId')
-		self.songId = params.get('songId')
-		self.difficulty = params.get('diff')
+		self.charId = 'ivy001'
+		self.songId = '014'
+		self.difficulty = 'chaos'
 		self.diffId = diffId(self.difficulty)
 		getSongs(self)
 	}

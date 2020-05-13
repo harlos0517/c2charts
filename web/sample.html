@@ -10,6 +10,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<!--VUE-->
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<meta property="og:image" content="http://140.112.211.69:2502/sample_V/094.png">
 </head>
 <body class='bg-dark text-light'>
 	<div id="main" class="container-fluid">
@@ -20,7 +21,7 @@
 			<div class="col-2">{{ difficulty.toUpperCase() }} {{ level }}</div>
 		</div>
 		<div id="charts" class="row">
-			<div v-for="index in pageNum" class="chart col-12 col-md-6 col-xl-3 p-1">
+			<div v-for="index in pageNum" class="chart col-12 col-md-6 col-xl-3 px-1 py-3">
 				<img :src="`http://140.112.211.69:2502/sample_V/${`${index-1}`.padStart(3, '0')}.png`" alt="	">
 			</div>
 		</div>

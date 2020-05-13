@@ -10,7 +10,11 @@
 
 body {
 	font-family: 'Electrolize'!important;
-	font-size: 20px!important;
+	font-size: 16pt!important;
+}
+
+tbody {
+	border-top: none!important;
 }
 
 .table-fix-head>thead>tr>th {
@@ -27,4 +31,9 @@ body {
 	height: 100%;
 	line-height: 54px;
 	text-align: center;
+}
+
+#bottom {
+	font-size: 0.8em;
+	background-color: #00000099;
 }

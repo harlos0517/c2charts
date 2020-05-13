@@ -19,7 +19,7 @@ function getSongs(ele) {
 		ele.composer = song.composer
 		ele.level = song.charts[ele.difficulty].level
 		ele.pageNum = song.charts[ele.difficulty].pageNum
-		document.title = `${song.name} ${ele.difficulty.toUpperCase()} ${ele.level} - Cytus II Charts`
+		document.title = `${song.name} [${ele.difficulty.toUpperCase()}] - Cytus II Charts`
 	}
 }
 

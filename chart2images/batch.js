@@ -1,13 +1,13 @@
 const fs = require('fs')
 
 const chart2images = require('./chart2images.js')
-
-const characters = require('./songs.json')
+const handleSongData = require('./handleSongData.js')
 
 const rootPath = 'output'
 const difficulty = ['easy', 'hard', 'chaos', 'glitch']
 
 function processChart(chart, song, character, difficulty_id, path) {
+
 	// Check directory existance
 	if (!fs.existsSync(path))
 		fs.mkdirSync(path)
@@ -16,7 +16,7 @@ function processChart(chart, song, character, difficulty_id, path) {
 
 	// check completeness
 	let complete = true // set this to false and disable the following block to startover
-	for (let page_index = 0; page_index < data.page_list.length; page_index++) {
+	for (let page_index = 0; page_index < chart.pageNum; page_index++) {
 		if (!fs.existsSync(`${path}/${`${page_index}`.padStart(3, '0')}.png`)) {
 			complete = false
 			break
@@ -24,11 +24,9 @@ function processChart(chart, song, character, difficulty_id, path) {
 	} // disable to here
 	if (!complete) {
 		console.time(`Written to ${path}`)
-		chart2images.processData(data, path)
+		chart2images.processData(data, path, chart.pageNum)
 		console.timeEnd(`Written to ${path}`)
 	}
-
-	chart.pageNum = data.page_list.length
 }
 
 function processSong(song, character, path) {
@@ -37,7 +35,7 @@ function processSong(song, character, path) {
 			processChart(song.charts[difficulty[i]], song, character, i, `${path}/${difficulty[i]}`)
 }
 
-function process() {
+function process(characters) {
 	chart2images.loadAssets().then(()=>{
 		// Check directory existance
 		if (!fs.existsSync(rootPath))
@@ -60,4 +58,4 @@ function process() {
 	})
 }
 
-process()
+process(handleSongData())

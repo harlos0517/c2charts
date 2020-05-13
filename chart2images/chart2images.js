@@ -23,30 +23,38 @@ const fonts = [{
 
 const noteTypes = [{
 	name: 'regular',
-	src: 'note.png',
+	up:   { src: 'note_up.png' },
+	down: { src: 'note_down.png' }
 },{
 	name: 'hold',
-	src: 'hold.png',
+	up:   { src: 'hold_up.png' },
+	down: { src: 'hold_down.png' },
 	tail: { src: 'hold_tail.png'}
 },{
 	name: 'long hold',
-	src: 'long_hold.png',
+	up:   { src: 'long_hold.png' },
+	down: { src: 'long_hold.png' },
 	tail: { src: 'long_hold_tail.png'}
 },{
 	name: 'chain head',
-	src: 'chain_head.png',
+	up:   { src: 'chain_head_up.png' },
+	down: { src: 'chain_head_down.png' }
 },{
 	name: 'chain',
-	src: 'chain.png',
+	up:   { src: 'chain_up.png' },
+	down: { src: 'chain_down.png' }
 },{
 	name: 'flick',
-	src: 'flick.png',
+	up:   { src: 'flick_up.png' },
+	down: { src: 'flick_down.png' }
 },{
 	name: 'drag head',
-	src: 'note.png',
+	up:   { src: 'note_up.png' },
+	down: { src: 'note_down.png' }
 },{
 	name: 'drag',
-	src: 'chain.png',
+	up:   { src: 'drag_up.png' },
+	down: { src: 'drag_down.png' }
 }]
 
 const beats = [
@@ -56,19 +64,20 @@ const beats = [
 	{ num: 2, div: 3, color: '#0078A2', lineWidth: 2, global: false },
 	{ num: 1, div: 4, color: '#787878', lineWidth: 2, global: false },
 	{ num: 3, div: 4, color: '#787878', lineWidth: 2, global: false },
-	{ num: 1, div: 6, color: '#005486', lineWidth: 1, global: false },
-	{ num: 5, div: 6, color: '#005486', lineWidth: 1, global: false },
-	{ num: 1, div: 8, color: '#545454', lineWidth: 1, global: false },
-	{ num: 3, div: 8, color: '#545454', lineWidth: 1, global: false },
-	{ num: 5, div: 8, color: '#545454', lineWidth: 1, global: false },
-	{ num: 7, div: 8, color: '#545454', lineWidth: 1, global: false }
+	{ num: 1, div: 6, color: '#003C54', lineWidth: 1, global: false },
+	{ num: 5, div: 6, color: '#003C54', lineWidth: 1, global: false },
+	{ num: 1, div: 8, color: '#424242', lineWidth: 1, global: false },
+	{ num: 3, div: 8, color: '#424242', lineWidth: 1, global: false },
+	{ num: 5, div: 8, color: '#424242', lineWidth: 1, global: false },
+	{ num: 7, div: 8, color: '#424242', lineWidth: 1, global: false }
 ]
 
 function loadAssets(){
 	fonts.forEach(font=>{ registerFont(font.src, { family: font.family }) })
 	let promises = []
 	noteTypes.forEach(noteType=>{
-		promises.push = loadImage(noteType.src).then(image=>{ noteType.image = image })
+		promises.push = loadImage(noteType.up  .src).then(image=>{ noteType.up  .image = image })
+		promises.push = loadImage(noteType.down.src).then(image=>{ noteType.down.image = image })
 		if (noteType.tail) {
 			let tail = noteType.tail
 			promises.push = loadImage(tail.src).then(image=>{ tail.image = image })
@@ -78,7 +87,8 @@ function loadAssets(){
 }
 
 function yPos(dir, ratio) {
-	let verDist = noteAreaHeight * ratio
+	let r = Math.max(0, Math.min(1, ratio))
+	let verDist = noteAreaHeight * r
 	return (dir === 1) ? (margin.top + noteAreaHeight - verDist) : (margin.top + verDist)
 }
 
@@ -109,7 +119,7 @@ function initCanvas(ctx, page, bpmChange) {
 	ctx.fillRect(0, margin.top, canvasWidth, noteAreaHeight)
 
 	// page index
-	let fontSize = 60
+	let fontSize = 100
 	ctx.font = `${fontSize}px "Rajdhani"`
 	ctx.textAlign = 'center'
 	ctx.fillStyle = '#FFFFFF'
@@ -118,51 +128,58 @@ function initCanvas(ctx, page, bpmChange) {
 	// BPM
 	ctx.font = `${fontSize}px "Rajdhani"`
 	ctx.textAlign = 'center'
-	let x, x2
 	let bpm  = page.tempos[0].bpm
 	let color = '#FFFFFF'
-	if (bpmChange > 0) color = '#FF8888'
-	if (bpmChange < 0) color = '#88FFBB'
 	ctx.fillStyle = color
-	x = writeBpm(ctx, bpm, canvasWidth - fontSize*.2, fontSize, fontSize)
-	if (page.tempos.length > 1) {
-		let bpm2 = page.tempos[page.tempos.length-1].bpm;
-		ctx.fillStyle = '#FFFFFF'
-		if (bpm2 > bpm) ctx.fillStyle = '#FF8888'
-		if (bpm2 < bpm) ctx.fillStyle = '#88FFBB'
-		x2 = writeBpm(ctx, bpm2, canvasWidth - fontSize*.2, fontSize*2, fontSize)
-	}
-	let min = x2 ? Math.min(x, x2) : x;
-	ctx.fillStyle = '#FFFFFF'
-	writeText(ctx, 'BPM', min-fontSize*.4, fontSize, 'right', fontSize)
+	writeText(ctx, 'BPM', canvasWidth - fontSize*.3, fontSize, 'right', fontSize)
 }
 
-function drawTempoChange(ctx, page) {
+function getBpmChange(a, b) {
+	return Math.log2(a) - Math.log2(b)
+}
+
+function drawTempoChange(ctx, page, initBpmChange) {
 	let tempos = page.tempos
 	let initBpm = tempos[0].bpm
 	tempos.forEach((tempo, tempoIndex, tempos)=>{
-		let bpmChange = Math.log2(tempo.bpm) - Math.log2(initBpm)
-		let hex = Math.min(192, Math.round(Math.abs(255 * bpmChange))).toString(16).padStart(2,'0')
+		let bpmChange = getBpmChange(tempo.bpm, initBpm)
+		let hex = Math.min(168, Math.round(Math.abs(255 * bpmChange))).toString(16).padStart(2,'0')
 		let color
 		     if (bpmChange > 0) color = `#FF0000${hex}`
 		else if (bpmChange < 0) color = `#00FF66${hex}`
 		else return
-		let start = yPos(page.dir, (tempo.tick - page.start_tick) / page.delta)
-		let end   = yPos(page.dir, tempos[tempoIndex+1] ? (tempos[tempoIndex+1].tick - page.start_tick) / page.delta : 1)
-		if (start < end) [start, end] = [end, start]
 		ctx.fillStyle = color
+		let start = yPos(page.dir, (tempo.tick - page.start_tick) / page.delta)
+		let end = yPos(page.dir, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
+		if (start > end) [start, end] = [end, start]
 		ctx.fillRect(0, start, canvasWidth, end - start)
+	})
+	let y = (page.dir > 0) ? canvasHeight : 0
+	tempos.forEach((tempo, tempoIndex, tempos)=>{
+		let bpmChange = tempoIndex ? getBpmChange(tempo.bpm, initBpm) : initBpmChange
+		let fontSize = 60
+		ctx.font = `${fontSize}px "Rajdhani"`
+		let color2 = '#FFFFFF'
+		if (bpmChange > 0) color2 = '#FF8888'
+		if (bpmChange < 0) color2 = '#88FFBB'
+		ctx.fillStyle = color2
+		let start = yPos(page.dir, (tempo.tick - page.start_tick) / page.delta)
+		let end = yPos(page.dir, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
+		if (start > end) [start, end] = [end, start]
+		y = (page.dir > 0) ? Math.min(y, end - fontSize*.2) : Math.max(y, start + fontSize)
+		writeBpm(ctx, tempo.bpm, canvasWidth - fontSize*.3, y, fontSize)
+		y -= fontSize * page.dir
 	})
 }
 
-function drawDirection(ctx, page, bpmChange) {
+function drawDirection(ctx, page, lineSpeedChange) {
 	let thickness = 80
 	let grdStart = margin.top + ((page.dir > 0) ?  noteAreaHeight : 0)
 	let grdEnd   = margin.top + ((page.dir > 0) ? (noteAreaHeight - thickness) : thickness)
 	let grd = ctx.createLinearGradient(0, grdStart, 0, grdEnd);
 	let color = '#FFFFFF'
-	if (bpmChange > 0) color = '#FF8888'
-	if (bpmChange < 0) color = '#88FFBB'
+	if (lineSpeedChange > 0) color = '#FF8888'
+	if (lineSpeedChange < 0) color = '#88FFBB'
 	ctx.fillStyle = color
 	grd.addColorStop(0, `${color}90`)
 	grd.addColorStop(1, `${color}00`)
@@ -174,7 +191,8 @@ function drawBeatLines(ctx, page) {
 	beats.forEach(beat=>{
 		if (!beat.global) return
 		for (let beatInt = 0; ; beatInt++) {
-			let curBeat = beatInt + beat.num/beat.div
+			let curBeat = beatInt + beat.num/beat.div + page.start_beat
+			if (curBeat < 0) continue
 			if (curBeat > page.beats) break
 			drawBeatLine(ctx, yPos(page.dir, curBeat/page.beats), beat.color, beat.lineWidth)
 		}
@@ -194,13 +212,14 @@ function approx(a, b, err) {
 	return (Math.abs(a - b) < err)
 }
 
-function drawNoteLine(note, ctx, base) {
-	if (note.type === 4 || note.type === 7) return
+function drawNoteLine(note, ctx, base, startBeat) {
 	let length = 300
 	if (note.type === 5) length = 450
+	if (note.type === 4) length = 200
+	if (note.type === 7) length = 200
 	let color
 	beats.forEach(beat=>{
-		if (!beat.global && approx(note.beat * beat.div, base * beat.num, 5 * beat.div))
+		if (!beat.global && approx(note.beat * beat.div + startBeat, base * beat.num, 5 * beat.div))
 			color = beat.color
 	})
 	if (!color) return
@@ -232,7 +251,7 @@ function drawLink(note, ctx) {
 	ctx.beginPath()
 	ctx.lineWidth = 23 * noteRatio
 	ctx.setLineDash([9 * noteRatio, 9 * noteRatio])
-	ctx.strokeStyle = '#BAADCB'
+	ctx.strokeStyle = '#FFFFFFBB'
 	ctx.moveTo(note.xPos, note.yPos)
 	ctx.lineTo(note.next.xPos, note.next.yPos)
 	ctx.stroke()
@@ -245,9 +264,9 @@ function getRotate(note) {
 	return Math.atan2(dx, -dy)
 }
 
-function drawNote(note, ctx, shrink) {
+function drawNote(note, ctx, dir, shrink) {
 	if (!noteTypes[note.type]) return console.log('Unknown note type')
-	let noteObj = noteTypes[note.type].image
+	let noteObj = noteTypes[note.type][dir].image
 	let ratio = (note.type === 4 || note.type === 7) ? 0.6 : 1
 	if (shrink) ratio *= 0.8
 	let width  = noteObj.width  * ratio * noteRatio
@@ -271,8 +290,9 @@ function preprocess(data) {
 	let events = data.event_order_list
 	let notes  = data.note_list
 
-	tempos.forEach(tempo=>{
+	tempos.forEach((tempo, tempoIndex)=>{
 		tempo.bpm = 60000000/tempo.value
+		tempo.bpmChange = tempo[tempoIndex-1] ? getBpmChange(tempo.bpm, tempo[tempoIndex-1].bpm) : 0
 	})
 
 	let curTempoIndex = 0
@@ -280,12 +300,16 @@ function preprocess(data) {
 	let prevTempo = tempos[curTempoIndex]
 	let curEventIndex = 0
 	let event = events[curEventIndex]
+	let startBeat = 0
 	pages.forEach((page, page_index)=>{
 		page.dir = page.scan_line_direction
 		page.id = page_index
 		page.delta = page.end_tick - page.start_tick
 		page.next = pages[page_index+1]
+		page.prev = pages[page_index-1]
 		page.beats = page.delta / data.time_base
+		page.start_beat = startBeat
+		startBeat = (startBeat + page.beats) % 1
 
 		page.tempos = []
 		if (!tempo || page.start_tick < tempo.tick)
@@ -298,9 +322,10 @@ function preprocess(data) {
 		}
 
 		page.events = []
-		if (event && page.end_tick >= event.tick) {
+		while (event && page.end_tick > event.tick) {
 			page.events.push(event)
 			event.page = page
+			// console.log(page.id, page.end_tick, event.tick, event.event_list)
 			event = events[++curEventIndex]
 		}
 
@@ -312,7 +337,9 @@ function preprocess(data) {
 
 		if (note.next_id > 0) note.next = notes.find(next=>next.id === note.next_id)
 
-		let page = note.page = pages.find(page=>page.id === note.page_index)
+		let page = pages.find(page=>page.id === note.page_index)
+		if (note.is_forward) page = page.prev
+		note.page = page
 		note.page.notes.push(note)
 		note.this_tick = note.tick - note.page.start_tick
 		note.beat = note.this_tick % data.time_base
@@ -332,22 +359,76 @@ function preprocess(data) {
 	})
 }
 
+function drawGroupLine(ctx, group, base) {
+	if (group.arr.length < 2) return
+	let color = "#545454"
+	beats.forEach(beat=>{
+		if (approx(group.arr[0].beat * beat.div + group.arr[0].page.start_beat,
+			base * beat.num, 5 * beat.div))
+			color = beat.color
+	})
+	if (!color) return
+	ctx.beginPath()
+	ctx.lineWidth = 8
+	ctx.setLineDash([])
+	ctx.strokeStyle = color
+	ctx.moveTo(group.minX, group.yPos)
+	ctx.lineTo(group.maxX, group.yPos)
+	ctx.stroke()
+
+	ctx.beginPath()
+	ctx.lineWidth = 4
+	ctx.strokeStyle = '#FFFFFF'
+	ctx.moveTo(group.minX, group.yPos + 6)
+	ctx.lineTo(group.maxX, group.yPos + 6)
+	ctx.stroke()
+
+	ctx.beginPath()
+	ctx.moveTo(group.minX, group.yPos - 6)
+	ctx.lineTo(group.maxX, group.yPos - 6)
+	ctx.stroke()
+}
+
 function drawPage(page, isNext, base) {
 	let canvas = createCanvas(canvasWidth, canvasHeight)
 	let ctx = canvas.getContext('2d')
 	let notes = page.notes.slice().reverse()
+	let group = {tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
 	notes.forEach(note=>{
 		if (note.type === 2) drawTail(note, page, ctx)
 		if (note.type === 1) drawTail(note, page, ctx)
 		if (note.next_id > 0) drawLink(note, ctx)
 		if (!isNext && note.type !== 4 && note.type !== 7)
-			drawNoteLine(note, ctx, base)
+		// if (!isNext)
+			drawNoteLine(note, ctx, base, page.start_beat)
+		// draw siblings
+		if (note.has_sibling) {
+			if(note.tick !== group.tick && group.flag) { // handle existing group
+				drawGroupLine(ctx, group, base)
+				group = {tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
+			}
+			// same group
+			if (note.type !== 4 && note.type !== 7) {
+				group.yPos = note.yPos
+				group.tick = note.tick
+				group.arr.push(note)
+				group.minX = Math.min(group.minX, note.xPos)
+				group.maxX = Math.max(group.maxX, note.xPos)
+			}
+			group.flag = true
+		} else {
+			if (group.flag) { // handle existing group
+				drawGroupLine(ctx, group, base)
+				group = {tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
+			}
+		}
 	})
-	notes.forEach(note=>{ drawNote(note, ctx) })
+	if (group.flag) drawGroupLine(ctx, group, base)
+	notes.forEach(note=>{ drawNote(note, ctx, (page.dir < 0) ? 'down' : 'up') })
 	return canvas
 }
 
-function processData(data, path) {
+function processData(data, path, pageNum) {
 	// Check directory existance
 	if (!fs.existsSync(path))
 		fs.mkdirSync(path)
@@ -355,17 +436,25 @@ function processData(data, path) {
 	preprocess(data)
 
 	let longHolds = []
-	let prevBpm = data.page_list[0].tempos[0].bpm
 	data.page_list.forEach((page)=>{
+		if (page.id >= pageNum) return
 		let canvas = createCanvas(canvasWidth, canvasHeight)
 		let ctx = canvas.getContext('2d')
 
 		// initial canvas
-		let bpmChange = page.tempos[0].bpm - prevBpm
+		let initBpm = page.tempos[0].bpm
+		let prevBpm = page.prev ? page.prev.tempos[page.prev.tempos.length-1].bpm : initBpm
+		let lastBpm = page.tempos[page.tempos.length-1].bpm
+		let nextBpm = page.next ? page.next.tempos[0].bpm : lastBpm
+		let bpmChange = getBpmChange(initBpm, prevBpm)
+		let lineSpeedChange = page.prev ? getBpmChange(initBpm/page.beats, prevBpm/page.prev.beats) : 0
+		let nextLineSpeedChange = page.next ? getBpmChange(nextBpm/page.next.beats, lastBpm/page.beats) : 0
 		initCanvas(ctx, page, bpmChange)
 
 		// draw next page
 		if (page.next) {
+			ctx.globalAlpha = 0.3
+			if (nextLineSpeedChange) drawDirection(ctx, page.next, nextLineSpeedChange)
 			ctx.globalAlpha = 0.15
 			ctx.drawImage(drawPage(page.next, true, data.time_base), 0, 0)
 			ctx.globalAlpha = 1
@@ -373,19 +462,19 @@ function processData(data, path) {
 
 		// draw tempo changes, direction and beat lines
 		drawBeatLines(ctx, page)
-		drawTempoChange(ctx, page)
-		drawDirection(ctx, page, bpmChange)
+		drawTempoChange(ctx, page, bpmChange)
+		drawDirection(ctx, page, lineSpeedChange)
 
 		// Draw existing long holds
 		let newLongHolds = page.notes.filter(note=>note.type === 2).reverse().concat(longHolds)
 		newLongHolds.forEach(longHold=>{ drawTail(longHold, page, ctx) })
-		longHolds.forEach(longHold=>{ drawNote(longHold, ctx, true) })
+		longHolds.forEach(longHold=>{ drawNote(longHold, ctx, (longHold.page.dir < 0) ? 'down' : 'up', true) })
 		longHolds = newLongHolds.filter(longHold=>longHold.end_tick > page.end_tick)
 
 		// draw this page
 		ctx.drawImage(drawPage(page, false, data.time_base), 0, 0)
 
-		prevBpm = page.tempos[0].bpm
+		prevBpm = page.tempos[page.tempos.length-1].bpm
 
 		// write to file
 		fs.writeFileSync(`${path}/${`${page.id}`.padStart(3, '0')}.png`, canvas.toBuffer())

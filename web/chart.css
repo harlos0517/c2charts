@@ -16,3 +16,17 @@ body {
 .chart>img {
 	width: 100%;
 }
+
+#title {
+	background-color: #00000099;
+}
+
+#charts {
+	margin-top: calc(2rem + 1.5em);
+	margin-bottom: calc(2rem + 1.5em);
+}
+
+#bottom {
+	font-size: 0.8em;
+	background-color: #00000099;
+}

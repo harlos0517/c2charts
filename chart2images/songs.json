@@ -1,6 +1,7 @@
 [{
 	"name": "PAFF",
 	"id": "paff001",
+	"color": "4DB2AA",
 	"songs": [
 		{ "id": "000", "name": "Body Talk", "composer": "M2U",
 		  "charts": { "easy": { "level": 1 }, "hard": { "level": 8 }, "chaos": { "level": 12 }}},
@@ -62,6 +63,7 @@
 },{
 	"name": "NEKO#ΦωΦ",
 	"id": "neko001",
+	"color": "D38198",
 	"songs": [
 		{ "id": "001", "name": "The Spark", "composer": "Scott Brown & M-Project feat. Krystal",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 8 }, "chaos": { "level": 12 }}},
@@ -155,6 +157,7 @@
 },{
 	"name": "ROBO_Head",
 	"id": "robo001",
+	"color": "6BA7C1",
 	"songs": [
 		{ "id": "001", "name": "Deadly Slot Game", "composer": "提供",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 12 }, "glitch": { "level": 13 }}},
@@ -224,6 +227,7 @@
 },{
 	"name": "Ivy",
 	"id": "ivy001",
+	"color": "A03638",
 	"songs": [
 		{ "id": "001", "name": "Reset", "composer": "SIHanatsuka",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
@@ -307,6 +311,7 @@
 },{
 	"name": "Crystal PuNK",
 	"id": "cherry002",
+	"color": "A1505F",
 	"songs": [
 		{ "id": "001", "name": "Effervesce", "composer": "MELOIMAGE",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 13 }}},
@@ -338,6 +343,7 @@
 },{
 	"name": "Vanessa",
 	"id": "vanessa001",
+	"color": "9EE0DF",
 	"songs": [
 		{ "id": "001", "name": "Anchor", "composer": "Iris ft. Victor Kong & Ruri Matsumura",
 		  "charts": { "easy": { "level": 1 }, "hard": { "level": 5 }, "chaos": { "level": 10 }}},
@@ -369,6 +375,7 @@
 },{
 	"name": "Miku",
 	"id": "miku001",
+	"color": "39C5BB",
 	"songs": [
 		{ "id": "001", "name": "Blue Star", "composer": "八王子P",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 11 }}},
@@ -402,6 +409,7 @@
 },{
 	"name": "Xenon",
 	"id": "xenon001",
+	"color": "8D3738",
 	"songs": [
 		{ "id": "001", "name": "INSPION", "composer": "INSPION",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 9 }, "chaos": { "level": 13 }}},
@@ -439,6 +447,7 @@
 },{
 	"name": "ConneR",
 	"id": "conner001",
+	"color": "D1AF41",
 	"songs": [
 		{ "id": "001", "name": "Xiorc", "composer": "Team Grimoire+あま猫",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 10 }, "chaos": { "level": 14 }}},
@@ -478,6 +487,7 @@
 },{
 	"name": "Cherry",
 	"id": "cherry001",
+	"color": "A1505F",
 	"songs": [
 		{ "id": "001", "name": "Scenery in your eyes", "composer": "EAjRock",
 		  "charts": { "easy": { "level": 2 }, "hard": { "level": 6 }, "chaos": { "level": 9 }}},
@@ -507,6 +517,7 @@
 },{
 	"name": "JOE",
 	"id": "joe001",
+	"color": "643F68",
 	"songs": [
 		{ "id": "001", "name": "Childish", "composer": "KillerBlood",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
@@ -534,6 +545,7 @@
 },{
 	"name": "Sagar",
 	"id": "sagar001",
+	"color": "B78548",
 	"songs": [
 		{ "id": "001", "name": "Amenemhat", "composer": "Yesod (litmus* + Rabbit House + A. Ki)",
 		  "charts": { "easy": { "level": 5 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},
@@ -559,6 +571,7 @@
 },{
 	"name": "Rin",
 	"id": "rin001",
+	"color": "83AC36",
 	"songs": [
 		{ "id": "001", "name": "The Siege", "composer": "3R2",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
@@ -584,6 +597,7 @@
 },{
 	"name": "Aroma",
 	"id": "paff002",
+	"color": "4DB2AA",
 	"songs": [
 		{ "id": "001", "name": "change", "composer": "Tsukasa",
 		  "charts": { "easy": { "level": 1 }, "hard": { "level": 5 }, "chaos": { "level": 9 }}},
@@ -611,6 +625,7 @@
 },{
 	"name": "Nora",
 	"id": "robo002",
+	"color": "6BA7C1",
 	"songs": [
 		{ "id": "001", "name": "Accelerator", "composer": "DJ Myosuke",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 14 }}},
@@ -638,6 +653,7 @@
 },{
 	"name": "Neko",
 	"id": "neko002",
+	"color": "D38198",
 	"songs": [
 		{ "id": "001", "name": "Chocolate Missile", "composer": "Alice Schach and the Magic Orchestra",
 		  "charts": { "easy": { "level": 2 }, "hard": { "level": 6 }, "chaos": { "level": 13 }}},
@@ -665,6 +681,7 @@
 },{
 	"name": "Other",
 	"id": "other",
+	"color": "666666",
 	"songs": [
 		{ "id":"story_004", "name": "story_004",
 		  "charts": { "easy": { "level": "?" } }},

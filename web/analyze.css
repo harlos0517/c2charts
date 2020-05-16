@@ -115,5 +115,20 @@ tbody {
 #index {
 	font-size: 1em;
   right: 1.5em;
-	bottom: 4em;
+  bottom: 4em;
+  z-index: 1500
+}
+
+#alert>.close {
+  font-size: 16vw;
+  top: 0;
+  right: .2em;
+}
+
+#alert {
+  font-size: 6vw;
+  top: 10vw;
+  right: 10vw;
+  max-width: 80vw;
+  z-index: 1500;
 }

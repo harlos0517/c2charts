@@ -15,8 +15,8 @@ function get(e, min) {
 	return e[min ? 'min' : 'max']
 }
 
-var songTable = new Vue({
-	el: '#song-table',
+var chartTable = new Vue({
+	el: '#chart-table',
 	data: function() {
 		let self = this
 			return {
@@ -128,4 +128,14 @@ var songTable = new Vue({
 		}
 	},
 	mounted: getCharts
+})
+
+var songTable = new Vue({
+	el: '#alert',
+	data: {
+		width: 0
+	},
+	mounted: function() {
+		this.width = screen.width
+	}
 })

@@ -29716,7 +29716,7 @@
 		"sortIndex": 436
 	},
 	{
-		"level": 14,
+		"level": 15,
 		"char": {
 			"name": "Ivy",
 			"id": "ivy001",
@@ -29730,7 +29730,7 @@
 		"diff": {
 			"name": "glitch",
 			"id": 3,
-			"level": 14
+			"level": 15
 		},
 		"numOf": {
 			"page": 216,

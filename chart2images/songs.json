@@ -304,7 +304,7 @@
 		{ "id": "037", "name": "Time to Fight", "composer": "Paul Bazooka",
 		  "charts": { "easy": { "level": 5 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}},
 		{ "id": "038", "name": "conflict", "composer": "siromaru + cranky",
-		  "charts": { "easy": { "level": 6 }, "hard": { "level": 9 }, "chaos": { "level": 15 }, "glitch": { "level": 14 }}},
+		  "charts": { "easy": { "level": 6 }, "hard": { "level": 9 }, "chaos": { "level": 15 }, "glitch": { "level": 15 }}},
 		{ "id": "039", "name": "FREEDOM DiVE", "composer": "xi",
 		  "charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 15 }}}
 	]

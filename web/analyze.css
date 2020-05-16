@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'Rajdhani';
+	src: url('Rajdhani-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Electrolize';
+	src: url('Electrolize-Regular.ttf');
+}
+
+body {
+	font-family: 'Electrolize'!important;
+	font-size: 12pt!important;
+}
+
+table th, table td {
+  vertical-align: middle!important;
+}
+
+tbody {
+	border-top: none!important;
+}
+
+.table-fix-head>thead>tr>th {
+  position: sticky;
+}
+
+.st-th {
+  z-index: 10;
+}
+
+.table-fix-head>thead>tr:first-child {
+  height: 4.5em;
+}
+
+.table-fix-head>thead>tr:first-child>th {
+	top: 0;
+}
+
+.table-fix-head>thead>tr:nth-child(2)>th {
+	top: 4.5em;
+}
+
+.st-td {
+  position: sticky;
+  z-index: 5;
+  background-color: #333333;
+}
+
+.char{
+  left: 0;
+  min-width: 110px;
+}
+
+.song {
+  left: 110px;
+  min-width: 200px;
+}
+
+.diff {
+  left: 310px;
+  min-width: 80px;
+}
+
+.lv {
+  left: 390px;
+}
+
+.sort-head:hover {
+  background-color: #AAAAAA!important;
+}
+
+.sort-head:active {
+  background-color: #777777!important;
+}
+
+.dim {
+  color: #FFFFFF30;
+}
+
+
+#bottom {
+	font-size: 0.8em;
+	background-color: #00000099;
+}

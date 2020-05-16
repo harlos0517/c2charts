@@ -15,11 +15,11 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 134
+						"pageNum": 131
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 124
+						"pageNum": 121
 					}
 				}
 			},
@@ -30,15 +30,15 @@
 				"charts": {
 					"easy": {
 						"level": 1,
-						"pageNum": 75
+						"pageNum": 70
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 149
+						"pageNum": 138
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 124
+						"pageNum": 119
 					}
 				}
 			},
@@ -49,15 +49,15 @@
 				"charts": {
 					"easy": {
 						"level": 1,
-						"pageNum": 135
+						"pageNum": 132
 					},
 					"hard": {
 						"level": 4,
-						"pageNum": 135
+						"pageNum": 132
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 133
+						"pageNum": 130
 					}
 				}
 			},
@@ -68,19 +68,19 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 98
+						"pageNum": 97
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 196
+						"pageNum": 191
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 196
+						"pageNum": 191
 					},
 					"glitch": {
 						"level": 12,
-						"pageNum": 189
+						"pageNum": 184
 					}
 				}
 			},
@@ -91,15 +91,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 161
+						"pageNum": 156
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 161
+						"pageNum": 156
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 149
+						"pageNum": 144
 					}
 				}
 			},
@@ -110,15 +110,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 204
+						"pageNum": 198
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 204
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 155
+						"pageNum": 152
 					}
 				}
 			},
@@ -129,15 +129,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 187
+						"pageNum": 181
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 187
+						"pageNum": 180
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 179
+						"pageNum": 178
 					}
 				}
 			},
@@ -148,15 +148,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 171
+						"pageNum": 166
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 171
+						"pageNum": 166
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 171
+						"pageNum": 166
 					},
 					"glitch": {
 						"level": 13,
@@ -175,11 +175,11 @@
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 280
+						"pageNum": 279
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 276
+						"pageNum": 275
 					}
 				}
 			},
@@ -213,11 +213,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 165
+						"pageNum": 163
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 165
+						"pageNum": 163
 					}
 				}
 			},
@@ -228,15 +228,15 @@
 				"charts": {
 					"easy": {
 						"level": 1,
-						"pageNum": 89
+						"pageNum": 88
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 177
+						"pageNum": 173
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 169
+						"pageNum": 166
 					}
 				}
 			},
@@ -247,15 +247,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 155
+						"pageNum": 151
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 155
+						"pageNum": 150
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 155
+						"pageNum": 150
 					}
 				}
 			},
@@ -266,15 +266,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 120
+						"pageNum": 113
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 239
+						"pageNum": 228
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 183
+						"pageNum": 182
 					}
 				}
 			},
@@ -289,7 +289,7 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 243
+						"pageNum": 241
 					},
 					"chaos": {
 						"level": 14,
@@ -304,15 +304,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 174
+						"pageNum": 171
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 174
+						"pageNum": 171
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 172
+						"pageNum": 169
 					}
 				}
 			},
@@ -323,15 +323,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 209
+						"pageNum": 199
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 209
+						"pageNum": 199
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 209
+						"pageNum": 199
 					}
 				}
 			},
@@ -342,15 +342,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 69
+						"pageNum": 67
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 137
+						"pageNum": 133
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 120
+						"pageNum": 116
 					}
 				}
 			},
@@ -361,15 +361,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 150
+						"pageNum": 149
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 150
+						"pageNum": 149
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 142
+						"pageNum": 141
 					}
 				}
 			},
@@ -380,11 +380,11 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 157
+						"pageNum": 155
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 157
+						"pageNum": 155
 					},
 					"chaos": {
 						"level": 12,
@@ -399,15 +399,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 207
+						"pageNum": 200
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 207
+						"pageNum": 201
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 199
+						"pageNum": 193
 					}
 				}
 			},
@@ -418,15 +418,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 191
+						"pageNum": 189
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 191
+						"pageNum": 188
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 191
+						"pageNum": 189
 					}
 				}
 			},
@@ -437,15 +437,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 88
+						"pageNum": 86
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 88
+						"pageNum": 86
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 160
+						"pageNum": 155
 					}
 				}
 			},
@@ -456,15 +456,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 151
+						"pageNum": 150
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 304
+						"pageNum": 299
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 280
+						"pageNum": 275
 					}
 				}
 			},
@@ -475,15 +475,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 111
+						"pageNum": 108
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 111
+						"pageNum": 108
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 111
+						"pageNum": 108
 					}
 				}
 			},
@@ -494,15 +494,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 189
+						"pageNum": 183
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 189
+						"pageNum": 183
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 177
+						"pageNum": 171
 					}
 				}
 			},
@@ -532,15 +532,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 231
+						"pageNum": 224
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 231
+						"pageNum": 224
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 231
+						"pageNum": 224
 					}
 				}
 			}
@@ -558,15 +558,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 112
+						"pageNum": 108
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 223
+						"pageNum": 213
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 188
+						"pageNum": 184
 					}
 				}
 			},
@@ -577,15 +577,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 103
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 206
+						"pageNum": 199
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 190
+						"pageNum": 183
 					}
 				}
 			},
@@ -596,15 +596,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 95
+						"pageNum": 89
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 95
+						"pageNum": 92
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 181
+						"pageNum": 173
 					}
 				}
 			},
@@ -615,19 +615,19 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 113
+						"pageNum": 108
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 113
+						"pageNum": 108
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 208
+						"pageNum": 196
 					},
 					"glitch": {
 						"level": 14,
-						"pageNum": 208
+						"pageNum": 196
 					}
 				}
 			},
@@ -638,15 +638,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 99
+						"pageNum": 98
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 197
+						"pageNum": 193
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 197
+						"pageNum": 193
 					}
 				}
 			},
@@ -665,7 +665,7 @@
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 246
+						"pageNum": 244
 					}
 				}
 			},
@@ -676,15 +676,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 137
+						"pageNum": 132
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 137
+						"pageNum": 132
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 208
+						"pageNum": 195
 					}
 				}
 			},
@@ -714,11 +714,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 102
+						"pageNum": 100
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 203
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 14,
@@ -733,15 +733,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 124
+						"pageNum": 123
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 247
+						"pageNum": 245
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 226
+						"pageNum": 219
 					},
 					"glitch": {
 						"level": 15,
@@ -756,15 +756,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 146
+						"pageNum": 141
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 146
+						"pageNum": 141
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 146
+						"pageNum": 141
 					}
 				}
 			},
@@ -775,15 +775,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 86
+						"pageNum": 81
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 171
+						"pageNum": 159
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 247
+						"pageNum": 235
 					}
 				}
 			},
@@ -813,15 +813,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 134
+						"pageNum": 130
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 134
+						"pageNum": 130
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 134
+						"pageNum": 130
 					}
 				}
 			},
@@ -832,11 +832,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 165
+						"pageNum": 159
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 165
+						"pageNum": 159
 					},
 					"chaos": {
 						"level": 13,
@@ -870,15 +870,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 127
+						"pageNum": 125
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 253
+						"pageNum": 246
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 215
+						"pageNum": 210
 					}
 				}
 			},
@@ -889,15 +889,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 107
+						"pageNum": 106
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 213
+						"pageNum": 210
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 189
+						"pageNum": 185
 					}
 				}
 			},
@@ -912,7 +912,7 @@
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 235
+						"pageNum": 233
 					},
 					"chaos": {
 						"level": 14,
@@ -927,15 +927,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 108
+						"pageNum": 103
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 214
+						"pageNum": 202
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 185
+						"pageNum": 173
 					}
 				}
 			},
@@ -946,11 +946,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 90
+						"pageNum": 89
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 179
+						"pageNum": 176
 					},
 					"chaos": {
 						"level": 13,
@@ -965,11 +965,11 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 103
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 205
+						"pageNum": 203
 					},
 					"chaos": {
 						"level": 9,
@@ -984,15 +984,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 102
+						"pageNum": 99
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 203
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 199
+						"pageNum": 194
 					}
 				}
 			},
@@ -1007,11 +1007,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 213
+						"pageNum": 212
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 213
+						"pageNum": 212
 					}
 				}
 			},
@@ -1030,7 +1030,7 @@
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 230
+						"pageNum": 226
 					}
 				}
 			},
@@ -1041,11 +1041,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 141
+						"pageNum": 138
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 281
+						"pageNum": 277
 					},
 					"chaos": {
 						"level": 14,
@@ -1064,7 +1064,7 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 181
+						"pageNum": 180
 					},
 					"chaos": {
 						"level": 12,
@@ -1079,15 +1079,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 126
+						"pageNum": 124
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 251
+						"pageNum": 246
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 231
+						"pageNum": 229
 					}
 				}
 			},
@@ -1098,11 +1098,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 100
+						"pageNum": 98
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 200
+						"pageNum": 194
 					},
 					"chaos": {
 						"level": 13,
@@ -1117,7 +1117,7 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 163
+						"pageNum": 156
 					},
 					"hard": {
 						"level": 9,
@@ -1136,11 +1136,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 203
+						"pageNum": 197
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 203
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 13,
@@ -1155,11 +1155,11 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 201
+						"pageNum": 197
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 201
+						"pageNum": 200
 					},
 					"chaos": {
 						"level": 12,
@@ -1167,7 +1167,7 @@
 					},
 					"glitch": {
 						"level": 15,
-						"pageNum": 183
+						"pageNum": 181
 					}
 				}
 			},
@@ -1178,19 +1178,19 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 126
+						"pageNum": 125
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 251
+						"pageNum": 248
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 230
+						"pageNum": 229
 					},
 					"glitch": {
 						"level": 15,
-						"pageNum": 231
+						"pageNum": 229
 					}
 				}
 			},
@@ -1201,19 +1201,19 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 221
+						"pageNum": 218
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 221
+						"pageNum": 218
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 190
+						"pageNum": 187
 					},
 					"glitch": {
 						"level": 15,
-						"pageNum": 193
+						"pageNum": 190
 					}
 				}
 			},
@@ -1224,19 +1224,19 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 177
+						"pageNum": 176
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 177
+						"pageNum": 176
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 177
+						"pageNum": 176
 					},
 					"glitch": {
 						"level": 15,
-						"pageNum": 189
+						"pageNum": 188
 					}
 				}
 			},
@@ -1247,11 +1247,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 84
+						"pageNum": 83
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 168
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 13,
@@ -1270,15 +1270,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 135
+						"pageNum": 133
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 135
+						"pageNum": 133
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 129
+						"pageNum": 127
 					}
 				}
 			},
@@ -1289,11 +1289,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 93
+						"pageNum": 86
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 185
+						"pageNum": 183
 					},
 					"chaos": {
 						"level": 14,
@@ -1308,15 +1308,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 175
+						"pageNum": 173
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 175
+						"pageNum": 173
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 168
+						"pageNum": 166
 					}
 				}
 			},
@@ -1369,11 +1369,11 @@
 					},
 					"hard": {
 						"level": 10,
-						"pageNum": 225
+						"pageNum": 223
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 238
+						"pageNum": 236
 					}
 				}
 			},
@@ -1384,15 +1384,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 99
+						"pageNum": 98
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 197
+						"pageNum": 194
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 207
+						"pageNum": 206
 					}
 				}
 			},
@@ -1403,15 +1403,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 107
+						"pageNum": 106
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 213
+						"pageNum": 210
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 208
+						"pageNum": 205
 					}
 				}
 			}
@@ -1456,11 +1456,11 @@
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 167
+						"pageNum": 166
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 167
+						"pageNum": 166
 					}
 				}
 			},
@@ -1498,7 +1498,7 @@
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 109
+						"pageNum": 104
 					}
 				}
 			},
@@ -1509,15 +1509,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 99
+						"pageNum": 97
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 197
+						"pageNum": 191
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 176
+						"pageNum": 170
 					}
 				}
 			},
@@ -1528,15 +1528,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 87
+						"pageNum": 84
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 173
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 198
+						"pageNum": 190
 					}
 				}
 			},
@@ -1547,15 +1547,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 101
+						"pageNum": 100
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 201
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 201
+						"pageNum": 198
 					}
 				}
 			},
@@ -1570,7 +1570,7 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 318
+						"pageNum": 315
 					},
 					"chaos": {
 						"level": 14,
@@ -1585,15 +1585,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 134
+						"pageNum": 128
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 268
+						"pageNum": 261
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 244
+						"pageNum": 237
 					}
 				}
 			},
@@ -1604,11 +1604,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 130
+						"pageNum": 126
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 259
+						"pageNum": 251
 					},
 					"chaos": {
 						"level": 12,
@@ -1627,15 +1627,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 269
+						"pageNum": 267
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 269
+						"pageNum": 267
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 251
+						"pageNum": 249
 					}
 				}
 			},
@@ -1646,15 +1646,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 222
+						"pageNum": 214
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 222
+						"pageNum": 215
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 197
+						"pageNum": 195
 					}
 				}
 			},
@@ -1665,15 +1665,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 119
+						"pageNum": 117
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 119
+						"pageNum": 117
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 117
+						"pageNum": 115
 					}
 				}
 			},
@@ -1684,15 +1684,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 119
+						"pageNum": 118
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 237
+						"pageNum": 234
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 242
+						"pageNum": 220
 					}
 				}
 			},
@@ -1760,15 +1760,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 175
+						"pageNum": 169
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 175
+						"pageNum": 169
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 158
+						"pageNum": 152
 					}
 				}
 			},
@@ -1779,15 +1779,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 100
+						"pageNum": 98
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 200
+						"pageNum": 194
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 188
+						"pageNum": 182
 					}
 				}
 			},
@@ -1802,11 +1802,11 @@
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 183
+						"pageNum": 181
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 165
+						"pageNum": 163
 					}
 				}
 			},
@@ -1817,15 +1817,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 94
+						"pageNum": 92
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 187
+						"pageNum": 181
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 167
+						"pageNum": 161
 					}
 				}
 			},
@@ -1836,15 +1836,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 78
+						"pageNum": 76
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 155
+						"pageNum": 148
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 139
+						"pageNum": 133
 					}
 				}
 			},
@@ -1855,15 +1855,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 89
+						"pageNum": 88
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 177
+						"pageNum": 173
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 171
+						"pageNum": 167
 					}
 				}
 			},
@@ -1874,11 +1874,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 121
+						"pageNum": 119
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 241
+						"pageNum": 236
 					},
 					"chaos": {
 						"level": 13,
@@ -1893,15 +1893,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 163
+						"pageNum": 162
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 163
+						"pageNum": 162
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 153
+						"pageNum": 152
 					}
 				}
 			},
@@ -1912,15 +1912,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 118
+						"pageNum": 116
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 235
+						"pageNum": 229
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 219
+						"pageNum": 213
 					}
 				}
 			},
@@ -1931,15 +1931,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 86
+						"pageNum": 84
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 171
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 163
+						"pageNum": 157
 					}
 				}
 			},
@@ -1950,15 +1950,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 102
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 203
+						"pageNum": 199
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 168
+						"pageNum": 167
 					}
 				}
 			},
@@ -1969,11 +1969,11 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 104
+						"pageNum": 103
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 207
+						"pageNum": 204
 					},
 					"chaos": {
 						"level": 12,
@@ -1988,15 +1988,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 79
+						"pageNum": 75
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 157
+						"pageNum": 150
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 134
+						"pageNum": 130
 					}
 				}
 			},
@@ -2007,15 +2007,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 167
+						"pageNum": 164
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 167
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 159
+						"pageNum": 156
 					}
 				}
 			},
@@ -2030,11 +2030,11 @@
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 183
+						"pageNum": 181
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 149
+						"pageNum": 147
 					}
 				}
 			}
@@ -2052,15 +2052,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 124
+						"pageNum": 120
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 124
+						"pageNum": 120
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 191
+						"pageNum": 187
 					}
 				}
 			},
@@ -2071,15 +2071,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 79
+						"pageNum": 78
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 157
+						"pageNum": 153
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 139
+						"pageNum": 135
 					}
 				}
 			},
@@ -2094,11 +2094,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 243
+						"pageNum": 241
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 213
+						"pageNum": 210
 					}
 				}
 			},
@@ -2109,15 +2109,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 72
+						"pageNum": 69
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 143
+						"pageNum": 135
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 147
+						"pageNum": 139
 					}
 				}
 			},
@@ -2132,11 +2132,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 230
+						"pageNum": 228
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 194
+						"pageNum": 192
 					}
 				}
 			},
@@ -2147,15 +2147,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 119
+						"pageNum": 117
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 221
+						"pageNum": 215
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 221
+						"pageNum": 215
 					}
 				}
 			},
@@ -2166,11 +2166,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 199
+						"pageNum": 197
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 199
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 12,
@@ -2185,15 +2185,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 97
+						"pageNum": 94
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 97
+						"pageNum": 94
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 177
+						"pageNum": 174
 					}
 				}
 			},
@@ -2204,15 +2204,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 93
+						"pageNum": 83
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 167
+						"pageNum": 144
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 160
+						"pageNum": 137
 					}
 				}
 			},
@@ -2223,15 +2223,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 115
+						"pageNum": 113
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 210
+						"pageNum": 204
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 203
+						"pageNum": 197
 					}
 				}
 			},
@@ -2242,15 +2242,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 102
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 203
+						"pageNum": 199
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 203
+						"pageNum": 199
 					}
 				}
 			},
@@ -2261,15 +2261,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 126
+						"pageNum": 122
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 252
+						"pageNum": 242
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 245
+						"pageNum": 235
 					}
 				}
 			},
@@ -2280,15 +2280,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 117
+						"pageNum": 116
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 233
+						"pageNum": 230
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 233
+						"pageNum": 230
 					}
 				}
 			},
@@ -2299,15 +2299,15 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 313
+						"pageNum": 301
 					},
 					"hard": {
 						"level": 10,
-						"pageNum": 313
+						"pageNum": 309
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 268
+						"pageNum": 256
 					}
 				}
 			},
@@ -2322,7 +2322,7 @@
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 151
+						"pageNum": 149
 					},
 					"chaos": {
 						"level": 12,
@@ -2337,15 +2337,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 125
+						"pageNum": 124
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 249
+						"pageNum": 246
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 228
+						"pageNum": 225
 					}
 				}
 			},
@@ -2360,11 +2360,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 190
+						"pageNum": 187
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 189
+						"pageNum": 186
 					}
 				}
 			},
@@ -2375,15 +2375,15 @@
 				"charts": {
 					"easy": {
 						"level": 1,
-						"pageNum": 133
+						"pageNum": 128
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 133
+						"pageNum": 128
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 160
+						"pageNum": 158
 					}
 				}
 			},
@@ -2413,15 +2413,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 101
+						"pageNum": 97
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 201
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 219
+						"pageNum": 218
 					}
 				}
 			},
@@ -2432,11 +2432,11 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 206
+						"pageNum": 201
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 206
+						"pageNum": 201
 					},
 					"chaos": {
 						"level": 14,
@@ -2451,15 +2451,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 102
+						"pageNum": 100
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 204
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 180
+						"pageNum": 174
 					}
 				}
 			},
@@ -2474,11 +2474,11 @@
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 279
+						"pageNum": 277
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 273
+						"pageNum": 272
 					}
 				}
 			},
@@ -2489,15 +2489,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 106
+						"pageNum": 104
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 212
+						"pageNum": 206
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 191
+						"pageNum": 189
 					}
 				}
 			},
@@ -2508,15 +2508,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 150
+						"pageNum": 143
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 150
+						"pageNum": 141
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 140
+						"pageNum": 137
 					}
 				}
 			},
@@ -2527,15 +2527,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 193
+						"pageNum": 187
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 193
+						"pageNum": 187
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 193
+						"pageNum": 187
 					}
 				}
 			},
@@ -2546,15 +2546,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 155
+						"pageNum": 152
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 155
+						"pageNum": 152
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 155
+						"pageNum": 152
 					}
 				}
 			},
@@ -2584,15 +2584,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 143
+						"pageNum": 140
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 143
+						"pageNum": 140
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 135
+						"pageNum": 132
 					}
 				}
 			},
@@ -2603,15 +2603,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 178
+						"pageNum": 175
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 178
+						"pageNum": 174
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 178
+						"pageNum": 174
 					}
 				}
 			},
@@ -2622,15 +2622,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 94
+						"pageNum": 93
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 187
+						"pageNum": 183
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 170
+						"pageNum": 168
 					}
 				}
 			},
@@ -2641,15 +2641,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 99
+						"pageNum": 95
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 197
+						"pageNum": 183
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 189
+						"pageNum": 175
 					}
 				}
 			},
@@ -2660,15 +2660,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 155
+						"pageNum": 149
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 155
+						"pageNum": 149
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 135
+						"pageNum": 133
 					}
 				}
 			},
@@ -2679,15 +2679,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 147
+						"pageNum": 140
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 147
+						"pageNum": 140
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 155
+						"pageNum": 148
 					}
 				}
 			},
@@ -2702,11 +2702,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 214
+						"pageNum": 212
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 172
+						"pageNum": 171
 					}
 				}
 			},
@@ -2717,15 +2717,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 149
+						"pageNum": 148
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 297
+						"pageNum": 294
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 237
+						"pageNum": 236
 					}
 				}
 			},
@@ -2736,15 +2736,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 104
+						"pageNum": 103
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 207
+						"pageNum": 202
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 191
+						"pageNum": 186
 					}
 				}
 			},
@@ -2755,19 +2755,19 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 213
+						"pageNum": 203
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 213
+						"pageNum": 202
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 203
+						"pageNum": 195
 					},
 					"glitch": {
 						"level": 14,
-						"pageNum": 216
+						"pageNum": 213
 					}
 				}
 			},
@@ -2778,15 +2778,15 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 136
+						"pageNum": 132
 					},
 					"hard": {
 						"level": 10,
-						"pageNum": 271
+						"pageNum": 261
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 271
+						"pageNum": 261
 					}
 				}
 			}
@@ -2804,15 +2804,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 139
+						"pageNum": 138
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 139
+						"pageNum": 138
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 216
+						"pageNum": 212
 					}
 				}
 			},
@@ -2823,15 +2823,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 152
+						"pageNum": 148
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 152
+						"pageNum": 148
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 139
+						"pageNum": 135
 					}
 				}
 			},
@@ -2884,11 +2884,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 255
+						"pageNum": 252
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 255
+						"pageNum": 252
 					}
 				}
 			},
@@ -2903,7 +2903,7 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 200
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 13,
@@ -2918,11 +2918,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 117
+						"pageNum": 114
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 117
+						"pageNum": 114
 					},
 					"chaos": {
 						"level": 14,
@@ -2956,15 +2956,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 223
+						"pageNum": 222
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 223
+						"pageNum": 222
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 211
+						"pageNum": 210
 					}
 				}
 			},
@@ -2975,15 +2975,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 184
+						"pageNum": 181
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 184
+						"pageNum": 182
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 176
+						"pageNum": 174
 					}
 				}
 			},
@@ -2994,15 +2994,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 106
+						"pageNum": 105
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 211
+						"pageNum": 208
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 203
+						"pageNum": 201
 					}
 				}
 			},
@@ -3013,11 +3013,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 127
+						"pageNum": 126
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 254
+						"pageNum": 252
 					},
 					"chaos": {
 						"level": 11,
@@ -3032,15 +3032,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 181
+						"pageNum": 175
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 181
+						"pageNum": 175
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 174
+						"pageNum": 168
 					}
 				}
 			}
@@ -3058,15 +3058,15 @@
 				"charts": {
 					"easy": {
 						"level": 1,
-						"pageNum": 134
+						"pageNum": 132
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 134
+						"pageNum": 132
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 134
+						"pageNum": 132
 					}
 				}
 			},
@@ -3077,15 +3077,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 109
+						"pageNum": 105
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 109
+						"pageNum": 105
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 107
+						"pageNum": 103
 					}
 				}
 			},
@@ -3096,15 +3096,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 102
+						"pageNum": 100
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 203
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 172
+						"pageNum": 170
 					}
 				}
 			},
@@ -3115,15 +3115,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 130
+						"pageNum": 127
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 259
+						"pageNum": 252
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 239
+						"pageNum": 232
 					}
 				}
 			},
@@ -3134,15 +3134,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 159
+						"pageNum": 152
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 159
+						"pageNum": 152
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 153
+						"pageNum": 146
 					}
 				}
 			},
@@ -3153,15 +3153,15 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 113
+						"pageNum": 112
 					},
 					"hard": {
 						"level": 10,
-						"pageNum": 225
+						"pageNum": 222
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 213
+						"pageNum": 210
 					}
 				}
 			},
@@ -3172,11 +3172,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 103
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 205
+						"pageNum": 199
 					},
 					"chaos": {
 						"level": 12,
@@ -3210,15 +3210,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 287
+						"pageNum": 282
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 287
+						"pageNum": 282
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 217
+						"pageNum": 212
 					}
 				}
 			},
@@ -3229,15 +3229,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 238
+						"pageNum": 234
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 238
+						"pageNum": 234
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 229
+						"pageNum": 225
 					}
 				}
 			},
@@ -3248,15 +3248,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 551
+						"pageNum": 536
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 553
+						"pageNum": 539
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 437
+						"pageNum": 431
 					}
 				}
 			},
@@ -3267,15 +3267,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 225
+						"pageNum": 215
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 225
+						"pageNum": 211
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 172
+						"pageNum": 170
 					}
 				}
 			},
@@ -3286,15 +3286,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 188
+						"pageNum": 181
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 188
+						"pageNum": 181
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 168
+						"pageNum": 166
 					}
 				}
 			}
@@ -3312,11 +3312,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 162
+						"pageNum": 161
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 162
+						"pageNum": 161
 					},
 					"chaos": {
 						"level": 11,
@@ -3331,15 +3331,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 197
+						"pageNum": 196
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 197
+						"pageNum": 196
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 196
+						"pageNum": 195
 					}
 				}
 			},
@@ -3369,15 +3369,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 159
+						"pageNum": 156
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 159
+						"pageNum": 156
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 144
+						"pageNum": 142
 					}
 				}
 			},
@@ -3388,15 +3388,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 172
+						"pageNum": 170
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 172
+						"pageNum": 170
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 157
+						"pageNum": 155
 					}
 				}
 			},
@@ -3426,15 +3426,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 167
+						"pageNum": 164
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 167
+						"pageNum": 164
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 167
+						"pageNum": 164
 					}
 				}
 			},
@@ -3445,15 +3445,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 160
+						"pageNum": 157
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 160
+						"pageNum": 157
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 304
+						"pageNum": 297
 					}
 				}
 			},
@@ -3483,15 +3483,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 201
+						"pageNum": 197
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 201
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 234
+						"pageNum": 233
 					}
 				}
 			},
@@ -3521,11 +3521,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 219
+						"pageNum": 216
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 219
+						"pageNum": 217
 					},
 					"chaos": {
 						"level": 12,
@@ -3540,15 +3540,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 143
+						"pageNum": 138
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 143
+						"pageNum": 138
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 143
+						"pageNum": 138
 					}
 				}
 			},
@@ -3559,15 +3559,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 155
+						"pageNum": 152
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 155
+						"pageNum": 152
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 155
+						"pageNum": 152
 					}
 				}
 			}
@@ -3608,11 +3608,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 240
+						"pageNum": 238
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 224
+						"pageNum": 222
 					}
 				}
 			},
@@ -3623,15 +3623,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 123
+						"pageNum": 120
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 246
+						"pageNum": 237
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 232
+						"pageNum": 231
 					}
 				}
 			},
@@ -3646,11 +3646,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 279
+						"pageNum": 278
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 240
+						"pageNum": 239
 					}
 				}
 			},
@@ -3680,15 +3680,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 187
+						"pageNum": 185
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 187
+						"pageNum": 185
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 179
+						"pageNum": 177
 					}
 				}
 			},
@@ -3699,19 +3699,19 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 86
+						"pageNum": 82
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 171
+						"pageNum": 167
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 184
+						"pageNum": 182
 					},
 					"glitch": {
 						"level": 14,
-						"pageNum": 184
+						"pageNum": 182
 					}
 				}
 			},
@@ -3722,15 +3722,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 108
+						"pageNum": 107
 					},
 					"hard": {
 						"level": 4,
-						"pageNum": 215
+						"pageNum": 213
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 166
+						"pageNum": 163
 					}
 				}
 			},
@@ -3741,11 +3741,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 214
+						"pageNum": 213
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 214
+						"pageNum": 213
 					},
 					"chaos": {
 						"level": 13,
@@ -3764,11 +3764,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 165
+						"pageNum": 163
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 143
+						"pageNum": 141
 					}
 				}
 			},
@@ -3779,15 +3779,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 145
+						"pageNum": 142
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 145
+						"pageNum": 142
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 144
+						"pageNum": 141
 					}
 				}
 			},
@@ -3802,11 +3802,11 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 303
+						"pageNum": 302
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 285
+						"pageNum": 284
 					}
 				}
 			},
@@ -3817,15 +3817,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 105
+						"pageNum": 103
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 209
+						"pageNum": 204
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 188
+						"pageNum": 184
 					}
 				}
 			},
@@ -3840,7 +3840,7 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 247
+						"pageNum": 244
 					},
 					"chaos": {
 						"level": 13,
@@ -3855,15 +3855,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 140
+						"pageNum": 138
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 279
+						"pageNum": 273
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 247
+						"pageNum": 241
 					}
 				}
 			},
@@ -3874,11 +3874,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 222
+						"pageNum": 220
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 222
+						"pageNum": 220
 					},
 					"chaos": {
 						"level": 12,
@@ -3919,15 +3919,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 102
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 198
+						"pageNum": 194
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 194
+						"pageNum": 189
 					}
 				}
 			},
@@ -3938,11 +3938,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 173
+						"pageNum": 171
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 173
+						"pageNum": 171
 					},
 					"chaos": {
 						"level": 13,
@@ -3950,7 +3950,7 @@
 					},
 					"glitch": {
 						"level": 15,
-						"pageNum": 192
+						"pageNum": 181
 					}
 				}
 			},
@@ -3961,15 +3961,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 75
+						"pageNum": 74
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 149
+						"pageNum": 146
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 146
+						"pageNum": 143
 					}
 				}
 			},
@@ -3980,15 +3980,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 160
+						"pageNum": 158
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 169
+						"pageNum": 167
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 162
+						"pageNum": 160
 					}
 				}
 			},
@@ -3999,11 +3999,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 104
+						"pageNum": 102
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 208
+						"pageNum": 205
 					},
 					"chaos": {
 						"level": 13,
@@ -4018,15 +4018,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 166
+						"pageNum": 163
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 166
+						"pageNum": 163
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 195
+						"pageNum": 192
 					}
 				}
 			},
@@ -4041,7 +4041,7 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 197
+						"pageNum": 195
 					},
 					"chaos": {
 						"level": 13,
@@ -4056,15 +4056,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 81
+						"pageNum": 79
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 161
+						"pageNum": 155
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 145
+						"pageNum": 139
 					}
 				}
 			},
@@ -4075,15 +4075,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 203
+						"pageNum": 197
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 203
+						"pageNum": 197
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 194
+						"pageNum": 188
 					}
 				}
 			},
@@ -4094,15 +4094,15 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 233
+						"pageNum": 231
 					},
 					"hard": {
 						"level": 10,
-						"pageNum": 233
+						"pageNum": 231
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 226
+						"pageNum": 220
 					}
 				}
 			},
@@ -4113,15 +4113,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 80
+						"pageNum": 77
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 159
+						"pageNum": 155
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 151
+						"pageNum": 147
 					}
 				}
 			},
@@ -4132,15 +4132,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 103
+						"pageNum": 101
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 189
+						"pageNum": 183
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 175
+						"pageNum": 173
 					}
 				}
 			},
@@ -4151,15 +4151,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 150
+						"pageNum": 146
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 150
+						"pageNum": 147
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 135
+						"pageNum": 133
 					}
 				}
 			},
@@ -4170,11 +4170,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 114
+						"pageNum": 113
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 227
+						"pageNum": 224
 					},
 					"chaos": {
 						"level": 14,
@@ -4189,15 +4189,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 183
+						"pageNum": 179
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 183
+						"pageNum": 179
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 169
+						"pageNum": 165
 					}
 				}
 			},
@@ -4212,11 +4212,11 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 231
+						"pageNum": 229
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 198
+						"pageNum": 196
 					}
 				}
 			}
@@ -4238,11 +4238,11 @@
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 258
+						"pageNum": 256
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 209
+						"pageNum": 207
 					}
 				}
 			},
@@ -4257,11 +4257,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 216
+						"pageNum": 213
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 200
+						"pageNum": 197
 					}
 				}
 			},
@@ -4272,15 +4272,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 100
+						"pageNum": 98
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 200
+						"pageNum": 194
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 200
+						"pageNum": 194
 					}
 				}
 			},
@@ -4291,15 +4291,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 168
+						"pageNum": 163
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 168
+						"pageNum": 163
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 192
+						"pageNum": 190
 					}
 				}
 			},
@@ -4310,15 +4310,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 113
+						"pageNum": 112
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 226
+						"pageNum": 221
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 188
+						"pageNum": 180
 					}
 				}
 			},
@@ -4329,11 +4329,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 129
+						"pageNum": 128
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 129
+						"pageNum": 128
 					},
 					"chaos": {
 						"level": 12,
@@ -4352,7 +4352,7 @@
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 233
+						"pageNum": 231
 					},
 					"chaos": {
 						"level": 11,
@@ -4367,19 +4367,19 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 125
+						"pageNum": 123
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 249
+						"pageNum": 244
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 246
+						"pageNum": 241
 					},
 					"glitch": {
 						"level": 13,
-						"pageNum": 239
+						"pageNum": 237
 					}
 				}
 			},
@@ -4390,15 +4390,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 128
+						"pageNum": 127
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 255
+						"pageNum": 251
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 213
+						"pageNum": 209
 					}
 				}
 			},
@@ -4409,15 +4409,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 155
+						"pageNum": 149
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 155
+						"pageNum": 149
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 176
+						"pageNum": 162
 					}
 				}
 			},
@@ -4428,11 +4428,11 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 209
+						"pageNum": 207
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 209
+						"pageNum": 208
 					},
 					"chaos": {
 						"level": 11,
@@ -4447,15 +4447,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 93
+						"pageNum": 90
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 185
+						"pageNum": 177
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 177
+						"pageNum": 169
 					}
 				}
 			}
@@ -4473,34 +4473,34 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 233
+						"pageNum": 224
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 233
+						"pageNum": 224
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 185
+						"pageNum": 176
 					}
 				}
 			},
 			{
 				"id": "002",
-				"name": "Trunstile Jumper",
+				"name": "Turnstile Jumper",
 				"composer": "Frums",
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 214
+						"pageNum": 206
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 214
+						"pageNum": 206
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 192
+						"pageNum": 189
 					}
 				}
 			},
@@ -4511,15 +4511,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 95
+						"pageNum": 93
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 190
+						"pageNum": 188
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 174
+						"pageNum": 172
 					}
 				}
 			},
@@ -4530,15 +4530,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 139
+						"pageNum": 134
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 139
+						"pageNum": 133
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 122
+						"pageNum": 117
 					}
 				}
 			},
@@ -4549,15 +4549,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 171
+						"pageNum": 166
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 171
+						"pageNum": 166
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 171
+						"pageNum": 166
 					}
 				}
 			},
@@ -4568,11 +4568,11 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 128
+						"pageNum": 126
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 128
+						"pageNum": 126
 					},
 					"chaos": {
 						"level": 12,
@@ -4587,15 +4587,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 82
+						"pageNum": 81
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 163
+						"pageNum": 160
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 168
+						"pageNum": 165
 					}
 				}
 			},
@@ -4606,15 +4606,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 131
+						"pageNum": 127
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 131
+						"pageNum": 127
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 171
+						"pageNum": 167
 					}
 				}
 			},
@@ -4644,15 +4644,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 87
+						"pageNum": 86
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 174
+						"pageNum": 169
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 159
+						"pageNum": 158
 					}
 				}
 			},
@@ -4663,11 +4663,11 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 175
+						"pageNum": 165
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 175
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 13,
@@ -4689,11 +4689,11 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 166
+						"pageNum": 164
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 166
+						"pageNum": 164
 					},
 					"chaos": {
 						"level": 14,
@@ -4712,11 +4712,11 @@
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 212
+						"pageNum": 209
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 171
+						"pageNum": 168
 					}
 				}
 			},
@@ -4727,15 +4727,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 171
+						"pageNum": 168
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 171
+						"pageNum": 168
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 247
+						"pageNum": 244
 					}
 				}
 			},
@@ -4750,7 +4750,7 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 109
+						"pageNum": 108
 					},
 					"chaos": {
 						"level": 13,
@@ -4765,15 +4765,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 144
+						"pageNum": 143
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 144
+						"pageNum": 143
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 124
+						"pageNum": 123
 					}
 				}
 			},
@@ -4784,15 +4784,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 189
+						"pageNum": 185
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 189
+						"pageNum": 185
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 198
+						"pageNum": 196
 					}
 				}
 			},
@@ -4803,15 +4803,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 203
+						"pageNum": 199
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 203
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 179
+						"pageNum": 177
 					}
 				}
 			},
@@ -4826,11 +4826,11 @@
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 191
+						"pageNum": 189
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 182
+						"pageNum": 180
 					}
 				}
 			},
@@ -4841,15 +4841,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 127
+						"pageNum": 125
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 253
+						"pageNum": 247
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 195
+						"pageNum": 193
 					}
 				}
 			},
@@ -4886,15 +4886,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 118
+						"pageNum": 116
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 236
+						"pageNum": 232
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 222
+						"pageNum": 221
 					}
 				}
 			},
@@ -4905,15 +4905,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 179
+						"pageNum": 177
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 179
+						"pageNum": 177
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 165
+						"pageNum": 163
 					}
 				}
 			},
@@ -4924,15 +4924,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 183
+						"pageNum": 182
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 183
+						"pageNum": 182
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 182
+						"pageNum": 181
 					}
 				}
 			},
@@ -4943,15 +4943,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 146
+						"pageNum": 144
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 292
+						"pageNum": 291
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 298
+						"pageNum": 297
 					}
 				}
 			},
@@ -4962,15 +4962,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 160
+						"pageNum": 158
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 160
+						"pageNum": 158
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 160
+						"pageNum": 158
 					}
 				}
 			},
@@ -4981,15 +4981,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 208
+						"pageNum": 202
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 208
+						"pageNum": 202
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 206
+						"pageNum": 204
 					}
 				}
 			},
@@ -5004,11 +5004,11 @@
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 231
+						"pageNum": 229
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 198
+						"pageNum": 196
 					}
 				}
 			},
@@ -5019,11 +5019,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 169
+						"pageNum": 168
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 169
+						"pageNum": 168
 					},
 					"chaos": {
 						"level": 13,
@@ -5038,15 +5038,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 106
+						"pageNum": 104
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 106
+						"pageNum": 104
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 93
+						"pageNum": 91
 					}
 				}
 			},
@@ -5057,15 +5057,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 161
+						"pageNum": 155
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 161
+						"pageNum": 155
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 157
+						"pageNum": 151
 					}
 				}
 			}
@@ -5083,15 +5083,15 @@
 				"charts": {
 					"easy": {
 						"level": 1,
-						"pageNum": 141
+						"pageNum": 140
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 141
+						"pageNum": 140
 					},
 					"chaos": {
 						"level": 9,
-						"pageNum": 133
+						"pageNum": 132
 					}
 				}
 			},
@@ -5102,15 +5102,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 84
+						"pageNum": 83
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 167
+						"pageNum": 164
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 167
+						"pageNum": 164
 					}
 				}
 			},
@@ -5140,15 +5140,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 101
+						"pageNum": 100
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 101
+						"pageNum": 100
 					},
 					"chaos": {
 						"level": 8,
-						"pageNum": 101
+						"pageNum": 100
 					}
 				}
 			},
@@ -5178,15 +5178,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 167
+						"pageNum": 160
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 167
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 167
+						"pageNum": 165
 					}
 				}
 			},
@@ -5197,11 +5197,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 203
+						"pageNum": 201
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 203
+						"pageNum": 201
 					},
 					"chaos": {
 						"level": 14,
@@ -5216,15 +5216,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 153
+						"pageNum": 147
 					},
 					"hard": {
 						"level": 5,
-						"pageNum": 153
+						"pageNum": 147
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 136
+						"pageNum": 134
 					}
 				}
 			},
@@ -5235,11 +5235,11 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 152
+						"pageNum": 150
 					},
 					"hard": {
 						"level": 4,
-						"pageNum": 152
+						"pageNum": 150
 					},
 					"chaos": {
 						"level": 9,
@@ -5254,15 +5254,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 171
+						"pageNum": 166
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 171
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 10,
-						"pageNum": 161
+						"pageNum": 156
 					}
 				}
 			},
@@ -5273,15 +5273,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 145
+						"pageNum": 141
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 145
+						"pageNum": 141
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 145
+						"pageNum": 143
 					}
 				}
 			}
@@ -5299,15 +5299,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 122
+						"pageNum": 120
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 241
+						"pageNum": 237
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 231
+						"pageNum": 225
 					}
 				}
 			},
@@ -5318,15 +5318,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 157
+						"pageNum": 153
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 157
+						"pageNum": 153
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 137
+						"pageNum": 133
 					}
 				}
 			},
@@ -5337,15 +5337,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 101
+						"pageNum": 100
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 201
+						"pageNum": 198
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 184
+						"pageNum": 181
 					}
 				}
 			},
@@ -5356,15 +5356,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 93
+						"pageNum": 92
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 185
+						"pageNum": 181
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 182
+						"pageNum": 178
 					}
 				}
 			},
@@ -5375,15 +5375,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 100
+						"pageNum": 99
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 199
+						"pageNum": 195
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 173
+						"pageNum": 172
 					}
 				}
 			},
@@ -5394,15 +5394,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 126
+						"pageNum": 124
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 251
+						"pageNum": 245
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 232
+						"pageNum": 230
 					}
 				}
 			},
@@ -5417,11 +5417,11 @@
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 142
+						"pageNum": 139
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 142
+						"pageNum": 134
 					}
 				}
 			},
@@ -5432,15 +5432,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 157
+						"pageNum": 153
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 157
+						"pageNum": 153
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 129
+						"pageNum": 125
 					}
 				}
 			},
@@ -5451,15 +5451,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 171
+						"pageNum": 165
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 171
+						"pageNum": 167
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 160
+						"pageNum": 158
 					}
 				}
 			},
@@ -5470,15 +5470,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 192
+						"pageNum": 183
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 192
+						"pageNum": 183
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 174
+						"pageNum": 165
 					}
 				}
 			},
@@ -5515,15 +5515,15 @@
 				"charts": {
 					"easy": {
 						"level": 2,
-						"pageNum": 128
+						"pageNum": 126
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 255
+						"pageNum": 249
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 198
+						"pageNum": 196
 					}
 				}
 			},
@@ -5542,7 +5542,7 @@
 					},
 					"chaos": {
 						"level": 12,
-						"pageNum": 148
+						"pageNum": 147
 					}
 				}
 			},
@@ -5572,15 +5572,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 150
+						"pageNum": 146
 					},
 					"hard": {
 						"level": 7,
-						"pageNum": 150
+						"pageNum": 146
 					},
 					"chaos": {
 						"level": 11,
-						"pageNum": 150
+						"pageNum": 146
 					}
 				}
 			},
@@ -5599,7 +5599,7 @@
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 234
+						"pageNum": 231
 					}
 				}
 			},
@@ -5610,15 +5610,15 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 86
+						"pageNum": 84
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 171
+						"pageNum": 165
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 166
+						"pageNum": 160
 					}
 				}
 			},
@@ -5629,11 +5629,11 @@
 				"charts": {
 					"easy": {
 						"level": 4,
-						"pageNum": 89
+						"pageNum": 87
 					},
 					"hard": {
 						"level": 8,
-						"pageNum": 176
+						"pageNum": 170
 					},
 					"chaos": {
 						"level": 12,
@@ -5648,15 +5648,15 @@
 				"charts": {
 					"easy": {
 						"level": 3,
-						"pageNum": 116
+						"pageNum": 115
 					},
 					"hard": {
 						"level": 6,
-						"pageNum": 116
+						"pageNum": 115
 					},
 					"chaos": {
 						"level": 13,
-						"pageNum": 210
+						"pageNum": 204
 					}
 				}
 			},
@@ -5667,15 +5667,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 136
+						"pageNum": 135
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 271
+						"pageNum": 264
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 245
+						"pageNum": 244
 					}
 				}
 			},
@@ -5686,15 +5686,15 @@
 				"charts": {
 					"easy": {
 						"level": 6,
-						"pageNum": 121
+						"pageNum": 119
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 241
+						"pageNum": 235
 					},
 					"chaos": {
 						"level": 15,
-						"pageNum": 241
+						"pageNum": 236
 					}
 				}
 			},
@@ -5705,15 +5705,15 @@
 				"charts": {
 					"easy": {
 						"level": 5,
-						"pageNum": 120
+						"pageNum": 115
 					},
 					"hard": {
 						"level": 9,
-						"pageNum": 239
+						"pageNum": 228
 					},
 					"chaos": {
 						"level": 14,
-						"pageNum": 197
+						"pageNum": 186
 					}
 				}
 			}
@@ -5740,7 +5740,7 @@
 				"charts": {
 					"easy": {
 						"level": "?",
-						"pageNum": 126
+						"pageNum": 120
 					}
 				}
 			},
@@ -5760,7 +5760,7 @@
 				"charts": {
 					"easy": {
 						"level": "?",
-						"pageNum": 671
+						"pageNum": 663
 					}
 				}
 			},
@@ -5770,7 +5770,7 @@
 				"charts": {
 					"easy": {
 						"level": "?",
-						"pageNum": 671
+						"pageNum": 663
 					}
 				}
 			}

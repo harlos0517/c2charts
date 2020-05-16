@@ -13,38 +13,58 @@
 </head>
 <body class='bg-dark text-light'>
 	<div id="main" class="container-fluid px-0">
-		<table id="song-table" class="table table-dark table-striped table-hover table-fix-head mb-5">
+		<table id="song-table" class="table table-dark table-striped table-hover table-fix-head">
 			<thead class="thead-light">
 				<tr>
 					<th class="text-center align-middle">Character</th>
 					<th class="align-middle">Song Name</th>
 					<th class="align-middle">Composer</th>
-					<th class="text-center align-middle">EASY</th>
-					<th class="text-center align-middle">HARD</th>
-					<th class="text-center align-middle">CHAOS</th>
-					<th class="text-center align-middle">GLITCH</th>
+					<th class="text-center align-middle easy diff border-0">EASY</th>
+					<th class="text-center align-middle hard diff border-0">HARD</th>
+					<th class="text-center align-middle chaos diff border-0">CHAOS</th>
+					<th class="text-center align-middle glitch diff border-0">GLITCH</th>
 				</tr>
 			</thead>
 			<tbody v-for="(character, index) in songsData" class="mt-3">
-				<tr class="mb-2" @click="toggle(character)" :style="`background-color: #${character.color};`">
-					<td colspan="7" class="text-center">{{ character.name }}</td>
+				<tr class="mb-2" :style="``" @click="toggle(character)">
+					<td
+						colspan="7"
+						class="text-center position-sticky"
+						:style="`background-color: #${character.color}; top: 2.3em`"
+					>
+						{{ character.name }}
+					</td>
 				</tr>
 				<template v-if="character.show">
 					<tr v-for="song in character.songs">
 						<td class="text-center align-middle">{{ character.name }}</td>
 						<td class="align-middle">{{ song.name }}</td>
 						<td class="align-middle">{{ song.composer }}</td>
-						<td class="text-center align-middle fill">
-							<a v-if="song.charts.easy" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=easy`">{{ song.charts.easy.level }}</a>
+						<td class="text-center align-middle py-2 diff">
+							<a v-if="song.charts.easy"
+								class="easy rounded-circle m-auto"
+								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=easy`">
+								{{ song.charts.easy.level }}
+							</a>
 						</td>
-						<td class="text-center align-middle fill">
-							<a v-if="song.charts.hard" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=hard`">{{ song.charts.hard.level }}</a>
+						<td class="text-center align-middle py-2 diff">
+							<a v-if="song.charts.hard"
+								class="hard rounded-circle m-auto"
+								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=hard`">
+								{{ song.charts.hard.level }}
+							</a>
 						</td>
-						<td class="text-center align-middle fill">
-							<a v-if="song.charts.chaos" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=chaos`">{{ song.charts.chaos.level }}</a>
+						<td class="text-center align-middle py-2 diff">
+							<a v-if="song.charts.chaos"
+								class="chaos rounded-circle m-auto"
+								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=chaos`">
+								{{ song.charts.chaos.level }}
+							</a>
 						</td>
-						<td class="text-center align-middle fill">
-							<a v-if="song.charts.glitch" :href="`chart.html?charId=${character.id}&songId=${song.id}&diff=glitch`">
+						<td class="text-center align-middle py-2 diff">
+							<a v-if="song.charts.glitch"
+								class="glitch rounded-circle m-auto"
+								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=glitch`">
 								{{ song.charts.glitch.level }}
 							</a>
 						</td>
@@ -68,6 +88,10 @@
 			<a href="https://www.patreon.com/DeemoHarlos">Patreon</a>
 		</span>
 	</div>
+	<a href="/analyze.html" id="analyze"
+		class="position-fixed text-center btn btn-primary p-4 stretched-link text-white">
+		譜面數據分析<br>Charts Statistics
+	</a>
 	<script src="index.js" type="text/javascript"></script>
 </body>
 </html>

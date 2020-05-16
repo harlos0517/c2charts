@@ -13,6 +13,10 @@ body {
 	font-size: 20px!important;
 }
 
+#main {
+	margin-bottom: 3em;
+}
+
 .chart>img {
 	width: 100%;
 }
@@ -29,4 +33,10 @@ body {
 #bottom {
 	font-size: 0.8em;
 	background-color: #00000099;
+}
+
+#index {
+	font-size: 1em;
+  right: 1.5em;
+	bottom: 4em;
 }

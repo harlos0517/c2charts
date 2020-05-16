@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Cytus II Charts - Fun Facts</title>
+	<title>Cytus II Charts Statistics</title>
 	<link href="analyze.css" rel="stylesheet">
 	<!--BOOTSTRAP-->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -69,17 +69,34 @@
 				<tr v-for="chart in chartsDisp">
 					<template v-for="col in cols">
 						<template v-if="col.name === 'Character'">
-							<td :class="col.class2" :style="`background-color: #${chart.char.color};`">{{ col.value(chart) }}</td>
+							<td :class="col.class2" :style="`background-color: #${chart.char.color};`">
+								{{ col.value(chart) }}
+							</td>
+						</template>
+						<template v-else-if="col.name === 'DIFF' || col.name === 'Lv'">
+							<td :class="(col.class2 || '') + ' border-0 ' + chart.diff.name">
+								{{ col.value ? col.value(chart) : col.key(chart) }}
+							</td>
 						</template>
 						<template v-else-if="col.type === 'fixed' || col.type === 'sort'">
-							<td :class="col.class2 || ''">{{ col.value ? col.value(chart) : col.key(chart) }}</td>
+							<td :class="(col.class2 || '') + (curSort.col === col ? ' text-warning' : '')">
+								{{ col.value ? col.value(chart) : col.key(chart) }}
+							</td>
 						</template>
 						<template v-else-if="col.type === 'category'">
-							<td v-for="item in col.item">{{ item.value ? item.value(chart) : item.key(chart) }}</td>
+							<td v-for="item in col.item" :class="{ 'text-warning': curSort.col === item }">
+								{{ item.value ? item.value(chart) : item.key(chart) }}
+							</td>
 						</template>
 						<template v-else-if="col.type === 'minmax'">
-							<td>{{ col.value ? col.value(chart, true ) : col.key(chart, true ) }}</td>
-							<td>{{ col.value ? col.value(chart, false) : col.key(chart, false) }}</td>
+							<td :class="{ dim: curSort.col === col && !curSort.inc,
+								'text-warning': curSort.col === col && curSort.inc }">
+								{{ col.value ? col.value(chart, true ) : col.key(chart, true ) }}
+							</td>
+							<td :class="{ dim: curSort.col === col &&  curSort.inc,
+								'text-warning': curSort.col === col && !curSort.inc }">
+								{{ col.value ? col.value(chart, false) : col.key(chart, false) }}
+							</td>
 						</template>
 					</template>
 				</tr>
@@ -100,6 +117,10 @@
 			<a href="https://www.patreon.com/DeemoHarlos">Patreon</a>
 		</span>
 	</div>
+	<a href="/index.html" id="index"
+		class="position-fixed text-center btn btn-primary p-4 stretched-link text-white">
+		譜面列表<br>Charts List
+	</a>
 	<script src="analyze.js" type="text/javascript"></script>
 </body>
 </html>

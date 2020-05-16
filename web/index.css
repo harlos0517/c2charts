@@ -13,6 +13,10 @@ body {
 	font-size: 16pt!important;
 }
 
+#main {
+	margin-bottom: 3em;
+}
+
 tbody {
 	border-top: none!important;
 }
@@ -22,18 +26,46 @@ tbody {
 	top: 0;
 }
 
-.table td.fill {
-	padding: 0!important;
-}
-
-.table td.fill>* {
-	display: block;
-	height: 100%;
-	line-height: 54px;
-	text-align: center;
-}
-
 #bottom {
 	font-size: 0.8em;
 	background-color: #00000099;
+}
+
+.easy {
+	color: #2482b3!important;
+	background-color: #0f2457!important;
+	border-color: #2482b3!important;
+}
+
+.hard {
+	color: #BC2029!important;
+	background-color: #330000!important;
+	border-color: #BC2029!important;
+}
+
+.chaos {
+	color: #A81CA8!important;
+	background-color: #330033!important;
+	border-color: #A81CA8!important;
+}
+
+.glitch {
+	color: #00A96B!important;
+	background-color: #002E1D!important;
+	border-color: #00A96B!important;
+}
+
+td.diff>a {
+	display: block;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	border-width: 1.5px;
+	border-style: solid;
+}
+
+#analyze {
+	font-size: 1em;
+  right: 1.5em;
+	bottom: 4em;
 }

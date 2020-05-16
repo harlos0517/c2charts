@@ -13,6 +13,10 @@ body {
 	font-size: 12pt!important;
 }
 
+#main {
+	margin-bottom: 3em;
+}
+
 table th, table td {
   vertical-align: middle!important;
 }
@@ -23,6 +27,7 @@ tbody {
 
 .table-fix-head>thead>tr>th {
   position: sticky;
+  border: #999999 1px solid;
 }
 
 .st-th {
@@ -78,8 +83,37 @@ tbody {
   color: #FFFFFF30;
 }
 
-
 #bottom {
 	font-size: 0.8em;
 	background-color: #00000099;
+}
+
+.easy {
+	color: #2482b3!important;
+	background-color: #0f2457!important;
+	border-color: #2482b3!important;
+}
+
+.hard {
+	color: #BC2029!important;
+	background-color: #330000!important;
+	border-color: #BC2029!important;
+}
+
+.chaos {
+	color: #A81CA8!important;
+	background-color: #330033!important;
+	border-color: #A81CA8!important;
+}
+
+.glitch {
+	color: #00A96B!important;
+	background-color: #002E1D!important;
+	border-color: #00A96B!important;
+}
+
+#index {
+	font-size: 1em;
+  right: 1.5em;
+	bottom: 4em;
 }

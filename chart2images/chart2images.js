@@ -312,8 +312,12 @@ function preprocess(data) {
 		startBeat = (startBeat + page.beats) % 1
 
 		page.tempos = []
-		if (!tempo || page.start_tick < tempo.tick)
-			page.tempos.push(prevTempo)
+		if (!tempo || page.start_tick < tempo.tick) {
+			let newTempo = Object.assign({},prevTempo)
+			newTempo.page = page
+			newTempo.tick = page.start_tick
+			page.tempos.push()
+		}
 		while (tempo && page.end_tick > tempo.tick) {
 			page.tempos.push(tempo)
 			tempo.page = page
@@ -393,7 +397,7 @@ function drawPage(page, isNext, base) {
 	let canvas = createCanvas(canvasWidth, canvasHeight)
 	let ctx = canvas.getContext('2d')
 	let notes = page.notes.slice().reverse()
-	let group = {tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
+	let group = { tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
 	notes.forEach(note=>{
 		if (note.type === 2) drawTail(note, page, ctx)
 		if (note.type === 1) drawTail(note, page, ctx)
@@ -405,7 +409,7 @@ function drawPage(page, isNext, base) {
 		if (note.has_sibling) {
 			if(note.tick !== group.tick && group.flag) { // handle existing group
 				drawGroupLine(ctx, group, base)
-				group = {tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
+				group = { tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
 			}
 			// same group
 			if (note.type !== 4 && note.type !== 7) {
@@ -416,11 +420,9 @@ function drawPage(page, isNext, base) {
 				group.maxX = Math.max(group.maxX, note.xPos)
 			}
 			group.flag = true
-		} else {
-			if (group.flag) { // handle existing group
-				drawGroupLine(ctx, group, base)
-				group = {tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
-			}
+		} else if (group.flag) { // handle existing group
+			drawGroupLine(ctx, group, base)
+			group = { tick: -1, arr: [], minX: canvasWidth, maxX: 0, flag: false }
 		}
 	})
 	if (group.flag) drawGroupLine(ctx, group, base)

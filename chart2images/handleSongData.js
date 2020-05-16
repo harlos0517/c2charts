@@ -10,11 +10,11 @@ function handleSongData() {
 			for (let i = 0; i < 4; i++) {
 				if (song.charts[difficulty[i]]) {
 					let data = require(`./data/${character.id}_${song.id}_${i}_decrypted.json`)
-					let lastNote  = data.note_list       [data. note_list      .length-1]
-					let lastTempo = data.tempo_list      [data.tempo_list      .length-1]
+					let lastTick  = Math.max(...data.note_list.map(note=>note.tick+note.hold_tick))
+					let lastTempo = data.tempo_list[data.tempo_list.length-1]
 					let lastEvent = data.event_order_list[data.event_order_list.length-1]
 					let lastTick = Math.max(
-						lastNote.tick + lastNote.holdTick,
+						lastTick,
 						lastTempo.tick,
 						lastEvent ? lastEvent.tick : 0
 					)

@@ -521,7 +521,7 @@
 	"songs": [
 		{ "id": "001", "name": "Childish", "composer": "KillerBlood",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
-		{ "id": "002", "name": "Trunstile Jumper", "composer": "Frums",
+		{ "id": "002", "name": "Turnstile Jumper", "composer": "Frums",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 13 }}},
 		{ "id": "003", "name": "Juicy Gossip", "composer": "good-cool",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},

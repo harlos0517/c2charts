@@ -54,7 +54,7 @@ function process(characters) {
 			})
 		})
 
-		fs.writeFileSync(`../web/songs.json`, JSON.stringify(characters))
+		fs.writeFileSync(`../web/songs.json`, JSON.stringify(characters, null, '\t'))
 	})
 }
 

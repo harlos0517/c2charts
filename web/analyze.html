@@ -13,7 +13,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body class='bg-dark text-light'>
-	<div id="main" class="container-fluid px-0">
+	<div id="main" class="px-0">
 		<table id="chart-table" class="table table-dark table-striped table-hover table-bordered table-fix-head mb-5">
 			<thead class="thead-light text-center align-middle">
 				<tr>
@@ -74,30 +74,43 @@
 								{{ col.value(chart) }}
 							</td>
 						</template>
-						<template v-else-if="col.name === 'DIFF' || col.name === 'Lv'">
-							<td :class="(col.class2 || '') + ' border-0 ' + chart.diff.name">
-								{{ col.value ? col.value(chart) : col.key(chart) }}
+						<template v-else-if="col.name === 'Rhythm'">
+							<td :class="col.class2">
+								<span v-for="(rhythm, ri) in chart.topRhythms.filter(x=>x.beats<6)">
+									<br v-if="ri">
+									[{{ rhythm.beats || ' ' }}] {{ rhythm.pattern }} ({{ (rhythm.count/chart.rhyTotal*100).toFixed(0) }}%)
+								</span>
 							</td>
 						</template>
 						<template v-else-if="col.type === 'fixed' || col.type === 'sort'">
-							<td :class="(col.class2 || '') + (curSort.col === col ? ' text-warning' : '')">
-								{{ col.value ? col.value(chart) : col.key(chart) }}
+							<td :class="(col.class2 || '') +
+								(curSort.col === col ? ' text-warning' : '') +
+								((col.name === 'DIFF' || col.name === 'Lv') ? (' '+chart.diff.name) : '')"
+							>
+								{{ col.value(chart) }}
 							</td>
 						</template>
 						<template v-else-if="col.type === 'category'">
 							<td v-for="item in col.item" :class="{ 'text-warning': curSort.col === item }">
-								{{ item.value ? item.value(chart) : item.key(chart) }}
+								{{ item.value(chart) }}
 							</td>
 						</template>
 						<template v-else-if="col.type === 'minmax'">
-							<td :class="{ dim: curSort.col === col && !curSort.inc,
-								'text-warning': curSort.col === col && curSort.inc }">
-								{{ col.value ? col.value(chart, true ) : col.key(chart, true ) }}
+							<td v-if="curSort.col !== col && col.value(chart, true)===col.value(chart, false)"
+								colspan="2"
+							>
+								{{ col.value(chart, true ) }}
 							</td>
-							<td :class="{ dim: curSort.col === col &&  curSort.inc,
-								'text-warning': curSort.col === col && !curSort.inc }">
-								{{ col.value ? col.value(chart, false) : col.key(chart, false) }}
-							</td>
+							<template v-else>
+								<td :class="{ dim: curSort.col === col && !curSort.inc,
+									'text-warning': curSort.col === col && curSort.inc }">
+									{{ col.value(chart, true ) }}
+								</td>
+								<td :class="{ dim: curSort.col === col &&  curSort.inc,
+									'text-warning': curSort.col === col && !curSort.inc }">
+									{{ col.value(chart, false) }}
+								</td>
+							</template>
 						</template>
 					</template>
 				</tr>

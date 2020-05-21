@@ -14,7 +14,8 @@ body {
 }
 
 #main {
-	margin-bottom: 3em;
+  margin-bottom: 3em;
+  width: max-content;
 }
 
 table th, table td {
@@ -35,7 +36,7 @@ tbody {
 }
 
 .table-fix-head>thead>tr:first-child {
-  height: 4.5em;
+  height: 3em;
 }
 
 .table-fix-head>thead>tr:first-child>th {
@@ -43,7 +44,7 @@ tbody {
 }
 
 .table-fix-head>thead>tr:nth-child(2)>th {
-	top: 4.5em;
+	top: 3em;
 }
 
 .st-td {
@@ -54,17 +55,21 @@ tbody {
 
 .char{
   left: 0;
-  min-width: 110px;
+  width: 110px;
 }
 
 .song {
   left: 110px;
-  min-width: 200px;
+  width: 200px;
+}
+
+.composer {
+  width: 200px;
 }
 
 .diff {
   left: 310px;
-  min-width: 80px;
+  width: 80px;
 }
 
 .lv {

@@ -316,7 +316,7 @@ function preprocess(data) {
 			let newTempo = Object.assign({},prevTempo)
 			newTempo.page = page
 			newTempo.tick = page.start_tick
-			page.tempos.push()
+			page.tempos.push(newTempo)
 		}
 		while (tempo && page.end_tick > tempo.tick) {
 			page.tempos.push(tempo)

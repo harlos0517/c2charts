@@ -3301,6 +3301,203 @@
 		]
 	},
 	{
+		"name": "Kizuna AI",
+		"id": "ai001",
+		"color": "FF9EBF",
+		"songs": [
+			{
+				"id": "001",
+				"name": "AIAIAI (feat. 中田ヤスタカ)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 202
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 207
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 186
+					}
+				}
+			},
+			{
+				"id": "002",
+				"name": "Hello, Morning (Prod. Nor)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 101
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 101
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 169
+					}
+				}
+			},
+			{
+				"id": "003",
+				"name": "future base (Prod. Yunomi)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 131
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 261
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 227
+					}
+				}
+			},
+			{
+				"id": "004",
+				"name": "new world (Prod. Yunomi)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 79
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 157
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 134
+					}
+				}
+			},
+			{
+				"id": "005",
+				"name": "miracle step (Prod. Nor)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 180
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 180
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 168
+					}
+				}
+			},
+			{
+				"id": "006",
+				"name": "meet you (Prod. DÉ DÉ MOUSE)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 196
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 196
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 199
+					}
+				}
+			},
+			{
+				"id": "007",
+				"name": "mirai (Prod. ☆Taku Takahashi)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 123
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 245
+					},
+					"chaos": {
+						"level": 9,
+						"pageNum": 211
+					}
+				}
+			},
+			{
+				"id": "008",
+				"name": "over the reality (Prod. Avec Avec)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 148
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 148
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 140
+					}
+				}
+			},
+			{
+				"id": "009",
+				"name": "melty world (Prod. TeddyLoid)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 198
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 198
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 177
+					}
+				}
+			},
+			{
+				"id": "010",
+				"name": "hello, alone (Prod. MATZ)",
+				"composer": "Kizuna AI",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 73
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 145
+					},
+					"chaos": {
+						"level": 9,
+						"pageNum": 114
+					}
+				}
+			}
+		]
+	},
+	{
 		"name": "Miku",
 		"id": "miku001",
 		"color": "39C5BB",

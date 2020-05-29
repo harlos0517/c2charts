@@ -14,12 +14,12 @@ body {
 }
 
 #main {
-  margin-bottom: 3em;
-  width: max-content;
+	margin-bottom: 3em;
+	width: max-content;
 }
 
 table th, table td {
-  vertical-align: middle!important;
+	vertical-align: middle!important;
 }
 
 tbody {
@@ -27,16 +27,16 @@ tbody {
 }
 
 .table-fix-head>thead>tr>th {
-  position: sticky;
-  border: #999999 1px solid;
+	position: sticky;
+	border: #999999 1px solid;
 }
 
 .st-th {
-  z-index: 10;
+	z-index: 10;
 }
 
 .table-fix-head>thead>tr:first-child {
-  height: 3em;
+	height: 3em;
 }
 
 .table-fix-head>thead>tr:first-child>th {
@@ -48,44 +48,44 @@ tbody {
 }
 
 .st-td {
-  position: sticky;
-  z-index: 5;
-  background-color: #333333;
+	position: sticky;
+	z-index: 5;
+	background-color: #333333;
 }
 
 .char{
-  left: 0;
-  width: 110px;
+	left: 0;
+	width: 110px;
 }
 
 .song {
-  left: 110px;
-  width: 200px;
+	left: 110px;
+	width: 200px;
 }
 
 .composer {
-  width: 200px;
+	width: 200px;
 }
 
 .diff {
-  left: 310px;
-  width: 80px;
+	left: 310px;
+	width: 80px;
 }
 
 .lv {
-  left: 390px;
+	left: 390px;
 }
 
 .sort-head:hover {
-  background-color: #AAAAAA!important;
+	background-color: #AAAAAA!important;
 }
 
 .sort-head:active {
-  background-color: #777777!important;
+	background-color: #777777!important;
 }
 
 .dim {
-  color: #FFFFFF30;
+	color: #FFFFFF30;
 }
 
 #bottom {
@@ -119,21 +119,52 @@ tbody {
 
 #index {
 	font-size: 1em;
-  right: 1.5em;
-  bottom: 4em;
-  z-index: 1500
+	right: 1.5em;
+	bottom: 4em;
+	z-index: 1500
 }
 
 #alert>.close {
-  font-size: 16vw;
-  top: 0;
-  right: .2em;
+	font-size: 16vw;
+	top: 0;
+	right: .2em;
 }
 
 #alert {
-  font-size: 6vw;
-  top: 10vw;
-  right: 10vw;
-  max-width: 80vw;
-  z-index: 1500;
+	font-size: 6vw;
+	top: 10vw;
+	right: 10vw;
+	max-width: 80vw;
+	z-index: 1500;
+}
+
+#cols {
+	top: 0;
+	left: calc(100% - 3vh);
+	width: calc(200px + 3vh);
+	height: 75vh;
+	transition: left 500ms;
+}
+
+#cols>.content {
+	overflow-y: scroll;
+}
+
+#cols select {
+	width: -webkit-fill-available;
+}
+
+#cols:hover {
+	left: calc(100% - 200px - 3vh);
+}
+
+#hover-tag {
+	right: 200px;
+	top: 3vh;
+	width: 3vh;
+	height: 6vh;
+	line-height: 6vh;
+	border-top-left-radius: 3vh;
+	border-bottom-left-radius: 3vh;
+	border-left: black .5vh solid;
 }

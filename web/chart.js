@@ -19,6 +19,7 @@ function getSongs(ele) {
 		ele.composer = song.composer
 		ele.level = song.charts[ele.difficulty].level
 		ele.pageNum = song.charts[ele.difficulty].pageNum
+		ele.curPageNum = Math.min(ele.pageNum, 16)
 		document.title = `${song.name} [${ele.difficulty.toUpperCase()}] - Cytus II Charts`
 	}
 }
@@ -34,7 +35,17 @@ var main = new Vue({
 		difficulty: '',
 		diffId: 0,
 		level: 0,
-		pageNum: 0
+		pageNum: 0,
+		curPageNum: 0
+	}, 
+	methods: {
+		handleScroll(e) {
+			if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight &&
+				this.curPageNum < this.pageNum) {
+				console.log("add")
+				this.curPageNum = Math.min(this.pageNum, this.curPageNum + 16)
+			}
+		}
 	}, 
 	mounted: function() {
 		var self = this
@@ -44,5 +55,6 @@ var main = new Vue({
 		self.difficulty = params.get('diff')
 		self.diffId = diffId(self.difficulty)
 		getSongs(self)
+		window.addEventListener('scroll', this.handleScroll);
 	}
 })

@@ -1,6 +1,5 @@
 const fs = require('fs')
 const { createCanvas, loadImage, registerFont } = require('canvas')
-const assert = require('assert')
 
 const canvasWidth = 1920
 const canvasHeight = 1440
@@ -12,6 +11,7 @@ const margin = {
 const noteAreaWidth = canvasWidth - 2 * margin.side
 const noteAreaHeight = canvasHeight - margin.top - margin.bottom
 const noteRatio = 1
+const scale = .5
 
 const fonts = [{
 	src: 'Rajdhani-SemiBold.ttf',
@@ -111,7 +111,7 @@ function writeBpm(ctx, bpm, x, y, fontSize) {
 	return xn
 }
 
-function initCanvas(ctx, page, bpmChange) {
+function initCanvas(ctx, page) {
 	// background
 	ctx.fillStyle = '#191919'
 	ctx.fillRect(0, 0, canvasWidth, canvasHeight)
@@ -451,7 +451,7 @@ function processData(data, path, pageNum) {
 		let bpmChange = getBpmChange(initBpm, prevBpm)
 		let lineSpeedChange = page.prev ? getBpmChange(initBpm/page.beats, prevBpm/page.prev.beats) : 0
 		let nextLineSpeedChange = page.next ? getBpmChange(nextBpm/page.next.beats, lastBpm/page.beats) : 0
-		initCanvas(ctx, page, bpmChange)
+		initCanvas(ctx, page)
 
 		// draw next page
 		if (page.next) {
@@ -479,7 +479,11 @@ function processData(data, path, pageNum) {
 		prevBpm = page.tempos[page.tempos.length-1].bpm
 
 		// write to file
-		fs.writeFileSync(`${path}/${`${page.id}`.padStart(3, '0')}.png`, canvas.toBuffer())
+		let finalCanvas = createCanvas(canvasWidth*scale, canvasHeight*scale)
+		let finalCtx = finalCanvas.getContext('2d')
+		finalCtx.scale(scale, scale)
+		finalCtx.drawImage(canvas, 0, 0)
+		fs.writeFileSync(`${path}/${`${page.id}`.padStart(3, '0')}.png`, finalCanvas.toBuffer())
 	})
 }
 

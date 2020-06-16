@@ -144,7 +144,7 @@
 		{ "id": "039", "name": "気楽なCloudy", "composer": "technoplanet feat. はるの",
 		  "charts": { "easy": { "level": 5 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
 		{ "id": "040", "name": "Caliburne ～Story of the Legendary sword～", "composer": "Project Grimoire",
-		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 15 }}},
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 9 }, "chaos": { "level": 15 }}},
 		{ "id": "041", "name": "DON'T STOP ROCKIN'", "composer": "EB (aka EarBreaker)",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
 		{ "id": "042", "name": "Glorious Crown", "composer": "xi",

@@ -1688,8 +1688,8 @@
 		"topRhythms": [
 			{
 				"count": 18,
-				"type": "r808080",
-				"pattern": "X---->-----<----",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			},
 			{
@@ -1700,8 +1700,8 @@
 			},
 			{
 				"count": 18,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r808080",
+				"pattern": "X---->-----<----",
 				"beats": 2
 			}
 		],
@@ -2240,14 +2240,14 @@
 			},
 			{
 				"count": 15,
-				"type": "r020124",
-				"pattern": "----X-----X-X-X-",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			},
 			{
 				"count": 15,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			}
 		],
@@ -4410,14 +4410,14 @@
 		"topRhythms": [
 			{
 				"count": 23,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r020820",
+				"pattern": "----X---X---X---",
 				"beats": 2
 			},
 			{
 				"count": 23,
-				"type": "r020820",
-				"pattern": "----X---X---X---",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			},
 			{
@@ -4962,14 +4962,14 @@
 			},
 			{
 				"count": 11,
-				"type": "r000820",
-				"pattern": "--------X---X---",
+				"type": "r000020",
+				"pattern": "------------X---",
 				"beats": 2
 			},
 			{
 				"count": 11,
-				"type": "r000020",
-				"pattern": "------------X---",
+				"type": "r000820",
+				"pattern": "--------X---X---",
 				"beats": 2
 			}
 		],
@@ -5320,14 +5320,14 @@
 		"topRhythms": [
 			{
 				"count": 20,
-				"type": "r020904",
-				"pattern": "----X---X-X---X-",
+				"type": "r824120",
+				"pattern": "X---X-X---X-X---",
 				"beats": 2
 			},
 			{
 				"count": 20,
-				"type": "r824120",
-				"pattern": "X---X-X---X-X---",
+				"type": "r020904",
+				"pattern": "----X---X-X---X-",
 				"beats": 2
 			},
 			{
@@ -9411,8 +9411,8 @@
 			},
 			{
 				"count": 17,
-				"type": "r020800",
-				"pattern": "----X---X-------",
+				"type": "r020020",
+				"pattern": "----X-------X---",
 				"beats": 2
 			}
 		],
@@ -11411,8 +11411,8 @@
 			},
 			{
 				"count": 4,
-				"type": "r820120124",
-				"pattern": "X---X-----X-X-----X-X-X-",
+				"type": "r820820820",
+				"pattern": "X---X---X---X---X---X---",
 				"beats": 3
 			}
 		],
@@ -11769,14 +11769,14 @@
 			},
 			{
 				"count": 9,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			},
 			{
 				"count": 9,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -13861,14 +13861,14 @@
 			},
 			{
 				"count": 15,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			},
 			{
 				"count": 15,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			}
 		],
@@ -16413,8 +16413,8 @@
 			},
 			{
 				"count": 15,
-				"type": "r924900",
-				"pattern": "X-X-X-X-X-X-----",
+				"type": "r924924",
+				"pattern": "X-X-X-X-X-X-X-X-",
 				"beats": 2
 			}
 		],
@@ -18506,8 +18506,8 @@
 			},
 			{
 				"count": 4,
-				"type": "r804004",
-				"pattern": "X-----X-------X-",
+				"type": "r100100",
+				"pattern": "--X-------X-----",
 				"beats": 2
 			}
 		],
@@ -19150,7 +19150,7 @@
 		"sortIndex": 210
 	},
 	{
-		"level": 8,
+		"level": 9,
 		"char": {
 			"name": "NEKO#ΦωΦ",
 			"id": "neko001",
@@ -19164,7 +19164,7 @@
 		"diff": {
 			"name": "hard",
 			"id": 1,
-			"level": 8
+			"level": 9
 		},
 		"numOf": {
 			"page": 150,
@@ -20052,8 +20052,8 @@
 			},
 			{
 				"count": 9,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r020020",
+				"pattern": "----X-------X---",
 				"beats": 2
 			}
 		],
@@ -21041,14 +21041,14 @@
 		"topRhythms": [
 			{
 				"count": 15,
-				"type": "r804120",
-				"pattern": "X-----X---X-X---",
+				"type": "r804020",
+				"pattern": "X-----X-----X---",
 				"beats": 2
 			},
 			{
 				"count": 15,
-				"type": "r804020",
-				"pattern": "X-----X-----X---",
+				"type": "r804120",
+				"pattern": "X-----X---X-X---",
 				"beats": 2
 			},
 			{
@@ -21598,8 +21598,8 @@
 			},
 			{
 				"count": 4,
-				"type": "r904824",
-				"pattern": "X-X---X-X---X-X-",
+				"type": "r000800",
+				"pattern": "--------X-------",
 				"beats": 2
 			}
 		],
@@ -23773,14 +23773,14 @@
 			},
 			{
 				"count": 11,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r000800",
+				"pattern": "--------X-------",
 				"beats": 2
 			},
 			{
 				"count": 11,
-				"type": "r000800",
-				"pattern": "--------X-------",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			}
 		],
@@ -25143,8 +25143,8 @@
 			},
 			{
 				"count": 17,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r020000",
+				"pattern": "----X-----------",
 				"beats": 2
 			}
 		],
@@ -26053,8 +26053,8 @@
 			},
 			{
 				"count": 11,
-				"type": "r820800",
-				"pattern": "X---X---X-------",
+				"type": "r000800",
+				"pattern": "--------X-------",
 				"beats": 2
 			}
 		],
@@ -31573,21 +31573,21 @@
 		"topRhythms": [
 			{
 				"count": 4,
-				"type": "r800020",
-				"pattern": "X-----------X---",
-				"beats": 2
-			},
-			{
-				"count": 4,
 				"type": "r000800000",
 				"pattern": "--------X---------------",
 				"beats": 3
 			},
 			{
-				"count": 2,
-				"type": "r020000",
-				"pattern": "----X-----------",
+				"count": 4,
+				"type": "r800020",
+				"pattern": "X-----------X---",
 				"beats": 2
+			},
+			{
+				"count": 2,
+				"type": "r80000080000",
+				"pattern": "X---------------X-----------",
+				"beats": 3.5
 			}
 		],
 		"sortIndex": 347
@@ -34120,14 +34120,14 @@
 		"topRhythms": [
 			{
 				"count": 16,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r020820",
+				"pattern": "----X---X---X---",
 				"beats": 2
 			},
 			{
 				"count": 16,
-				"type": "r020820",
-				"pattern": "----X---X---X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			},
 			{
@@ -34223,9 +34223,9 @@
 			},
 			{
 				"count": 8,
-				"type": "r021",
-				"pattern": "----X--X",
-				"beats": 1
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
+				"beats": 2
 			}
 		],
 		"sortIndex": 376
@@ -34951,8 +34951,8 @@
 			},
 			{
 				"count": 12,
-				"type": "r000800",
-				"pattern": "--------X-------",
+				"type": "r804004",
+				"pattern": "X-----X-------X-",
 				"beats": 2
 			}
 		],
@@ -35497,8 +35497,8 @@
 			},
 			{
 				"count": 8,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -38227,8 +38227,8 @@
 			},
 			{
 				"count": 8,
-				"type": "r020020",
-				"pattern": "----X-------X---",
+				"type": "r804020",
+				"pattern": "X-----X-----X---",
 				"beats": 2
 			}
 		],
@@ -38312,14 +38312,14 @@
 			},
 			{
 				"count": 10,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r804020",
+				"pattern": "X-----X-----X---",
 				"beats": 2
 			},
 			{
 				"count": 10,
-				"type": "r804020",
-				"pattern": "X-----X-----X---",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -40501,8 +40501,8 @@
 			},
 			{
 				"count": 13,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r800020",
+				"pattern": "X-----------X---",
 				"beats": 2
 			}
 		],
@@ -41047,8 +41047,8 @@
 			},
 			{
 				"count": 16,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -42503,8 +42503,8 @@
 			},
 			{
 				"count": 17,
-				"type": "r824120",
-				"pattern": "X---X-X---X-X---",
+				"type": "r820020",
+				"pattern": "X---X-------X---",
 				"beats": 2
 			}
 		],
@@ -42776,8 +42776,8 @@
 			},
 			{
 				"count": 14,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r824020",
+				"pattern": "X---X-X-----X---",
 				"beats": 2
 			}
 		],
@@ -44044,14 +44044,14 @@
 			},
 			{
 				"count": 7,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r020820",
+				"pattern": "----X---X---X---",
 				"beats": 2
 			},
 			{
 				"count": 7,
-				"type": "r020820",
-				"pattern": "----X---X---X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			}
 		],
@@ -45779,8 +45779,8 @@
 			},
 			{
 				"count": 17,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r800020",
+				"pattern": "X-----------X---",
 				"beats": 2
 			}
 		],
@@ -47053,8 +47053,8 @@
 			},
 			{
 				"count": 18,
-				"type": "r020020",
-				"pattern": "----X-------X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			}
 		],
@@ -50692,8 +50692,8 @@
 			},
 			{
 				"count": 26,
-				"type": "r020020",
-				"pattern": "----X-------X---",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -53868,8 +53868,8 @@
 			},
 			{
 				"count": 12,
-				"type": "r904820",
-				"pattern": "X-X---X-X---X---",
+				"type": "r824120",
+				"pattern": "X---X-X---X-X---",
 				"beats": 2
 			}
 		],
@@ -56960,8 +56960,8 @@
 			},
 			{
 				"count": 28,
-				"type": "r020800",
-				"pattern": "----X---X-------",
+				"type": "r820800",
+				"pattern": "X---X---X-------",
 				"beats": 2
 			}
 		],
@@ -59319,14 +59319,14 @@
 			},
 			{
 				"count": 12,
-				"type": "r820800",
-				"pattern": "X---X---X-------",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			},
 			{
 				"count": 12,
-				"type": "r924924",
-				"pattern": "X-X-X-X-X-X-X-X-",
+				"type": "r820800",
+				"pattern": "X---X---X-------",
 				"beats": 2
 			}
 		],
@@ -60144,9 +60144,9 @@
 			},
 			{
 				"count": 8,
-				"type": "r820820820",
-				"pattern": "X---X---X---X---X---X---",
-				"beats": 3
+				"type": "r804020",
+				"pattern": "X-----X-----X---",
+				"beats": 2
 			}
 		],
 		"sortIndex": 661
@@ -67319,14 +67319,14 @@
 		"topRhythms": [
 			{
 				"count": 11,
-				"type": "r820800",
-				"pattern": "X---X---X-------",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			},
 			{
 				"count": 11,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r820800",
+				"pattern": "X---X---X-------",
 				"beats": 2
 			},
 			{
@@ -67513,8 +67513,8 @@
 			},
 			{
 				"count": 8,
-				"type": "r020820",
-				"pattern": "----X---X---X---",
+				"type": "r000020",
+				"pattern": "------------X---",
 				"beats": 2
 			}
 		],
@@ -68969,8 +68969,8 @@
 			},
 			{
 				"count": 3,
-				"type": "r800820820",
-				"pattern": "X-------X---X---X---X---",
+				"type": "r800020020",
+				"pattern": "X-----------X-------X---",
 				"beats": 3
 			}
 		],
@@ -69242,8 +69242,8 @@
 			},
 			{
 				"count": 10,
-				"type": "r100904",
-				"pattern": "--X-----X-X---X-",
+				"type": "r800904",
+				"pattern": "X-------X-X---X-",
 				"beats": 2
 			}
 		],
@@ -70782,8 +70782,8 @@
 			},
 			{
 				"count": 6,
-				"type": "r820820000",
-				"pattern": "X---X---X---X-----------",
+				"type": "r824120020",
+				"pattern": "X---X-X---X-X-------X---",
 				"beats": 3
 			}
 		],
@@ -72504,14 +72504,14 @@
 			},
 			{
 				"count": 19,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			},
 			{
 				"count": 19,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			}
 		],
@@ -72692,8 +72692,8 @@
 			},
 			{
 				"count": 13,
-				"type": "r800020",
-				"pattern": "X-----------X---",
+				"type": "r020020",
+				"pattern": "----X-------X---",
 				"beats": 2
 			}
 		],
@@ -73874,8 +73874,8 @@
 			},
 			{
 				"count": 15,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r804020",
+				"pattern": "X-----X-----X---",
 				"beats": 2
 			}
 		],
@@ -75238,8 +75238,8 @@
 			},
 			{
 				"count": 17,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r820800",
+				"pattern": "X---X---X-------",
 				"beats": 2
 			}
 		],
@@ -76603,8 +76603,8 @@
 			},
 			{
 				"count": 11,
-				"type": "r804000",
-				"pattern": "X-----X---------",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -77689,14 +77689,14 @@
 			},
 			{
 				"count": 14,
-				"type": "r924820",
-				"pattern": "X-X-X-X-X---X---",
+				"type": "r824820",
+				"pattern": "X---X-X-X---X---",
 				"beats": 2
 			},
 			{
 				"count": 14,
-				"type": "r824820",
-				"pattern": "X---X-X-X---X---",
+				"type": "r924820",
+				"pattern": "X-X-X-X-X---X---",
 				"beats": 2
 			}
 		],
@@ -78689,14 +78689,14 @@
 			},
 			{
 				"count": 35,
-				"type": "r800820",
-				"pattern": "X-------X---X---",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			},
 			{
 				"count": 35,
-				"type": "r820820",
-				"pattern": "X---X---X---X---",
+				"type": "r800820",
+				"pattern": "X-------X---X---",
 				"beats": 2
 			}
 		],
@@ -78786,8 +78786,8 @@
 			},
 			{
 				"count": 12,
-				"type": "r800824",
-				"pattern": "X-------X---X-X-",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			}
 		],
@@ -79059,8 +79059,8 @@
 			},
 			{
 				"count": 13,
-				"type": "r000804",
-				"pattern": "--------X-----X-",
+				"type": "r820820",
+				"pattern": "X---X---X---X---",
 				"beats": 2
 			}
 		],
@@ -81145,14 +81145,14 @@
 			},
 			{
 				"count": 17,
-				"type": "r024104",
-				"pattern": "----X-X---X---X-",
+				"type": "r804020",
+				"pattern": "X-----X-----X---",
 				"beats": 2
 			},
 			{
 				"count": 17,
-				"type": "r804020",
-				"pattern": "X-----X-----X---",
+				"type": "r024104",
+				"pattern": "----X-X---X---X-",
 				"beats": 2
 			}
 		],
@@ -81964,14 +81964,14 @@
 			},
 			{
 				"count": 36,
-				"type": "r800800",
-				"pattern": "X-------X-------",
+				"type": "r820020",
+				"pattern": "X---X-------X---",
 				"beats": 2
 			},
 			{
 				"count": 36,
-				"type": "r820020",
-				"pattern": "X---X-------X---",
+				"type": "r800800",
+				"pattern": "X-------X-------",
 				"beats": 2
 			}
 		],

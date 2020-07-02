@@ -334,7 +334,7 @@ function analyze() {
 					chart.song = { name: song.name, id: song.id, composer: song.composer }
 					chart.diff = { name: difficulty[i], id: i, level: chart.level }
 
-					let data = require(`./data/${character.id}_${song.id}_${i}_decrypted.json`)
+					let data = require(`./data/${character.id}_${song.id}_${i}.json`)
 					preprocess(data)
 					if (i) absTempo = getInfo(chart, data, absTempo)
 					else absTempo = getInfo(chart, data)

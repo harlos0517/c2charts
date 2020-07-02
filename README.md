@@ -1,4 +1,4 @@
-# Cytus II Charts
+# Cytus II Chart Viewer
 
 This project is composed of two parts:
 

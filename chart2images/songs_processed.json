@@ -1414,6 +1414,101 @@
 						"pageNum": 205
 					}
 				}
+			},
+			{
+				"id": "045",
+				"name": "BlythE",
+				"composer": "M2U",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 98
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 193
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 203
+					}
+				}
+			},
+			{
+				"id": "046",
+				"name": "glory day",
+				"composer": "BEXTER x Mycin.T",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 92
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 190
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 178
+					}
+				}
+			},
+			{
+				"id": "047",
+				"name": "OblivioN",
+				"composer": "ESTi",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 142
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 142
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 137
+					}
+				}
+			},
+			{
+				"id": "048",
+				"name": "Play the Future",
+				"composer": "Urbatonic Chopsticks",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 61
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 60
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 97
+					}
+				}
+			},
+			{
+				"id": "049",
+				"name": "We're All Gonna Die",
+				"composer": "Paul Bazooka",
+				"charts": {
+					"easy": {
+						"level": 6,
+						"pageNum": 100
+					},
+					"hard": {
+						"level": 10,
+						"pageNum": 198
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 198
+					}
+				}
 			}
 		]
 	},
@@ -2787,6 +2882,25 @@
 					"chaos": {
 						"level": 15,
 						"pageNum": 261
+					}
+				}
+			},
+			{
+				"id": "040",
+				"name": "Summer Zephyr",
+				"composer": "SUi",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 175
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 175
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 149
 					}
 				}
 			}
@@ -5923,7 +6037,7 @@
 		"songs": [
 			{
 				"id": "story_004",
-				"name": "story_004",
+				"name": "CHAOS (Glitch)",
 				"charts": {
 					"easy": {
 						"level": "?",
@@ -5933,7 +6047,7 @@
 			},
 			{
 				"id": "story_im02",
-				"name": "story_im02",
+				"name": "V. (Glitch)",
 				"charts": {
 					"easy": {
 						"level": "?",
@@ -5943,7 +6057,7 @@
 			},
 			{
 				"id": "SelectForPaffGameplay",
-				"name": "SelectForPaffGameplay",
+				"name": "The Decision",
 				"charts": {
 					"easy": {
 						"level": "?",
@@ -5953,7 +6067,7 @@
 			},
 			{
 				"id": "FinalBossStage_1",
-				"name": "FinalBossStage_1",
+				"name": " ͟͝͞Ⅱ́̕ (Vanessa)",
 				"charts": {
 					"easy": {
 						"level": "?",
@@ -5963,7 +6077,7 @@
 			},
 			{
 				"id": "FinalBossStage_2",
-				"name": "FinalBossStage_2",
+				"name": " ͟͝͞Ⅱ́̕ (Vanessa)",
 				"charts": {
 					"easy": {
 						"level": "?",

@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=.5, user-scalable=no">
-	<title>Cytus II Charts</title>
+	<title>Cytus II Chart Viewer</title>
 	<link href="index.css" rel="stylesheet">
 	<!--BOOTSTRAP-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -20,87 +21,137 @@
 		gtag('config', 'UA-116631189-3');
 	</script>
 </head>
-<body class='bg-dark text-light'>
-	<div id="main" class="container-fluid px-0">
-		<table id="song-table" class="table table-dark table-striped table-hover table-fix-head">
-			<thead class="thead-light">
-				<tr>
-					<th class="text-center align-middle">Character</th>
-					<th class="align-middle">Song</th>
-					<th class="align-middle">Composer</th>
-					<th class="text-center align-middle easy diff border-0">EASY</th>
-					<th class="text-center align-middle hard diff border-0">HARD</th>
-					<th class="text-center align-middle chaos diff border-0">CHAOS</th>
-					<th class="text-center align-middle glitch diff border-0">GLITCH</th>
-				</tr>
-			</thead>
-			<tbody v-for="(character, index) in songsData" class="mt-3">
-				<tr class="mb-2" :style="``" @click="toggle(character)">
-					<td
-						colspan="7"
-						class="text-center position-sticky"
-						:style="`background-color: #${character.color}; top: 2.3em`"
-					>
-						{{ character.name }}
-					</td>
-				</tr>
-				<template v-if="character.show">
-					<tr v-for="song in character.songs">
-						<td class="text-center align-middle">{{ character.name }}</td>
-						<td class="align-middle">{{ song.name }}</td>
-						<td class="align-middle">{{ song.composer }}</td>
-						<td class="text-center align-middle py-2 diff">
-							<a v-if="song.charts.easy"
-								class="easy rounded-circle m-auto"
-								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=easy`">
-								{{ song.charts.easy.level }}
-							</a>
-						</td>
-						<td class="text-center align-middle py-2 diff">
-							<a v-if="song.charts.hard"
-								class="hard rounded-circle m-auto"
-								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=hard`">
-								{{ song.charts.hard.level }}
-							</a>
-						</td>
-						<td class="text-center align-middle py-2 diff">
-							<a v-if="song.charts.chaos"
-								class="chaos rounded-circle m-auto"
-								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=chaos`">
-								{{ song.charts.chaos.level }}
-							</a>
-						</td>
-						<td class="text-center align-middle py-2 diff">
-							<a v-if="song.charts.glitch"
-								class="glitch rounded-circle m-auto"
-								:href="`chart.html?charId=${character.id}&songId=${song.id}&diff=glitch`">
-								{{ song.charts.glitch.level }}
-							</a>
-						</td>
-					</tr>
-				</template>
-				<tr style="height: 15px"></tr>
-			</tbody>
-		</table>
+<body class='text-light'>
+	<div id="navbar" class="sticky-top d-flex flex-row align-items-center px-4">
+		<a href="index.html" id="title" class="hover rounded-lg h1 m-0 p-4 d-block text-decoration-none text-reset">
+			Cytus II Chart Viewer
+		</a>
+		<div class="flex-grow-1"></div>
+		<a href="analyze.html" id="analyze" class="hover rounded-lg p-4 text-decoration-none text-reset">
+			Statistics
+		</a>
+		<div id="info" class="hover rounded-lg p-4"
+			data-toggle="popover" data-placement="bottom"
+			title="Report issues and suggestions"
+			data-content="<a href='https://github.com/DeemoHarlos/c2charts/issues/new'>GitHub</a> | 
+				<a href='https://www.messenger.com/t/deemoharlos'>Messenger</a>"
+		>Report</div>
+		<div id="report" class="hover rounded-lg p-4"
+			data-toggle="popover" data-placement="bottom"
+			title="Created by Deemo Harlos<br>UI/UX Designed by 雪糕蒂絲"
+			data-content="Deemo Harlos: <a href='https://www.facebook.com/deemoharlos.music'>Facebook</a> | 
+				<a href='https://www.youtube.com/c/DeemoHarlos'>YouTube</a> | 
+				<a href='https://www.instagram.com/deemo_harlos/'>Instagram</a> | 
+				<a href='https://twitter.com/deemo_harlos'>Twitter</a> | 
+				<a href='https://github.com/DeemoHarlos'>Github</a> | 
+				<a href='https://musescore.com/deemo_harlos'>Musescore</a> | 
+				<a href='https://www.patreon.com/DeemoHarlos'>Patreon</a>"
+		>About</div>
 	</div>
-	<div id="bottom" class="text-center fixed-bottom py-2">
-		<span>回報錯誤與建議 Report issues and suggestions: 
-			<a href="https://github.com/DeemoHarlos/c2charts/issues/new">GitHub</a> | 
-			<a href="https://www.messenger.com/t/deemoharlos">Messenger</a>
-		</span><br>Made by Deemo Harlos - 
-			<a href="https://www.facebook.com/deemoharlos.music">Facebook</a> | 
-			<a href="https://www.youtube.com/c/DeemoHarlos">YouTube</a> | 
-			<a href="https://www.instagram.com/deemo_harlos/">Instagram</a> | 
-			<a href="https://twitter.com/deemo_harlos">Twitter</a> | 
-			<a href="https://github.com/DeemoHarlos">Github</a> | 
-			<a href="https://musescore.com/deemo_harlos">Musescore</a>
-			<a href="https://www.patreon.com/DeemoHarlos">Patreon</a>
-		</span>
+	<div id="main" class="container-xl p-5">
+		<div v-if="!thisCharId" class="row">
+			<a v-for="(character, index) in songsData"
+				:href="`index.html?char=${character.id}`"
+				class="char-container col-6 col-md-4 col-xl-3 py-5 px-0 rounded-lg text-decoration-none text-reset"
+			>
+				<div class="char text-center mb-3">
+					<img :src="`assets/${character.id}_l.png`" class="h-100" :alt="character.name">
+				</div>
+				<div class="char-name text-center p-3 mx-5 rounded-lg" :style="`background-color: #${character.color};`">
+					{{ character.name }}
+				</div>
+			</a>
+		</div>
+		<div v-else class="d-lg-flex flex-lg-row">
+			<div class="char-image-row pr-5 d-none d-lg-block">
+				<img v-if="thisChar.id!=='other'" class="w-100 mb-5" :src="`assets/${thisChar.id}_s.png`" :alt="thisChar.name">
+				<div class="text-center p-3 rounded-lg mb-4" :style="`background-color: #${thisChar.color};`">{{ thisChar.name }}</div>
+				<a href="index.html" class="text-center w-100 p-3 back btn text-white rounded-lg d-flex flex-row">
+					<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+					</svg><span class="flex-grow-1">BACK</span>
+				</a>
+			</div>
+			<div class="char-image d-block d-lg-none">
+				<div class="text-center p-0 mb-4 rounded-lg d-flex flex-row align-items-center" :style="`background-color: #${thisChar.color};`">
+					<a href="index.html" class="p-3 back btn text-white rounded-lg d-flex flex-row">
+						<svg width="1.75rem" height="1.75rem" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+						</svg>
+					</a>
+					<div class="flex-grow-1 p-3">{{ thisChar.name }}</div>
+				</div>
+			</div>
+			<div class="flex-grow-1">
+				<table id="song-table" class="table table-dark table-hover table-fix-head">
+					<thead class="thead-light">
+						<tr>
+							<th class="align-middle border-0">
+								<div class="d-flex flex-row">
+									<div class="flex-grow-1 pr-3">Title</div>
+									<div class="flex-grow-1 text-right">Composer</div>
+								</div>
+							</th>
+							<template v-if="thisChar.id!=='other'">
+								<th class="text-center align-middle easy diff border-0">EASY</th>
+								<th class="text-center align-middle hard diff border-0">HARD</th>
+								<th class="text-center align-middle chaos diff border-0">CHAOS</th>
+								<th class="text-center align-middle glitch diff border-0">GLITCH</th>
+							</template>
+							<th v-else class="text-center align-middle other diff border-0">?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr v-for="song in thisChar.songs">
+							<td class="align-middle">
+								<div class="d-flex flex-row">
+									<div class="flex-grow-1 pr-3">{{ song.name }}</div>
+									<div class="flex-grow-1 text-right">{{ song.composer }}</div>
+								</div>
+							</td>
+							<template v-if="thisChar.id!=='other'">
+								<td class="text-center align-middle py-2 diff">
+									<a v-if="song.charts.easy"
+										class="easy rounded-circle m-auto"
+										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=easy`">
+										{{ song.charts.easy.level }}
+									</a>
+								</td>
+								<td class="text-center align-middle py-2 diff">
+									<a v-if="song.charts.hard"
+										class="hard rounded-circle m-auto"
+										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=hard`">
+										{{ song.charts.hard.level }}
+									</a>
+								</td>
+								<td class="text-center align-middle py-2 diff">
+									<a v-if="song.charts.chaos"
+										class="chaos rounded-circle m-auto"
+										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=chaos`">
+										{{ song.charts.chaos.level }}
+									</a>
+								</td>
+								<td class="text-center align-middle py-2 diff">
+									<a v-if="song.charts.glitch"
+										class="glitch rounded-circle m-auto"
+										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=glitch`">
+										{{ song.charts.glitch.level }}
+									</a>
+								</td>
+							</template>
+							<td v-else class="text-center align-middle py-2 diff">
+								<a v-if="song.charts.easy"
+								class="other rounded-circle m-auto"
+								:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=easy`">
+								?
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
-	<a href="analyze.html" id="analyze"
-		class="position-fixed text-center btn btn-primary p-4 stretched-link text-white">
-		譜面數據分析<br>Charts Statistics
-	</a>
 	<script src="index.js" type="text/javascript"></script>
 </body>
 </html>

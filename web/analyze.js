@@ -195,6 +195,7 @@ var chartTable = new Vue({
 			self.chartsPaged = self.chartsDisp.slice(0, 20)
 			self.curNum = self.chartsPaged.length
 		}
+		$("[data-toggle=popover]").popover({ html: true })
 		window.addEventListener('scroll', this.handleScroll);
 	}
 })

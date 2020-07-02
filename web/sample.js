@@ -20,7 +20,7 @@ function getSongs(ele) {
 		ele.level = song.charts[ele.difficulty].level
 		ele.pageNum = song.charts[ele.difficulty].pageNum
 		ele.curPageNum = Math.min(ele.pageNum, 16)
-		document.title = `${song.name} [${ele.difficulty.toUpperCase()}] - Cytus II Charts`
+		document.title = `${song.name} [${ele.difficulty.toUpperCase()}] - Cytus II Chart Viewer`
 	}
 }
 

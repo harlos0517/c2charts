@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=.5, user-scalable=no">
-	<title>Cytus II Charts Statistics</title>
+	<title>Cytus II Chart Statistics</title>
 	<link href="analyze.css" rel="stylesheet">
 	<!--BOOTSTRAP-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -20,9 +21,35 @@
 		gtag('config', 'UA-116631189-3');
 	</script>
 </head>
-<body class='bg-dark text-light'>
+<body class='text-light'>
+	<div id="navbar" class="position-fixed d-flex flex-row align-items-center px-4 text-nowrap">
+		<a href="index.html" id="title" class="hover rounded-lg h1 m-0 p-4 d-block text-decoration-none text-reset">
+			Cytus II Chart Statistics
+		</a>
+		<div class="flex-grow-1"></div>
+		<a href="index.html" id="analyze" class="hover rounded-lg p-4 text-decoration-none text-reset">
+			Charts List
+		</a>
+		<div id="info" class="hover rounded-lg p-4"
+			data-toggle="popover" data-placement="bottom"
+			title="Report issues and suggestions"
+			data-content="<a href='https://github.com/DeemoHarlos/c2charts/issues/new'>GitHub</a> | 
+				<a href='https://www.messenger.com/t/deemoharlos'>Messenger</a>"
+		>Report</div>
+		<div id="report" class="hover rounded-lg p-4"
+			data-toggle="popover" data-placement="bottom"
+			title="Created by Deemo Harlos<br>UI/UX Designed by 雪糕蒂絲"
+			data-content="Deemo Harlos: <a href='https://www.facebook.com/deemoharlos.music'>Facebook</a> | 
+				<a href='https://www.youtube.com/c/DeemoHarlos'>YouTube</a> | 
+				<a href='https://www.instagram.com/deemo_harlos/'>Instagram</a> | 
+				<a href='https://twitter.com/deemo_harlos'>Twitter</a> | 
+				<a href='https://github.com/DeemoHarlos'>Github</a> | 
+				<a href='https://musescore.com/deemo_harlos'>Musescore</a> | 
+				<a href='https://www.patreon.com/DeemoHarlos'>Patreon</a>"
+		>About</div>
+	</div>
 	<div id="main" class="px-0">
-		<table id="chart-table" class="table table-dark table-striped table-hover table-bordered table-fix-head mb-5">
+		<table id="chart-table" class="table table-dark table-striped table-hover table-bordered table-fix-head mb-5 mx-auto">
 			<thead class="thead-light text-center align-middle">
 				<tr>
 					<template v-for="col in cols"><th v-if="col.show"
@@ -90,6 +117,16 @@
 								</span>
 							</td>
 						</template>
+						<template v-else-if="col.name === 'DIFF' || col.name === 'Lv'">
+							<td :class="(col.class2 || '') +
+								(curSort.col === col ? ' text-warning' : '') +
+								(' ' + (chart.char.id === 'other' ? 'other' : chart.diff.name))"
+							>
+								<a :href="`chart.html?charId=${chart.char.id}&songId=${chart.song.id}&diff=${chart.diff.name}`"
+									class="text-reset" target="_blank"
+								>{{ col.name === 'DIFF' && chart.char.id === 'other' ? '?????' : col.value(chart) }}</a>
+							</td>
+						</template>
 						<template v-else-if="col.type === 'fixed' || col.type === 'sort'">
 							<td :class="(col.class2 || '') +
 								(curSort.col === col ? ' text-warning' : '') +
@@ -128,9 +165,12 @@
 		</table>
 		<div id="cols" class="position-fixed d-flex flex-row">
 			<div id="hover-tag" class="bg-light text-dark text-center">
-				<span>&lt;</span>
+				<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-layout-text-window-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+					<path fill-rule="evenodd" d="M5 15V4H4v11h1zM.5 4h15V3H.5v1zM13 6.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+				</svg>
 			</div>
-			<div class="content form-group flex-fill bg-light text-dark p-2 pt-3">
+			<div class="content form-group flex-fill bg-light text-dark p-2 pt-3 rounded-bottom">
 				<div v-for="col in cols" class="form-check pb-2">
 					<input type="checkbox" :id="col.name" :value="col.name"
 						v-model="col.show" @change="checkCategory(col)"
@@ -156,24 +196,6 @@
 			</div>
 		</div>
 	</div>
-	<div id="bottom" class="text-center fixed-bottom py-2">
-		<span>回報錯誤與建議 Report issues and suggestions: 
-			<a href="https://github.com/DeemoHarlos/c2charts/issues/new">GitHub</a> | 
-			<a href="https://www.messenger.com/t/deemoharlos">Messenger</a>
-		</span><br>Made by Deemo Harlos - 
-			<a href="https://www.facebook.com/deemoharlos.music">Facebook</a> | 
-			<a href="https://www.youtube.com/c/DeemoHarlos">YouTube</a> | 
-			<a href="https://www.instagram.com/deemo_harlos/">Instagram</a> | 
-			<a href="https://twitter.com/deemo_harlos">Twitter</a> | 
-			<a href="https://github.com/DeemoHarlos">Github</a> | 
-			<a href="https://musescore.com/deemo_harlos">Musescore</a>
-			<a href="https://www.patreon.com/DeemoHarlos">Patreon</a>
-		</span>
-	</div>
-	<a href="index.html" id="index"
-		class="position-fixed text-center btn btn-primary p-4 stretched-link text-white">
-		譜面列表<br>Charts List
-	</a>
 	<div id="alert" class="alert alert-info position-fixed p-5"
 		:class="{ 'd-none': width > 800 }"
 	>

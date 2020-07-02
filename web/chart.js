@@ -14,13 +14,12 @@ function getSongs(ele) {
 		let res = req.response
 		let char = res.find(e=>e.id === ele.charId)
 		let song = char.songs.find(e=>e.id === ele.songId)
-		ele.character = char.name
-		ele.songName = song.name
-		ele.composer = song.composer
+		ele.character = char
+		ele.song = song
 		ele.level = song.charts[ele.difficulty].level
 		ele.pageNum = song.charts[ele.difficulty].pageNum
 		ele.curPageNum = Math.min(ele.pageNum, 16)
-		document.title = `${song.name} [${ele.difficulty.toUpperCase()}] - Cytus II Charts`
+		document.title = `${song.name} [${ele.difficulty.toUpperCase()}] - Cytus II Chart Viewer`
 	}
 }
 
@@ -28,23 +27,25 @@ var main = new Vue({
 	el: '#main',
 	data: {
 		charId: '',
-		character: '',
+		character: {},
 		songId: '',
-		songName: '',
-		composer: '',
+		song: {},
 		difficulty: '',
 		diffId: 0,
 		level: 0,
 		pageNum: 0,
-		curPageNum: 0
+		curPageNum: 0,
+		header: false
 	}, 
 	methods: {
 		handleScroll(e) {
-			if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight &&
+			if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100 &&
 				this.curPageNum < this.pageNum) {
 				console.log("add")
 				this.curPageNum = Math.min(this.pageNum, this.curPageNum + 16)
 			}
+			if (window.pageYOffset > 240) this.header = true
+			else this.header = false
 		}
 	}, 
 	mounted: function() {
@@ -55,6 +56,7 @@ var main = new Vue({
 		self.difficulty = params.get('diff')
 		self.diffId = diffId(self.difficulty)
 		getSongs(self)
+		$("[data-toggle=popover]").popover({ html: true })
 		window.addEventListener('scroll', this.handleScroll);
 	}
 })

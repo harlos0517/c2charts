@@ -4,18 +4,24 @@ function getSongs() {
 	req.open('GET', 'songs.json')
 	req.responseType = 'json'
 	req.send()
+
+	let params = new URLSearchParams(window.location.search)
+	self.thisCharId = params.get('char')
+
 	req.onload = function() {
 		self.songsData = req.response
-		self.songsData.forEach(char=>{
-			Vue.set(char, 'show', false)
-		})
+		self.thisChar = req.response.find(x=>x.id===self.thisCharId)
 	}
+
+	$("[data-toggle=popover]").popover({ html: true })
 }
 
 var songTable = new Vue({
-	el: '#song-table',
+	el: '#main',
 	data: {
-		songsData: []
+		songsData: [],
+		thisChar: {},
+		thisCharId: null
 	},
 	methods: {
 		toggle: function (char) {

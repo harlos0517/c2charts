@@ -10,20 +10,44 @@
 
 body {
 	font-family: 'Electrolize'!important;
-	font-size: 16pt!important;
+	font-size: 12pt!important;
+	background-color: #212121!important;
+}
+
+#navbar {
+	background-color: #424242;
+}
+
+#navbar>.hover:hover {
+	background-color: #FFFFFF20;
 }
 
 #main {
-	margin-bottom: 3em;
+	background-color: #212121;
 }
 
-tbody {
+.char-container:hover {
+	background-color: #FFFFFF20;
+}
+
+.char {
+	height: 150px;
+}
+
+.char-image-row {
+	width: 250px;
+}
+
+.back:hover {
+	background-color: #FFFFFF20;
+}
+
+#song-table {
+	background-color: #00000000!important;
+}
+
+#song-table tbody {
 	border-top: none!important;
-}
-
-.table-fix-head>thead>tr>th {
-	position: sticky;
-	top: 0;
 }
 
 #bottom {
@@ -55,12 +79,18 @@ tbody {
 	border-color: #00A96B!important;
 }
 
+.other {
+	color: #878787!important;
+	background-color: #373737!important;
+	border-color: #878787!important;
+}
+
 td.diff>a {
 	display: block;
 	width: 2em;
 	height: 2em;
 	line-height: 2em;
-	border-width: 1.5px;
+	border-width: 1px;
 	border-style: solid;
 }
 
@@ -68,4 +98,9 @@ td.diff>a {
 	font-size: 1em;
   right: 1.5em;
 	bottom: 4em;
+}
+
+.popover-header, .popover-body {
+	color: black;
+	font-size: 1.5em!important;
 }

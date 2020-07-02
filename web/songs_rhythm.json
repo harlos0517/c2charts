@@ -1,117 +1,117 @@
 [
 	{
-		"count": 32836,
+		"count": 33314,
 		"type": "r8",
 		"pattern": "X"
 	},
 	{
-		"count": 28375,
+		"count": 28778,
 		"type": "r800800",
 		"pattern": "X-------X-------",
 		"beats": 2
 	},
 	{
-		"count": 27339,
+		"count": 27772,
 		"type": "r0"
 	},
 	{
-		"count": 15694,
+		"count": 16045,
 		"type": "r820820",
 		"pattern": "X---X---X---X---",
 		"beats": 2
 	},
 	{
-		"count": 11307,
+		"count": 11618,
 		"type": "r000800",
 		"pattern": "--------X-------",
 		"beats": 2
 	},
 	{
-		"count": 5905,
+		"count": 6048,
 		"type": "r800820",
 		"pattern": "X-------X---X---",
 		"beats": 2
 	},
 	{
-		"count": 5259,
+		"count": 5382,
 		"type": "r800020",
 		"pattern": "X-----------X---",
 		"beats": 2
 	},
 	{
-		"count": 3807,
+		"count": 3853,
 		"type": "r820800",
 		"pattern": "X---X---X-------",
 		"beats": 2
 	},
 	{
-		"count": 3727,
+		"count": 3772,
 		"type": "r804020",
 		"pattern": "X-----X-----X---",
 		"beats": 2
 	},
 	{
-		"count": 3348,
+		"count": 3410,
 		"type": "r020000",
 		"pattern": "----X-----------",
 		"beats": 2
 	},
 	{
-		"count": 3259,
+		"count": 3347,
 		"type": "r020820",
 		"pattern": "----X---X---X---",
 		"beats": 2
 	},
 	{
-		"count": 3054,
+		"count": 3099,
 		"type": "r020020",
 		"pattern": "----X-------X---",
 		"beats": 2
 	},
 	{
-		"count": 2005,
+		"count": 2052,
 		"type": "r820020",
 		"pattern": "X---X-------X---",
 		"beats": 2
 	},
 	{
-		"count": 1965,
+		"count": 1995,
 		"type": "r000020",
 		"pattern": "------------X---",
 		"beats": 2
 	},
 	{
-		"count": 1901,
-		"type": "r924924",
-		"pattern": "X-X-X-X-X-X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 1891,
+		"count": 1930,
 		"type": "r020800",
 		"pattern": "----X---X-------",
 		"beats": 2
 	},
 	{
-		"count": 1575,
+		"count": 1924,
+		"type": "r924924",
+		"pattern": "X-X-X-X-X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 1595,
 		"type": "r000820",
 		"pattern": "--------X---X---",
 		"beats": 2
 	},
 	{
-		"count": 991,
+		"count": 998,
 		"type": "r820000",
 		"pattern": "X---X-----------",
 		"beats": 2
 	},
 	{
-		"count": 820,
+		"count": 828,
 		"type": "r804820",
 		"pattern": "X-----X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 612,
+		"count": 620,
 		"type": "r824820",
 		"pattern": "X---X-X-X---X---",
 		"beats": 2
@@ -123,7 +123,7 @@
 		"beats": 2
 	},
 	{
-		"count": 516,
+		"count": 534,
 		"type": "r020100",
 		"pattern": "----X-----X-----",
 		"beats": 2
@@ -147,32 +147,32 @@
 		"beats": 2
 	},
 	{
-		"count": 449,
+		"count": 452,
 		"type": "r820824",
 		"pattern": "X---X---X---X-X-",
 		"beats": 2
 	},
 	{
-		"count": 445,
+		"count": 450,
 		"type": "r100800",
 		"pattern": "--X-----X-------",
 		"beats": 2
 	},
 	{
-		"count": 374,
-		"type": "rX"
+		"count": 387,
+		"type": "r824824",
+		"pattern": "X---X-X-X---X-X-",
+		"beats": 2
 	},
 	{
-		"count": 373,
+		"count": 383,
 		"type": "r100820",
 		"pattern": "--X-----X---X---",
 		"beats": 2
 	},
 	{
-		"count": 372,
-		"type": "r824824",
-		"pattern": "X---X-X-X---X-X-",
-		"beats": 2
+		"count": 375,
+		"type": "rX"
 	},
 	{
 		"count": 357,
@@ -199,63 +199,63 @@
 		"beats": 3
 	},
 	{
-		"count": 300,
-		"type": "r924800",
-		"pattern": "X-X-X-X-X-------",
-		"beats": 2
-	},
-	{
-		"count": 299,
+		"count": 304,
 		"type": "r100000",
 		"pattern": "--X-------------",
 		"beats": 2
 	},
 	{
-		"count": 286,
-		"type": "r820924",
-		"pattern": "X---X---X-X-X-X-",
+		"count": 301,
+		"type": "r924800",
+		"pattern": "X-X-X-X-X-------",
 		"beats": 2
 	},
 	{
-		"count": 284,
+		"count": 287,
 		"type": "r804000",
 		"pattern": "X-----X---------",
 		"beats": 2
 	},
 	{
-		"count": 281,
+		"count": 287,
+		"type": "r820924",
+		"pattern": "X---X---X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 285,
 		"type": "r924820",
 		"pattern": "X-X-X-X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 260,
+		"count": 262,
 		"type": "r824120",
 		"pattern": "X---X-X---X-X---",
 		"beats": 2
 	},
 	{
-		"count": 250,
+		"count": 262,
 		"type": "r100804",
 		"pattern": "--X-----X-----X-",
 		"beats": 2
 	},
 	{
-		"count": 219,
-		"type": "r820920",
-		"pattern": "X---X---X-X-X---",
-		"beats": 2
-	},
-	{
-		"count": 218,
+		"count": 225,
 		"type": "r800924",
 		"pattern": "X-------X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 216,
+		"count": 223,
 		"type": "r800824",
 		"pattern": "X-------X---X-X-",
+		"beats": 2
+	},
+	{
+		"count": 221,
+		"type": "r820920",
+		"pattern": "X---X---X-X-X---",
 		"beats": 2
 	},
 	{
@@ -265,25 +265,25 @@
 		"beats": 2
 	},
 	{
-		"count": 193,
+		"count": 195,
 		"type": "r920820",
 		"pattern": "X-X-X---X---X---",
 		"beats": 2
 	},
 	{
-		"count": 189,
+		"count": 190,
 		"type": "r800024",
 		"pattern": "X-----------X-X-",
 		"beats": 2
 	},
 	{
-		"count": 180,
+		"count": 185,
 		"type": "r824924",
 		"pattern": "X---X-X-X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 178,
+		"count": 181,
 		"type": "r820900",
 		"pattern": "X---X---X-X-----",
 		"beats": 2
@@ -295,15 +295,15 @@
 		"beats": 2
 	},
 	{
-		"count": 161,
-		"type": "r920920",
-		"pattern": "X-X-X---X-X-X---",
+		"count": 167,
+		"type": "r904820",
+		"pattern": "X-X---X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 160,
-		"type": "r904820",
-		"pattern": "X-X---X-X---X---",
+		"count": 164,
+		"type": "r920920",
+		"pattern": "X-X-X---X-X-X---",
 		"beats": 2
 	},
 	{
@@ -326,6 +326,12 @@
 	},
 	{
 		"count": 150,
+		"type": "r820904",
+		"pattern": "X---X---X-X---X-",
+		"beats": 2
+	},
+	{
+		"count": 150,
 		"type": "r000804",
 		"pattern": "--------X-----X-",
 		"beats": 2
@@ -337,9 +343,21 @@
 		"beats": 2
 	},
 	{
-		"count": 147,
+		"count": 149,
+		"type": "r904824",
+		"pattern": "X-X---X-X---X-X-",
+		"beats": 2
+	},
+	{
+		"count": 148,
 		"type": "r820100",
 		"pattern": "X---X-----X-----",
+		"beats": 2
+	},
+	{
+		"count": 148,
+		"type": "r820804",
+		"pattern": "X---X---X-----X-",
 		"beats": 2
 	},
 	{
@@ -355,33 +373,15 @@
 		"beats": 2
 	},
 	{
-		"count": 145,
-		"type": "r820904",
-		"pattern": "X---X---X-X---X-",
-		"beats": 2
-	},
-	{
-		"count": 144,
-		"type": "r820804",
-		"pattern": "X---X---X-----X-",
-		"beats": 2
-	},
-	{
-		"count": 140,
-		"type": "r904824",
-		"pattern": "X-X---X-X---X-X-",
+		"count": 135,
+		"type": "r004000",
+		"pattern": "------X---------",
 		"beats": 2
 	},
 	{
 		"count": 135,
 		"type": "r888800",
 		"pattern": "X--<->--X-------",
-		"beats": 2
-	},
-	{
-		"count": 134,
-		"type": "r004000",
-		"pattern": "------X---------",
 		"beats": 2
 	},
 	{
@@ -397,33 +397,33 @@
 		"beats": 2
 	},
 	{
-		"count": 121,
+		"count": 122,
 		"type": "r020824",
 		"pattern": "----X---X---X-X-",
 		"beats": 2
 	},
 	{
-		"count": 117,
+		"count": 121,
 		"type": "r900820",
 		"pattern": "X-X-----X---X---",
 		"beats": 2
 	},
 	{
-		"count": 112,
+		"count": 115,
 		"type": "r924920",
 		"pattern": "X-X-X-X-X-X-X---",
 		"beats": 2
 	},
 	{
 		"count": 109,
-		"type": "r804804",
-		"pattern": "X-----X-X-----X-",
+		"type": "r900900",
+		"pattern": "X-X-----X-X-----",
 		"beats": 2
 	},
 	{
-		"count": 107,
-		"type": "r900900",
-		"pattern": "X-X-----X-X-----",
+		"count": 109,
+		"type": "r804804",
+		"pattern": "X-----X-X-----X-",
 		"beats": 2
 	},
 	{
@@ -457,6 +457,12 @@
 		"beats": 2
 	},
 	{
+		"count": 100,
+		"type": "r120820",
+		"pattern": "--X-X---X---X---",
+		"beats": 2
+	},
+	{
 		"count": 98,
 		"type": "r004020",
 		"pattern": "------X-----X---",
@@ -469,21 +475,27 @@
 		"beats": 1
 	},
 	{
-		"count": 96,
-		"type": "r120820",
-		"pattern": "--X-X---X---X---",
-		"beats": 2
-	},
-	{
 		"count": 95,
 		"type": "r100100",
 		"pattern": "--X-------X-----",
 		"beats": 2
 	},
 	{
-		"count": 88,
+		"count": 90,
+		"type": "r020904",
+		"pattern": "----X---X-X---X-",
+		"beats": 2
+	},
+	{
+		"count": 90,
 		"type": "r920824",
 		"pattern": "X-X-X---X---X-X-",
+		"beats": 2
+	},
+	{
+		"count": 89,
+		"type": "r924824",
+		"pattern": "X-X-X-X-X---X-X-",
 		"beats": 2
 	},
 	{
@@ -500,18 +512,6 @@
 	},
 	{
 		"count": 86,
-		"type": "r924824",
-		"pattern": "X-X-X-X-X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 86,
-		"type": "r020904",
-		"pattern": "----X---X-X---X-",
-		"beats": 2
-	},
-	{
-		"count": 84,
 		"type": "r824800",
 		"pattern": "X---X-X-X-------",
 		"beats": 2
@@ -541,6 +541,30 @@
 		"beats": 2
 	},
 	{
+		"count": 78,
+		"type": "r824920",
+		"pattern": "X---X-X-X-X-X---",
+		"beats": 2
+	},
+	{
+		"count": 74,
+		"type": "r804100",
+		"pattern": "X-----X---X-----",
+		"beats": 2
+	},
+	{
+		"count": 74,
+		"type": "r820104",
+		"pattern": "X---X-----X---X-",
+		"beats": 2
+	},
+	{
+		"count": 74,
+		"type": "r804824",
+		"pattern": "X-----X-X---X-X-",
+		"beats": 2
+	},
+	{
 		"count": 74,
 		"type": "r800020820",
 		"pattern": "X-----------X---X---X---",
@@ -548,26 +572,8 @@
 	},
 	{
 		"count": 73,
-		"type": "r824920",
-		"pattern": "X---X-X-X-X-X---",
-		"beats": 2
-	},
-	{
-		"count": 73,
-		"type": "r820104",
-		"pattern": "X---X-----X---X-",
-		"beats": 2
-	},
-	{
-		"count": 71,
 		"type": "r104820",
 		"pattern": "--X---X-X---X---",
-		"beats": 2
-	},
-	{
-		"count": 71,
-		"type": "r804100",
-		"pattern": "X-----X---X-----",
 		"beats": 2
 	},
 	{
@@ -583,15 +589,9 @@
 		"beats": 2
 	},
 	{
-		"count": 68,
+		"count": 69,
 		"type": "r000100",
 		"pattern": "----------X-----",
-		"beats": 2
-	},
-	{
-		"count": 67,
-		"type": "r804824",
-		"pattern": "X-----X-X---X-X-",
 		"beats": 2
 	},
 	{
@@ -607,13 +607,13 @@
 		"beats": 2
 	},
 	{
-		"count": 62,
+		"count": 64,
 		"type": "r820024",
 		"pattern": "X---X-------X-X-",
 		"beats": 2
 	},
 	{
-		"count": 62,
+		"count": 63,
 		"type": "r920924",
 		"pattern": "X-X-X---X-X-X-X-",
 		"beats": 2
@@ -625,15 +625,27 @@
 		"beats": 3
 	},
 	{
+		"count": 61,
+		"type": "r800920",
+		"pattern": "X-------X-X-X---",
+		"beats": 2
+	},
+	{
 		"count": 60,
 		"type": "r000024",
 		"pattern": "------------X-X-",
 		"beats": 2
 	},
 	{
-		"count": 59,
-		"type": "r800920",
-		"pattern": "X-------X-X-X---",
+		"count": 60,
+		"type": "r900804",
+		"pattern": "X-X-----X-----X-",
+		"beats": 2
+	},
+	{
+		"count": 57,
+		"type": "r800900",
+		"pattern": "X-------X-X-----",
 		"beats": 2
 	},
 	{
@@ -643,15 +655,9 @@
 		"beats": 2
 	},
 	{
-		"count": 57,
-		"type": "r900804",
-		"pattern": "X-X-----X-----X-",
-		"beats": 2
-	},
-	{
-		"count": 55,
-		"type": "r800900",
-		"pattern": "X-------X-X-----",
+		"count": 54,
+		"type": "r804120",
+		"pattern": "X-----X---X-X---",
 		"beats": 2
 	},
 	{
@@ -662,14 +668,20 @@
 	},
 	{
 		"count": 53,
-		"type": "r804120",
-		"pattern": "X-----X---X-X---",
+		"type": "r024820",
+		"pattern": "----X-X-X---X---",
 		"beats": 2
 	},
 	{
 		"count": 53,
 		"type": "r824124",
 		"pattern": "X---X-X---X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 53,
+		"type": "r804004",
+		"pattern": "X-----X-------X-",
 		"beats": 2
 	},
 	{
@@ -692,14 +704,14 @@
 	},
 	{
 		"count": 51,
-		"type": "r804104",
-		"pattern": "X-----X---X---X-",
+		"type": "r804920",
+		"pattern": "X-----X-X-X-X---",
 		"beats": 2
 	},
 	{
 		"count": 51,
-		"type": "r804004",
-		"pattern": "X-----X-------X-",
+		"type": "r804104",
+		"pattern": "X-----X---X---X-",
 		"beats": 2
 	},
 	{
@@ -707,12 +719,6 @@
 		"type": "r000000800",
 		"pattern": "----------------X-------",
 		"beats": 3
-	},
-	{
-		"count": 50,
-		"type": "r024820",
-		"pattern": "----X-X-X---X---",
-		"beats": 2
 	},
 	{
 		"count": 50,
@@ -728,20 +734,32 @@
 	},
 	{
 		"count": 49,
+		"type": "r020924",
+		"pattern": "----X---X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 49,
 		"type": "r920",
 		"pattern": "X-X-X---",
 		"beats": 1
 	},
 	{
 		"count": 48,
-		"type": "r020924",
-		"pattern": "----X---X-X-X-X-",
+		"type": "r400000",
+		"pattern": "-X--------------",
 		"beats": 2
 	},
 	{
 		"count": 48,
-		"type": "r400000",
-		"pattern": "-X--------------",
+		"type": "r000924",
+		"pattern": "--------X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 48,
+		"type": "r124924",
+		"pattern": "--X-X-X-X-X-X-X-",
 		"beats": 2
 	},
 	{
@@ -752,26 +770,20 @@
 	},
 	{
 		"count": 47,
+		"type": "r904020",
+		"pattern": "X-X---X-----X---",
+		"beats": 2
+	},
+	{
+		"count": 47,
 		"type": "r820120",
 		"pattern": "X---X-----X-X---",
 		"beats": 2
 	},
 	{
 		"count": 46,
-		"type": "r904020",
-		"pattern": "X-X---X-----X---",
-		"beats": 2
-	},
-	{
-		"count": 46,
 		"type": "r824904",
 		"pattern": "X---X-X-X-X---X-",
-		"beats": 2
-	},
-	{
-		"count": 46,
-		"type": "r000924",
-		"pattern": "--------X-X-X-X-",
 		"beats": 2
 	},
 	{
@@ -784,12 +796,6 @@
 		"count": 45,
 		"type": "r024104",
 		"pattern": "----X-X---X---X-",
-		"beats": 2
-	},
-	{
-		"count": 45,
-		"type": "r124924",
-		"pattern": "--X-X-X-X-X-X-X-",
 		"beats": 2
 	},
 	{
@@ -901,6 +907,12 @@
 		"beats": 2
 	},
 	{
+		"count": 38,
+		"type": "r020024",
+		"pattern": "----X-------X-X-",
+		"beats": 2
+	},
+	{
 		"count": 37,
 		"type": "r824100",
 		"pattern": "X---X-X---X-----",
@@ -938,12 +950,6 @@
 	},
 	{
 		"count": 35,
-		"type": "r804920",
-		"pattern": "X-----X-X-X-X---",
-		"beats": 2
-	},
-	{
-		"count": 35,
 		"type": "r820020820",
 		"pattern": "X---X-------X---X---X---",
 		"beats": 3
@@ -956,8 +962,8 @@
 	},
 	{
 		"count": 34,
-		"type": "r020024",
-		"pattern": "----X-------X-X-",
+		"type": "r120824",
+		"pattern": "--X-X---X---X-X-",
 		"beats": 2
 	},
 	{
@@ -1004,6 +1010,12 @@
 	},
 	{
 		"count": 31,
+		"type": "r900000",
+		"pattern": "X-X-------------",
+		"beats": 2
+	},
+	{
+		"count": 31,
 		"type": "r82A820",
 		"pattern": "X---X>-<X---X---",
 		"beats": 2
@@ -1016,8 +1028,20 @@
 	},
 	{
 		"count": 31,
+		"type": "r104020",
+		"pattern": "--X---X-----X---",
+		"beats": 2
+	},
+	{
+		"count": 31,
 		"type": "r920020",
 		"pattern": "X-X-X-------X---",
+		"beats": 2
+	},
+	{
+		"count": 30,
+		"type": "r120900",
+		"pattern": "--X-X---X-X-----",
 		"beats": 2
 	},
 	{
@@ -1027,15 +1051,9 @@
 		"beats": 2
 	},
 	{
-		"count": 29,
-		"type": "r900000",
-		"pattern": "X-X-------------",
-		"beats": 2
-	},
-	{
-		"count": 29,
-		"type": "r120900",
-		"pattern": "--X-X---X-X-----",
+		"count": 30,
+		"type": "r100824",
+		"pattern": "--X-----X---X-X-",
 		"beats": 2
 	},
 	{
@@ -1076,12 +1094,6 @@
 	},
 	{
 		"count": 27,
-		"type": "r100824",
-		"pattern": "--X-----X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 27,
 		"type": "r000020000",
 		"pattern": "------------X-----------",
 		"beats": 3
@@ -1090,12 +1102,6 @@
 		"count": 27,
 		"type": "r904904",
 		"pattern": "X-X---X-X-X---X-",
-		"beats": 2
-	},
-	{
-		"count": 27,
-		"type": "r104020",
-		"pattern": "--X---X-----X---",
 		"beats": 2
 	},
 	{
@@ -1153,9 +1159,21 @@
 		"beats": 3
 	},
 	{
+		"count": 25,
+		"type": "r020920",
+		"pattern": "----X---X-X-X---",
+		"beats": 2
+	},
+	{
 		"count": 24,
 		"type": "r020124",
 		"pattern": "----X-----X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 24,
+		"type": "r124820",
+		"pattern": "--X-X-X-X---X---",
 		"beats": 2
 	},
 	{
@@ -1169,6 +1187,12 @@
 		"type": "r904",
 		"pattern": "X-X---X-",
 		"beats": 1
+	},
+	{
+		"count": 24,
+		"type": "r924120",
+		"pattern": "X-X-X-X---X-X---",
+		"beats": 2
 	},
 	{
 		"count": 24,
@@ -1196,26 +1220,14 @@
 	},
 	{
 		"count": 23,
-		"type": "r124820",
-		"pattern": "--X-X-X-X---X---",
-		"beats": 2
-	},
-	{
-		"count": 23,
-		"type": "r120824",
-		"pattern": "--X-X---X---X-X-",
+		"type": "r004800",
+		"pattern": "------X-X-------",
 		"beats": 2
 	},
 	{
 		"count": 23,
 		"type": "r004100",
 		"pattern": "------X---X-----",
-		"beats": 2
-	},
-	{
-		"count": 22,
-		"type": "r004800",
-		"pattern": "------X-X-------",
 		"beats": 2
 	},
 	{
@@ -1237,21 +1249,9 @@
 		"beats": 2
 	},
 	{
-		"count": 22,
-		"type": "r020920",
-		"pattern": "----X---X-X-X---",
-		"beats": 2
-	},
-	{
 		"count": 21,
 		"type": "r920900",
 		"pattern": "X-X-X---X-X-----",
-		"beats": 2
-	},
-	{
-		"count": 21,
-		"type": "r924120",
-		"pattern": "X-X-X-X---X-X---",
 		"beats": 2
 	},
 	{
@@ -1340,6 +1340,12 @@
 	},
 	{
 		"count": 18,
+		"type": "r120904",
+		"pattern": "--X-X---X-X---X-",
+		"beats": 2
+	},
+	{
+		"count": 18,
 		"type": "r840840",
 		"pattern": "X--X----X--X----",
 		"beats": 2
@@ -1364,6 +1370,12 @@
 	},
 	{
 		"count": 17,
+		"type": "r104824",
+		"pattern": "--X---X-X---X-X-",
+		"beats": 2
+	},
+	{
+		"count": 17,
 		"type": "r820800800",
 		"pattern": "X---X---X-------X-------",
 		"beats": 3
@@ -1376,6 +1388,12 @@
 	},
 	{
 		"count": 16,
+		"type": "r824900",
+		"pattern": "X---X-X-X-X-----",
+		"beats": 2
+	},
+	{
+		"count": 16,
 		"type": "r024120",
 		"pattern": "----X-X---X-X---",
 		"beats": 2
@@ -1384,12 +1402,6 @@
 		"count": 16,
 		"type": "r820888",
 		"pattern": "X---X---X--<->--",
-		"beats": 2
-	},
-	{
-		"count": 16,
-		"type": "r120904",
-		"pattern": "--X-X---X-X---X-",
 		"beats": 2
 	},
 	{
@@ -1448,14 +1460,14 @@
 	},
 	{
 		"count": 14,
-		"type": "r000400",
-		"pattern": "---------X------",
+		"type": "r124120",
+		"pattern": "--X-X-X---X-X---",
 		"beats": 2
 	},
 	{
 		"count": 14,
-		"type": "r824900",
-		"pattern": "X---X-X-X-X-----",
+		"type": "r000400",
+		"pattern": "---------X------",
 		"beats": 2
 	},
 	{
@@ -1514,12 +1526,6 @@
 	},
 	{
 		"count": 13,
-		"type": "r124120",
-		"pattern": "--X-X-X---X-X---",
-		"beats": 2
-	},
-	{
-		"count": 13,
 		"type": "r904024",
 		"pattern": "X-X---X-----X-X-",
 		"beats": 2
@@ -1535,12 +1541,6 @@
 		"type": "r800820000",
 		"pattern": "X-------X---X-----------",
 		"beats": 3
-	},
-	{
-		"count": 13,
-		"type": "r104824",
-		"pattern": "--X---X-X---X-X-",
-		"beats": 2
 	},
 	{
 		"count": 13,
@@ -1634,6 +1634,12 @@
 	},
 	{
 		"count": 11,
+		"type": "r024900",
+		"pattern": "----X-X-X-X-----",
+		"beats": 2
+	},
+	{
+		"count": 11,
 		"type": "r888820",
 		"pattern": "X--<->--X---X---",
 		"beats": 2
@@ -1676,14 +1682,14 @@
 	},
 	{
 		"count": 10,
-		"type": "r024900",
-		"pattern": "----X-X-X-X-----",
+		"type": "r000104",
+		"pattern": "----------X---X-",
 		"beats": 2
 	},
 	{
 		"count": 10,
-		"type": "r000104",
-		"pattern": "----------X---X-",
+		"type": "r104024",
+		"pattern": "--X---X-----X-X-",
 		"beats": 2
 	},
 	{
@@ -1714,6 +1720,12 @@
 		"count": 10,
 		"type": "r104004",
 		"pattern": "--X---X-------X-",
+		"beats": 2
+	},
+	{
+		"count": 10,
+		"type": "r120804",
+		"pattern": "--X-X---X-----X-",
 		"beats": 2
 	},
 	{
@@ -1754,6 +1766,12 @@
 	},
 	{
 		"count": 9,
+		"type": "r124900",
+		"pattern": "--X-X-X-X-X-----",
+		"beats": 2
+	},
+	{
+		"count": 9,
 		"type": "r020888",
 		"pattern": "----X---X--<->--",
 		"beats": 2
@@ -1780,12 +1798,6 @@
 		"count": 9,
 		"type": "r8A2820",
 		"pattern": "X--<X--<X---X---",
-		"beats": 2
-	},
-	{
-		"count": 9,
-		"type": "r120804",
-		"pattern": "--X-X---X-----X-",
 		"beats": 2
 	},
 	{
@@ -1826,14 +1838,14 @@
 	},
 	{
 		"count": 8,
-		"type": "r020120",
-		"pattern": "----X-----X-X---",
+		"type": "r820124",
+		"pattern": "X---X-----X-X-X-",
 		"beats": 2
 	},
 	{
 		"count": 8,
-		"type": "r124900",
-		"pattern": "--X-X-X-X-X-----",
+		"type": "r020120",
+		"pattern": "----X-----X-X---",
 		"beats": 2
 	},
 	{
@@ -1948,12 +1960,6 @@
 		"count": 7,
 		"type": "r904000",
 		"pattern": "X-X---X---------",
-		"beats": 2
-	},
-	{
-		"count": 7,
-		"type": "r820124",
-		"pattern": "X---X-----X-X-X-",
 		"beats": 2
 	},
 	{
@@ -2086,12 +2092,6 @@
 		"count": 6,
 		"type": "r000124",
 		"pattern": "----------X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 6,
-		"type": "r104024",
-		"pattern": "--X---X-----X-X-",
 		"beats": 2
 	},
 	{
@@ -2570,6 +2570,12 @@
 	},
 	{
 		"count": 4,
+		"type": "r024100",
+		"pattern": "----X-X---X-----",
+		"beats": 2
+	},
+	{
+		"count": 4,
 		"type": "r020400",
 		"pattern": "----X----X------",
 		"beats": 2
@@ -2914,6 +2920,12 @@
 		"count": 3,
 		"type": "r804888",
 		"pattern": "X-----X-X--<->--",
+		"beats": 2
+	},
+	{
+		"count": 3,
+		"type": "r120920",
+		"pattern": "--X-X---X-X-X---",
 		"beats": 2
 	},
 	{
@@ -3374,14 +3386,14 @@
 	},
 	{
 		"count": 2,
-		"type": "r802802",
-		"pattern": "X------<X------<",
+		"type": "r924D75",
+		"pattern": "X-X-X-X-XXXXXXXX",
 		"beats": 2
 	},
 	{
 		"count": 2,
-		"type": "r024100",
-		"pattern": "----X-X---X-----",
+		"type": "r802802",
+		"pattern": "X------<X------<",
 		"beats": 2
 	},
 	{
@@ -3683,12 +3695,6 @@
 		"type": "r804020100804020100820",
 		"pattern": "X-----X-----X-----X-----X-----X-----X-----X-----X---X---",
 		"beats": 7
-	},
-	{
-		"count": 2,
-		"type": "r120920",
-		"pattern": "--X-X---X-X-X---",
-		"beats": 2
 	},
 	{
 		"count": 2,
@@ -4493,12 +4499,6 @@
 		"type": "r935",
 		"pattern": "X-X-XXXX",
 		"beats": 1
-	},
-	{
-		"count": 1,
-		"type": "r924D75",
-		"pattern": "X-X-X-X-XXXXXXXX",
-		"beats": 2
 	},
 	{
 		"count": 1,

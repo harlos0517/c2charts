@@ -12,7 +12,7 @@ function processChart(chart, song, character, difficulty_id, path) {
 	if (!fs.existsSync(path))
 		fs.mkdirSync(path)
 
-	let data = require(`./data/${character.id}_${song.id}_${difficulty_id}_decrypted.json`)
+	let data = require(`./data/${character.id}_${song.id}_${difficulty_id}.json`)
 
 	// check completeness
 	let complete = true // set this to false and disable the following block to startover

@@ -11,9 +11,24 @@
 body {
 	font-family: 'Electrolize'!important;
 	font-size: 12pt!important;
+	background-color: #212121!important;
 }
 
+#navbar {
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #424242;
+	z-index: 1000
+}
+
+#navbar>.hover:hover {
+	background-color: #FFFFFF20;
+}
+
+
 #main {
+	margin-top: 6rem;;
 	margin-bottom: 3em;
 	width: max-content;
 }
@@ -40,11 +55,11 @@ tbody {
 }
 
 .table-fix-head>thead>tr:first-child>th {
-	top: 0;
+	top: 6rem;
 }
 
 .table-fix-head>thead>tr:nth-child(2)>th {
-	top: 3em;
+	top: calc(6rem + 3em);
 }
 
 .st-td {
@@ -117,6 +132,12 @@ tbody {
 	border-color: #00A96B!important;
 }
 
+.other {
+	color: #878787!important;
+	background-color: #373737!important;
+	border-color: #878787!important;
+}
+
 #index {
 	font-size: 1em;
 	right: 1.5em;
@@ -139,11 +160,13 @@ tbody {
 }
 
 #cols {
-	top: 0;
-	left: calc(100% - 3vh);
-	width: calc(200px + 3vh);
+	top: 6rem;
+	left: calc(100% - 4em);
+	width: calc(200px + 4em);
 	height: 75vh;
+	filter: drop-shadow(0 0 10px #000000);
 	transition: left 500ms;
+	z-index: 1000;
 }
 
 #cols>.content {
@@ -159,12 +182,17 @@ tbody {
 }
 
 #hover-tag {
-	right: 200px;
-	top: 3vh;
-	width: 3vh;
-	height: 6vh;
-	line-height: 6vh;
-	border-top-left-radius: 3vh;
-	border-bottom-left-radius: 3vh;
-	border-left: black .5vh solid;
+	width: 4em;
+	height: 4em;
+	line-height: 3em;
+	border-bottom-left-radius: 4em;
+}
+
+#hover-tag svg {
+	transform: translate(.5em, 0);
+}
+
+.popover-header, .popover-body {
+	color: black;
+	font-size: 1.5em!important;
 }

@@ -6,6 +6,7 @@
 	<title>Cytus II Chart Viewer</title>
 	<link href="chart.css" rel="stylesheet">
 	<!--BOOTSTRAP-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -20,38 +21,87 @@
 		gtag('config', 'UA-116631189-3');
 	</script>
 </head>
-<body class='bg-dark text-light'>
-	<div id="main" class="container-fluid">
-		<div id="title" class="row text-center py-3 fixed-top">
-			<div class="col-2">Ivy</div>
-			<div class="col-4">V.</div>
-			<div class="col-4">AESIR</div>
-			<div class="col-2">CHAOS 15</div>
+<body class='text-light'>
+	<div id="navbar" class="sticky-top d-flex flex-row align-items-center px-4 text-nowrap">
+		<a href="index.html" id="title" class="hover rounded-lg h1 m-0 p-4 d-block text-decoration-none text-reset">
+			Cytus II Chart Viewer
+		</a>
+		<div class="flex-grow-1"></div>
+		<a href="analyze.html" id="analyze" class="hover rounded-lg p-4 text-decoration-none text-reset">
+			Statistics
+		</a>
+		<div id="info" class="hover rounded-lg p-4"
+			data-toggle="popover" data-placement="bottom"
+			title="Report issues and suggestions"
+			data-content="<a href='https://github.com/DeemoHarlos/c2charts/issues/new'>GitHub</a> | 
+				<a href='https://www.messenger.com/t/deemoharlos'>Messenger</a>"
+		>Report</div>
+		<div id="report" class="hover rounded-lg p-4"
+			data-toggle="popover" data-placement="bottom"
+			title="Created by Deemo Harlos<br>UI/UX Designed by 雪糕蒂絲"
+			data-content="Deemo Harlos: <a href='https://www.facebook.com/deemoharlos.music'>Facebook</a> | 
+				<a href='https://www.youtube.com/c/DeemoHarlos'>YouTube</a> | 
+				<a href='https://www.instagram.com/deemo_harlos/'>Instagram</a> | 
+				<a href='https://twitter.com/deemo_harlos'>Twitter</a> | 
+				<a href='https://github.com/DeemoHarlos'>Github</a> | 
+				<a href='https://musescore.com/deemo_harlos'>Musescore</a> | 
+				<a href='https://www.patreon.com/DeemoHarlos'>Patreon</a>"
+		>About</div>
+	</div>
+	<div id="main" class="container-fluid p-4 p-lg-5">
+		<div id="header" class="d-flex flex-row py-4">
+			<div class="w-auto col-lg-2 p-0 mr-4 mr-lg-5 ml-lg-n2 d-flex justify-content-start align-items-center">
+				<a :href="`index.html?char=${character.id}`" class="back h-100 btn p-0 px-lg-3 ml-2 ml-lg-5 text-white rounded-lg">
+					<svg width="3em" height="100%" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+					</svg>
+				</a>
+			</div>
+			<img v-if="character.id !== 'other'" id="song-image" class="mr-4 mr-lg-5 rounded-lg" :src="`assets/${character.id}_${song.id}.png`" :alt="song.name">
+			<div v-else id="song-image" class="mr-4 mr-lg-5 rounded-lg d-flex justify-content-center align-items-center"><span>?</span></div>
+			<div class="py-2 flex-grow-1 d-flex flex-column justify-content-between">
+				<div class="m-0 my-3 h5">
+					<span class="py-3 px-5 rounded-lg" :style="`background-color: #${character.color};`">
+						{{ character.name }}
+					</span>
+				</div>
+				<div class="m-0 my-1 h1">{{ song.name }}</div>
+				<div class="m-0 my-1 h3">{{ song.composer }}</div>
+				<div class="m-0 my-1 h4">
+					<span class="pb-1 pt-2 px-2" :class="character.id === 'other' ? 'other' : difficulty">
+						{{ character.id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
+					</span>
+				</div>
+			</div>
 		</div>
-		<div id="charts" class="row mx-0">
-			<div v-for="index in curPageNum" class="chart col-12 col-lg-6 col-xl-3 px-1 py-3">
+		<div id="header-bar" class="d-flex flex-row align-items-center position-fixed w-100 py-2 px-4 px-lg-5"
+			:style="`background-color: #${character.color}; top: ${header ? 6 : 0}rem; opacity: ${header ? 1 : 0}`">
+			<div class="p-0 mr-4 mr-lg-5 ml-lg-n2 d-flex justify-content-start align-items-center">
+				<a :href="`index.html?char=${character.id}`" class="back h-100 btn p-0 px-lg-3 ml-2 ml-lg-5 text-white rounded-lg">
+					<svg width="3em" height="100%" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+					</svg>
+				</a>
+			</div>
+			<div id="header-name" class="m-0 h5 mr-4 mr-lg-5 text-center">
+				<span class="py-3 px-5 rounded-lg">
+					{{ character.name }}
+				</span>
+			</div>
+			<div class="m-0 px-2 h1 flex-grow-1">{{ song.name }}</div>
+			<div class="m-0 px-2 h3 flex-grow-1 d-none d-lg-block">{{ song.composer }}</div>
+			<div class="m-0 h4 mr-2 mr-lg-5">
+				<span class="pb-1 pt-2 px-2 text-nowrap" :class="character.id === 'other' ? 'other' : difficulty">
+					{{ character.id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
+				</span>
+			</div>
+		</div>
+		<div id="charts" class="row px-3 px-lg-5 my-3">
+			<div v-for="index in curPageNum" class="chart col-12 col-md-6 col-xl-3 p-2 p-lg-4 my-4">
 				<img :src="`http://140.112.211.69:2502/sample_V/${`${index-1}`.padStart(3, '0')}.png`" alt="	">
 			</div>
 		</div>
 	</div>
-	<div id="bottom" class="text-center fixed-bottom py-2">
-		<span>回報錯誤與建議 Report issues and suggestions: 
-			<a href="https://github.com/DeemoHarlos/c2charts/issues/new">GitHub</a> | 
-			<a href="https://www.messenger.com/t/deemoharlos">Messenger</a>
-		</span><br>Made by Deemo Harlos - 
-			<a href="https://www.facebook.com/deemoharlos.music">Facebook</a> | 
-			<a href="https://www.youtube.com/c/DeemoHarlos">YouTube</a> | 
-			<a href="https://www.instagram.com/deemo_harlos/">Instagram</a> | 
-			<a href="https://twitter.com/deemo_harlos">Twitter</a> | 
-			<a href="https://github.com/DeemoHarlos">Github</a> | 
-			<a href="https://musescore.com/deemo_harlos">Musescore</a> | 
-			<a href="https://www.patreon.com/DeemoHarlos">Patreon</a>
-		</span>
-	</div>
-	<a href="index.html" id="index"
-		class="position-fixed text-center btn btn-primary p-4 stretched-link text-white">
-		返回<br>BACK
-	</a>
 	<script src="sample.js" type="text/javascript"></script>
 </body>
 </html>

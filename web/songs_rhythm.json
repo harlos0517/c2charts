@@ -1,17 +1,17 @@
 [
 	{
-		"count": 33314,
+		"count": 33318,
 		"type": "r8",
 		"pattern": "X"
 	},
 	{
-		"count": 28778,
+		"count": 28835,
 		"type": "r800800",
 		"pattern": "X-------X-------",
 		"beats": 2
 	},
 	{
-		"count": 27772,
+		"count": 27792,
 		"type": "r0"
 	},
 	{
@@ -21,7 +21,7 @@
 		"beats": 2
 	},
 	{
-		"count": 11618,
+		"count": 11631,
 		"type": "r000800",
 		"pattern": "--------X-------",
 		"beats": 2
@@ -51,7 +51,7 @@
 		"beats": 2
 	},
 	{
-		"count": 3410,
+		"count": 3411,
 		"type": "r020000",
 		"pattern": "----X-----------",
 		"beats": 2
@@ -75,7 +75,7 @@
 		"beats": 2
 	},
 	{
-		"count": 1995,
+		"count": 1997,
 		"type": "r000020",
 		"pattern": "------------X---",
 		"beats": 2
@@ -117,7 +117,7 @@
 		"beats": 2
 	},
 	{
-		"count": 555,
+		"count": 564,
 		"type": "r888888",
 		"pattern": "X--<->--X--<->--",
 		"beats": 2
@@ -135,7 +135,7 @@
 		"beats": 2
 	},
 	{
-		"count": 463,
+		"count": 487,
 		"type": "r808808",
 		"pattern": "X---->--X---->--",
 		"beats": 2
@@ -171,7 +171,7 @@
 		"beats": 2
 	},
 	{
-		"count": 375,
+		"count": 377,
 		"type": "rX"
 	},
 	{
@@ -241,6 +241,12 @@
 		"beats": 2
 	},
 	{
+		"count": 231,
+		"type": "r800808",
+		"pattern": "X-------X---->--",
+		"beats": 2
+	},
+	{
 		"count": 225,
 		"type": "r800924",
 		"pattern": "X-------X-X-X-X-",
@@ -256,12 +262,6 @@
 		"count": 221,
 		"type": "r820920",
 		"pattern": "X---X---X-X-X---",
-		"beats": 2
-	},
-	{
-		"count": 201,
-		"type": "r800808",
-		"pattern": "X-------X---->--",
 		"beats": 2
 	},
 	{
@@ -313,15 +313,27 @@
 		"beats": 2
 	},
 	{
+		"count": 156,
+		"type": "r808800",
+		"pattern": "X---->--X-------",
+		"beats": 2
+	},
+	{
 		"count": 155,
 		"type": "r924",
 		"pattern": "X-X-X-X-",
 		"beats": 1
 	},
 	{
-		"count": 153,
+		"count": 154,
 		"type": "r800888",
 		"pattern": "X-------X--<->--",
+		"beats": 2
+	},
+	{
+		"count": 154,
+		"type": "r800008",
+		"pattern": "X------------>--",
 		"beats": 2
 	},
 	{
@@ -361,18 +373,6 @@
 		"beats": 2
 	},
 	{
-		"count": 147,
-		"type": "r808800",
-		"pattern": "X---->--X-------",
-		"beats": 2
-	},
-	{
-		"count": 146,
-		"type": "r800008",
-		"pattern": "X------------>--",
-		"beats": 2
-	},
-	{
 		"count": 135,
 		"type": "r004000",
 		"pattern": "------X---------",
@@ -385,7 +385,7 @@
 		"beats": 2
 	},
 	{
-		"count": 129,
+		"count": 131,
 		"type": "r008008",
 		"pattern": "----->------->--",
 		"beats": 2
@@ -415,6 +415,12 @@
 		"beats": 2
 	},
 	{
+		"count": 110,
+		"type": "r808008",
+		"pattern": "X---->------->--",
+		"beats": 2
+	},
+	{
 		"count": 109,
 		"type": "r900900",
 		"pattern": "X-X-----X-X-----",
@@ -427,21 +433,15 @@
 		"beats": 2
 	},
 	{
-		"count": 104,
-		"type": "r800004",
-		"pattern": "X-------------X-",
-		"beats": 2
-	},
-	{
-		"count": 103,
+		"count": 106,
 		"type": "r008000",
 		"pattern": "----->----------",
 		"beats": 2
 	},
 	{
-		"count": 103,
-		"type": "r808008",
-		"pattern": "X---->------->--",
+		"count": 104,
+		"type": "r800004",
+		"pattern": "X-------------X-",
 		"beats": 2
 	},
 	{
@@ -460,6 +460,12 @@
 		"count": 100,
 		"type": "r120820",
 		"pattern": "--X-X---X---X---",
+		"beats": 2
+	},
+	{
+		"count": 99,
+		"type": "r008808",
+		"pattern": "----->--X---->--",
 		"beats": 2
 	},
 	{
@@ -496,12 +502,6 @@
 		"count": 89,
 		"type": "r924824",
 		"pattern": "X-X-X-X-X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 88,
-		"type": "r008808",
-		"pattern": "----->--X---->--",
 		"beats": 2
 	},
 	{
@@ -578,6 +578,12 @@
 	},
 	{
 		"count": 70,
+		"type": "r000100",
+		"pattern": "----------X-----",
+		"beats": 2
+	},
+	{
+		"count": 70,
 		"type": "r800800000",
 		"pattern": "X-------X---------------",
 		"beats": 3
@@ -589,21 +595,15 @@
 		"beats": 2
 	},
 	{
-		"count": 69,
-		"type": "r000100",
-		"pattern": "----------X-----",
+		"count": 67,
+		"type": "r000008",
+		"pattern": "------------->--",
 		"beats": 2
 	},
 	{
 		"count": 65,
 		"type": "r024924",
 		"pattern": "----X-X-X-X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 65,
-		"type": "r000008",
-		"pattern": "------------->--",
 		"beats": 2
 	},
 	{
@@ -655,6 +655,18 @@
 		"beats": 2
 	},
 	{
+		"count": 57,
+		"type": "r000808",
+		"pattern": "--------X---->--",
+		"beats": 2
+	},
+	{
+		"count": 55,
+		"type": "r808888",
+		"pattern": "X---->--X--<->--",
+		"beats": 2
+	},
+	{
 		"count": 54,
 		"type": "r804120",
 		"pattern": "X-----X---X-X---",
@@ -688,12 +700,6 @@
 		"count": 53,
 		"type": "r924900",
 		"pattern": "X-X-X-X-X-X-----",
-		"beats": 2
-	},
-	{
-		"count": 53,
-		"type": "r808888",
-		"pattern": "X---->--X--<->--",
 		"beats": 2
 	},
 	{
@@ -745,6 +751,12 @@
 		"beats": 1
 	},
 	{
+		"count": 49,
+		"type": "r008800",
+		"pattern": "----->--X-------",
+		"beats": 2
+	},
+	{
 		"count": 48,
 		"type": "r400000",
 		"pattern": "-X--------------",
@@ -776,6 +788,12 @@
 	},
 	{
 		"count": 47,
+		"type": "r800880",
+		"pattern": "X-------X--<----",
+		"beats": 2
+	},
+	{
+		"count": 47,
 		"type": "r820120",
 		"pattern": "X---X-----X-X---",
 		"beats": 2
@@ -796,12 +814,6 @@
 		"count": 45,
 		"type": "r024104",
 		"pattern": "----X-X---X---X-",
-		"beats": 2
-	},
-	{
-		"count": 45,
-		"type": "r800880",
-		"pattern": "X-------X--<----",
 		"beats": 2
 	},
 	{
@@ -871,12 +883,6 @@
 		"beats": 2
 	},
 	{
-		"count": 41,
-		"type": "r000808",
-		"pattern": "--------X---->--",
-		"beats": 2
-	},
-	{
 		"count": 40,
 		"type": "r824000",
 		"pattern": "X---X-X---------",
@@ -908,6 +914,12 @@
 	},
 	{
 		"count": 38,
+		"type": "r808880",
+		"pattern": "X---->--X--<----",
+		"beats": 2
+	},
+	{
+		"count": 38,
 		"type": "r020024",
 		"pattern": "----X-------X-X-",
 		"beats": 2
@@ -925,12 +937,6 @@
 		"beats": 2
 	},
 	{
-		"count": 37,
-		"type": "r008800",
-		"pattern": "----->--X-------",
-		"beats": 2
-	},
-	{
 		"count": 36,
 		"type": "r100924",
 		"pattern": "--X-----X-X-X-X-",
@@ -941,12 +947,6 @@
 		"type": "r800000820",
 		"pattern": "X---------------X---X---",
 		"beats": 3
-	},
-	{
-		"count": 35,
-		"type": "r808880",
-		"pattern": "X---->--X--<----",
-		"beats": 2
 	},
 	{
 		"count": 35,
@@ -1556,6 +1556,12 @@
 	},
 	{
 		"count": 13,
+		"type": "r002000",
+		"pattern": "-------<--------",
+		"beats": 2
+	},
+	{
+		"count": 13,
 		"type": "r004900",
 		"pattern": "------X-X-X-----",
 		"beats": 2
@@ -1655,12 +1661,6 @@
 		"type": "r925",
 		"pattern": "X-X-X-XX",
 		"beats": 1
-	},
-	{
-		"count": 11,
-		"type": "r002000",
-		"pattern": "-------<--------",
-		"beats": 2
 	},
 	{
 		"count": 11,
@@ -1898,6 +1898,12 @@
 	},
 	{
 		"count": 8,
+		"type": "r880880",
+		"pattern": "X--<----X--<----",
+		"beats": 2
+	},
+	{
+		"count": 8,
 		"type": "r900824",
 		"pattern": "X-X-----X---X-X-",
 		"beats": 2
@@ -2038,12 +2044,6 @@
 		"count": 7,
 		"type": "r8888A8",
 		"pattern": "X--<->--X--<X>--",
-		"beats": 2
-	},
-	{
-		"count": 7,
-		"type": "r880880",
-		"pattern": "X--<----X--<----",
 		"beats": 2
 	},
 	{
@@ -3206,6 +3206,12 @@
 	},
 	{
 		"count": 3,
+		"type": "r088808",
+		"pattern": "---<->--X---->--",
+		"beats": 2
+	},
+	{
+		"count": 3,
 		"type": "r800100000",
 		"pattern": "X---------X-------------",
 		"beats": 3
@@ -3388,6 +3394,12 @@
 		"count": 2,
 		"type": "r924D75",
 		"pattern": "X-X-X-X-XXXXXXXX",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r002002",
+		"pattern": "-------<-------<",
 		"beats": 2
 	},
 	{
@@ -4510,12 +4522,6 @@
 		"count": 1,
 		"type": "r124100",
 		"pattern": "--X-X-X---X-----",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r002002",
-		"pattern": "-------<-------<",
 		"beats": 2
 	},
 	{

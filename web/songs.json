@@ -4888,6 +4888,10 @@
 					"chaos": {
 						"level": 12,
 						"pageNum": 118
+					},
+					"glitch": {
+						"level": 14,
+						"pageNum": 235
 					}
 				}
 			},

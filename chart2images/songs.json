@@ -568,7 +568,7 @@
 		{ "id": "005", "name": "Open the Game", "composer": "Jiro",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 6 }, "chaos": { "level": 13 }}},
 		{ "id": "006", "name": "Hydrangea", "composer": "Tatsh",
-		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 12 }}},
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 12 }, "glitch": { "level": 14 }}},
 		{ "id": "007", "name": "Absolutely", "composer": "Shi Kuang Lee & Pico",
 		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 11 }}},
 		{ "id": "008", "name": "Higher and Higher", "composer": "Jiro",

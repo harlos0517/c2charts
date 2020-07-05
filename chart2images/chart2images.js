@@ -4,7 +4,7 @@ const { createCanvas, loadImage, registerFont } = require('canvas')
 const canvasWidth = 1920
 const canvasHeight = 1440
 const margin = {
-	'top': 180,
+	'top': 240,
 	'bottom' : 140,
 	'side' : 100
 }
@@ -103,11 +103,19 @@ function writeText(ctx, str, x, y, align, fontSize) {
 	return xi + fontSize*.3*((align === 'right') ? -1 : 1)
 }
 
-function writeBpm(ctx, bpm, x, y, fontSize) {
+function writeBpm(ctx, bpm, x, y, fontSize, align) {
 	let [int, dec] = bpm.toFixed(2).split('.');
-	let xn = writeText(ctx, dec, x            , y, 'right', fontSize)
-	    xn = writeText(ctx, '.', xn+fontSize/6, y, 'right', fontSize)
-			xn = writeText(ctx, int, xn+fontSize/6, y, 'right', fontSize)
+	ctx.textAlign = 'center'
+	let xn
+	if (align === 'right') {
+		xn = writeText(ctx, dec, x, y, align, fontSize)
+		xn = writeText(ctx, '.', xn+fontSize*0.2, y, align, fontSize)
+		xn = writeText(ctx, int, xn+fontSize*0.2, y, align, fontSize)
+	} else {
+		xn = writeText(ctx, int, x, y, align, fontSize)
+		xn = writeText(ctx, '.', xn-fontSize*0.2, y, align, fontSize)
+		xn = writeText(ctx, dec, xn-fontSize*0.2, y, align, fontSize)
+	}
 	return xn
 }
 
@@ -123,22 +131,28 @@ function initCanvas(ctx, page) {
 	ctx.font = `${fontSize}px "Rajdhani"`
 	ctx.textAlign = 'center'
 	ctx.fillStyle = '#FFFFFF'
-	writeText(ctx, page.id.toString().padStart(3, '0'), fontSize*.2, fontSize, 'left', fontSize)
+	writeText(ctx, page.id.toString().padStart(3, '0'), canvasWidth / 2 - fontSize * .9, fontSize, 'left', fontSize)
 
 	// BPM
+	fontSize = 80
 	ctx.font = `${fontSize}px "Rajdhani"`
-	ctx.textAlign = 'center'
-	let bpm  = page.tempos[0].bpm
-	let color = '#FFFFFF'
-	ctx.fillStyle = color
-	writeText(ctx, 'BPM', canvasWidth - fontSize*.3, fontSize, 'right', fontSize)
+	ctx.textAlign = 'right'
+	ctx.fillStyle = '#FFFFFF'
+	ctx.fillText('BPM', canvasWidth - fontSize*.2, fontSize)
+
+	// SCANLINE
+	fontSize = 80
+	ctx.font = `${fontSize}px "Rajdhani"`
+	ctx.textAlign = 'left'
+	ctx.fillStyle = '#FFFFFF'
+	ctx.fillText('SCANLINE', fontSize*.2, fontSize)
 }
 
 function getBpmChange(a, b) {
 	return Math.log2(a) - Math.log2(b)
 }
 
-function drawTempoChange(ctx, page, initBpmChange) {
+function drawTempoChange(ctx, page, initBpmChange, lineSpeedChange) {
 	let tempos = page.tempos
 	let initBpm = tempos[0].bpm
 	tempos.forEach((tempo, tempoIndex, tempos)=>{
@@ -157,17 +171,23 @@ function drawTempoChange(ctx, page, initBpmChange) {
 	let y = (page.dir > 0) ? canvasHeight : 0
 	tempos.forEach((tempo, tempoIndex, tempos)=>{
 		let bpmChange = tempoIndex ? getBpmChange(tempo.bpm, initBpm) : initBpmChange
+		let lineChange = tempoIndex ? bpmChange : lineSpeedChange
 		let fontSize = 60
 		ctx.font = `${fontSize}px "Rajdhani"`
-		let color2 = '#FFFFFF'
-		if (bpmChange > 0) color2 = '#FF8888'
-		if (bpmChange < 0) color2 = '#88FFBB'
-		ctx.fillStyle = color2
 		let start = yPos(page.dir, (tempo.tick - page.start_tick) / page.delta)
 		let end = yPos(page.dir, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
 		if (start > end) [start, end] = [end, start]
 		y = (page.dir > 0) ? Math.min(y, end - fontSize*.2) : Math.max(y, start + fontSize)
-		writeBpm(ctx, tempo.bpm, canvasWidth - fontSize*.3, y, fontSize)
+		let color = '#FFFFFF'
+		if (bpmChange > 0) color = '#FF8888'
+		if (bpmChange < 0) color = '#88FFBB'
+		ctx.fillStyle = color
+		writeBpm(ctx, tempo.bpm, canvasWidth - fontSize*.2, y, fontSize, 'right')
+		color = '#FFFFFF'
+		if (lineChange > 0) color = '#FF8888'
+		if (lineChange < 0) color = '#88FFBB'
+		ctx.fillStyle = color
+		writeBpm(ctx, tempo.bpm / page.beats, fontSize*.2, y, fontSize, 'left')
 		y -= fontSize * page.dir
 	})
 }
@@ -462,9 +482,8 @@ function processData(data, path, pageNum) {
 			ctx.globalAlpha = 1
 		}
 
-		// draw tempo changes, direction and beat lines
+		// draw direction and beat lines
 		drawBeatLines(ctx, page)
-		drawTempoChange(ctx, page, bpmChange)
 		drawDirection(ctx, page, lineSpeedChange)
 
 		// Draw existing long holds
@@ -478,6 +497,9 @@ function processData(data, path, pageNum) {
 
 		prevBpm = page.tempos[page.tempos.length-1].bpm
 
+		// draw tempo changes
+		drawTempoChange(ctx, page, bpmChange, lineSpeedChange)
+	
 		// write to file
 		let finalCanvas = createCanvas(canvasWidth*scale, canvasHeight*scale)
 		let finalCtx = finalCanvas.getContext('2d')

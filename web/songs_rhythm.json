@@ -1,190 +1,190 @@
 [
 	{
-		"count": 33318,
+		"count": 35110,
 		"type": "r8",
 		"pattern": "X"
 	},
 	{
-		"count": 28835,
+		"count": 30446,
 		"type": "r800800",
 		"pattern": "X-------X-------",
 		"beats": 2
 	},
 	{
-		"count": 27792,
+		"count": 29212,
 		"type": "r0"
 	},
 	{
-		"count": 16045,
+		"count": 17214,
 		"type": "r820820",
 		"pattern": "X---X---X---X---",
 		"beats": 2
 	},
 	{
-		"count": 11631,
+		"count": 12323,
 		"type": "r000800",
 		"pattern": "--------X-------",
 		"beats": 2
 	},
 	{
-		"count": 6048,
+		"count": 6574,
 		"type": "r800820",
 		"pattern": "X-------X---X---",
 		"beats": 2
 	},
 	{
-		"count": 5382,
+		"count": 5692,
 		"type": "r800020",
 		"pattern": "X-----------X---",
 		"beats": 2
 	},
 	{
-		"count": 3853,
+		"count": 4146,
 		"type": "r820800",
 		"pattern": "X---X---X-------",
 		"beats": 2
 	},
 	{
-		"count": 3772,
+		"count": 4024,
 		"type": "r804020",
 		"pattern": "X-----X-----X---",
 		"beats": 2
 	},
 	{
-		"count": 3411,
+		"count": 3710,
 		"type": "r020000",
 		"pattern": "----X-----------",
 		"beats": 2
 	},
 	{
-		"count": 3347,
+		"count": 3618,
 		"type": "r020820",
 		"pattern": "----X---X---X---",
 		"beats": 2
 	},
 	{
-		"count": 3099,
+		"count": 3444,
 		"type": "r020020",
 		"pattern": "----X-------X---",
 		"beats": 2
 	},
 	{
-		"count": 2052,
+		"count": 2211,
 		"type": "r820020",
 		"pattern": "X---X-------X---",
 		"beats": 2
 	},
 	{
-		"count": 1997,
+		"count": 2177,
 		"type": "r000020",
 		"pattern": "------------X---",
 		"beats": 2
 	},
 	{
-		"count": 1930,
+		"count": 2050,
 		"type": "r020800",
 		"pattern": "----X---X-------",
 		"beats": 2
 	},
 	{
-		"count": 1924,
+		"count": 2047,
 		"type": "r924924",
 		"pattern": "X-X-X-X-X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 1595,
+		"count": 1721,
 		"type": "r000820",
 		"pattern": "--------X---X---",
 		"beats": 2
 	},
 	{
-		"count": 998,
+		"count": 1142,
 		"type": "r820000",
 		"pattern": "X---X-----------",
 		"beats": 2
 	},
 	{
-		"count": 828,
+		"count": 853,
 		"type": "r804820",
 		"pattern": "X-----X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 620,
+		"count": 675,
 		"type": "r824820",
 		"pattern": "X---X-X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 564,
+		"count": 616,
 		"type": "r888888",
 		"pattern": "X--<->--X--<->--",
 		"beats": 2
 	},
 	{
-		"count": 534,
+		"count": 583,
 		"type": "r020100",
 		"pattern": "----X-----X-----",
 		"beats": 2
 	},
 	{
-		"count": 503,
+		"count": 512,
 		"type": "r808080",
 		"pattern": "X---->-----<----",
 		"beats": 2
 	},
 	{
-		"count": 487,
-		"type": "r808808",
-		"pattern": "X---->--X---->--",
-		"beats": 2
-	},
-	{
-		"count": 457,
-		"type": "r800804",
-		"pattern": "X-------X-----X-",
-		"beats": 2
-	},
-	{
-		"count": 452,
+		"count": 505,
 		"type": "r820824",
 		"pattern": "X---X---X---X-X-",
 		"beats": 2
 	},
 	{
-		"count": 450,
+		"count": 491,
+		"type": "r808808",
+		"pattern": "X---->--X---->--",
+		"beats": 2
+	},
+	{
+		"count": 490,
 		"type": "r100800",
 		"pattern": "--X-----X-------",
 		"beats": 2
 	},
 	{
-		"count": 387,
+		"count": 473,
+		"type": "r800804",
+		"pattern": "X-------X-----X-",
+		"beats": 2
+	},
+	{
+		"count": 395,
 		"type": "r824824",
 		"pattern": "X---X-X-X---X-X-",
 		"beats": 2
 	},
 	{
-		"count": 383,
+		"count": 386,
 		"type": "r100820",
 		"pattern": "--X-----X---X---",
 		"beats": 2
 	},
 	{
-		"count": 377,
+		"count": 379,
 		"type": "rX"
+	},
+	{
+		"count": 365,
+		"type": "r820",
+		"pattern": "X---X---",
+		"beats": 1
 	},
 	{
 		"count": 357,
 		"type": "r800020000",
 		"pattern": "X-----------X-----------",
 		"beats": 3
-	},
-	{
-		"count": 356,
-		"type": "r820",
-		"pattern": "X---X---",
-		"beats": 1
 	},
 	{
 		"count": 350,
@@ -199,117 +199,147 @@
 		"beats": 3
 	},
 	{
-		"count": 304,
-		"type": "r100000",
-		"pattern": "--X-------------",
-		"beats": 2
-	},
-	{
-		"count": 301,
-		"type": "r924800",
-		"pattern": "X-X-X-X-X-------",
-		"beats": 2
-	},
-	{
-		"count": 287,
-		"type": "r804000",
-		"pattern": "X-----X---------",
-		"beats": 2
-	},
-	{
-		"count": 287,
+		"count": 319,
 		"type": "r820924",
 		"pattern": "X---X---X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 285,
+		"count": 316,
+		"type": "r100000",
+		"pattern": "--X-------------",
+		"beats": 2
+	},
+	{
+		"count": 315,
+		"type": "r924800",
+		"pattern": "X-X-X-X-X-------",
+		"beats": 2
+	},
+	{
+		"count": 306,
+		"type": "r804000",
+		"pattern": "X-----X---------",
+		"beats": 2
+	},
+	{
+		"count": 306,
 		"type": "r924820",
 		"pattern": "X-X-X-X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 262,
+		"count": 277,
 		"type": "r824120",
 		"pattern": "X---X-X---X-X---",
 		"beats": 2
 	},
 	{
-		"count": 262,
+		"count": 270,
 		"type": "r100804",
 		"pattern": "--X-----X-----X-",
 		"beats": 2
 	},
 	{
-		"count": 231,
-		"type": "r800808",
-		"pattern": "X-------X---->--",
-		"beats": 2
-	},
-	{
-		"count": 225,
+		"count": 249,
 		"type": "r800924",
 		"pattern": "X-------X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 223,
+		"count": 242,
 		"type": "r800824",
 		"pattern": "X-------X---X-X-",
 		"beats": 2
 	},
 	{
-		"count": 221,
+		"count": 239,
+		"type": "r800808",
+		"pattern": "X-------X---->--",
+		"beats": 2
+	},
+	{
+		"count": 232,
 		"type": "r820920",
 		"pattern": "X---X---X-X-X---",
 		"beats": 2
 	},
 	{
-		"count": 195,
+		"count": 210,
 		"type": "r920820",
 		"pattern": "X-X-X---X---X---",
 		"beats": 2
 	},
 	{
-		"count": 190,
-		"type": "r800024",
-		"pattern": "X-----------X-X-",
-		"beats": 2
-	},
-	{
-		"count": 185,
+		"count": 203,
 		"type": "r824924",
 		"pattern": "X---X-X-X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 181,
+		"count": 201,
+		"type": "r800024",
+		"pattern": "X-----------X-X-",
+		"beats": 2
+	},
+	{
+		"count": 188,
 		"type": "r820900",
 		"pattern": "X---X---X-X-----",
 		"beats": 2
 	},
 	{
-		"count": 172,
+		"count": 185,
+		"type": "r924",
+		"pattern": "X-X-X-X-",
+		"beats": 1
+	},
+	{
+		"count": 184,
+		"type": "r820100",
+		"pattern": "X---X-----X-----",
+		"beats": 2
+	},
+	{
+		"count": 183,
 		"type": "r824020",
 		"pattern": "X---X-X-----X---",
 		"beats": 2
 	},
 	{
-		"count": 167,
+		"count": 173,
 		"type": "r904820",
 		"pattern": "X-X---X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 164,
+		"count": 169,
 		"type": "r920920",
 		"pattern": "X-X-X---X-X-X---",
+		"beats": 2
+	},
+	{
+		"count": 167,
+		"type": "r800888",
+		"pattern": "X-------X--<->--",
+		"beats": 2
+	},
+	{
+		"count": 165,
+		"type": "r820904",
+		"pattern": "X---X---X-X---X-",
 		"beats": 2
 	},
 	{
 		"count": 158,
 		"type": "r808000",
 		"pattern": "X---->----------",
+		"beats": 2
+	},
+	{
+		"count": 157,
+		"type": "r904824",
+		"pattern": "X-X---X-X---X-X-",
 		"beats": 2
 	},
 	{
@@ -320,14 +350,14 @@
 	},
 	{
 		"count": 155,
-		"type": "r924",
-		"pattern": "X-X-X-X-",
-		"beats": 1
+		"type": "r804800",
+		"pattern": "X-----X-X-------",
+		"beats": 2
 	},
 	{
-		"count": 154,
-		"type": "r800888",
-		"pattern": "X-------X--<->--",
+		"count": 155,
+		"type": "r000804",
+		"pattern": "--------X-----X-",
 		"beats": 2
 	},
 	{
@@ -337,51 +367,27 @@
 		"beats": 2
 	},
 	{
-		"count": 150,
-		"type": "r820904",
-		"pattern": "X---X---X-X---X-",
-		"beats": 2
-	},
-	{
-		"count": 150,
-		"type": "r000804",
-		"pattern": "--------X-----X-",
-		"beats": 2
-	},
-	{
-		"count": 149,
-		"type": "r804800",
-		"pattern": "X-----X-X-------",
-		"beats": 2
-	},
-	{
-		"count": 149,
-		"type": "r904824",
-		"pattern": "X-X---X-X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 148,
-		"type": "r820100",
-		"pattern": "X---X-----X-----",
-		"beats": 2
-	},
-	{
-		"count": 148,
+		"count": 151,
 		"type": "r820804",
 		"pattern": "X---X---X-----X-",
 		"beats": 2
 	},
 	{
-		"count": 135,
+		"count": 148,
+		"type": "r888800",
+		"pattern": "X--<->--X-------",
+		"beats": 2
+	},
+	{
+		"count": 140,
 		"type": "r004000",
 		"pattern": "------X---------",
 		"beats": 2
 	},
 	{
-		"count": 135,
-		"type": "r888800",
-		"pattern": "X--<->--X-------",
+		"count": 136,
+		"type": "r800100",
+		"pattern": "X---------X-----",
 		"beats": 2
 	},
 	{
@@ -391,27 +397,33 @@
 		"beats": 2
 	},
 	{
-		"count": 124,
-		"type": "r800100",
-		"pattern": "X---------X-----",
-		"beats": 2
-	},
-	{
-		"count": 122,
+		"count": 129,
 		"type": "r020824",
 		"pattern": "----X---X---X-X-",
 		"beats": 2
 	},
 	{
-		"count": 121,
+		"count": 126,
+		"type": "r924920",
+		"pattern": "X-X-X-X-X-X-X---",
+		"beats": 2
+	},
+	{
+		"count": 123,
 		"type": "r900820",
 		"pattern": "X-X-----X---X---",
 		"beats": 2
 	},
 	{
-		"count": 115,
-		"type": "r924920",
-		"pattern": "X-X-X-X-X-X-X---",
+		"count": 114,
+		"type": "r804804",
+		"pattern": "X-----X-X-----X-",
+		"beats": 2
+	},
+	{
+		"count": 110,
+		"type": "r900900",
+		"pattern": "X-X-----X-X-----",
 		"beats": 2
 	},
 	{
@@ -422,14 +434,8 @@
 	},
 	{
 		"count": 109,
-		"type": "r900900",
-		"pattern": "X-X-----X-X-----",
-		"beats": 2
-	},
-	{
-		"count": 109,
-		"type": "r804804",
-		"pattern": "X-----X-X-----X-",
+		"type": "r800004",
+		"pattern": "X-------------X-",
 		"beats": 2
 	},
 	{
@@ -439,9 +445,21 @@
 		"beats": 2
 	},
 	{
+		"count": 105,
+		"type": "r004020",
+		"pattern": "------X-----X---",
+		"beats": 2
+	},
+	{
 		"count": 104,
-		"type": "r800004",
-		"pattern": "X-------------X-",
+		"type": "r120820",
+		"pattern": "--X-X---X---X---",
+		"beats": 2
+	},
+	{
+		"count": 103,
+		"type": "r800080",
+		"pattern": "X----------<----",
 		"beats": 2
 	},
 	{
@@ -451,15 +469,9 @@
 		"beats": 3
 	},
 	{
-		"count": 100,
-		"type": "r800080",
-		"pattern": "X----------<----",
-		"beats": 2
-	},
-	{
-		"count": 100,
-		"type": "r120820",
-		"pattern": "--X-X---X---X---",
+		"count": 101,
+		"type": "r920800",
+		"pattern": "X-X-X---X-------",
 		"beats": 2
 	},
 	{
@@ -470,20 +482,26 @@
 	},
 	{
 		"count": 98,
-		"type": "r004020",
-		"pattern": "------X-----X---",
-		"beats": 2
-	},
-	{
-		"count": 98,
 		"type": "r020",
 		"pattern": "----X---",
 		"beats": 1
 	},
 	{
-		"count": 95,
+		"count": 97,
+		"type": "r924824",
+		"pattern": "X-X-X-X-X---X-X-",
+		"beats": 2
+	},
+	{
+		"count": 96,
 		"type": "r100100",
 		"pattern": "--X-------X-----",
+		"beats": 2
+	},
+	{
+		"count": 96,
+		"type": "r920824",
+		"pattern": "X-X-X---X---X-X-",
 		"beats": 2
 	},
 	{
@@ -494,26 +512,26 @@
 	},
 	{
 		"count": 90,
-		"type": "r920824",
-		"pattern": "X-X-X---X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 89,
-		"type": "r924824",
-		"pattern": "X-X-X-X-X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 86,
-		"type": "r920800",
-		"pattern": "X-X-X---X-------",
-		"beats": 2
-	},
-	{
-		"count": 86,
 		"type": "r824800",
 		"pattern": "X---X-X-X-------",
+		"beats": 2
+	},
+	{
+		"count": 87,
+		"type": "r824920",
+		"pattern": "X---X-X-X-X-X---",
+		"beats": 2
+	},
+	{
+		"count": 83,
+		"type": "r020804",
+		"pattern": "----X---X-----X-",
+		"beats": 2
+	},
+	{
+		"count": 82,
+		"type": "r824104",
+		"pattern": "X---X-X---X---X-",
 		"beats": 2
 	},
 	{
@@ -523,33 +541,21 @@
 		"beats": 1
 	},
 	{
-		"count": 82,
-		"type": "r020804",
-		"pattern": "----X---X-----X-",
+		"count": 80,
+		"type": "r804100",
+		"pattern": "X-----X---X-----",
+		"beats": 2
+	},
+	{
+		"count": 79,
+		"type": "r900800",
+		"pattern": "X-X-----X-------",
 		"beats": 2
 	},
 	{
 		"count": 79,
 		"type": "r120800",
 		"pattern": "--X-X---X-------",
-		"beats": 2
-	},
-	{
-		"count": 78,
-		"type": "r824104",
-		"pattern": "X---X-X---X---X-",
-		"beats": 2
-	},
-	{
-		"count": 78,
-		"type": "r824920",
-		"pattern": "X---X-X-X-X-X---",
-		"beats": 2
-	},
-	{
-		"count": 74,
-		"type": "r804100",
-		"pattern": "X-----X---X-----",
 		"beats": 2
 	},
 	{
@@ -572,14 +578,32 @@
 	},
 	{
 		"count": 73,
+		"type": "r820024",
+		"pattern": "X---X-------X-X-",
+		"beats": 2
+	},
+	{
+		"count": 73,
 		"type": "r104820",
 		"pattern": "--X---X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 70,
+		"count": 72,
 		"type": "r000100",
 		"pattern": "----------X-----",
+		"beats": 2
+	},
+	{
+		"count": 72,
+		"type": "r024924",
+		"pattern": "----X-X-X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 70,
+		"type": "r920924",
+		"pattern": "X-X-X---X-X-X-X-",
 		"beats": 2
 	},
 	{
@@ -589,33 +613,27 @@
 		"beats": 3
 	},
 	{
-		"count": 69,
-		"type": "r900800",
-		"pattern": "X-X-----X-------",
-		"beats": 2
-	},
-	{
 		"count": 67,
 		"type": "r000008",
 		"pattern": "------------->--",
 		"beats": 2
 	},
 	{
+		"count": 66,
+		"type": "r800920",
+		"pattern": "X-------X-X-X---",
+		"beats": 2
+	},
+	{
 		"count": 65,
-		"type": "r024924",
-		"pattern": "----X-X-X-X-X-X-",
+		"type": "r900804",
+		"pattern": "X-X-----X-----X-",
 		"beats": 2
 	},
 	{
 		"count": 64,
-		"type": "r820024",
-		"pattern": "X---X-------X-X-",
-		"beats": 2
-	},
-	{
-		"count": 63,
-		"type": "r920924",
-		"pattern": "X-X-X---X-X-X-X-",
+		"type": "r000024",
+		"pattern": "------------X-X-",
 		"beats": 2
 	},
 	{
@@ -626,38 +644,62 @@
 	},
 	{
 		"count": 61,
-		"type": "r800920",
-		"pattern": "X-------X-X-X---",
+		"type": "r024820",
+		"pattern": "----X-X-X---X---",
 		"beats": 2
 	},
 	{
-		"count": 60,
-		"type": "r000024",
-		"pattern": "------------X-X-",
+		"count": 61,
+		"type": "r000924",
+		"pattern": "--------X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 60,
-		"type": "r900804",
-		"pattern": "X-X-----X-----X-",
+		"count": 59,
+		"type": "r888808",
+		"pattern": "X--<->--X---->--",
 		"beats": 2
 	},
 	{
-		"count": 57,
+		"count": 58,
 		"type": "r800900",
 		"pattern": "X-------X-X-----",
 		"beats": 2
 	},
 	{
 		"count": 57,
-		"type": "r888808",
-		"pattern": "X--<->--X---->--",
+		"type": "r824124",
+		"pattern": "X---X-X---X-X-X-",
 		"beats": 2
 	},
 	{
 		"count": 57,
 		"type": "r000808",
 		"pattern": "--------X---->--",
+		"beats": 2
+	},
+	{
+		"count": 56,
+		"type": "r804120",
+		"pattern": "X-----X---X-X---",
+		"beats": 2
+	},
+	{
+		"count": 55,
+		"type": "r124124",
+		"pattern": "--X-X-X---X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 55,
+		"type": "r804004",
+		"pattern": "X-----X-------X-",
+		"beats": 2
+	},
+	{
+		"count": 55,
+		"type": "r924900",
+		"pattern": "X-X-X-X-X-X-----",
 		"beats": 2
 	},
 	{
@@ -668,38 +710,20 @@
 	},
 	{
 		"count": 54,
-		"type": "r804120",
-		"pattern": "X-----X---X-X---",
-		"beats": 2
-	},
-	{
-		"count": 54,
-		"type": "r124124",
-		"pattern": "--X-X-X---X-X-X-",
+		"type": "r8A28A2",
+		"pattern": "X--<X--<X--<X--<",
 		"beats": 2
 	},
 	{
 		"count": 53,
-		"type": "r024820",
-		"pattern": "----X-X-X---X---",
+		"type": "r020924",
+		"pattern": "----X---X-X-X-X-",
 		"beats": 2
 	},
 	{
 		"count": 53,
-		"type": "r824124",
-		"pattern": "X---X-X---X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 53,
-		"type": "r804004",
-		"pattern": "X-----X-------X-",
-		"beats": 2
-	},
-	{
-		"count": 53,
-		"type": "r924900",
-		"pattern": "X-X-X-X-X-X-----",
+		"type": "r804920",
+		"pattern": "X-----X-X-X-X---",
 		"beats": 2
 	},
 	{
@@ -710,8 +734,8 @@
 	},
 	{
 		"count": 51,
-		"type": "r804920",
-		"pattern": "X-----X-X-X-X---",
+		"type": "r904020",
+		"pattern": "X-X---X-----X---",
 		"beats": 2
 	},
 	{
@@ -728,8 +752,8 @@
 	},
 	{
 		"count": 50,
-		"type": "r8A28A2",
-		"pattern": "X--<X--<X--<X--<",
+		"type": "r820120",
+		"pattern": "X---X-----X-X---",
 		"beats": 2
 	},
 	{
@@ -740,38 +764,26 @@
 	},
 	{
 		"count": 49,
-		"type": "r020924",
-		"pattern": "----X---X-X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 49,
 		"type": "r920",
 		"pattern": "X-X-X---",
 		"beats": 1
 	},
 	{
 		"count": 49,
-		"type": "r008800",
-		"pattern": "----->--X-------",
-		"beats": 2
-	},
-	{
-		"count": 48,
 		"type": "r400000",
 		"pattern": "-X--------------",
 		"beats": 2
 	},
 	{
-		"count": 48,
-		"type": "r000924",
-		"pattern": "--------X-X-X-X-",
+		"count": 49,
+		"type": "r124924",
+		"pattern": "--X-X-X-X-X-X-X-",
 		"beats": 2
 	},
 	{
-		"count": 48,
-		"type": "r124924",
-		"pattern": "--X-X-X-X-X-X-X-",
+		"count": 49,
+		"type": "r008800",
+		"pattern": "----->--X-------",
 		"beats": 2
 	},
 	{
@@ -782,8 +794,8 @@
 	},
 	{
 		"count": 47,
-		"type": "r904020",
-		"pattern": "X-X---X-----X---",
+		"type": "r824904",
+		"pattern": "X---X-X-X-X---X-",
 		"beats": 2
 	},
 	{
@@ -793,15 +805,9 @@
 		"beats": 2
 	},
 	{
-		"count": 47,
-		"type": "r820120",
-		"pattern": "X---X-----X-X---",
-		"beats": 2
-	},
-	{
 		"count": 46,
-		"type": "r824904",
-		"pattern": "X---X-X-X-X---X-",
+		"type": "r804024",
+		"pattern": "X-----X-----X-X-",
 		"beats": 2
 	},
 	{
@@ -812,8 +818,26 @@
 	},
 	{
 		"count": 45,
+		"type": "r020024",
+		"pattern": "----X-------X-X-",
+		"beats": 2
+	},
+	{
+		"count": 45,
+		"type": "r020004",
+		"pattern": "----X---------X-",
+		"beats": 2
+	},
+	{
+		"count": 45,
 		"type": "r024104",
 		"pattern": "----X-X---X---X-",
+		"beats": 2
+	},
+	{
+		"count": 44,
+		"type": "r000824",
+		"pattern": "--------X---X-X-",
 		"beats": 2
 	},
 	{
@@ -830,6 +854,12 @@
 	},
 	{
 		"count": 44,
+		"type": "r924124",
+		"pattern": "X-X-X-X---X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 44,
 		"type": "r924924924",
 		"pattern": "X-X-X-X-X-X-X-X-X-X-X-X-",
 		"beats": 3
@@ -838,12 +868,6 @@
 		"count": 44,
 		"type": "r800010",
 		"pattern": "X------------X--",
-		"beats": 2
-	},
-	{
-		"count": 43,
-		"type": "r000824",
-		"pattern": "--------X---X-X-",
 		"beats": 2
 	},
 	{
@@ -865,15 +889,15 @@
 		"beats": 3
 	},
 	{
-		"count": 42,
-		"type": "r020004",
-		"pattern": "----X---------X-",
+		"count": 41,
+		"type": "r824000",
+		"pattern": "X---X-X---------",
 		"beats": 2
 	},
 	{
-		"count": 42,
-		"type": "r924124",
-		"pattern": "X-X-X-X---X-X-X-",
+		"count": 41,
+		"type": "r120824",
+		"pattern": "--X-X---X---X-X-",
 		"beats": 2
 	},
 	{
@@ -883,21 +907,15 @@
 		"beats": 2
 	},
 	{
-		"count": 40,
-		"type": "r824000",
-		"pattern": "X---X-X---------",
+		"count": 41,
+		"type": "r024800",
+		"pattern": "----X-X-X-------",
 		"beats": 2
 	},
 	{
 		"count": 40,
 		"type": "r020104",
 		"pattern": "----X-----X---X-",
-		"beats": 2
-	},
-	{
-		"count": 40,
-		"type": "r024800",
-		"pattern": "----X-X-X-------",
 		"beats": 2
 	},
 	{
@@ -908,8 +926,8 @@
 	},
 	{
 		"count": 38,
-		"type": "r804024",
-		"pattern": "X-----X-----X-X-",
+		"type": "r900924",
+		"pattern": "X-X-----X-X-X-X-",
 		"beats": 2
 	},
 	{
@@ -920,14 +938,14 @@
 	},
 	{
 		"count": 38,
-		"type": "r020024",
-		"pattern": "----X-------X-X-",
+		"type": "r824100",
+		"pattern": "X---X-X---X-----",
 		"beats": 2
 	},
 	{
 		"count": 37,
-		"type": "r824100",
-		"pattern": "X---X-X---X-----",
+		"type": "r100924",
+		"pattern": "--X-----X-X-X-X-",
 		"beats": 2
 	},
 	{
@@ -938,8 +956,8 @@
 	},
 	{
 		"count": 36,
-		"type": "r100924",
-		"pattern": "--X-----X-X-X-X-",
+		"type": "r000004",
+		"pattern": "--------------X-",
 		"beats": 2
 	},
 	{
@@ -949,6 +967,12 @@
 		"beats": 3
 	},
 	{
+		"count": 36,
+		"type": "r8A2800",
+		"pattern": "X--<X--<X-------",
+		"beats": 2
+	},
+	{
 		"count": 35,
 		"type": "r820020820",
 		"pattern": "X---X-------X---X---X---",
@@ -956,14 +980,14 @@
 	},
 	{
 		"count": 34,
-		"type": "r000004",
-		"pattern": "--------------X-",
+		"type": "r804924",
+		"pattern": "X-----X-X-X-X-X-",
 		"beats": 2
 	},
 	{
 		"count": 34,
-		"type": "r120824",
-		"pattern": "--X-X---X---X-X-",
+		"type": "r020920",
+		"pattern": "----X---X-X-X---",
 		"beats": 2
 	},
 	{
@@ -980,14 +1004,8 @@
 	},
 	{
 		"count": 33,
-		"type": "r900924",
-		"pattern": "X-X-----X-X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 33,
-		"type": "r8A2800",
-		"pattern": "X--<X--<X-------",
+		"type": "r920020",
+		"pattern": "X-X-X-------X---",
 		"beats": 2
 	},
 	{
@@ -998,14 +1016,20 @@
 	},
 	{
 		"count": 32,
-		"type": "r804924",
-		"pattern": "X-----X-X-X-X-X-",
+		"type": "r82A820",
+		"pattern": "X---X>-<X---X---",
 		"beats": 2
 	},
 	{
 		"count": 32,
 		"type": "r004004",
 		"pattern": "------X-------X-",
+		"beats": 2
+	},
+	{
+		"count": 32,
+		"type": "r8208A2",
+		"pattern": "X---X---X--<X--<",
 		"beats": 2
 	},
 	{
@@ -1016,8 +1040,8 @@
 	},
 	{
 		"count": 31,
-		"type": "r82A820",
-		"pattern": "X---X>-<X---X---",
+		"type": "r104000",
+		"pattern": "--X---X---------",
 		"beats": 2
 	},
 	{
@@ -1033,21 +1057,9 @@
 		"beats": 2
 	},
 	{
-		"count": 31,
-		"type": "r920020",
-		"pattern": "X-X-X-------X---",
-		"beats": 2
-	},
-	{
 		"count": 30,
 		"type": "r120900",
 		"pattern": "--X-X---X-X-----",
-		"beats": 2
-	},
-	{
-		"count": 30,
-		"type": "r104000",
-		"pattern": "--X---X---------",
 		"beats": 2
 	},
 	{
@@ -1060,6 +1072,18 @@
 		"count": 29,
 		"type": "r104100",
 		"pattern": "--X---X---X-----",
+		"beats": 2
+	},
+	{
+		"count": 29,
+		"type": "r904904",
+		"pattern": "X-X---X-X-X---X-",
+		"beats": 2
+	},
+	{
+		"count": 28,
+		"type": "r904104",
+		"pattern": "X-X---X---X---X-",
 		"beats": 2
 	},
 	{
@@ -1076,8 +1100,8 @@
 	},
 	{
 		"count": 28,
-		"type": "r8208A2",
-		"pattern": "X---X---X--<X--<",
+		"type": "rAAAAAA",
+		"pattern": "X>-<X>-<X>-<X>-<",
 		"beats": 2
 	},
 	{
@@ -1088,9 +1112,21 @@
 	},
 	{
 		"count": 27,
+		"type": "r904800",
+		"pattern": "X-X---X-X-------",
+		"beats": 2
+	},
+	{
+		"count": 27,
 		"type": "r924104",
 		"pattern": "X-X-X-X---X---X-",
 		"beats": 2
+	},
+	{
+		"count": 27,
+		"type": "r904",
+		"pattern": "X-X---X-",
+		"beats": 1
 	},
 	{
 		"count": 27,
@@ -1099,16 +1135,16 @@
 		"beats": 3
 	},
 	{
-		"count": 27,
-		"type": "r904904",
-		"pattern": "X-X---X-X-X---X-",
-		"beats": 2
-	},
-	{
 		"count": 26,
 		"type": "r100",
 		"pattern": "--X-----",
 		"beats": 1
+	},
+	{
+		"count": 26,
+		"type": "r024824",
+		"pattern": "----X-X-X---X-X-",
+		"beats": 2
 	},
 	{
 		"count": 26,
@@ -1124,8 +1160,8 @@
 	},
 	{
 		"count": 25,
-		"type": "r904800",
-		"pattern": "X-X---X-X-------",
+		"type": "r124820",
+		"pattern": "--X-X-X-X---X---",
 		"beats": 2
 	},
 	{
@@ -1136,20 +1172,14 @@
 	},
 	{
 		"count": 25,
-		"type": "r024824",
-		"pattern": "----X-X-X---X-X-",
-		"beats": 2
-	},
-	{
-		"count": 25,
 		"type": "r800820800",
 		"pattern": "X-------X---X---X-------",
 		"beats": 3
 	},
 	{
 		"count": 25,
-		"type": "rAAAAAA",
-		"pattern": "X>-<X>-<X>-<X>-<",
+		"type": "r904900",
+		"pattern": "X-X---X-X-X-----",
 		"beats": 2
 	},
 	{
@@ -1159,9 +1189,15 @@
 		"beats": 3
 	},
 	{
-		"count": 25,
-		"type": "r020920",
-		"pattern": "----X---X-X-X---",
+		"count": 24,
+		"type": "r904120",
+		"pattern": "X-X---X---X-X---",
+		"beats": 2
+	},
+	{
+		"count": 24,
+		"type": "r004800",
+		"pattern": "------X-X-------",
 		"beats": 2
 	},
 	{
@@ -1172,20 +1208,8 @@
 	},
 	{
 		"count": 24,
-		"type": "r124820",
-		"pattern": "--X-X-X-X---X---",
-		"beats": 2
-	},
-	{
-		"count": 24,
 		"type": "r104",
 		"pattern": "--X---X-",
-		"beats": 1
-	},
-	{
-		"count": 24,
-		"type": "r904",
-		"pattern": "X-X---X-",
 		"beats": 1
 	},
 	{
@@ -1214,26 +1238,14 @@
 	},
 	{
 		"count": 23,
-		"type": "r904120",
-		"pattern": "X-X---X---X-X---",
-		"beats": 2
-	},
-	{
-		"count": 23,
-		"type": "r004800",
-		"pattern": "------X-X-------",
-		"beats": 2
-	},
-	{
-		"count": 23,
 		"type": "r004100",
 		"pattern": "------X---X-----",
 		"beats": 2
 	},
 	{
 		"count": 22,
-		"type": "r904104",
-		"pattern": "X-X---X---X---X-",
+		"type": "r080000",
+		"pattern": "---<------------",
 		"beats": 2
 	},
 	{
@@ -1268,21 +1280,9 @@
 	},
 	{
 		"count": 21,
-		"type": "r904900",
-		"pattern": "X-X---X-X-X-----",
-		"beats": 2
-	},
-	{
-		"count": 21,
 		"type": "r800020020",
 		"pattern": "X-----------X-------X---",
 		"beats": 3
-	},
-	{
-		"count": 21,
-		"type": "r080000",
-		"pattern": "---<------------",
-		"beats": 2
 	},
 	{
 		"count": 21,
@@ -1292,8 +1292,26 @@
 	},
 	{
 		"count": 20,
+		"type": "r924024",
+		"pattern": "X-X-X-X-----X-X-",
+		"beats": 2
+	},
+	{
+		"count": 20,
+		"type": "r104104",
+		"pattern": "--X---X---X---X-",
+		"beats": 2
+	},
+	{
+		"count": 20,
 		"type": "r100004",
 		"pattern": "--X-----------X-",
+		"beats": 2
+	},
+	{
+		"count": 20,
+		"type": "r082082",
+		"pattern": "---<---<---<---<",
 		"beats": 2
 	},
 	{
@@ -1310,8 +1328,8 @@
 	},
 	{
 		"count": 19,
-		"type": "r082082",
-		"pattern": "---<---<---<---<",
+		"type": "r920000",
+		"pattern": "X-X-X-----------",
 		"beats": 2
 	},
 	{
@@ -1322,8 +1340,8 @@
 	},
 	{
 		"count": 18,
-		"type": "r104104",
-		"pattern": "--X---X---X---X-",
+		"type": "r820888",
+		"pattern": "X---X---X--<->--",
 		"beats": 2
 	},
 	{
@@ -1352,12 +1370,6 @@
 	},
 	{
 		"count": 17,
-		"type": "r924024",
-		"pattern": "X-X-X-X-----X-X-",
-		"beats": 2
-	},
-	{
-		"count": 17,
 		"type": "r124",
 		"pattern": "--X-X-X-",
 		"beats": 1
@@ -1366,6 +1378,12 @@
 		"count": 17,
 		"type": "r004820",
 		"pattern": "------X-X---X---",
+		"beats": 2
+	},
+	{
+		"count": 17,
+		"type": "r000400",
+		"pattern": "---------X------",
 		"beats": 2
 	},
 	{
@@ -1379,6 +1397,12 @@
 		"type": "r820800800",
 		"pattern": "X---X---X-------X-------",
 		"beats": 3
+	},
+	{
+		"count": 17,
+		"type": "r904924",
+		"pattern": "X-X---X-X-X-X-X-",
+		"beats": 2
 	},
 	{
 		"count": 16,
@@ -1396,12 +1420,6 @@
 		"count": 16,
 		"type": "r024120",
 		"pattern": "----X-X---X-X---",
-		"beats": 2
-	},
-	{
-		"count": 16,
-		"type": "r820888",
-		"pattern": "X---X---X--<->--",
 		"beats": 2
 	},
 	{
@@ -1424,20 +1442,26 @@
 	},
 	{
 		"count": 15,
+		"type": "r8A2820",
+		"pattern": "X--<X--<X---X---",
+		"beats": 2
+	},
+	{
+		"count": 15,
+		"type": "r104800",
+		"pattern": "--X---X-X-------",
+		"beats": 2
+	},
+	{
+		"count": 15,
 		"type": "r904124",
 		"pattern": "X-X---X---X-X-X-",
 		"beats": 2
 	},
 	{
 		"count": 15,
-		"type": "r920000",
-		"pattern": "X-X-X-----------",
-		"beats": 2
-	},
-	{
-		"count": 15,
-		"type": "r904924",
-		"pattern": "X-X---X-X-X-X-X-",
+		"type": "r904100",
+		"pattern": "X-X---X---X-----",
 		"beats": 2
 	},
 	{
@@ -1466,14 +1490,8 @@
 	},
 	{
 		"count": 14,
-		"type": "r000400",
-		"pattern": "---------X------",
-		"beats": 2
-	},
-	{
-		"count": 14,
-		"type": "r104800",
-		"pattern": "--X---X-X-------",
+		"type": "r802000",
+		"pattern": "X------<--------",
 		"beats": 2
 	},
 	{
@@ -1492,6 +1510,12 @@
 		"count": 14,
 		"type": "r082882",
 		"pattern": "---<---<X--<---<",
+		"beats": 2
+	},
+	{
+		"count": 14,
+		"type": "r900020",
+		"pattern": "X-X---------X---",
 		"beats": 2
 	},
 	{
@@ -1526,14 +1550,32 @@
 	},
 	{
 		"count": 13,
+		"type": "r888820",
+		"pattern": "X--<->--X---X---",
+		"beats": 2
+	},
+	{
+		"count": 13,
 		"type": "r904024",
 		"pattern": "X-X---X-----X-X-",
 		"beats": 2
 	},
 	{
 		"count": 13,
+		"type": "r024920",
+		"pattern": "----X-X-X-X-X---",
+		"beats": 2
+	},
+	{
+		"count": 13,
 		"type": "r804900",
 		"pattern": "X-----X-X-X-----",
+		"beats": 2
+	},
+	{
+		"count": 13,
+		"type": "r880820",
+		"pattern": "X--<----X---X---",
 		"beats": 2
 	},
 	{
@@ -1558,6 +1600,12 @@
 		"count": 13,
 		"type": "r002000",
 		"pattern": "-------<--------",
+		"beats": 2
+	},
+	{
+		"count": 13,
+		"type": "r924000",
+		"pattern": "X-X-X-X---------",
 		"beats": 2
 	},
 	{
@@ -1592,20 +1640,8 @@
 	},
 	{
 		"count": 12,
-		"type": "r924000",
-		"pattern": "X-X-X-X---------",
-		"beats": 2
-	},
-	{
-		"count": 12,
 		"type": "r0A00A0",
 		"pattern": "---<X------<X---",
-		"beats": 2
-	},
-	{
-		"count": 12,
-		"type": "r802000",
-		"pattern": "X------<--------",
 		"beats": 2
 	},
 	{
@@ -1646,12 +1682,6 @@
 	},
 	{
 		"count": 11,
-		"type": "r888820",
-		"pattern": "X--<->--X---X---",
-		"beats": 2
-	},
-	{
-		"count": 11,
 		"type": "r824820820",
 		"pattern": "X---X-X-X---X---X---X---",
 		"beats": 3
@@ -1667,6 +1697,12 @@
 		"type": "rAAA",
 		"pattern": "X>-<X>-<",
 		"beats": 1
+	},
+	{
+		"count": 11,
+		"type": "r880880",
+		"pattern": "X--<----X--<----",
+		"beats": 2
 	},
 	{
 		"count": 11,
@@ -1690,6 +1726,12 @@
 		"count": 10,
 		"type": "r104024",
 		"pattern": "--X---X-----X-X-",
+		"beats": 2
+	},
+	{
+		"count": 10,
+		"type": "r124020",
+		"pattern": "--X-X-X-----X---",
 		"beats": 2
 	},
 	{
@@ -1718,6 +1760,12 @@
 	},
 	{
 		"count": 10,
+		"type": "r82082A",
+		"pattern": "X---X---X---X>-<",
+		"beats": 2
+	},
+	{
+		"count": 10,
 		"type": "r104004",
 		"pattern": "--X---X-------X-",
 		"beats": 2
@@ -1726,12 +1774,6 @@
 		"count": 10,
 		"type": "r120804",
 		"pattern": "--X-X---X-----X-",
-		"beats": 2
-	},
-	{
-		"count": 10,
-		"type": "r900020",
-		"pattern": "X-X---------X---",
 		"beats": 2
 	},
 	{
@@ -1750,18 +1792,6 @@
 		"count": 9,
 		"type": "r8080A0",
 		"pattern": "X---->-----<X---",
-		"beats": 2
-	},
-	{
-		"count": 9,
-		"type": "r124020",
-		"pattern": "--X-X-X-----X---",
-		"beats": 2
-	},
-	{
-		"count": 9,
-		"type": "r024920",
-		"pattern": "----X-X-X-X-X---",
 		"beats": 2
 	},
 	{
@@ -1796,12 +1826,6 @@
 	},
 	{
 		"count": 9,
-		"type": "r8A2820",
-		"pattern": "X--<X--<X---X---",
-		"beats": 2
-	},
-	{
-		"count": 9,
 		"type": "r000010",
 		"pattern": "-------------X--",
 		"beats": 2
@@ -1820,6 +1844,12 @@
 	},
 	{
 		"count": 9,
+		"type": "r800120",
+		"pattern": "X---------X-X---",
+		"beats": 2
+	},
+	{
+		"count": 9,
 		"type": "r824844",
 		"pattern": "X---X-X-X--X--X-",
 		"beats": 2
@@ -1831,9 +1861,21 @@
 		"beats": 3
 	},
 	{
+		"count": 9,
+		"type": "rA80020",
+		"pattern": "X>-<--------X---",
+		"beats": 2
+	},
+	{
 		"count": 8,
 		"type": "r100024",
 		"pattern": "--X---------X-X-",
+		"beats": 2
+	},
+	{
+		"count": 8,
+		"type": "r904000",
+		"pattern": "X-X---X---------",
 		"beats": 2
 	},
 	{
@@ -1850,15 +1892,15 @@
 	},
 	{
 		"count": 8,
-		"type": "r820020924",
-		"pattern": "X---X-------X---X-X-X-X-",
-		"beats": 3
+		"type": "r802820",
+		"pattern": "X------<X---X---",
+		"beats": 2
 	},
 	{
 		"count": 8,
-		"type": "r904100",
-		"pattern": "X-X---X---X-----",
-		"beats": 2
+		"type": "r820020924",
+		"pattern": "X---X-------X---X-X-X-X-",
+		"beats": 3
 	},
 	{
 		"count": 8,
@@ -1870,12 +1912,6 @@
 		"count": 8,
 		"type": "r82A800",
 		"pattern": "X---X>-<X-------",
-		"beats": 2
-	},
-	{
-		"count": 8,
-		"type": "r82082A",
-		"pattern": "X---X---X---X>-<",
 		"beats": 2
 	},
 	{
@@ -1898,12 +1934,6 @@
 	},
 	{
 		"count": 8,
-		"type": "r880880",
-		"pattern": "X--<----X--<----",
-		"beats": 2
-	},
-	{
-		"count": 8,
 		"type": "r900824",
 		"pattern": "X-X-----X---X-X-",
 		"beats": 2
@@ -1922,8 +1952,20 @@
 	},
 	{
 		"count": 8,
+		"type": "r001000",
+		"pattern": "-------X--------",
+		"beats": 2
+	},
+	{
+		"count": 8,
 		"type": "r800011",
 		"pattern": "X------------X-X",
+		"beats": 2
+	},
+	{
+		"count": 8,
+		"type": "r801000",
+		"pattern": "X------X--------",
 		"beats": 2
 	},
 	{
@@ -1964,8 +2006,8 @@
 	},
 	{
 		"count": 7,
-		"type": "r904000",
-		"pattern": "X-X---X---------",
+		"type": "r000124",
+		"pattern": "----------X-X-X-",
 		"beats": 2
 	},
 	{
@@ -1976,14 +2018,14 @@
 	},
 	{
 		"count": 7,
-		"type": "r400800",
-		"pattern": "-X------X-------",
+		"type": "r0A2820",
+		"pattern": "---<X--<X---X---",
 		"beats": 2
 	},
 	{
 		"count": 7,
-		"type": "r0A2820",
-		"pattern": "---<X--<X---X---",
+		"type": "r0808A2",
+		"pattern": "---<----X--<X--<",
 		"beats": 2
 	},
 	{
@@ -2006,14 +2048,14 @@
 	},
 	{
 		"count": 7,
-		"type": "r8228A2",
-		"pattern": "X---X--<X--<X--<",
+		"type": "rD75D75",
+		"pattern": "XXXXXXXXXXXXXXXX",
 		"beats": 2
 	},
 	{
 		"count": 7,
-		"type": "r880820",
-		"pattern": "X--<----X---X---",
+		"type": "r8228A2",
+		"pattern": "X---X--<X--<X--<",
 		"beats": 2
 	},
 	{
@@ -2026,6 +2068,12 @@
 		"count": 7,
 		"type": "r8A2822",
 		"pattern": "X--<X--<X---X--<",
+		"beats": 2
+	},
+	{
+		"count": 7,
+		"type": "r8A2880",
+		"pattern": "X--<X--<X--<----",
 		"beats": 2
 	},
 	{
@@ -2048,15 +2096,15 @@
 	},
 	{
 		"count": 7,
-		"type": "r824924924",
-		"pattern": "X---X-X-X-X-X-X-X-X-X-X-",
-		"beats": 3
+		"type": "r8008A2",
+		"pattern": "X-------X--<X--<",
+		"beats": 2
 	},
 	{
 		"count": 7,
-		"type": "r800120",
-		"pattern": "X---------X-X---",
-		"beats": 2
+		"type": "r824924924",
+		"pattern": "X---X-X-X-X-X-X-X-X-X-X-",
+		"beats": 3
 	},
 	{
 		"count": 7,
@@ -2078,8 +2126,8 @@
 	},
 	{
 		"count": 7,
-		"type": "r001000",
-		"pattern": "-------X--------",
+		"type": "r040000",
+		"pattern": "---X------------",
 		"beats": 2
 	},
 	{
@@ -2090,14 +2138,32 @@
 	},
 	{
 		"count": 6,
-		"type": "r000124",
-		"pattern": "----------X-X-X-",
+		"type": "r020040",
+		"pattern": "----X------X----",
 		"beats": 2
 	},
 	{
 		"count": 6,
-		"type": "r020040",
-		"pattern": "----X------X----",
+		"type": "r400800",
+		"pattern": "-X------X-------",
+		"beats": 2
+	},
+	{
+		"count": 6,
+		"type": "r820802",
+		"pattern": "X---X---X------<",
+		"beats": 2
+	},
+	{
+		"count": 6,
+		"type": "r0A2880",
+		"pattern": "---<X--<X--<----",
+		"beats": 2
+	},
+	{
+		"count": 6,
+		"type": "r080820",
+		"pattern": "---<----X---X---",
 		"beats": 2
 	},
 	{
@@ -2126,6 +2192,12 @@
 	},
 	{
 		"count": 6,
+		"type": "r124804",
+		"pattern": "--X-X-X-X-----X-",
+		"beats": 2
+	},
+	{
+		"count": 6,
 		"type": "r082022",
 		"pattern": "---<---<----X--<",
 		"beats": 2
@@ -2138,14 +2210,14 @@
 	},
 	{
 		"count": 6,
-		"type": "r0808A2",
-		"pattern": "---<----X--<X--<",
+		"type": "r120100",
+		"pattern": "--X-X-----X-----",
 		"beats": 2
 	},
 	{
 		"count": 6,
-		"type": "r120100",
-		"pattern": "--X-X-----X-----",
+		"type": "r020880",
+		"pattern": "----X---X--<----",
 		"beats": 2
 	},
 	{
@@ -2240,18 +2312,6 @@
 	},
 	{
 		"count": 6,
-		"type": "r802820",
-		"pattern": "X------<X---X---",
-		"beats": 2
-	},
-	{
-		"count": 6,
-		"type": "r801000",
-		"pattern": "X------X--------",
-		"beats": 2
-	},
-	{
-		"count": 6,
 		"type": "r882800",
 		"pattern": "X--<---<X-------",
 		"beats": 2
@@ -2306,6 +2366,12 @@
 	},
 	{
 		"count": 5,
+		"type": "r004924",
+		"pattern": "------X-X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 5,
 		"type": "r100400",
 		"pattern": "--X------X------",
 		"beats": 2
@@ -2326,6 +2392,12 @@
 		"count": 5,
 		"type": "r104120",
 		"pattern": "--X---X---X-X---",
+		"beats": 2
+	},
+	{
+		"count": 5,
+		"type": "r000001",
+		"pattern": "---------------X",
 		"beats": 2
 	},
 	{
@@ -2366,12 +2438,6 @@
 	},
 	{
 		"count": 5,
-		"type": "rD75D75",
-		"pattern": "XXXXXXXXXXXXXXXX",
-		"beats": 2
-	},
-	{
-		"count": 5,
 		"type": "r924924800",
 		"pattern": "X-X-X-X-X-X-X-X-X-------",
 		"beats": 3
@@ -2390,20 +2456,14 @@
 	},
 	{
 		"count": 5,
+		"type": "r880000",
+		"pattern": "X--<------------",
+		"beats": 2
+	},
+	{
+		"count": 5,
 		"type": "r000002",
 		"pattern": "---------------<",
-		"beats": 2
-	},
-	{
-		"count": 5,
-		"type": "r080820",
-		"pattern": "---<----X---X---",
-		"beats": 2
-	},
-	{
-		"count": 5,
-		"type": "r8008A2",
-		"pattern": "X-------X--<X--<",
 		"beats": 2
 	},
 	{
@@ -2450,8 +2510,8 @@
 	},
 	{
 		"count": 5,
-		"type": "r124804",
-		"pattern": "--X-X-X-X-----X-",
+		"type": "r82A82A",
+		"pattern": "X---X>-<X---X>-<",
 		"beats": 2
 	},
 	{
@@ -2492,20 +2552,20 @@
 	},
 	{
 		"count": 4,
-		"type": "r004924",
-		"pattern": "------X-X-X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 4,
 		"type": "r800041",
 		"pattern": "X----------X---X",
 		"beats": 2
 	},
 	{
 		"count": 4,
-		"type": "r000001",
-		"pattern": "---------------X",
+		"type": "r000802",
+		"pattern": "--------X------<",
+		"beats": 2
+	},
+	{
+		"count": 4,
+		"type": "r800882",
+		"pattern": "X-------X--<---<",
 		"beats": 2
 	},
 	{
@@ -2564,12 +2624,6 @@
 	},
 	{
 		"count": 4,
-		"type": "r820802",
-		"pattern": "X---X---X------<",
-		"beats": 2
-	},
-	{
-		"count": 4,
 		"type": "r024100",
 		"pattern": "----X-X---X-----",
 		"beats": 2
@@ -2584,12 +2638,6 @@
 		"count": 4,
 		"type": "r020082",
 		"pattern": "----X------<---<",
-		"beats": 2
-	},
-	{
-		"count": 4,
-		"type": "r8A2880",
-		"pattern": "X--<X--<X--<----",
 		"beats": 2
 	},
 	{
@@ -2762,12 +2810,6 @@
 	},
 	{
 		"count": 4,
-		"type": "r040000",
-		"pattern": "---X------------",
-		"beats": 2
-	},
-	{
-		"count": 4,
 		"type": "r020AA0",
 		"pattern": "----X---X>-<X---",
 		"beats": 2
@@ -2852,6 +2894,18 @@
 	},
 	{
 		"count": 3,
+		"type": "r8A2000",
+		"pattern": "X--<X--<--------",
+		"beats": 2
+	},
+	{
+		"count": 3,
+		"type": "r822822",
+		"pattern": "X---X--<X---X--<",
+		"beats": 2
+	},
+	{
+		"count": 3,
 		"type": "r800820004",
 		"pattern": "X-------X---X---------X-",
 		"beats": 3
@@ -2867,6 +2921,12 @@
 		"type": "r800024924",
 		"pattern": "X-----------X-X-X-X-X-X-",
 		"beats": 3
+	},
+	{
+		"count": 3,
+		"type": "r920124",
+		"pattern": "X-X-X-----X-X-X-",
+		"beats": 2
 	},
 	{
 		"count": 3,
@@ -2948,18 +3008,6 @@
 	},
 	{
 		"count": 3,
-		"type": "r880000",
-		"pattern": "X--<------------",
-		"beats": 2
-	},
-	{
-		"count": 3,
-		"type": "r020880",
-		"pattern": "----X---X--<----",
-		"beats": 2
-	},
-	{
-		"count": 3,
 		"type": "r0000A0",
 		"pattern": "-----------<X---",
 		"beats": 2
@@ -3002,6 +3050,12 @@
 	},
 	{
 		"count": 3,
+		"type": "r8A28A0",
+		"pattern": "X--<X--<X--<X---",
+		"beats": 2
+	},
+	{
+		"count": 3,
 		"type": "r820AAA",
 		"pattern": "X---X---X>-<X>-<",
 		"beats": 2
@@ -3040,6 +3094,12 @@
 		"count": 3,
 		"type": "r401020",
 		"pattern": "-X-----X----X---",
+		"beats": 2
+	},
+	{
+		"count": 3,
+		"type": "rAAA800",
+		"pattern": "X>-<X>-<X-------",
 		"beats": 2
 	},
 	{
@@ -3122,20 +3182,20 @@
 	},
 	{
 		"count": 3,
+		"type": "r801800",
+		"pattern": "X------XX-------",
+		"beats": 2
+	},
+	{
+		"count": 3,
+		"type": "r0A2AA0",
+		"pattern": "---<X--<X>-<X---",
+		"beats": 2
+	},
+	{
+		"count": 3,
 		"type": "r8020A2",
 		"pattern": "X------<---<X--<",
-		"beats": 2
-	},
-	{
-		"count": 3,
-		"type": "r000802",
-		"pattern": "--------X------<",
-		"beats": 2
-	},
-	{
-		"count": 3,
-		"type": "r82A82A",
-		"pattern": "X---X>-<X---X>-<",
 		"beats": 2
 	},
 	{
@@ -3260,6 +3320,18 @@
 	},
 	{
 		"count": 2,
+		"type": "rC20830",
+		"pattern": "XX--X---X---XX--",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r030820",
+		"pattern": "----XX--X---X---",
+		"beats": 2
+	},
+	{
+		"count": 2,
 		"type": "r008020",
 		"pattern": "----->------X---",
 		"beats": 2
@@ -3284,6 +3356,12 @@
 	},
 	{
 		"count": 2,
+		"type": "r840100",
+		"pattern": "X--X------X-----",
+		"beats": 2
+	},
+	{
+		"count": 2,
 		"type": "r820902",
 		"pattern": "X---X---X-X----<",
 		"beats": 2
@@ -3296,8 +3374,26 @@
 	},
 	{
 		"count": 2,
-		"type": "r801020",
-		"pattern": "X------X----X---",
+		"type": "r100882",
+		"pattern": "--X-----X--<---<",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r8A20A2",
+		"pattern": "X--<X--<---<X--<",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r822820",
+		"pattern": "X---X--<X---X---",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r802082",
+		"pattern": "X------<---<---<",
 		"beats": 2
 	},
 	{
@@ -3332,12 +3428,6 @@
 	},
 	{
 		"count": 2,
-		"type": "r920124",
-		"pattern": "X-X-X-----X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 2,
 		"type": "r904004",
 		"pattern": "X-X---X-------X-",
 		"beats": 2
@@ -3362,6 +3452,12 @@
 	},
 	{
 		"count": 2,
+		"type": "rAA0800",
+		"pattern": "X>-<X---X-------",
+		"beats": 2
+	},
+	{
+		"count": 2,
 		"type": "r82402AAAA",
 		"pattern": "X---X-X-----X>-<X>-<X>-<",
 		"beats": 3
@@ -3382,6 +3478,12 @@
 		"count": 2,
 		"type": "r92492A",
 		"pattern": "X-X-X-X-X-X-X>-<",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r920AAA",
+		"pattern": "X-X-X---X>-<X>-<",
 		"beats": 2
 	},
 	{
@@ -3452,12 +3554,6 @@
 	},
 	{
 		"count": 2,
-		"type": "r0A2880",
-		"pattern": "---<X--<X--<----",
-		"beats": 2
-	},
-	{
-		"count": 2,
 		"type": "r882080",
 		"pattern": "X--<---<---<----",
 		"beats": 2
@@ -3472,12 +3568,6 @@
 		"count": 2,
 		"type": "r801004",
 		"pattern": "X------X------X-",
-		"beats": 2
-	},
-	{
-		"count": 2,
-		"type": "r8A2000",
-		"pattern": "X--<X--<--------",
 		"beats": 2
 	},
 	{
@@ -3620,14 +3710,14 @@
 	},
 	{
 		"count": 2,
-		"type": "r900120",
-		"pattern": "X-X-------X-X---",
+		"type": "r802020",
+		"pattern": "X------<----X---",
 		"beats": 2
 	},
 	{
 		"count": 2,
-		"type": "r822822",
-		"pattern": "X---X--<X---X--<",
+		"type": "r900120",
+		"pattern": "X-X-------X-X---",
 		"beats": 2
 	},
 	{
@@ -3640,6 +3730,12 @@
 		"count": 2,
 		"type": "r010040",
 		"pattern": "-----X-----X----",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r8A0820",
+		"pattern": "X--<X---X---X---",
 		"beats": 2
 	},
 	{
@@ -3722,6 +3818,12 @@
 	},
 	{
 		"count": 2,
+		"type": "r822000",
+		"pattern": "X---X--<--------",
+		"beats": 2
+	},
+	{
+		"count": 2,
 		"type": "r820844",
 		"pattern": "X---X---X--X--X-",
 		"beats": 2
@@ -3788,6 +3890,36 @@
 	},
 	{
 		"count": 2,
+		"type": "r001800",
+		"pattern": "-------XX-------",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r821820",
+		"pattern": "X---X--XX---X---",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r824080",
+		"pattern": "X---X-X----<----",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r0A2800",
+		"pattern": "---<X--<X-------",
+		"beats": 2
+	},
+	{
+		"count": 2,
+		"type": "r880AAA",
+		"pattern": "X--<----X>-<X>-<",
+		"beats": 2
+	},
+	{
+		"count": 2,
 		"type": "r802002",
 		"pattern": "X------<-------<",
 		"beats": 2
@@ -3814,12 +3946,6 @@
 		"count": 2,
 		"type": "r882A00",
 		"pattern": "X--<---<X>------",
-		"beats": 2
-	},
-	{
-		"count": 2,
-		"type": "r800882",
-		"pattern": "X-------X--<---<",
 		"beats": 2
 	},
 	{
@@ -4094,18 +4220,6 @@
 	},
 	{
 		"count": 1,
-		"type": "rC20830",
-		"pattern": "XX--X---X---XX--",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r030820",
-		"pattern": "----XX--X---X---",
-		"beats": 2
-	},
-	{
-		"count": 1,
 		"type": "r800200",
 		"pattern": "X-------->------",
 		"beats": 2
@@ -4148,12 +4262,6 @@
 	},
 	{
 		"count": 1,
-		"type": "r840100",
-		"pattern": "X--X------X-----",
-		"beats": 2
-	},
-	{
-		"count": 1,
 		"type": "r001020",
 		"pattern": "-------X----X---",
 		"beats": 2
@@ -4168,6 +4276,42 @@
 		"count": 1,
 		"type": "r844800",
 		"pattern": "X--X--X-X-------",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r100884",
+		"pattern": "--X-----X--<--X-",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r080804",
+		"pattern": "---<----X-----X-",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r8A08A0",
+		"pattern": "X--<X---X--<X---",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r0A2882",
+		"pattern": "---<X--<X--<---<",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r022800",
+		"pattern": "----X--<X-------",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r120020",
+		"pattern": "--X-X-------X---",
 		"beats": 2
 	},
 	{
@@ -4352,12 +4496,6 @@
 	},
 	{
 		"count": 1,
-		"type": "rAA0800",
-		"pattern": "X>-<X---X-------",
-		"beats": 2
-	},
-	{
-		"count": 1,
 		"type": "r924D70",
 		"pattern": "X-X-X-X-XXXXXX--",
 		"beats": 2
@@ -4468,12 +4606,6 @@
 		"count": 1,
 		"type": "rD75820",
 		"pattern": "XXXXXXXXX---X---",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r920AAA",
-		"pattern": "X-X-X---X>-<X>-<",
 		"beats": 2
 	},
 	{
@@ -4670,6 +4802,12 @@
 	},
 	{
 		"count": 1,
+		"type": "r801020",
+		"pattern": "X------X----X---",
+		"beats": 2
+	},
+	{
+		"count": 1,
 		"type": "r8A2080",
 		"pattern": "X--<X--<---<----",
 		"beats": 2
@@ -4684,18 +4822,6 @@
 		"count": 1,
 		"type": "r862080",
 		"pattern": "X--XX--<---<----",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r8A20A2",
-		"pattern": "X--<X--<---<X--<",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r822820",
-		"pattern": "X---X--<X---X---",
 		"beats": 2
 	},
 	{
@@ -4736,12 +4862,6 @@
 	},
 	{
 		"count": 1,
-		"type": "r802082",
-		"pattern": "X------<---<---<",
-		"beats": 2
-	},
-	{
-		"count": 1,
 		"type": "r440000",
 		"pattern": "-X-X------------",
 		"beats": 2
@@ -4762,12 +4882,6 @@
 		"count": 1,
 		"type": "r022822",
 		"pattern": "----X--<X---X--<",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r8A28A0",
-		"pattern": "X--<X--<X--<X---",
 		"beats": 2
 	},
 	{
@@ -4852,12 +4966,6 @@
 		"count": 1,
 		"type": "r8008A8",
 		"pattern": "X-------X--<X>--",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r802020",
-		"pattern": "X------<----X---",
 		"beats": 2
 	},
 	{
@@ -5012,12 +5120,6 @@
 	},
 	{
 		"count": 1,
-		"type": "rAAA800",
-		"pattern": "X>-<X>-<X-------",
-		"beats": 2
-	},
-	{
-		"count": 1,
 		"type": "r844924",
 		"pattern": "X--X--X-X-X-X-X-",
 		"beats": 2
@@ -5038,12 +5140,6 @@
 		"count": 1,
 		"type": "r844020",
 		"pattern": "X--X--X-----X---",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r8A0820",
-		"pattern": "X--<X---X---X---",
 		"beats": 2
 	},
 	{
@@ -5135,6 +5231,18 @@
 		"type": "r804820900804820900800",
 		"pattern": "X-----X-X---X---X-X-----X-----X-X---X---X-X-----X-------",
 		"beats": 7
+	},
+	{
+		"count": 1,
+		"type": "r001804",
+		"pattern": "-------XX-----X-",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r024888",
+		"pattern": "----X-X-X--<->--",
+		"beats": 2
 	},
 	{
 		"count": 1,
@@ -5366,6 +5474,108 @@
 	},
 	{
 		"count": 1,
+		"type": "r000021",
+		"pattern": "------------X--X",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r824801",
+		"pattern": "X---X-X-X------X",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r820860",
+		"pattern": "X---X---X--XX---",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r880824",
+		"pattern": "X--<----X---X-X-",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "rAA0924",
+		"pattern": "X>-<X---X-X-X-X-",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "rD00000",
+		"pattern": "XXX-------------",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "rA80800",
+		"pattern": "X>-<----X-------",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r924AA4",
+		"pattern": "X-X-X-X-X>-<X-X-",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r8000A0",
+		"pattern": "X----------<X---",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r8020A0",
+		"pattern": "X------<---<X---",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r8240AA",
+		"pattern": "X---X-X----<X>-<",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r824822",
+		"pattern": "X---X-X-X---X--<",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r82002A",
+		"pattern": "X---X-------X>-<",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r804002",
+		"pattern": "X-----X--------<",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r8028A0",
+		"pattern": "X------<X--<X---",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r0008A2",
+		"pattern": "--------X--<X--<",
+		"beats": 2
+	},
+	{
+		"count": 1,
+		"type": "r822020",
+		"pattern": "X---X--<----X---",
+		"beats": 2
+	},
+	{
+		"count": 1,
 		"type": "r8800A0",
 		"pattern": "X--<-------<X---",
 		"beats": 2
@@ -5398,12 +5608,6 @@
 		"count": 1,
 		"type": "r822124",
 		"pattern": "X---X--<--X-X-X-",
-		"beats": 2
-	},
-	{
-		"count": 1,
-		"type": "r822000",
-		"pattern": "X---X--<--------",
 		"beats": 2
 	},
 	{

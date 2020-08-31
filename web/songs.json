@@ -180,6 +180,10 @@
 					"chaos": {
 						"level": 11,
 						"pageNum": 275
+					},
+					"glitch": {
+						"level": 13,
+						"pageNum": 270
 					}
 				}
 			},
@@ -541,6 +545,44 @@
 					"chaos": {
 						"level": 11,
 						"pageNum": 224
+					}
+				}
+			},
+			{
+				"id": "028",
+				"name": "Inspiration",
+				"composer": "Hannah",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 141
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 142
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 143
+					}
+				}
+			},
+			{
+				"id": "029",
+				"name": "No-Effected World",
+				"composer": "Miki Fujimoto feat.HARUKI",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 147
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 147
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 137
 					}
 				}
 			}
@@ -1507,6 +1549,158 @@
 					"chaos": {
 						"level": 14,
 						"pageNum": 198
+					}
+				}
+			},
+			{
+				"id": "050",
+				"name": "Ask to Wind Live Mix",
+				"composer": "Forte Escape",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 93
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 93
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 183
+					}
+				}
+			},
+			{
+				"id": "051",
+				"name": "End of the Moonlight",
+				"composer": "Forte Escape",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 72
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 142
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 123
+					}
+				}
+			},
+			{
+				"id": "052",
+				"name": "Hello Pinky",
+				"composer": "NieN",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 153
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 153
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 153
+					}
+				}
+			},
+			{
+				"id": "053",
+				"name": "Nightmare",
+				"composer": "M2U",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 96
+					},
+					"hard": {
+						"level": 10,
+						"pageNum": 189
+					},
+					"chaos": {
+						"level": 15,
+						"pageNum": 182
+					}
+				}
+			},
+			{
+				"id": "054",
+				"name": "U.A.D",
+				"composer": "HAYAKO",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 132
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 132
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 126
+					}
+				}
+			},
+			{
+				"id": "055",
+				"name": "LOUDER MACHINE",
+				"composer": "NOMA",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 92
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 182
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 182
+					}
+				}
+			},
+			{
+				"id": "056",
+				"name": "Pounding Destination",
+				"composer": "Ayatsugu_Revolved",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 75
+					},
+					"hard": {
+						"level": 4,
+						"pageNum": 148
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 128
+					}
+				}
+			},
+			{
+				"id": "057",
+				"name": "Stewrica -Cross-",
+				"composer": "Ayatsugu_Otowa",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 165
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 165
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 161
 					}
 				}
 			}
@@ -2903,6 +3097,82 @@
 						"pageNum": 149
 					}
 				}
+			},
+			{
+				"id": "041",
+				"name": "Sovereign",
+				"composer": "LureRabbit",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 113
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 113
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 205
+					}
+				}
+			},
+			{
+				"id": "042",
+				"name": "paradigm-paragramme-program",
+				"composer": "繊(Apo11o program vs. お月さま交響曲) ft. じまんぐ",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 106
+					},
+					"hard": {
+						"level": 9,
+						"pageNum": 209
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 190
+					}
+				}
+			},
+			{
+				"id": "043",
+				"name": "Secret Garden",
+				"composer": "AILE",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 129
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 129
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 129
+					}
+				}
+			},
+			{
+				"id": "044",
+				"name": "Halcyon",
+				"composer": "xi",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 123
+					},
+					"hard": {
+						"level": 9,
+						"pageNum": 223
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 223
+					}
+				}
 			}
 		]
 	},
@@ -3409,6 +3679,146 @@
 					"chaos": {
 						"level": 12,
 						"pageNum": 166
+					}
+				}
+			}
+		]
+	},
+	{
+		"name": "Bo Bo",
+		"id": "bobo001",
+		"color": "83AC36",
+		"songs": [
+			{
+				"id": "001",
+				"name": "Äventyr",
+				"composer": "GrandThaw / Rigel Theatre",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 177
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 177
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 161
+					}
+				}
+			},
+			{
+				"id": "002",
+				"name": "NORDLYS",
+				"composer": "Rigel Theatre feat.ミーウェル",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 186
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 186
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 176
+					}
+				}
+			},
+			{
+				"id": "003",
+				"name": "Snow Blossom",
+				"composer": "yuritoworks.",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 164
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 164
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 147
+					}
+				}
+			},
+			{
+				"id": "004",
+				"name": "Quinsialyn",
+				"composer": "MYUKKE.",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 96
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 191
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 159
+					}
+				}
+			},
+			{
+				"id": "005",
+				"name": "黎明-REIMEI-",
+				"composer": "Tatsh",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 97
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 192
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 169
+					}
+				}
+			},
+			{
+				"id": "006",
+				"name": "End of fireworks",
+				"composer": "MINEXO",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 137
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 136
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 117
+					}
+				}
+			},
+			{
+				"id": "007",
+				"name": "神様と羊飼い",
+				"composer": "テヅカ",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 186
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 186
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 186
 					}
 				}
 			}
@@ -5540,6 +5950,10 @@
 					"chaos": {
 						"level": 10,
 						"pageNum": 134
+					},
+					"glitch": {
+						"level": 13,
+						"pageNum": 156
 					}
 				}
 			},

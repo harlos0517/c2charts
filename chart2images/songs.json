@@ -20,7 +20,7 @@
 		{ "id": "007", "name": "Gravity", "composer": "M2U",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 12 }, "glitch": { "level": 13 }}},
 		{ "id": "008", "name": "Re:Boost", "composer": "EAjRock",
-		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 11 }}},
+		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 11 }, "glitch": { "level": 13 }}},
 		{ "id": "009", "name": "Green Hope", "composer": "Re:Brych voc. Sing Sing Rabbit",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},
 		{ "id": "010", "name": "Under the same sky", "composer": "hinode",
@@ -56,9 +56,13 @@
 		{ "id": "025", "name": "I Wish You Were Mine", "composer": "GALAXIKA, ELIN",
 		  "charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},
 		{ "id": "026", "name": "PIXIE DUST", "composer": "上村叶恵",
-		  "charts": {  "easy":{ "level": 1 }, "hard":{ "level":  5 }, "chaos": { "level": 10 }}},
+		  "charts": {  "easy":{ "level": 1 }, "hard": { "level": 5 }, "chaos": { "level": 10 }}},
 		{ "id": "027", "name": "Sleeping Beast", "composer": "SNoW",
-		  "charts": {  "easy":{ "level": 4 }, "hard":{ "level":  7 }, "chaos": { "level": 11 }}}
+		  "charts": {  "easy":{ "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 11 }}},
+		{ "id": "028", "name": "Inspiration", "composer": "Hannah",
+			"charts": {  "easy":{ "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 10 }}},
+		{ "id": "029", "name": "No-Effected World", "composer": "Miki Fujimoto feat.HARUKI",
+			"charts": {  "easy":{ "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 10 }}}
 	]
 },{
 	"name": "NEKO#ΦωΦ",
@@ -162,7 +166,23 @@
 		{ "id": "048", "name": "Play the Future", "composer": "Urbatonic Chopsticks",
 			"charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 12 }}},
 		{ "id": "049", "name": "We're All Gonna Die", "composer": "Paul Bazooka",
-			"charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 14 }}}
+			"charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 14 }}},
+		{ "id": "050", "name": "Ask to Wind Live Mix", "composer": "Forte Escape",
+			"charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 12 }}},
+		{ "id": "051", "name": "End of the Moonlight", "composer": "Forte Escape",
+			"charts": { "easy": { "level": 3 }, "hard": { "level": 7 }, "chaos": { "level": 14 }}},
+		{ "id": "052", "name": "Hello Pinky", "composer": "NieN",
+			"charts": { "easy": { "level": 2 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
+		{ "id": "053", "name": "Nightmare", "composer": "M2U",
+			"charts": { "easy": { "level": 5 }, "hard": { "level": 10 }, "chaos": { "level": 15 }}},
+		{ "id": "054", "name": "U.A.D", "composer": "HAYAKO",
+			"charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
+		{ "id": "055", "name": "LOUDER MACHINE", "composer": "NOMA",
+			"charts": { "easy": { "level": 3 }, "hard": { "level": 8 }, "chaos": { "level": 12 }}},
+		{ "id": "056", "name": "Pounding Destination", "composer": "Ayatsugu_Revolved",
+			"charts": { "easy": { "level": 2 }, "hard": { "level": 4 }, "chaos": { "level": 10 }}},
+		{ "id": "057", "name": "Stewrica -Cross-", "composer": "Ayatsugu_Otowa",
+			"charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}}
 	]
 },{
 	"name": "ROBO_Head",
@@ -318,7 +338,15 @@
 		{ "id": "039", "name": "FREEDOM DiVE", "composer": "xi",
 		  "charts": { "easy": { "level": 6 }, "hard": { "level": 10 }, "chaos": { "level": 15 }}},
 		{ "id": "040", "name": "Summer Zephyr", "composer": "SUi",
-			"charts": { "easy": { "level": 2 }, "hard": { "level": 6 }, "chaos": { "level": 10 }}}
+			"charts": { "easy": { "level": 2 }, "hard": { "level": 6 }, "chaos": { "level": 10 }}},
+		{ "id": "041", "name": "Sovereign", "composer": "LureRabbit",
+			"charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 14 }}},
+		{ "id": "042", "name": "paradigm-paragramme-program", "composer": "繊(Apo11o program vs. お月さま交響曲) ft. じまんぐ",
+			"charts": { "easy": { "level": 4 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}},
+		{ "id": "043", "name": "Secret Garden", "composer": "AILE",
+			"charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 11 }}},
+		{ "id": "044", "name": "Halcyon", "composer": "xi",
+			"charts": { "easy": { "level": 4 }, "hard": { "level": 9 }, "chaos": { "level": 14 }}}
 	]
 },{
 	"name": "Crystal PuNK",
@@ -383,6 +411,26 @@
 		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 9 }}},
 		{ "id": "013", "name": "The Whole Rest", "composer": "KIVΛ",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}}
+	]
+},{
+	"name": "Bo Bo",
+	"id": "bobo001",
+	"color": "83AC36",
+	"songs": [
+		{ "id": "001", "name": "Äventyr", "composer": "GrandThaw / Rigel Theatre",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 12 }}},
+		{ "id": "002", "name": "NORDLYS", "composer": "Rigel Theatre feat.ミーウェル",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
+		{ "id": "003", "name": "Snow Blossom", "composer": "yuritoworks.",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}},
+		{ "id": "004", "name": "Quinsialyn", "composer": "MYUKKE.",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 13 }}},
+		{ "id": "005", "name": "黎明-REIMEI-", "composer": "Tatsh",
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 12 }}},
+		{ "id": "006", "name": "End of fireworks", "composer": "MINEXO",
+		  "charts": { "easy": { "level": 3 }, "hard": { "level": 6 }, "chaos": { "level": 11 }}},
+		{ "id": "007", "name": "神様と羊飼い", "composer": "テヅカ",
+		  "charts": { "easy": { "level": 4 }, "hard": { "level": 8 }, "chaos": { "level": 13 }}}
 	]
 },{
 	"name": "Kizuna AI",
@@ -652,7 +700,7 @@
 		{ "id": "007", "name": "漂流", "composer": "THE SxPLAY & KIVΛ",
 		  "charts": { "easy": { "level": 4 }, "hard": { "level": 7 }, "chaos": { "level": 14 }}},
 		{ "id": "008", "name": "Perspectives", "composer": "KIVΛ & Nikki Simmons",
-		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 10 }}},
+		  "charts": { "easy": { "level": 2 }, "hard": { "level": 5 }, "chaos": { "level": 10 }, "glitch": { "level": 13 }}},
 		{ "id": "009", "name": "風の声", "composer": "Iris x Ruri Matsumura",
 		  "charts": { "easy": { "level": 2 }, "hard": { "level": 4 }, "chaos": { "level": 9 }}},
 		{ "id": "010", "name": "Neon Escape", "composer": "Ayy feat. 薛南",

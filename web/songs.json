@@ -1703,6 +1703,291 @@
 						"pageNum": 161
 					}
 				}
+			},
+			{
+				"id": "058",
+				"name": "Hop Step Adventure☆",
+				"composer": "ああああ茶漬け",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 94
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 186
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 182
+					}
+				}
+			},
+			{
+				"id": "059",
+				"name": "Silent Voice",
+				"composer": "Nardis",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 147
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 147
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 139
+					}
+				}
+			},
+			{
+				"id": "060",
+				"name": "Spring",
+				"composer": "Rave Cyanide, RiraN",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 149
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 149
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 147
+					}
+				}
+			},
+			{
+				"id": "061",
+				"name": "dynamo",
+				"composer": "Hidra-Xjeil",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 97
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 198
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 181
+					}
+				}
+			},
+			{
+				"id": "062",
+				"name": "Hello Days",
+				"composer": "tomo & ino(cronoize)",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 139
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 139
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 134
+					}
+				}
+			},
+			{
+				"id": "063",
+				"name": "Interstellar Experience",
+				"composer": "polysha + daph",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 110
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 219
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 193
+					}
+				}
+			},
+			{
+				"id": "064",
+				"name": "FUSE",
+				"composer": "Titancube",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 104
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 205
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 184
+					}
+				}
+			},
+			{
+				"id": "065",
+				"name": "Gigantic Saga",
+				"composer": "Paul Bazooka",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 135
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 135
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 136
+					}
+				}
+			},
+			{
+				"id": "066",
+				"name": "popotnik ~ The Traveller of Ljubljana",
+				"composer": "LhoU",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 156
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 156
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 152
+					}
+				}
+			},
+			{
+				"id": "067",
+				"name": "Ascension to Heaven",
+				"composer": "xi",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 133
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 263
+					},
+					"chaos": {
+						"level": 15,
+						"pageNum": 180
+					}
+				}
+			},
+			{
+				"id": "068",
+				"name": "Lifill",
+				"composer": "Feryquitous Feat Sennzai",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 108
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 108
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 213
+					}
+				}
+			},
+			{
+				"id": "069",
+				"name": "そんなに私を期待きせないで",
+				"composer": "上村叶恵",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 104
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 206
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 202
+					}
+				}
+			},
+			{
+				"id": "070",
+				"name": "Fading Star",
+				"composer": "ginkiha",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 139
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 139
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 129
+					}
+				}
+			},
+			{
+				"id": "071",
+				"name": "Magical Toy Box",
+				"composer": "Shiron + xi",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 117
+					},
+					"hard": {
+						"level": 9,
+						"pageNum": 231
+					},
+					"chaos": {
+						"level": 15,
+						"pageNum": 207
+					}
+				}
+			},
+			{
+				"id": "072",
+				"name": "Until the Blue Moon Rises",
+				"composer": "Plutian",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 84
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 167
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 159
+					}
+				}
 			}
 		]
 	},
@@ -3427,6 +3712,44 @@
 						"pageNum": 168
 					}
 				}
+			},
+			{
+				"id": "014",
+				"name": "眷戀",
+				"composer": "dizLike",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 203
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 203
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 185
+					}
+				}
+			},
+			{
+				"id": "015",
+				"name": "Still (Piano Version)",
+				"composer": "Rua feat. K",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 75
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 75
+					},
+					"chaos": {
+						"level": 9,
+						"pageNum": 76
+					}
+				}
 			}
 		]
 	},
@@ -3819,6 +4142,495 @@
 					"chaos": {
 						"level": 13,
 						"pageNum": 186
+					}
+				}
+			},
+			{
+				"id": "008",
+				"name": "IBUKI",
+				"composer": "Analog Digital",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 164
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 164
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 152
+					}
+				}
+			},
+			{
+				"id": "009",
+				"name": "The breath of the soul",
+				"composer": "Ryo Arue",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 169
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 169
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 233
+					}
+				}
+			},
+			{
+				"id": "010",
+				"name": "Firstborns",
+				"composer": "SOTUI feat. Iris",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 108
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 214
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 169
+					}
+				}
+			},
+			{
+				"id": "011",
+				"name": "Heliopolis Project",
+				"composer": "Sherwin",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 187
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 187
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 189
+					}
+				}
+			}
+		]
+	},
+	{
+		"name": "Alice",
+		"id": "alice001",
+		"color": "66494F",
+		"songs": [
+			{
+				"id": "001",
+				"name": "Friction",
+				"composer": "HAMO from Mili",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 86
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 170
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 113
+					}
+				}
+			},
+			{
+				"id": "002",
+				"name": "Legacy",
+				"composer": "switchworks",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 126
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 125
+					},
+					"chaos": {
+						"level": 9,
+						"pageNum": 126
+					}
+				}
+			},
+			{
+				"id": "003",
+				"name": "Living In The One",
+				"composer": "Edmund Fu",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 186
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 186
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 186
+					}
+				}
+			},
+			{
+				"id": "004",
+				"name": "YUBIKIRI-GENMAN",
+				"composer": "Mili",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 109
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 216
+					},
+					"chaos": {
+						"level": 9,
+						"pageNum": 213
+					}
+				}
+			},
+			{
+				"id": "005",
+				"name": "I hate to tell you",
+				"composer": "Yuk-cheung Chun",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 87
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 87
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 87
+					}
+				}
+			},
+			{
+				"id": "006",
+				"name": "Utopiosphere",
+				"composer": "Mili",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 102
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 178
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 128
+					}
+				}
+			},
+			{
+				"id": "007",
+				"name": "Marigold",
+				"composer": "M2U",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 99
+					},
+					"hard": {
+						"level": 9,
+						"pageNum": 197
+					},
+					"chaos": {
+						"level": 15,
+						"pageNum": 164
+					}
+				}
+			},
+			{
+				"id": "008",
+				"name": "The Beautiful Moonlight",
+				"composer": "Mai Aoyagi",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 107
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 214
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 167
+					}
+				}
+			},
+			{
+				"id": "009",
+				"name": "都市の呼吸",
+				"composer": "technoplanet feat. 岡聡志",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 109
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 109
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 174
+					}
+				}
+			},
+			{
+				"id": "010",
+				"name": "To next page",
+				"composer": "kamome sano",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 110
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 217
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 187
+					}
+				}
+			},
+			{
+				"id": "011",
+				"name": "ANiMA",
+				"composer": "xi",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 90
+					},
+					"hard": {
+						"level": 10,
+						"pageNum": 177
+					},
+					"chaos": {
+						"level": 15,
+						"pageNum": 168
+					}
+				}
+			}
+		]
+	},
+	{
+		"name": "Hans",
+		"id": "hans001",
+		"color": "434343",
+		"songs": [
+			{
+				"id": "001",
+				"name": "Sunset",
+				"composer": "Alex Vourtsanis",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 118
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 233
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 225
+					}
+				}
+			},
+			{
+				"id": "002",
+				"name": "Ephemeral",
+				"composer": "Mili",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 82
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 161
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 134
+					}
+				}
+			},
+			{
+				"id": "003",
+				"name": "Ruins in the Mirage",
+				"composer": "SIHanatsuka & Yukino",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 50
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 95
+					},
+					"chaos": {
+						"level": 10,
+						"pageNum": 95
+					}
+				}
+			},
+			{
+				"id": "004",
+				"name": "Run Go Run",
+				"composer": "Kaeru Underground",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 141
+					},
+					"hard": {
+						"level": 7,
+						"pageNum": 195
+					},
+					"chaos": {
+						"level": 12,
+						"pageNum": 187
+					}
+				}
+			},
+			{
+				"id": "005",
+				"name": "Platinum",
+				"composer": "Sta",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 88
+					},
+					"hard": {
+						"level": 5,
+						"pageNum": 96
+					},
+					"chaos": {
+						"level": 9,
+						"pageNum": 96
+					}
+				}
+			},
+			{
+				"id": "006",
+				"name": "Leviathan",
+				"composer": "NeLiME",
+				"charts": {
+					"easy": {
+						"level": 4,
+						"pageNum": 98
+					},
+					"hard": {
+						"level": 9,
+						"pageNum": 189
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 187
+					}
+				}
+			},
+			{
+				"id": "007",
+				"name": "Lost in the Nowhere",
+				"composer": "Rave Cyanide",
+				"charts": {
+					"easy": {
+						"level": 3,
+						"pageNum": 133
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 133
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 133
+					}
+				}
+			},
+			{
+				"id": "008",
+				"name": "Dream",
+				"composer": "Rabpit",
+				"charts": {
+					"easy": {
+						"level": 2,
+						"pageNum": 108
+					},
+					"hard": {
+						"level": 6,
+						"pageNum": 108
+					},
+					"chaos": {
+						"level": 11,
+						"pageNum": 108
+					}
+				}
+			},
+			{
+				"id": "009",
+				"name": "Path and Period",
+				"composer": "Jun Kuroda",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 84
+					},
+					"hard": {
+						"level": 8,
+						"pageNum": 166
+					},
+					"chaos": {
+						"level": 13,
+						"pageNum": 151
+					}
+				}
+			},
+			{
+				"id": "010",
+				"name": "Aragami",
+				"composer": "xi",
+				"charts": {
+					"easy": {
+						"level": 5,
+						"pageNum": 123
+					},
+					"hard": {
+						"level": 9,
+						"pageNum": 123
+					},
+					"chaos": {
+						"level": 14,
+						"pageNum": 128
 					}
 				}
 			}

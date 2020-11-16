@@ -3,3 +3,6 @@ chart2images/data/*
 chart2images/output/*
 !chart2images/data/sample_V.json
 *.zip
+midi*
+*.mid
+tomidi.js

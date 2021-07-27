@@ -73,14 +73,14 @@ const beats = [
 ]
 
 function loadAssets(){
-	fonts.forEach(font=>{ registerFont(font.src, { family: font.family }) })
+	fonts.forEach(font=>{ registerFont('assets/fonts/' + font.src, { family: font.family }) })
 	let promises = []
 	noteTypes.forEach(noteType=>{
-		promises.push = loadImage(noteType.up  .src).then(image=>{ noteType.up  .image = image })
-		promises.push = loadImage(noteType.down.src).then(image=>{ noteType.down.image = image })
+		promises.push = loadImage('assets/img/' + noteType.up  .src).then(image=>{ noteType.up  .image = image })
+		promises.push = loadImage('assets/img/' + noteType.down.src).then(image=>{ noteType.down.image = image })
 		if (noteType.tail) {
 			let tail = noteType.tail
-			promises.push = loadImage(tail.src).then(image=>{ tail.image = image })
+			promises.push = loadImage('assets/img/' + tail.src).then(image=>{ tail.image = image })
 		}
 	})
 	return Promise.all(promises)
@@ -163,21 +163,21 @@ function drawTempoChange(ctx, page, initBpmChange, lineSpeedChange) {
 		else if (bpmChange < 0) color = `#00FF66${hex}`
 		else return
 		ctx.fillStyle = color
-		let start = yPos(page.dir, (tempo.tick - page.start_tick) / page.delta)
-		let end = yPos(page.dir, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
+		let start = yPos(page.direction, (tempo.tick - page.start_tick) / page.delta)
+		let end = yPos(page.direction, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
 		if (start > end) [start, end] = [end, start]
 		ctx.fillRect(0, start, canvasWidth, end - start)
 	})
-	let y = (page.dir > 0) ? canvasHeight : 0
+	let y = (page.direction > 0) ? canvasHeight : 0
 	tempos.forEach((tempo, tempoIndex, tempos)=>{
 		let bpmChange = tempoIndex ? getBpmChange(tempo.bpm, initBpm) : initBpmChange
 		let lineChange = tempoIndex ? bpmChange : lineSpeedChange
 		let fontSize = 60
 		ctx.font = `${fontSize}px "Rajdhani"`
-		let start = yPos(page.dir, (tempo.tick - page.start_tick) / page.delta)
-		let end = yPos(page.dir, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
+		let start = yPos(page.direction, (tempo.tick - page.start_tick) / page.delta)
+		let end = yPos(page.direction, tempos[tempoIndex+1] ? ((tempos[tempoIndex+1].tick - page.start_tick) / page.delta) : 1)
 		if (start > end) [start, end] = [end, start]
-		y = (page.dir > 0) ? Math.min(y, end - fontSize*.2) : Math.max(y, start + fontSize)
+		y = (page.direction > 0) ? Math.min(y, end - fontSize*.2) : Math.max(y, start + fontSize)
 		let color = '#FFFFFF'
 		if (bpmChange > 0) color = '#FF8888'
 		if (bpmChange < 0) color = '#88FFBB'
@@ -188,14 +188,14 @@ function drawTempoChange(ctx, page, initBpmChange, lineSpeedChange) {
 		if (lineChange < 0) color = '#88FFBB'
 		ctx.fillStyle = color
 		writeBpm(ctx, tempo.bpm / page.beats, fontSize*.2, y, fontSize, 'left')
-		y -= fontSize * page.dir
+		y -= fontSize * page.direction
 	})
 }
 
 function drawDirection(ctx, page, lineSpeedChange) {
 	let thickness = 80
-	let grdStart = margin.top + ((page.dir > 0) ?  noteAreaHeight : 0)
-	let grdEnd   = margin.top + ((page.dir > 0) ? (noteAreaHeight - thickness) : thickness)
+	let grdStart = margin.top + ((page.direction > 0) ?  noteAreaHeight : 0)
+	let grdEnd   = margin.top + ((page.direction > 0) ? (noteAreaHeight - thickness) : thickness)
 	let grd = ctx.createLinearGradient(0, grdStart, 0, grdEnd);
 	let color = '#FFFFFF'
 	if (lineSpeedChange > 0) color = '#FF8888'
@@ -204,7 +204,7 @@ function drawDirection(ctx, page, lineSpeedChange) {
 	grd.addColorStop(0, `${color}90`)
 	grd.addColorStop(1, `${color}00`)
 	ctx.fillStyle = grd
-	ctx.fillRect(0, (page.dir > 0) ? grdEnd : grdStart, canvasWidth, thickness)
+	ctx.fillRect(0, (page.direction > 0) ? grdEnd : grdStart, canvasWidth, thickness)
 }
 
 function drawBeatLines(ctx, page) {
@@ -214,7 +214,7 @@ function drawBeatLines(ctx, page) {
 			let curBeat = beatInt + beat.num/beat.div + page.start_beat
 			if (curBeat < 0) continue
 			if (curBeat > page.beats) break
-			drawBeatLine(ctx, yPos(page.dir, curBeat/page.beats), beat.color, beat.lineWidth)
+			drawBeatLine(ctx, yPos(page.direction, curBeat/page.beats), beat.color, beat.lineWidth)
 		}
 	})
 }
@@ -260,9 +260,9 @@ function drawTail(note, page, ctx) {
 	let top = margin.top
 	let bottom = canvasHeight - margin.bottom
 
-	let start = (page === note.page) ? note.yPos : ((page.dir > 0) ? bottom : top)
-	let end = (page === note.end_page) ? note.endYPos : ((page.dir > 0) ? top : bottom)
-	if (page.dir > 0) [ start, end ] = [ end, start ]
+	let start = (page === note.page) ? note.yPos : ((page.direction > 0) ? bottom : top)
+	let end = (page === note.end_page) ? note.endYPos : ((page.direction > 0) ? top : bottom)
+	if (page.direction > 0) [ start, end ] = [ end, start ]
 	for (let point = start; point < end; point += height)
 		ctx.drawImage(tail, note.xPos - width/2, point, width, Math.min(height, end - point))
 }
@@ -278,7 +278,7 @@ function drawLink(note, ctx) {
 }
 
 function getRotate(note) {
-	if (!note.next) return (note.page.dir > 0) ? Math.PI/2 : -Math.PI/2
+	if (!note.next) return (note.page.direction > 0) ? Math.PI/2 : -Math.PI/2
 	let dx = note.next.xPos - note.xPos
 	let dy = note.next.yPos - note.yPos
 	return Math.atan2(dx, -dy)
@@ -305,81 +305,33 @@ function drawNote(note, ctx, dir, shrink) {
 }
 
 function preprocess(data) {
-	let pages  = data.page_list
-	let tempos = data.tempo_list
-	let events = data.event_order_list
-	let notes  = data.note_list
+	const { pages, tempos, events, notes } = data
 
-	tempos.forEach((tempo, tempoIndex)=>{
-		tempo.bpm = 60000000/tempo.value
-		tempo.bpmChange = tempo[tempoIndex-1] ? getBpmChange(tempo.bpm, tempo[tempoIndex-1].bpm) : 0
+	pages.forEach((p, p_i)=>{
+		p.next = pages[p_i+1]
+		p.prev = pages[p_i-1]
+		p.tempos = p.tempo_ids.map(id => tempos[id])
+		p.events = p.event_ids.map(id => events[id])
+		p. notes = p. note_ids.map(id =>  notes.find(x => x.id === id))
 	})
 
-	let curTempoIndex = 0
-	let tempo = tempos[curTempoIndex]
-	let prevTempo = tempos[curTempoIndex]
-	let curEventIndex = 0
-	let event = events[curEventIndex]
-	let startBeat = 0
-	pages.forEach((page, page_index)=>{
-		page.dir = page.scan_line_direction
-		page.id = page_index
-		page.delta = page.end_tick - page.start_tick
-		page.next = pages[page_index+1]
-		page.prev = pages[page_index-1]
-		page.beats = page.delta / data.time_base
-		page.start_beat = startBeat
-		startBeat = (startBeat + page.beats) % 1
-
-		page.tempos = []
-		if (!tempo || page.start_tick < tempo.tick) {
-			let newTempo = Object.assign({},prevTempo)
-			newTempo.page = page
-			newTempo.tick = page.start_tick
-			page.tempos.push(newTempo)
-		}
-		while (tempo && page.end_tick > tempo.tick) {
-			page.tempos.push(tempo)
-			tempo.page = page
-			prevTempo = tempo
-			tempo = tempos[++curTempoIndex]
-		}
-
-		page.events = []
-		while (event && page.end_tick > event.tick) {
-			page.events.push(event)
-			event.page = page
-			// console.log(page.id, page.end_tick, event.tick, event.event_list)
-			event = events[++curEventIndex]
-		}
-
-		page.notes = []
-	})
-
-	notes.forEach((note)=>{
-		note.end_tick = note.tick + note.hold_tick
-
-		if (note.next_id > 0) note.next = notes.find(next=>next.id === note.next_id)
-
-		let page = pages.find(page=>page.id === note.page_index)
-		if (note.is_forward) page = page.prev
-		note.page = page
-		note.page.notes.push(note)
-		note.this_tick = note.tick - note.page.start_tick
-		note.beat = note.this_tick % data.time_base
-
+	notes.forEach(note=>{
+		note.    page = pages.find(p => p.id === note.    page_id)
+		note.next = notes[note.next_id]
 		note.xPos = margin.side + noteAreaWidth * note.x
-		note.yPos = yPos(page.dir, (note.tick-page.start_tick) / page.delta)
+		note.yPos = yPos(note.page.direction, (note.tick - note.page.start_tick) / note.page.delta)
+		if (!note.hold_tick) return
+		note.end_page = pages.find(p => p.id === note.end_page_id)
+		note.endYPos = yPos(note.end_page.direction, (note.end_tick - note.end_page.start_tick) / note.end_page.delta)
+		// console.log(note.end_tick - note.end_page.start_tick)
 	})
 
-	notes.forEach((note)=>{
-		if (!note.hold_tick) return
-		// find end tick position and page
-		let thisPage = note.page
-		while(thisPage.next && thisPage.next.start_tick < note.end_tick)
-			thisPage = thisPage.next
-		note.end_page = thisPage
-		note.endYPos = yPos(thisPage.dir, (note.end_tick-thisPage.start_tick) / thisPage.delta)
+	tempos.forEach(tempo=>{
+		tempo.page = pages.find(p => p.id === tempo.page_id)
+	})
+
+	events.forEach(event=>{
+		event.page = pages.find(p => p.id === event.page_id)
 	})
 }
 
@@ -446,11 +398,11 @@ function drawPage(page, isNext, base) {
 		}
 	})
 	if (group.flag) drawGroupLine(ctx, group, base)
-	notes.forEach(note=>{ drawNote(note, ctx, (page.dir < 0) ? 'down' : 'up') })
+	notes.forEach(note=>{ drawNote(note, ctx, (page.direction < 0) ? 'down' : 'up') })
 	return canvas
 }
 
-function processData(data, path, pageNum) {
+function processData(data, path, pageNum, page_id) {
 	// Check directory existance
 	if (!fs.existsSync(path))
 		fs.mkdirSync(path)
@@ -458,8 +410,15 @@ function processData(data, path, pageNum) {
 	preprocess(data)
 
 	let longHolds = []
-	data.page_list.forEach((page)=>{
-		if (page.id >= pageNum) return
+	let targetBuffer = null
+	let flag = false
+	data.pages.forEach((page, page_i)=>{
+		if (pageNum && page.id >= pageNum || flag) return
+		if (String(page_i) !== page_id) {
+			let newLongHolds = page.notes.filter(note=>note.type === 2).reverse().concat(longHolds)
+			longHolds = newLongHolds.filter(longHold=>longHold.end_tick > page.end_tick)
+			return
+		}
 		let canvas = createCanvas(canvasWidth, canvasHeight)
 		let ctx = canvas.getContext('2d')
 
@@ -489,7 +448,7 @@ function processData(data, path, pageNum) {
 		// Draw existing long holds
 		let newLongHolds = page.notes.filter(note=>note.type === 2).reverse().concat(longHolds)
 		newLongHolds.forEach(longHold=>{ drawTail(longHold, page, ctx) })
-		longHolds.forEach(longHold=>{ drawNote(longHold, ctx, (longHold.page.dir < 0) ? 'down' : 'up', true) })
+		longHolds.forEach(longHold=>{ drawNote(longHold, ctx, (longHold.page.direction < 0) ? 'down' : 'up', true) })
 		longHolds = newLongHolds.filter(longHold=>longHold.end_tick > page.end_tick)
 
 		// draw this page
@@ -505,11 +464,11 @@ function processData(data, path, pageNum) {
 		let finalCtx = finalCanvas.getContext('2d')
 		finalCtx.scale(scale, scale)
 		finalCtx.drawImage(canvas, 0, 0)
-		fs.writeFileSync(`${path}/${`${page.id}`.padStart(3, '0')}.png`, finalCanvas.toBuffer())
+		targetBuffer = finalCanvas.toBuffer()
+		flag = true
+		// fs.writeFileSync(`${path}/${`${page.id}`.padStart(3, '0')}.png`, finalCanvas.toBuffer())
 	})
+	return targetBuffer
 }
 
-module.exports = {
-	loadAssets: loadAssets,
-	processData: processData
-}
+module.exports = { loadAssets, processData }

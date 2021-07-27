@@ -50,22 +50,22 @@
 	</div>
 	<div id="main" class="container-xl p-5">
 		<div v-if="!thisCharId" class="row">
-			<a v-for="(character, index) in songsData"
-				:href="`index.html?char=${character.id}`"
+			<a v-for="(songPack, index) in songsData"
+				:href="`index.html?char=${songPack.song_pack_id}`"
 				class="char-container col-6 col-md-4 col-xl-3 py-5 px-0 rounded-lg text-decoration-none text-reset"
 			>
 				<div class="char text-center mb-3">
-					<img :src="`assets/${character.id}_l.png`" class="h-100" :alt="character.name">
+					<img :src="`assets/${songPack.song_pack_id}_l.png`" class="h-100" :alt="songPack.song_pack_name">
 				</div>
-				<div class="char-name text-center p-3 mx-5 rounded-lg" :style="`background-color: #${character.color};`">
-					{{ character.name }}
+				<div class="char-name text-center p-3 mx-5 rounded-lg" :style="`background-color: ${songPack.theme_color};`">
+					{{ songPack.song_pack_name }}
 				</div>
 			</a>
 		</div>
 		<div v-else class="d-lg-flex flex-lg-row">
 			<div class="char-image-row pr-5 d-none d-lg-block">
-				<img v-if="thisChar.id!=='other'" class="w-100 mb-5" :src="`assets/${thisChar.id}_s.png`" :alt="thisChar.name">
-				<div class="text-center p-3 rounded-lg mb-4" :style="`background-color: #${thisChar.color};`">{{ thisChar.name }}</div>
+				<img v-if="thisChar.song_pack_id!=='other'" class="w-100 mb-5" :src="`assets/${thisChar.song_pack_id}_s.png`" :alt="thisChar.song_pack_name">
+				<div class="text-center p-3 rounded-lg mb-4" :style="`background-color: ${thisChar.theme_color};`">{{ thisChar.song_pack_name }}</div>
 				<a href="index.html" class="text-center w-100 p-3 back btn text-white rounded-lg d-flex flex-row">
 					<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
@@ -73,13 +73,13 @@
 				</a>
 			</div>
 			<div class="char-image d-block d-lg-none">
-				<div class="text-center p-0 mb-4 rounded-lg d-flex flex-row align-items-center" :style="`background-color: #${thisChar.color};`">
+				<div class="text-center p-0 mb-4 rounded-lg d-flex flex-row align-items-center" :style="`background-color: ${thisChar.theme_color};`">
 					<a href="index.html" class="p-3 back btn text-white rounded-lg d-flex flex-row">
 						<svg width="1.75rem" height="1.75rem" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
 						</svg>
 					</a>
-					<div class="flex-grow-1 p-3">{{ thisChar.name }}</div>
+					<div class="flex-grow-1 p-3">{{ thisChar.song_pack_name }}</div>
 				</div>
 			</div>
 			<div class="flex-grow-1">
@@ -92,59 +92,66 @@
 									<div class="flex-grow-1 text-right">Composer</div>
 								</div>
 							</th>
-							<template v-if="thisChar.id!=='other'">
+							<template v-if="thisChar.song_pack_id!=='other'">
 								<th class="text-center align-middle easy diff border-0">EASY</th>
 								<th class="text-center align-middle hard diff border-0">HARD</th>
 								<th class="text-center align-middle chaos diff border-0">CHAOS</th>
 								<th class="text-center align-middle glitch diff border-0">GLITCH</th>
+								<th class="text-center align-middle crash diff border-0">CRASH</th>
 							</template>
 							<th v-else class="text-center align-middle other diff border-0">?</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr v-for="song in thisChar.songs">
+						<tr v-for="song in thisChar.song_info_list">
 							<td class="align-middle">
 								<div class="d-flex flex-row">
-									<div class="flex-grow-1 pr-3">{{ song.name }}</div>
-									<div class="flex-grow-1 text-right">{{ song.composer }}</div>
+									<div class="flex-grow-1 pr-3">{{ song.song_name || song.song_id }}</div>
+									<div class="flex-grow-1 text-right">{{ song.artist || '' }}</div>
 								</div>
 							</td>
-							<template v-if="thisChar.id!=='other'">
+							<template v-if="thisChar.song_pack_id!=='other'">
 								<td class="text-center align-middle py-2 diff">
-									<a v-if="song.charts.easy"
+									<a v-if="song.charts.Easy"
 										class="easy rounded-circle m-auto"
-										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=easy`">
-										{{ song.charts.easy.level }}
+										:href="`chart.html?charId=${thisChar.song_pack_id}&songId=${song.song_id}&diff=easy`">
+										{{ song.charts.Easy.Level }}
 									</a>
 								</td>
 								<td class="text-center align-middle py-2 diff">
-									<a v-if="song.charts.hard"
+									<a v-if="song.charts.Hard"
 										class="hard rounded-circle m-auto"
-										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=hard`">
-										{{ song.charts.hard.level }}
+										:href="`chart.html?charId=${thisChar.song_pack_id}&songId=${song.song_id}&diff=hard`">
+										{{ song.charts.Hard.Level }}
 									</a>
 								</td>
 								<td class="text-center align-middle py-2 diff">
-									<a v-if="song.charts.chaos"
+									<a v-if="song.charts.Chaos"
 										class="chaos rounded-circle m-auto"
-										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=chaos`">
-										{{ song.charts.chaos.level }}
+										:href="`chart.html?charId=${thisChar.song_pack_id}&songId=${song.song_id}&diff=chaos`">
+										{{ song.charts.Chaos.Level }}
 									</a>
 								</td>
 								<td class="text-center align-middle py-2 diff">
-									<a v-if="song.charts.glitch"
+									<a v-if="song.charts.Glitch"
 										class="glitch rounded-circle m-auto"
-										:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=glitch`">
-										{{ song.charts.glitch.level }}
+										:href="`chart.html?charId=${thisChar.song_pack_id}&songId=${song.song_id}&diff=glitch`">
+										{{ song.charts.Glitch.Level }}
+									</a>
+								</td>
+								<td class="text-center align-middle py-2 diff">
+									<a v-if="song.charts.Crash"
+										class="crash rounded-circle m-auto"
+										:href="`chart.html?charId=${thisChar.song_pack_id}&songId=${song.song_id}&diff=crash`">
+										{{ song.charts.Crash.Level }}
 									</a>
 								</td>
 							</template>
 							<td v-else class="text-center align-middle py-2 diff">
-								<a v-if="song.charts.easy"
-								class="other rounded-circle m-auto"
-								:href="`chart.html?charId=${thisChar.id}&songId=${song.id}&diff=easy`">
-								?
-								</a>
+								<a
+									class="other rounded-circle m-auto"
+									:href="`chart.html?charId=${thisChar.song_pack_id}&songId=${song.song_id}&diff=easy`"
+								>?</a>
 							</td>
 						</tr>
 					</tbody>

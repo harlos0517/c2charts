@@ -51,33 +51,33 @@
 	<div id="main" class="container-fluid p-4 p-lg-5">
 		<div id="header" class="d-flex flex-row py-4">
 			<div class="w-auto col-lg-2 p-0 mr-4 mr-lg-5 ml-lg-n2 d-flex justify-content-start align-items-center">
-				<a :href="`index.html?char=${character.id}`" class="back h-100 btn p-0 px-lg-3 ml-2 ml-lg-5 text-white rounded-lg">
+				<a :href="`index.html?char=${character.song_pack_id}`" class="back h-100 btn p-0 px-lg-3 ml-2 ml-lg-5 text-white rounded-lg">
 					<svg width="3em" height="100%" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
 					</svg>
 				</a>
 			</div>
-			<img v-if="character.id !== 'other'" id="song-image" class="mr-4 mr-lg-5 rounded-lg" :src="`assets/${character.id}_${song.id}.png`" :alt="song.name">
+			<img v-if="character.song_pack_id !== 'other'" id="song-image" class="mr-4 mr-lg-5 rounded-lg" :src="`assets/${song.song_id}.png`" :alt="song.song_name">
 			<div v-else id="song-image" class="mr-4 mr-lg-5 rounded-lg d-flex justify-content-center align-items-center"><span>?</span></div>
 			<div class="py-2 flex-grow-1 d-flex flex-column justify-content-between">
 				<div class="m-0 my-3 h5">
-					<span class="py-3 px-5 rounded-lg" :style="`background-color: #${character.color};`">
-						{{ character.name }}
+					<span class="py-3 px-5 rounded-lg" :style="`background-color: ${character.theme_color};`">
+						{{ character.song_pack_name }}
 					</span>
 				</div>
-				<div class="m-0 my-1 h1">{{ song.name }}</div>
-				<div class="m-0 my-1 h3">{{ song.composer }}</div>
+				<div class="m-0 my-1 h1">{{ song.song_name || song.song_id }}</div>
+				<div class="m-0 my-1 h3">{{ song.artist || 'unknown' }}</div>
 				<div class="m-0 my-1 h4">
-					<span class="pb-1 pt-2 px-2" :class="character.id === 'other' ? 'other' : difficulty">
-						{{ character.id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
+					<span class="pb-1 pt-2 px-2" :class="character.song_pack_id === 'other' ? 'other' : difficulty">
+						{{ character.song_pack_id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
 					</span>
 				</div>
 			</div>
 		</div>
 		<div id="header-bar" class="d-flex flex-row align-items-center position-fixed w-100 py-2 px-4 px-lg-5"
-			:style="`background-color: #${character.color}; top: ${header ? 6 : 0}rem; opacity: ${header ? 1 : 0}`">
+			:style="`background-color: ${character.theme_color}; top: ${header ? 6 : 0}rem; opacity: ${header ? 1 : 0}`">
 			<div class="p-0 mr-4 mr-lg-5 ml-lg-n2 d-flex justify-content-start align-items-center">
-				<a :href="`index.html?char=${character.id}`" class="back h-100 btn p-0 px-lg-3 ml-2 ml-lg-5 text-white rounded-lg">
+				<a :href="`index.html?char=${character.song_pack_id}`" class="back h-100 btn p-0 px-lg-3 ml-2 ml-lg-5 text-white rounded-lg">
 					<svg width="3em" height="100%" viewBox="0 0 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
 					</svg>
@@ -85,20 +85,28 @@
 			</div>
 			<div id="header-name" class="m-0 h5 mr-4 mr-lg-5 text-center">
 				<span class="py-3 px-5 rounded-lg">
-					{{ character.name }}
+					{{ character.song_pack_name }}
 				</span>
 			</div>
-			<div class="m-0 px-2 h1 flex-grow-1">{{ song.name }}</div>
-			<div class="m-0 px-2 h3 flex-grow-1 d-none d-lg-block">{{ song.composer }}</div>
+			<div class="m-0 px-2 h1 flex-grow-1">{{ song.song_name || song.song_id }}</div>
+			<div class="m-0 px-2 h3 flex-grow-1 d-none d-lg-block">{{ song.artist }}</div>
 			<div class="m-0 h4 mr-2 mr-lg-5">
-				<span class="pb-1 pt-2 px-2 text-nowrap" :class="character.id === 'other' ? 'other' : difficulty">
-					{{ character.id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
+				<span class="pb-1 pt-2 px-2 text-nowrap" :class="character.song_pack_id === 'other' ? 'other' : difficulty">
+					{{ character.song_pack_id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
 				</span>
 			</div>
 		</div>
-		<div id="charts" class="row px-3 px-lg-5 my-3">
+		<div v-if="song.pageNum || (song.charts && song.charts[diffId] && song.charts[diffId].pageNum)" id="charts" class="row px-3 px-lg-5 my-3">
 			<div v-for="index in curPageNum" class="chart col-12 col-md-6 col-xl-3 p-2 p-lg-4 my-4">
-				<img :src="`http://157.230.32.225:2502/${character.id}/${song.id}/${difficulty}/${`${index-1}`.padStart(3, '0')}.png`" alt="	">
+				<img :src="`http://157.230.32.225:2502/chart?song_id=${
+					song.song_id
+				}&diff=${
+					difficulty
+				}&page_id=${
+					index-1
+				}&${
+					character.song_pack_id === 'other' ? 'other' : ''
+				}`" alt="">
 			</div>
 		</div>
 	</div>

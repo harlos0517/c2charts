@@ -1,7 +1,7 @@
 # Cytus II Chart Viewer
 
 ## Latest News
-I will rewrite this into SSR Vue + Quasar. And the server side will only send json data. The image rendering job goes to client side. (2021/07/28)
+I will rewrite this into SSR Vue + Quasar. And the server will not send images any more, instead, client side will render the images. (2021/07/28)
 
 ## About
 This project is composed of two parts:

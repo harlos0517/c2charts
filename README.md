@@ -1,5 +1,9 @@
 # Cytus II Chart Viewer
 
+## Latest News
+I will rewrite this into SSR Vue + Quasar. And the server side will only send json data. The image rendering job goes to client side. (2021/07/28)
+
+## About
 This project is composed of two parts:
 
 1. `chart2images` : Converts the chart data into images. Uses `node.js` with `canvas` module.

@@ -683,6 +683,314 @@
 					"is_hidden": false,
 					"IsDownloadOnly": false,
 					"Category": ""
+				},
+				{
+					"song_id": "paff001_011",
+					"song_name": "So In Love",
+					"artist": "MK&Kanae Asaba",
+					"charts": {
+						"Easy": {
+							"Level": "1",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 89
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 177
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 169
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_019",
+					"song_name": "Cityscape",
+					"artist": "Takashi OKAMOTO(12sound) feat.Tsukasa Shiraki",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_020",
+					"song_name": "Favorites",
+					"artist": "DJ'TEKINA//SOMETHING",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 199
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_021",
+					"song_name": "Make Me Alive",
+					"artist": "THE SxPLAY(菅原紗由理)",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_022",
+					"song_name": "Light up my love!!",
+					"artist": "onoken feat. moco",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 88
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 88
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 160
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_023",
+					"song_name": "Super attractor",
+					"artist": "ユアミトス",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 151
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 304
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 280
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_025",
+					"song_name": "I Wish You Were Mine",
+					"artist": "GALAXIKA, ELIN",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 189
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 189
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 177
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_026",
+					"song_name": "PIXIE DUST",
+					"artist": "上村叶恵",
+					"charts": {
+						"Easy": {
+							"Level": "1",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Chaos": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_028",
+					"song_name": "Inspiration",
+					"artist": "Hannah",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Chaos": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_029",
+					"song_name": "No-Effected World",
+					"artist": "Miki Fujimoto feat.HARUKI",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 147
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 147
+						},
+						"Chaos": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 137
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "paff001_033",
+					"song_name": "Orison",
+					"artist": "Iris feat. Jacelyn Yeo",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 127
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 127
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 131
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
 				}
 			]
 		},
@@ -1251,6 +1559,624 @@
 					"is_hidden": false,
 					"IsDownloadOnly": false,
 					"Category": ""
+				},
+				{
+					"song_id": "neko001_015",
+					"song_name": "PrayStation (HiTECH NINJA Remix)",
+					"artist": "HiTECH NINJA",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 165
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 165
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 173
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_016",
+					"song_name": "100sec Cat Dreams",
+					"artist": "Ayatsugu_Revolved",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 74
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 147
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 147
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_017",
+					"song_name": "REmorse",
+					"artist": "SIHanatsuka",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 127
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 253
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 215
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_018",
+					"song_name": "Stranger",
+					"artist": "James Landino",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 107
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 213
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 189
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_019",
+					"song_name": "小悪魔×3の大脱走！？",
+					"artist": "101-202-404",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 118
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 235
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 179
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_021",
+					"song_name": "Online",
+					"artist": "HiTECH NINJA",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 90
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 179
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 162
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_022",
+					"song_name": "Sunday Night Blues",
+					"artist": "TERU FOX",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 103
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 205
+						},
+						"Chaos": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_025",
+					"song_name": "Blow My Mind (tpz Overheat Remix)",
+					"artist": "3R2 Remixed by t+pazolite",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 131
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 131
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 230
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_026",
+					"song_name": "Maboroshi",
+					"artist": "かめりあ(EDP)",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 141
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 281
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 235
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_027",
+					"song_name": "TOKONOMA Spacewalk",
+					"artist": "t+pazolite",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 91
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 181
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 163
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_028",
+					"song_name": "UnNOT!CED",
+					"artist": "V!C",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 126
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 251
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 231
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_029",
+					"song_name": "下水鳴動して鼠一匹",
+					"artist": "O-SE",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 100
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 200
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 165
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_030",
+					"song_name": "Capybara Kids' Paradise",
+					"artist": "Ice vs LunaticSounds",
+					"charts": {
+						"Easy": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 163
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 163
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 270
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_031",
+					"song_name": "Walnuts Walkers",
+					"artist": "fether",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 203
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 203
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 190
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_032",
+					"song_name": "Hydra",
+					"artist": "James Landino X Akira Complex",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 201
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 201
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 180
+						},
+						"Glitch": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_033",
+					"song_name": "Liberation",
+					"artist": "Silaver & lixound",
+					"charts": {
+						"Easy": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 126
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 251
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 230
+						},
+						"Glitch": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 231
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_034",
+					"song_name": "Ramen is God",
+					"artist": "Ramenbot a.k.a. Ice VS Masahiro \"Godspeed\" Aoki",
+					"charts": {
+						"Easy": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 221
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 221
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 190
+						},
+						"Glitch": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 193
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_035",
+					"song_name": "Re:VeLΔTiØN ～光道ト破壊ノ双白翼～",
+					"artist": "Apo11o\"月読命\"program vs. NeLiME OVERDRIVE",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 177
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 177
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 177
+						},
+						"Glitch": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 189
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_036",
+					"song_name": "Rebirth",
+					"artist": "3R2 & SIHanatsuka",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 84
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 168
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 122
+						},
+						"Glitch": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 122
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_055",
+					"song_name": "LOUDER MACHINE",
+					"artist": "NOMA",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 92
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "neko001_075",
+					"song_name": "Headrush",
+					"artist": "floopy",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 132
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 132
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 132
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
 				}
 			]
 		},
@@ -1758,6 +2684,594 @@
 							"MusicID": "",
 							"NeedUnlock": true,
 							"pageNum": 176
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_014",
+					"song_name": "Sickest City",
+					"artist": "DJ Myosuke",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 119
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 237
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 242
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_015",
+					"song_name": "Jazzy Glitch Machine",
+					"artist": "提供",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 150
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 150
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 139
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_016",
+					"song_name": "dimensionalize nervous breakdown (rev.flat)",
+					"artist": "Frums",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 133
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_017",
+					"song_name": "cold",
+					"artist": "Noizenecio",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 99
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 198
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 171
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_018",
+					"song_name": "NRG_Tech",
+					"artist": "3R2",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 175
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 175
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 158
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_019",
+					"song_name": "Break Through The Barrier",
+					"artist": "lixound",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 100
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 200
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 188
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_020",
+					"song_name": "Dead Master",
+					"artist": "Neutral Moon",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 92
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 165
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_023",
+					"song_name": "Accelerator",
+					"artist": "Massive New Krew",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 89
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 177
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 171
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_024",
+					"song_name": "Armaros",
+					"artist": "Dj Grimoire",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 121
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 241
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_025",
+					"song_name": "Break the Core",
+					"artist": "PTB10",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 163
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 163
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 153
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_026",
+					"song_name": "Milky Way Galaxy (SIHanatsuka Remix)",
+					"artist": "3R2",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 118
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 235
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 219
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_027",
+					"song_name": "ViRUS",
+					"artist": "Deepshout",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 86
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 171
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 163
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_028",
+					"song_name": "Awakening",
+					"artist": "DiagonalT",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 102
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 203
+						},
+						"Chaos": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 168
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_029",
+					"song_name": "Hagiasmos",
+					"artist": "Iris",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 104
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 202
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_030",
+					"song_name": "Fade Into The Darkness",
+					"artist": "SADA",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 79
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 134
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_031",
+					"song_name": "SHIRO",
+					"artist": "James Landino",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 167
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 167
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 159
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_032",
+					"song_name": "Tunnef’s Nightmare",
+					"artist": "Neutral Moon",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 92
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_035",
+					"song_name": "tundra",
+					"artist": "Noizenecio x Cookie Ramen",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 169
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 169
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 153
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_036",
+					"song_name": "Zeus",
+					"artist": "Street",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 96
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 150
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_037",
+					"song_name": "Symbol (PTB10 Remix)",
+					"artist": "Silaver",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 109
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 217
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 173
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "robo001_038",
+					"song_name": "Breaching BIOS",
+					"artist": "PTB10 x V0iD",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 140
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 140
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 121
 						}
 					},
 					"is_hidden": false,
@@ -2593,6 +4107,454 @@
 					"is_hidden": false,
 					"IsDownloadOnly": false,
 					"Category": ""
+				},
+				{
+					"song_id": "ivy001_015",
+					"song_name": "Cristalisia",
+					"artist": "onoken",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 76
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 151
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 134
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_016",
+					"song_name": "Occidens",
+					"artist": "ginkiha",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 125
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 249
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 228
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_017",
+					"song_name": "Red Five",
+					"artist": "Cranky",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 95
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 190
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 189
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_018",
+					"song_name": "Homebound Train & Moving Thoughts",
+					"artist": "KillerBlood",
+					"charts": {
+						"Easy": {
+							"Level": "1",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 133
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 133
+						},
+						"Chaos": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 160
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_019",
+					"song_name": "iL",
+					"artist": "Ice",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 213
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 213
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 193
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_020",
+					"song_name": "CODE NAME : SIGMA",
+					"artist": "NeLiME",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 101
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 201
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 219
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_021",
+					"song_name": "New Challenger Approaching",
+					"artist": "かめりあ(EDP)",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 206
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 206
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 204
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_022",
+					"song_name": "What's Your PR.Ice?",
+					"artist": "SOTUI feat. Kry.exe",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 102
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 204
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 180
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_023",
+					"song_name": "VIS::CRACKED",
+					"artist": "Frums",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 181
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 279
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 273
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_024",
+					"song_name": "Wicked Ceremony",
+					"artist": "Ice meets t+pazolite",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 106
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 212
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_033",
+					"song_name": "DigiGroove",
+					"artist": "Electron",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 155
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 155
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 135
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_034",
+					"song_name": "Heat Ring",
+					"artist": "James Landino",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 147
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 147
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 155
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_035",
+					"song_name": "Leaving All Behind",
+					"artist": "NOMA feat. Kanata.N",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 107
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 214
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 172
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_036",
+					"song_name": "Symmetry",
+					"artist": "SIHanatsuka",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 297
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 237
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_037",
+					"song_name": "Time to Fight",
+					"artist": "Paul Bazooka",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 104
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "ivy001_045",
+					"song_name": "Drifted Fragments",
+					"artist": "Codly",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 114
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 227
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 191
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
 				}
 			]
 		},
@@ -2908,6 +4870,202 @@
 							"MusicID": "",
 							"NeedUnlock": false,
 							"pageNum": 206
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_007",
+					"song_name": "Darling Staring...",
+					"artist": "technoplanet feat. はるの",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 117
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 117
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 194
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_008",
+					"song_name": "Crimson Fate",
+					"artist": "tetsuyanao feat. ROXI CHEN(渣泥ZANI)",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 139
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 278
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 249
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_009",
+					"song_name": "Familiar Craze",
+					"artist": "MELOIMAGE",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 223
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 223
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 211
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_010",
+					"song_name": "Malstream",
+					"artist": "MELOIMAGE",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 184
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 184
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 176
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_011",
+					"song_name": "V.R.W (feat. shully)",
+					"artist": "カラスヤサボウ",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 106
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 211
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 203
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_012",
+					"song_name": "velkinta feat. Cikado & A-Tse",
+					"artist": "EAjRock",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 127
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 254
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 224
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": ""
+				},
+				{
+					"song_id": "cherry002_018",
+					"song_name": "Imprint",
+					"artist": "MELOIMAGE",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 140
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 279
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 267
 						}
 					},
 					"is_hidden": false,
@@ -4013,6 +6171,62 @@
 					"is_hidden": false,
 					"IsDownloadOnly": false,
 					"Category": ""
+				},
+				{
+					"song_id": "bobo001_006",
+					"song_name": "End of fireworks",
+					"artist": "MINEXO",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 117
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
+				},
+				{
+					"song_id": "bobo001_007",
+					"song_name": "神様と羊飼い",
+					"artist": "テヅカ",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 186
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 186
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 186
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": ""
 				}
 			]
 		},
@@ -4753,6 +6967,1042 @@
 					"is_hidden": false,
 					"IsDownloadOnly": false,
 					"Category": "VOEZ"
+				},
+				{
+					"song_id": "neko001_040",
+					"song_name": "Caliburne ～Story of the Legendary sword～",
+					"artist": "Project Grimoire",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 150
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 150
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 156
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "maimai DX+"
+				},
+				{
+					"song_id": "neko001_041",
+					"song_name": "DON’T STOP ROCKIN’",
+					"artist": "EB(aka EarBreaker)",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 151
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 151
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 181
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "maimai DX+"
+				},
+				{
+					"song_id": "neko001_042",
+					"song_name": "Glorious Crown",
+					"artist": "xi",
+					"charts": {
+						"Easy": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 113
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 225
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 238
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "maimai DX+"
+				},
+				{
+					"song_id": "neko001_043",
+					"song_name": "Oshama Scramble!",
+					"artist": "t+pazolite",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 99
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 197
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "maimai DX+"
+				},
+				{
+					"song_id": "neko001_044",
+					"song_name": "超常マイマイン",
+					"artist": "ナユタン星人",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 107
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 213
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 208
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "maimai DX+"
+				},
+				{
+					"song_id": "neko001_045",
+					"song_name": "BlythE",
+					"artist": "M2U",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 102
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 204
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 204
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_046",
+					"song_name": "glory day",
+					"artist": "BEXTER X Mycin.T",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 95
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 190
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "neko001_046_2",
+							"NeedUnlock": false,
+							"pageNum": 186
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_047",
+					"song_name": "OBLIVION",
+					"artist": "ESTi",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 145
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 145
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "neko001_047_2",
+							"NeedUnlock": false,
+							"pageNum": 142
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_048",
+					"song_name": "Play The Future",
+					"artist": "Urbatronic Chopsticks",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 62
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 62
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "neko001_048_2",
+							"NeedUnlock": false,
+							"pageNum": 103
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_049",
+					"song_name": "We're All Gonna Die",
+					"artist": "Paul Bazooka",
+					"charts": {
+						"Easy": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 101
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 201
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "neko001_049_2",
+							"NeedUnlock": false,
+							"pageNum": 202
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_050",
+					"song_name": "Ask to Wind Live Mix",
+					"artist": "Forte Escape",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 93
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 93
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "neko001_050_2",
+							"NeedUnlock": false,
+							"pageNum": 186
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_051",
+					"song_name": "End of the Moonlight",
+					"artist": "Forte Escape",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 75
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "neko001_051_2",
+							"NeedUnlock": false,
+							"pageNum": 126
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_052",
+					"song_name": "Hello Pinky",
+					"artist": "NieN",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "neko001_052_2",
+							"NeedUnlock": false,
+							"pageNum": 157
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_053",
+					"song_name": "Nightmare",
+					"artist": "M2U",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 100
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 199
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "neko001_053_2",
+							"NeedUnlock": false,
+							"pageNum": 182
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "neko001_054",
+					"song_name": "U.A.D",
+					"artist": "HAYAKO",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 132
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 132
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "neko001_054_2",
+							"NeedUnlock": false,
+							"pageNum": 131
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": true,
+					"Category": "DJMAX"
+				},
+				{
+					"song_id": "graffj001_002",
+					"song_name": "Circus Time",
+					"artist": "Kyo-ta",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 151
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_003",
+					"song_name": "Dead V-Code (Special Edit)",
+					"artist": "Neutral Moon",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 123
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 245
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 221
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_004",
+					"song_name": "sweet conflict",
+					"artist": "technoplanet feat.やみん",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 101
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 201
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 179
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_005",
+					"song_name": "Centimeter Johnny",
+					"artist": "switchworks",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 92
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 183
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 159
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_006",
+					"song_name": "Obey",
+					"artist": "yuritoworks",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 136
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_009",
+					"song_name": "Blackest Luxury Car",
+					"artist": "Chicala Lpis",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 104
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 182
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_010",
+					"song_name": "粉骨砕身カジノゥ",
+					"artist": "モリモリあつし",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 92
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 184
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 184
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_011",
+					"song_name": "時計の部屋と精神世界",
+					"artist": "a_hisa",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 107
+						},
+						"Hard": {
+							"Level": "9",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 213
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 205
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_012",
+					"song_name": "XING",
+					"artist": "ginkiha",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 103
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 205
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 193
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_013",
+					"song_name": "Brave My Heart",
+					"artist": "uma feat.ましろ",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 69
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 137
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 137
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_014",
+					"song_name": "Final Step!",
+					"artist": "Lime",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 103
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 206
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 190
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_015",
+					"song_name": "Medusa",
+					"artist": "HiTECH NINJA",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 87
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 173
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 142
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_016",
+					"song_name": "XODUS",
+					"artist": "DJ Myosuke & Gram",
+					"charts": {
+						"Easy": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 111
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 222
+						},
+						"Chaos": {
+							"Level": "15",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 212
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_017",
+					"song_name": "The 89's Momentum",
+					"artist": "MYUKKE.",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 149
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_018",
+					"song_name": "The 90's Decision",
+					"artist": "MYUKKE.",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 143
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 157
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Muse Dash"
+				},
+				{
+					"song_id": "graffj001_022",
+					"song_name": "BREAK FREE",
+					"artist": "Tsuko G",
+					"charts": {
+						"Easy": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 136
+						},
+						"Hard": {
+							"Level": "10",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 271
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 242
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_023",
+					"song_name": "DON'T LISTEN TO THIS WHILE DRIVING",
+					"artist": "Tsuko G",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 107
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 214
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 209
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_024",
+					"song_name": "RESET MAN",
+					"artist": "Tsuko G",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 104
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 208
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 208
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_025",
+					"song_name": "PERSONA",
+					"artist": "Tsuko G",
+					"charts": {
+						"Easy": {
+							"Level": "3",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 166
+						},
+						"Hard": {
+							"Level": "6",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 166
+						},
+						"Chaos": {
+							"Level": "11",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 165
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_026",
+					"song_name": "OUT OF THE MATRIX",
+					"artist": "Tsuko G",
+					"charts": {
+						"Easy": {
+							"Level": "4",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 119
+						},
+						"Hard": {
+							"Level": "8",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 238
+						},
+						"Chaos": {
+							"Level": "13",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 236
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_027",
+					"song_name": "Curiosity killed the cat",
+					"artist": "technoplanet",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 167
+						},
+						"Hard": {
+							"Level": "5",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 167
+						},
+						"Chaos": {
+							"Level": "12",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 167
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
+				},
+				{
+					"song_id": "graffj001_028",
+					"song_name": "REBELLIA",
+					"artist": "ZxNX & KURORAK",
+					"charts": {
+						"Easy": {
+							"Level": "2",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 104
+						},
+						"Hard": {
+							"Level": "7",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 207
+						},
+						"Chaos": {
+							"Level": "14",
+							"MusicID": "",
+							"NeedUnlock": false,
+							"pageNum": 206
+						}
+					},
+					"is_hidden": false,
+					"IsDownloadOnly": false,
+					"Category": "Graff.J"
 				}
 			]
 		},
@@ -9652,7 +12902,8 @@
 			"charts": null,
 			"is_hidden": false,
 			"IsDownloadOnly": false,
-			"Category": null
+			"Category": null,
+			"pageNum": 0
 		},
 		{
 			"song_id": "ClickZeroNoteForPaffGameplayDecision",
@@ -9661,7 +12912,8 @@
 			"charts": null,
 			"is_hidden": false,
 			"IsDownloadOnly": false,
-			"Category": null
+			"Category": null,
+			"pageNum": 0
 		},
 		{
 			"song_id": "alos023_bossstage",

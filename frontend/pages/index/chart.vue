@@ -160,7 +160,7 @@ export default defineComponent({
       window.addEventListener('scroll', handleScroll)
 
       await loadAssets()
-      await document.fonts.ready
+      await (document as any).fonts.ready
       await new Promise(res => setTimeout(res, 0))
       const url = `/charts/${songId.value}_${getDiffId(difficulty.value)}.json`
       const chart = await $axios.$get(url)

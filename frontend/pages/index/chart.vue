@@ -3,12 +3,12 @@
     #header.d-flex.flex-row.py-4
       .w-auto.col-lg-2.p-0.mr-4.mr-lg-5.ml-lg-n2.d-flex.justify-content-start.align-items-center
         NuxtLink.back.d-flex.middle-center.h-100.btn.p-0.px-lg-3.ml-2.ml-lg-5.text-white.rounded-lg(
-          :to="`/?char=${character.song_pack_id}`"
+          :to="`/char?id=${character.song_pack_id}`"
         )
           BIconChevronLeft
       img#song-image.mr-4.mr-lg-5.rounded-lg(
         v-if="character.song_pack_id !== 'other'"
-        :src="`images/${song.song_id}.png`"
+        :src="`/images/${song.song_id}.png`"
         :alt="song.song_name"
       )
       #song-image.mr-4.mr-lg-5.rounded-lg.d-flex.justify-content-center.align-items-center(v-else)

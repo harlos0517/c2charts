@@ -12,6 +12,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": false,
     "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]

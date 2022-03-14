@@ -55,4 +55,8 @@ export default {
   generate: {
     dir: '../docs',
   },
+
+  axios: {
+    browserBaseURL: '//c2.harlos.me',
+  },
 }

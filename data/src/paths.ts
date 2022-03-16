@@ -1,0 +1,5 @@
+export const srcDir = '/mnt/d/documents/gamedata/CytusII_4.5/export/'
+export const assetsDir = '../assets/'
+export const chartsDir = '../assets/charts/'
+export const generateAssetsDir = '../../frontend/assets/data/'
+export const generateChartsDir = '../../frontend/static/charts/'

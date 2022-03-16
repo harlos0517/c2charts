@@ -37,8 +37,8 @@
         span.pb-1.pt-2.px-2.text-nowrap(:class="character.song_pack_id === 'other' ? 'other' : difficulty")
           | {{ character.song_pack_id === 'other' ? '?????' : difficulty.toUpperCase() }} {{ level }}
 
-    #charts.row.px-3.px-lg-5.my-3(v-if="song.pageNum || (song.charts && song.charts[diffId] && song.charts[diffId].pageNum)")
-      .chart.col-12.col-md-6.col-xl-3.p-2.p-lg-4.my-4(v-for="url in imageUrls")
+    #charts.row.px-3.px-lg-5.my-3(v-if="pageNum || (song.charts && song.charts[diffId] && song.charts[diffId].pageNum)")
+      .chart.col-12.col-md-6.col-xl-3.p-2.p-lg-3.my-3(v-for="url in imageUrls")
         img(:src="url")
     .row.middle-center
       b-spinner(:style="{ display: rendering ? 'initial' : 'none' }" label="Spinning")
@@ -46,11 +46,12 @@
 
 <script lang="ts">
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { defineComponent, onMounted, onUnmounted, ref, useContext, useRoute } from '@nuxtjs/composition-api'
+import { computed, defineComponent, onMounted, onUnmounted, ref, useContext, useRoute } from '@nuxtjs/composition-api'
 import { BIconChevronLeft } from 'bootstrap-vue'
 
-import songs from '@/assets/data/songs.json'
-import { SongData, SongInfo, SongPack } from '@/util/songDataType'
+import songPacksData from '@/assets/data/songPacks.json'
+import { SongPack, SongInfo } from '../../../data/src/types/songPack'
+import { Chart } from '../../../data/src/types/chart'
 
 import { loadAssets, processData } from '@/util/chart2images'
 import { preprocess } from '@/util/preProcess'
@@ -72,37 +73,30 @@ export default defineComponent({
       is_hidden: false,
       IsDownloadOnly: false,
       Category: null,
-      pageNum: 0,
     })
     const difficulty = ref('')
-    const diffId = ref<'Easy' | 'Hard' | 'Chaos' | 'Glitch' | 'Crash'>('Easy')
+    const diffId = ref<'Easy' | 'Hard' | 'Chaos' | 'Glitch' | 'Crash' | 'Dream'>('Easy')
     const level = ref('0')
-    const pageNum = ref(0)
     const curPageNum = ref(0)
     const header = ref(false)
     const imageUrls = ref<string[]>([])
-    const processedData = ref<any>()
     const rendering = ref(true)
+    const chart = ref<Chart | null>(null)
+    const pageNum = ref(0)
 
     const handleScroll = () => {
       if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100 &&
         curPageNum.value < pageNum.value) {
         console.log('add')
-        const old = curPageNum.value
-        curPageNum.value = Math.min(pageNum.value, curPageNum.value + 16)
-        render(old)
+        const newPageNum = Math.min(pageNum.value, curPageNum.value + 16)
+        render(newPageNum)
       }
       if (window.pageYOffset > 240) header.value = true
       else header.value = false
     }
 
     function getSongs() {
-      const res = (songs.offline_song_pack_list as Partial<SongPack>[]).concat({
-        song_pack_id: 'other',
-        song_pack_name: 'other',
-        theme_color: '#878787',
-        song_info_list: (songs as SongData).other_song_info_list,
-      })
+      const res = songPacksData as SongPack[]
       const newChar = res.find((e: any) => e.song_pack_id === charId.value)
       if (!newChar) throw 'Character not found'
       const newSong = newChar.song_info_list?.find((e: any) => e.song_id === songId.value)
@@ -112,8 +106,7 @@ export default defineComponent({
       song.value = newSong
       if (!newSong.charts) throw 'Chart not found'
       level.value = other ? '?' : newSong.charts[diffId.value]?.Level || '?'
-      pageNum.value = (other ? newSong.pageNum : newSong.charts[diffId.value]?.pageNum) || 0
-      curPageNum.value = Math.min(pageNum.value, 16)
+      curPageNum.value = 0
       document.title = `${newSong.song_name || newSong.song_id} [${difficulty.value.toUpperCase()}] - Cytus II Chart Viewer`
     }
 
@@ -123,6 +116,7 @@ export default defineComponent({
       if (difficulty === 'chaos' ) return 'Chaos'
       if (difficulty === 'glitch') return 'Glitch'
       if (difficulty === 'crash' ) return 'Crash'
+      if (difficulty === 'dream' ) return 'Dream'
       else throw 'Difficulty not found'
     }
 
@@ -132,17 +126,20 @@ export default defineComponent({
       if (difficulty === 'chaos' ) return 2
       if (difficulty === 'glitch') return 3
       if (difficulty === 'crash' ) return 4
+      if (difficulty === 'dream' ) return 5
       else throw 'Difficulty not found'
     }
 
-    async function render(oldNum: number) {
+    async function render(newPageNum: number) {
       rendering.value = true
       await new Promise(res => setTimeout(res, 0))
       try {
-        for (let i = oldNum; i < curPageNum.value; i++)
+        for (let i = curPageNum.value; i < newPageNum; i++) {
           imageUrls.value.push(
-            processData(processedData.value, pageNum.value, i) as unknown as string,
+            processData(chart.value, pageNum.value, i) as unknown as string,
           )
+          curPageNum.value ++
+        }
       } catch (err) {
         console.error(err)
       }
@@ -156,16 +153,15 @@ export default defineComponent({
       songId.value = query.songId as string || ''
       difficulty.value = query.diff as string || ''
       diffId.value = getDiff(difficulty.value)
-      getSongs()
-      window.addEventListener('scroll', handleScroll)
 
       await loadAssets()
-      await (document as any).fonts.ready
-      await new Promise(res => setTimeout(res, 0))
       const url = `/charts/${songId.value}_${getDiffId(difficulty.value)}.json`
-      const chart = await $axios.$get(url)
-      processedData.value = preprocess(chart)
-      render(0)
+      chart.value = await $axios.$get(url)
+      pageNum.value = chart.value?.pages?.length || 0
+      getSongs()
+      render(Math.min(pageNum.value, 16))
+
+      window.addEventListener('scroll', handleScroll)
     })
 
     onUnmounted(() => {

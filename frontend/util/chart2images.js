@@ -73,9 +73,9 @@ const beats = [
 function loadImage(src) {
   const img = new Image()
   return new Promise(resolve => {
-    img.addEventListener('load', () => {
+    img.onload = function() {
       resolve(img)
-    })
+    }
     img.src = src
   })
 }
@@ -88,16 +88,25 @@ function createCanvas(width, height) {
 }
 
 function loadAssets() {
-  // fonts.forEach(font => new FontFace(font.family, `url(${'assets/fonts/'})`))
-  let promises = []
-  noteTypes.forEach(noteType => {
-    promises.push = loadImage('/components/' + noteType.up  .src).then(image => { noteType.up  .image = image })
-    promises.push = loadImage('/components/' + noteType.down.src).then(image => { noteType.down.image = image })
+  const promises = []
+
+  fonts.forEach(async font => {
+    const f = new FontFace(font.family, `url(/fonts/${font.src})`)
+    promises.push(f.load().then(() => {
+      // https://stackoverflow.com/questions/2756575/
+      document.fonts.add(f)
+    }))
+  })
+
+  noteTypes.forEach(async noteType => {
+    promises.push(loadImage('/components/' + noteType.up  .src).then(image => { noteType.up  .image = image }))
+    promises.push(loadImage('/components/' + noteType.down.src).then(image => { noteType.down.image = image }))
     if (noteType.tail) {
       let tail = noteType.tail
-      promises.push = loadImage('/components/' + tail.src).then(image => { tail.image = image })
+      promises.push(loadImage('/components/' + tail.src).then(image => { tail.image = image }))
     }
   })
+
   return Promise.all(promises)
 }
 
@@ -421,7 +430,7 @@ function processData(data, pageNum, page_id) {
   // Check directory existance
   // if (!fs.existsSync(path))
   //   fs.mkdirSync(path)
-
+  console.log(data, pageNum, page_id)
   preprocess(data)
 
   let longHolds = []

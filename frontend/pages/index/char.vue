@@ -56,15 +56,15 @@
 import { defineComponent, useRoute } from '@nuxtjs/composition-api'
 import { BIconChevronLeft } from 'bootstrap-vue'
 
-import songs from '@/assets/data/songs.json'
-import { SongData } from '@/util/songDataType'
+import songPacksData from '@/assets/data/songPacks.json'
+import { SongPack } from '../../../data/src/types/songPack'
 
 export default defineComponent({
   components: { BIconChevronLeft },
   setup() {
     const route = useRoute()
 
-    const songPacks = (songs as SongData).offline_song_pack_list
+    const songPacks = songPacksData as SongPack[]
     const id = route.value.query.id
     const songPack = songPacks.find(p => p.song_pack_id === id) || songPacks[0] || null
     const songPackId = songPack?.song_pack_id || null

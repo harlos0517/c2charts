@@ -51,7 +51,7 @@
                     br(v-if="ri")
                     | [{{ rhythm.beats || ' ' }}] {{ rhythm.pattern }} ({{ (rhythm.count/chart.rhyTotal*100).toFixed(0) }}%)
               template(v-else-if="col.name === 'DIFF' || col.name === 'Lv'")
-                td(:class="[...(col.valueClass || []), { 'text-warning': curSort.col === col }, chart.char.id === 'other' ? 'other' : chart.diff.name]")
+                td(:class="[...(col.valueClass || []), { 'text-warning': curSort.col === col }, chart.char.id === 'other' ? 'other' : chart.diff.name.toLowerCase()]")
                   a.text-reset(:href="`chart.html?charId=${chart.char.id}&songId=${chart.song.id}&diff=${chart.diff.name}`" target="_blank") {{ col.name === 'DIFF' && chart.char.id === 'other' ? '?????' : col.getValue(chart) }}
               template(v-else-if="col.type === 'fixed' || col.type === 'sort'")
                 td(:class="[...(col.valueClass || []), { 'text-warning': curSort.col === col, [chart.diff.name]: col.name === 'DIFF' || col.name === 'Lv' }]")
@@ -134,6 +134,12 @@ export default defineComponent({
       return e[minmax ? 'min' : 'max']
     }
 
+    const numerifyString = (str: string) => {
+      const num = parseInt(str)
+      if (isNaN(num)) return 15 + str.charCodeAt(0)
+      else return num
+    }
+
     const charts = ref<any[]>([])
     const chartsDisp = ref<any[]>([])
     const chartsPaged = ref<any[]>([])
@@ -156,7 +162,7 @@ export default defineComponent({
       { name: 'Lv', type: 'sort', show: true, disabled: true,
         filter: { list: [], filtered: [], sort: true },
         nameClass: ['lv', 'st-th'], valueClass: ['lv', 'border-0', 'st-td'],
-        sortKey: (e: any) => e.diff.level, getValue: (e: any) => e.diff.level },
+        sortKey: (e: any) => numerifyString(e.Level), getValue: (e: any) => e.Level },
       { name: 'Number of', type: 'category', show: true, items: [
         { name: 'Page', type: 'sort', show: false,
           sortKey: (e: any) => e.numOf.page, getValue: (e: any) => e.numOf.page },
@@ -309,7 +315,7 @@ export default defineComponent({
           col.filter.list = unique(charts.value.map(col.getValue))
           if (col.filter.sort)
             col.filter.list = col.filter.list.sort((a, b) => {
-              return parseInt(a) - parseInt(b)
+              return numerifyString(a) - numerifyString(b)
             })
           col.filter.filtered = col.filter.list.slice()
         })
@@ -338,6 +344,8 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
+@import '@/assets/styles/level.sass'
+
 #main
   margin-top: 0rem
   margin-bottom: 3em
@@ -358,7 +366,7 @@ tbody
           top: 5rem
       &:nth-child(2)
         & > th
-          top: calc(5rem + 3em + 2px)
+          top: calc(5rem + 3em + 1px)
 .st-th
   z-index: 10
 .st-td
@@ -388,26 +396,6 @@ tbody
 #bottom
   font-size: 0.8em
   background-color: #00000099
-.easy
-  color: #2482b3!important
-  background-color: #0f2457!important
-  border-color: #2482b3!important
-.hard
-  color: #BC2029!important
-  background-color: #330000!important
-  border-color: #BC2029!important
-.chaos
-  color: #A81CA8!important
-  background-color: #330033!important
-  border-color: #A81CA8!important
-.glitch
-  color: #00A96B!important
-  background-color: #002E1D!important
-  border-color: #00A96B!important
-.other
-  color: #878787!important
-  background-color: #373737!important
-  border-color: #878787!important
 #index
   font-size: 1em
   right: 1.5em
@@ -425,18 +413,18 @@ tbody
     right: .2em
 #cols
   top: 5rem
-  left: calc(100% - 4em)
+  right: -200px
   width: calc(200px + 4em)
   height: 75vh
   filter: drop-shadow(0 0 10px #000000)
-  transition: left 500ms
+  transition: right 500ms
   z-index: 1000
   & > .content
     overflow-y: scroll
   select
     width: -webkit-fill-available
   &:hover
-    left: calc(100% - 200px - 3vh)
+    right: 0
 #hover-tag
   width: 4em
   height: 4em

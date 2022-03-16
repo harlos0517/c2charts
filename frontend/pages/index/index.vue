@@ -19,12 +19,12 @@
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 
-import songs from '@/assets/data/songs.json'
-import { SongData } from '@/util/songDataType'
+import songPacksData from '@/assets/data/songPacks.json'
+import { SongPack } from '../../../data/src/types/songPack'
 
 export default defineComponent({
   setup() {
-    const songPacks = (songs as SongData).offline_song_pack_list
+    const songPacks = songPacksData as SongPack[]
     return { songPacks }
   },
 })

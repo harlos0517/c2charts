@@ -29,6 +29,7 @@
               template(v-if="songPack.song_pack_id!=='other'")
                 th.text-center.align-middle.diff.border-0(
                   v-for="level in levels"
+                  v-if="hasAnyLevel(level)"
                   :class="level.toLowerCase()"
                 ) {{ level.toUpperCase() }}
               template(v-else)
@@ -40,7 +41,10 @@
                   .flex-grow-1.pr-3 {{ song.song_name || song.song_id }}
                   .flex-grow-1.text-right {{ song.artist || '' }}
               template(v-if="songPack.song_pack_id!=='other'")
-                td.text-center.align-middle.py-2.diff(v-for="level in levels")
+                td.text-center.align-middle.py-2.diff(
+                  v-for="level in levels"
+                  v-if="hasAnyLevel(level)"
+                )
                   NuxtLink.rounded-circle.m-auto(
                     :class="level.toLowerCase()"
                     v-if="song.charts[level]"
@@ -49,7 +53,7 @@
                     | {{ song.charts[level].Level }}
               template(v-else)
                 td.text-center.align-middle.py-2.diff
-                  a.other.rounded-circle.m-auto(:href="`/chart?charId=${songPack.song_pack_id}&songId=${song.song_id}&diff=&diff=${level.toLowerCase()}`") ?
+                  NuxtLink.other.rounded-circle.m-auto(:to="`/chart?charId=${songPack.song_pack_id}&songId=${song.song_id}&diff=&diff=easy`") ?
 </template>
 
 <script lang="ts">
@@ -69,9 +73,12 @@ export default defineComponent({
     const songPack = songPacks.find(p => p.song_pack_id === id) || songPacks[0] || null
     const songPackId = songPack?.song_pack_id || null
 
-    const levels = ['Easy', 'Hard', 'Chaos', 'Glitch', 'Crash']
+    const hasAnyLevel = (level: 'Easy' | 'Hard' | 'Chaos' | 'Glitch' | 'Crash' | 'Dream') =>
+      songPack?.song_info_list.filter(s => s.charts ? s.charts[level] : false).length || 0
 
-    return { songPack, songPackId, levels }
+    const levels = ['Easy', 'Hard', 'Chaos', 'Glitch', 'Crash', 'Dream']
+
+    return { songPack, songPackId, hasAnyLevel, levels }
   },
 })
 </script>

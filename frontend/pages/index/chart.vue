@@ -46,7 +46,7 @@
 
 <script lang="ts">
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { computed, defineComponent, onMounted, onUnmounted, ref, useContext, useRoute } from '@nuxtjs/composition-api'
+import { defineComponent, onMounted, onUnmounted, ref, useContext, useRoute } from '@nuxtjs/composition-api'
 import { BIconChevronLeft } from 'bootstrap-vue'
 
 import songPacksData from '@/assets/data/songPacks.json'
@@ -54,7 +54,6 @@ import { SongPack, SongInfo } from '../../../data/src/types/songPack'
 import { Chart } from '../../../data/src/types/chart'
 
 import { loadAssets, processData } from '@/util/chart2images'
-import { preprocess } from '@/util/preProcess'
 
 export default defineComponent({
   components: { BIconChevronLeft },

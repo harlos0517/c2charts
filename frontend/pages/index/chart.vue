@@ -103,8 +103,8 @@ export default defineComponent({
       const other = newChar.song_pack_id === 'other'
       character.value = newChar
       song.value = newSong
-      if (!newSong.charts) throw 'Chart not found'
-      level.value = other ? '?' : newSong.charts[diffId.value]?.Level || '?'
+      if (newSong.charts) level.value = newSong.charts[diffId.value]?.Level || '?'
+      else level.value = '?'
       curPageNum.value = 0
       document.title = `${newSong.song_name || newSong.song_id} [${difficulty.value.toUpperCase()}] - Cytus II Chart Viewer`
     }

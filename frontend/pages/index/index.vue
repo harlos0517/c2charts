@@ -13,6 +13,7 @@
           )
         .char-name.text-center.p-3.mx-5.rounded-lg(
           :style="`background-color: ${songPack.theme_color};`"
+          :class="{ 'text-dark': songPack.song_pack_id === 'ilka001' }"
         ) {{ songPack.song_pack_name }}
 </template>
 

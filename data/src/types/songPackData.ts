@@ -1,3 +1,5 @@
+import { Difficulty } from '@/types/analyzed'
+
 export interface SongPackData {
   offline_song_pack_list: OfflineSongPack[]
   other_song_info_list: OtherSongInfo[]
@@ -35,13 +37,8 @@ export interface SongInfo {
   Category: string
 }
 
-export interface Charts {
-  Easy: ChartInfo
-  Hard: ChartInfo
-  Chaos: ChartInfo
-  Crash?: ChartInfo
-  Glitch?: ChartInfo
-  Dream?: ChartInfo
+export type Charts = {
+  [key in Difficulty]?: ChartInfo
 }
 
 export interface ChartInfo {

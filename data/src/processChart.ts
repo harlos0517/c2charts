@@ -9,6 +9,17 @@ function getBpmChange(a: number, b: number) {
   return Math.log2(a) - Math.log2(b)
 }
 
+function getTime(tick: number, tempos: Tempo[], base: number) {
+  let us = 0
+  for (let i = 0; tempos[i] && tempos[i].tick < tick; i++) {
+    const nextTick = tempos[i + 1] ? Math.min(tempos[i + 1].tick, tick) : tick
+    const deltaTick = nextTick - tempos[i].tick
+    us += deltaTick / base * tempos[i].value
+  }
+  return us / 1000000
+}
+
+
 function process(data: ChartData) {
   const {
     page_list: data_page_list,
@@ -63,7 +74,9 @@ function process(data: ChartData) {
       ...p_rest,
       direction,
       id: p_i,
-      delta: p.end_tick - p.start_tick,
+      delta_tick: p.end_tick - p.start_tick,
+      delta_time: getTime(p.end_tick, tempos, data.time_base) -
+                  getTime(p.start_tick, tempos, data.time_base),
       beats,
       start_beat: startBeat,
       tempo_ids,
@@ -78,18 +91,24 @@ function process(data: ChartData) {
   })
 
   const notes: Array<Note> = data_note_list.map((n, n_i) => {
-    const page = pages.find(page => page.id === n.page_index)
+    const page_id = n.page_index
+    const real_page_id = n.is_forward ? n.page_index - 1 : n.page_index
+    const page = pages.find(page => page.id === page_id)
     if (!page) throw 'The page of this note is not found!'
     page.note_ids.push(n_i)
 
-    const { page_index: page_id, ...n_rest } = n
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { page_index, ...n_rest } = n
     const this_tick = n.tick - page.start_tick
     return {
       ...n_rest,
       page_id,
+      real_page_id,
       next_id: (n.next_id > 0) ? n.next_id : -1,
       this_tick,
       end_tick: n.tick + n.hold_tick,
+      hold_time: getTime(n.tick + n.hold_tick, tempos, data.time_base) -
+                 getTime(n.tick, tempos, data.time_base),
       end_page_id: -1,
       beat: this_tick % data.time_base,
     }
@@ -122,12 +141,14 @@ function process(data: ChartData) {
 export const processChart = () => {
   const files = FS.readdirSync(chartsDir)
   files.forEach(file => {
-    console.log('Processing ' + file + ' ...')
+    // console.log('Processing ' + file + ' ...')
     const chartData = FS.readFileSync(chartsDir + file, { encoding: 'utf-8' })
     const chart = JSON.parse(chartData)
     const chartProcessed = process(chart as ChartData)
-    const chartProcessedData = JSON.stringify(chartProcessed, null, '\t')
+    const chartProcessedData = JSON.stringify(chartProcessed, null, '  ')
     FS.writeFileSync(generateChartsDir + file, chartProcessedData)
     // console.log('\tWritten chart to' + file)
   })
 }
+
+if (require.main === module) processChart()

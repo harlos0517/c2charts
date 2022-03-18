@@ -1,3 +1,5 @@
+import { Difficulty } from '@/types/analyzed'
+
 export interface ExpansionPackData {
   ExpansionPackList: ExpansionPack[]
   ExpansionBox: ExpansionBox[]
@@ -35,11 +37,8 @@ export interface SongInfoList {
   Category: string
 }
 
-export interface Charts {
-  Easy: ChartInfo
-  Hard: ChartInfo
-  Chaos: ChartInfo
-  Glitch?: ChartInfo
+export type Charts = {
+  [key in Difficulty]: ChartInfo
 }
 
 export interface ChartInfo {

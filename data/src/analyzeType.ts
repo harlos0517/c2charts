@@ -29,3 +29,8 @@ export const analyzeSongPacks = () => {
   const typeData2 = JsonToTS(json2).join('\n\n')
   FS.writeFileSync('types/expansionPackDataRaw.ts', typeData2)
 }
+
+if (require.main === module) {
+  analyzeCharts()
+  analyzeSongPacks()
+}

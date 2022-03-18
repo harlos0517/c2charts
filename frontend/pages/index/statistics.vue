@@ -43,16 +43,16 @@
           template(v-for="col in cols")
             template(v-if="col.show")
               template(v-if="col.name === 'Character'")
-                td(:class="col.valueClass || []" :style="`background-color: #${chart.char.color};`")
+                td(:class="col.valueClass || []" :style="`background-color: ${chart.char.color};`")
                   | {{ col.getValue(chart) }}
               template(v-else-if="col.name === 'Rhythm'")
                 td(:class="col.valueClass || []")
                   span(v-for="(rhythm, ri) in chart.topRhythms.filter(x=>x.beats<6)")
                     br(v-if="ri")
-                    | [{{ rhythm.beats || ' ' }}] {{ rhythm.pattern }} ({{ (rhythm.count/chart.rhyTotal*100).toFixed(0) }}%)
+                    | [{{ rhythm.beats || ' ' }}] {{ rhythm.pattern }} ({{ (rhythm.count/chart.rhythmTotal*100).toFixed(0) }}%)
               template(v-else-if="col.name === 'DIFF' || col.name === 'Lv'")
-                td(:class="[...(col.valueClass || []), { 'text-warning': curSort.col === col }, chart.char.id === 'other' ? 'other' : chart.diff.name.toLowerCase()]")
-                  a.text-reset(:href="`chart.html?charId=${chart.char.id}&songId=${chart.song.id}&diff=${chart.diff.name}`" target="_blank") {{ col.name === 'DIFF' && chart.char.id === 'other' ? '?????' : col.getValue(chart) }}
+                td(:class="[...(col.valueClass || []), { 'text-warning': curSort.col === col }, chart.char.id === 'other' ? 'other' : chart.diff.toLowerCase()]")
+                  NuxtLink.text-reset(:to="`/chart?charId=${chart.char.id}&songId=${chart.song.id}&diff=${chart.diff.toLowerCase()}`" target="_blank") {{ col.name === 'DIFF' && chart.char.id === 'other' ? '?????' : col.getValue(chart) }}
               template(v-else-if="col.type === 'fixed' || col.type === 'sort'")
                 td(:class="[...(col.valueClass || []), { 'text-warning': curSort.col === col, [chart.diff.name]: col.name === 'DIFF' || col.name === 'Lv' }]")
                   | {{ col.getValue(chart) }}
@@ -89,10 +89,11 @@
 </template>
 
 <script lang="ts">
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { defineComponent, onMounted, ref } from '@nuxtjs/composition-api'
 
 import songs from '@/assets/data/songsAnalyzed.json'
+
+import { AnalyzedChart } from '@data/types/analyzed'
 
 type Filter = {
   list: string[]
@@ -109,19 +110,19 @@ type Column = {
   nameClass?: string[]
   valueClass?: string[]
   filter: Filter | null
-  getValue: (e: any) => any
-  sortKey: (e: any) => any
+  getValue: (e: AnalyzedChart) => string | number
+  sortKey: (e: AnalyzedChart) => number
 } | {
   type: 'fixed'
   disabled?: boolean
   nameClass?: string[]
   valueClass?: string[]
   filter: Filter | null
-  getValue: (e: any) => any
+  getValue: (e: AnalyzedChart) => string | number
 } | {
   type: 'minmax'
-  getValue: (e: any, minmax: 'min' | 'max') => string
-  sortKey?: (e: any, minmax: 'min' | 'max') => string
+  getValue: (e: AnalyzedChart, minmax: 'min' | 'max') => string
+  sortKey?: (e: AnalyzedChart, minmax: 'min' | 'max') => number
 } | {
   type: 'category'
   items: Column[]
@@ -130,7 +131,7 @@ type Column = {
 export default defineComponent({
   setup() {
 
-    const get = (e: any, minmax: 'min' | 'max') => {
+    const get = (e: { min: number, max: number }, minmax: 'min' | 'max') => {
       return e[minmax ? 'min' : 'max']
     }
 
@@ -140,124 +141,123 @@ export default defineComponent({
       else return num
     }
 
-    const charts = ref<any[]>([])
-    const chartsDisp = ref<any[]>([])
-    const chartsPaged = ref<any[]>([])
+    const charts = ref<AnalyzedChart[]>([])
+    const chartsDisp = ref<AnalyzedChart[]>([])
+    const chartsPaged = ref<AnalyzedChart[]>([])
     const curNum = ref(20)
     const cols = ref<Column[]>([
       {	name: 'Character', type: 'fixed', show: true, disabled: true,
         filter: { list: [], filtered: [], sort: false },
         nameClass: ['char', 'st-th'], valueClass: ['char', 'st-td'],
-        getValue: (e: any) => e.char.name },
+        getValue: e => e.char.name },
       {	name: 'Song', type: 'sort', show: true, disabled: true,
         nameClass: ['song', 'st-th'], valueClass: ['song', 'st-td'],
-        sortKey: (e: any) => e.sortIndex, getValue: (e: any) => e.song.name },
+        sortKey: e => e.sortIndex, getValue: e => e.song.name || e.song.id },
       {	name: 'Composer', type: 'fixed', show: false,
         nameClass: ['composer'], valueClass: ['composer'],
-        getValue: (e: any) => e.song.composer },
+        getValue: e => e.song.composer },
       { name: 'DIFF', type: 'sort', show: true, disabled: true,
         filter: { list: [], filtered: [], sort: true },
         nameClass: ['diff', 'st-th'], valueClass: ['text-uppercase', 'border-0', 'diff', 'st-td'],
-        sortKey: (e: any) => e.diff.id, getValue: (e: any) => e.diff.name },
+        sortKey: e => e.diff, getValue: e => e.diff },
       { name: 'Lv', type: 'sort', show: true, disabled: true,
         filter: { list: [], filtered: [], sort: true },
         nameClass: ['lv', 'st-th'], valueClass: ['lv', 'border-0', 'st-td'],
-        sortKey: (e: any) => numerifyString(e.Level), getValue: (e: any) => e.Level },
+        sortKey: e => numerifyString(e.level), getValue: e => e.level },
       { name: 'Number of', type: 'category', show: true, items: [
         { name: 'Page', type: 'sort', show: false,
-          sortKey: (e: any) => e.numOf.page, getValue: (e: any) => e.numOf.page },
+          sortKey: e => e.numOf.page, getValue: e => e.numOf.page },
         { name: 'Tempo', type: 'sort', show: false,
-          sortKey: (e: any) => e.numOf.tempo, getValue: (e: any) => e.numOf.tempo },
+          sortKey: e => e.numOf.tempo, getValue: e => e.numOf.tempo },
         { name: 'Event', type: 'sort', show: false,
-          sortKey: (e: any) => e.numOf.event, getValue: (e: any) => e.numOf.event },
+          sortKey: e => e.numOf.event, getValue: e => e.numOf.event },
         { name: 'Note', type: 'sort', show: true,
-          sortKey: (e: any) => e.numOf.note, getValue: (e: any) => e.numOf.note },
+          sortKey: e => e.numOf.note, getValue: e => e.numOf.note },
       ] },
       { name: 'Notes', type: 'category', show: false, items: [
         { name: 'Click', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[0], getValue: (e: any) => e.notes[0] },
+          sortKey: e => e.noteTypes[0], getValue: e => e.noteTypes[0] },
         { name: 'Hold', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[1], getValue: (e: any) => e.notes[1] },
+          sortKey: e => e.noteTypes[1], getValue: e => e.noteTypes[1] },
         { name: 'Long', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[2], getValue: (e: any) => e.notes[2] },
+          sortKey: e => e.noteTypes[2], getValue: e => e.noteTypes[2] },
         { name: 'DragH', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[3], getValue: (e: any) => e.notes[3] },
+          sortKey: e => e.noteTypes[3], getValue: e => e.noteTypes[3] },
         { name: 'Drag', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[4], getValue: (e: any) => e.notes[4] },
+          sortKey: e => e.noteTypes[4], getValue: e => e.noteTypes[4] },
         { name: 'Flick', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[5], getValue: (e: any) => e.notes[5] },
+          sortKey: e => e.noteTypes[5], getValue: e => e.noteTypes[5] },
         { name: 'CDragH', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[6], getValue: (e: any) => e.notes[6] },
+          sortKey: e => e.noteTypes[6], getValue: e => e.noteTypes[6] },
         { name: 'CDrag', type: 'sort', show: false,
-          sortKey: (e: any) => e.notes[7], getValue: (e: any) => e.notes[7] },
+          sortKey: e => e.noteTypes[7], getValue: e => e.noteTypes[7] },
       ] },
       { name: 'Time', type: 'sort', show: true,
-        sortKey: (e: any) => e.time, getValue: (e: any) => getTimeStr(e.time) },
+        sortKey: e => e.time, getValue: e => getTimeStr(e.time) },
       { name: 'BPM', type: 'minmax', show: false,
-        sortKey: (e: any, minmax: 'min' | 'max') => get(e.tempo, minmax),
-        getValue: (e: any, minmax: 'min' | 'max') => decimals(get(e.tempo, minmax), 1) },
+        sortKey: (e, minmax: 'min' | 'max') => get(e.tempo, minmax),
+        getValue: (e, minmax: 'min' | 'max') => decimals(get(e.tempo, minmax), 1) },
       { name: 'real BPM', type: 'minmax', show: true,
-        sortKey: (e: any, minmax: 'min' | 'max') => get(e.absTempo, minmax),
-        getValue: (e: any, minmax: 'min' | 'max') => decimals(get(e.absTempo, minmax), 1) },
+        sortKey: (e, minmax: 'min' | 'max') => get(e.realTempo, minmax),
+        getValue: (e, minmax: 'min' | 'max') => decimals(get(e.realTempo, minmax), 1) },
       { name: 'Scanline Speed', type: 'minmax', show: true,
-        sortKey: (e: any, minmax: 'min' | 'max') => get(e.lineSpeed, minmax),
-        getValue: (e: any, minmax: 'min' | 'max') => decimals(get(e.lineSpeed, minmax), 1) },
+        sortKey: (e, minmax: 'min' | 'max') => get(e.lineSpeed, minmax),
+        getValue: (e, minmax: 'min' | 'max') => decimals(get(e.lineSpeed, minmax), 1) },
       { name: 'Beats/Page', type: 'minmax', show: false,
-        sortKey: (e: any, minmax: 'min' | 'max') => get(e.beats, minmax),
-        getValue: (e: any, minmax: 'min' | 'max') => decimals(get(e.beats, minmax), 2) },
+        sortKey: (e, minmax: 'min' | 'max') => get(e.beats, minmax),
+        getValue: (e, minmax: 'min' | 'max') => decimals(get(e.beats, minmax), 2) },
       { name: 'Notes/Page', type: 'category', show: true, items: [
         { name: 'Max', type: 'sort', show: false,
-          sortKey: (e: any) => e.notePerPage.max, getValue: (e: any) => e.notePerPage.max },
+          sortKey: e => e.notePerPage.max, getValue: e => e.notePerPage.max },
         { name: 'R.Max', type: 'sort', show: true,
-          sortKey: (e: any) => e.notePerPage.rMax, getValue: (e: any) => e.notePerPage.rMax },
+          sortKey: e => e.notePerPage.realMax, getValue: e => e.notePerPage.realMax },
       ] },
       { name: 'Notes/Time', type: 'category', show: true, items: [
         { name: 'Max', type: 'sort', show: false,
-          sortKey: (e: any) => e.notePerPage.densityMax,
-          getValue: (e: any) => decimals(e.notePerPage.densityMax, 2) },
+          sortKey: e => e.notePerPage.maxDensity,
+          getValue: e => decimals(e.notePerPage.maxDensity, 2) },
         { name: 'R.Max', type: 'sort', show: true,
-          sortKey: (e: any) => e.notePerPage.rDensityMax,
-          getValue: (e: any) => decimals(e.notePerPage.rDensityMax, 2) },
+          sortKey: e => e.notePerPage.maxRealDensity,
+          getValue: e => decimals(e.notePerPage.maxRealDensity, 2) },
         { name: 'Avg', type: 'sort', show: false,
-          sortKey: (e: any) => e.notePerPage.density,
-          getValue: (e: any) => decimals(e.notePerPage.density, 2) },
+          sortKey: e => e.notePerPage.avgDensity,
+          getValue: e => decimals(e.notePerPage.avgDensity, 2) },
         { name: 'R.Avg', type: 'sort', show: true,
-          sortKey: (e: any) => e.notePerPage.rDensity,
-          getValue: (e: any) => decimals(e.notePerPage.rDensity, 2) },
+          sortKey: e => e.notePerPage.avgRealDensity,
+          getValue: e => decimals(e.notePerPage.avgRealDensity, 2) },
       ] },
       { name: 'Hold Beat', type: 'minmax', show: false,
-        sortKey: (e: any, minmax: 'min' | 'max') => get(e.holdBeat, minmax),
-        getValue: (e: any, minmax: 'min' | 'max') => decimals(get(e.holdBeat, minmax), 2) },
+        sortKey: (e, minmax: 'min' | 'max') => get(e.holdBeat, minmax),
+        getValue: (e, minmax: 'min' | 'max') => decimals(get(e.holdBeat, minmax), 2) },
       { name: 'Hold Time (ms)', type: 'minmax', show: false,
-        sortKey: (e: any, minmax: 'min' | 'max') => get(e.holdTime, minmax),
-        getValue: (e: any, minmax: 'min' | 'max') => decimals(get(e.holdTime, minmax) / 1000000, 2) },
+        sortKey: (e, minmax: 'min' | 'max') => get(e.holdTime, minmax),
+        getValue: (e, minmax: 'min' | 'max') => decimals(get(e.holdTime, minmax), 2) },
       { name: 'Max Siblings', type: 'sort', show: false,
-        sortKey: (e: any) => e.maxSibling, getValue: (e: any) => e.maxSibling },
+        sortKey: e => e.maxSibling, getValue: e => e.maxSibling },
       { name: 'Max Finger', type: 'sort', show: true,
-        sortKey: (e: any) => e.maxFinger, getValue: (e: any) => e.maxFinger },
+        sortKey: e => e.maxFinger, getValue: e => e.maxFinger },
       { name: 'Rhythm', type: 'fixed', show: true,
         valueClass: ['text-left', 'text-monospace'],
-        getValue: (e: any) => e.topRhythms },
+        getValue: e => e.topRhythms },
     ] as Column[])
-    const curSort = ref<any>({ col: {}, inc: true })
+    const curSort = ref<{ col: Column, inc: boolean }>({ col: cols.value[1] as Column, inc: true })
 
-    const decimals = (num: number, dec: number) => num.toFixed(dec)
-    const getTimeStr = (us: number) => {
-      let sec = us / 1000000
+    const decimals = (num: number | null, dec: number) => num?.toFixed(dec) || '-'
+    const getTimeStr = (sec: number) => {
       let m = Math.floor(sec / 60)
       let s = ('00' + (sec % 60).toFixed(2)).slice(-5)
       return `${m}:${s}`
     }
-    const sort = (col: any, incr?: boolean) => {
+    const sort = (col: Column, incr?: boolean) => {
       if (col.type === 'sort' || col.type === 'minmax') {
         console.log('sorting')
-        let inc: boolean, key: any
+        let inc: boolean, key: (e: AnalyzedChart) => number
         if (incr !== undefined) inc = incr
         else if (curSort.value.col === col) inc = !curSort.value.inc
         else inc = true
         curSort.value.col = col
         curSort.value.inc = inc
-        key = (e: any) => col.sortKey(e, inc)
+        key = (e: AnalyzedChart) => col.sortKey ? col.sortKey(e, inc ? 'min' : 'max') : 0
         chartsDisp.value = chartsDisp.value.slice().sort((a, b) => {
           return inc ? (key(a) - key(b)) : (key(b) - key(a))
         })
@@ -265,14 +265,15 @@ export default defineComponent({
         curNum.value = chartsPaged.value.length
       }
     }
-    const checkCategory = (col: any, parent: any) => {
+    const checkCategory = (col: Column, parent: Column & { type: 'category' }) => {
       if (col.type === 'category')
-        col.items.forEach((x: any) => x.show = col.show)
+        col.items.forEach((x: Column) => x.show = col.show)
       else if (parent &&  col.show)
         parent.show = true
-      else if (parent && !col.show && !parent.items.filter((x: any) => x.show).length)
+      else if (parent && !col.show && !parent.items.filter((x: Column) => x.show).length)
         parent.show = false
     }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const unique = (arr: any[]) => {
       return [...new Set(arr)]
     }
@@ -295,7 +296,7 @@ export default defineComponent({
       sort(curSort.value.col, curSort.value.inc)
       chartsPaged.value = chartsDisp.value.slice(0, 20)
     }
-    const handleScroll = (_e: any) => {
+    const handleScroll = (_e: Event) => {
       if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight &&
       curNum.value < chartsDisp.value.length) {
         console.log('add')
@@ -305,9 +306,8 @@ export default defineComponent({
     }
 
     onMounted(() => {
-      charts.value = songs
+      charts.value = songs as AnalyzedChart[]
       chartsDisp.value = charts.value.slice()
-      curSort.value.col = cols.value[1]
       cols.value
         .forEach(col => {
           if (col.type !== 'sort' && col.type !== 'fixed') return

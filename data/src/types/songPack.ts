@@ -1,4 +1,4 @@
-import { Difficulty } from '@/types/analyzed'
+import { Difficulty } from './analyzed'
 
 export interface SongPack {
   song_pack_id: string

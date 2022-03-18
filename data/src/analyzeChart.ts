@@ -1,6 +1,6 @@
 import FS from 'fs'
 
-import { AnalyzedChart, AnalyzedRhythm, difficultyName } from './types/analyzed'
+import { AnalyzedChart, AnalyzedRhythm, difficultyNames } from './types/analyzed'
 import { SongPack } from './types/songPack'
 
 import { generateAssetsDir, generateChartsDir } from './paths'
@@ -313,8 +313,8 @@ export const analyze = () => {
     character.song_info_list.forEach(song => {
       let realTempo: { min: number, max: number } | null = null
 
-      for (let i = 0; i < difficultyName.length; i++) {
-        const diff = difficultyName[i]
+      for (let i = 0; i < difficultyNames.length; i++) {
+        const diff = difficultyNames[i]
 
         const chartInfo = song.charts[diff]
         if (!chartInfo) continue

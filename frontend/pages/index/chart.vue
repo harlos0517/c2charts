@@ -50,8 +50,8 @@ import { defineComponent, onMounted, onUnmounted, ref, useContext, useRoute } fr
 import { BIconChevronLeft } from 'bootstrap-vue'
 
 import songPacksData from '@/assets/data/songPacks.json'
-import { SongPack, SongInfo } from '../../../data/src/types/songPack'
-import { Chart } from '../../../data/src/types/chart'
+import { SongPack, SongInfo } from '@data/types/songPack'
+import { Chart } from '@data/types/chart'
 
 import { loadAssets, processData } from '@/util/chart2images'
 
@@ -64,11 +64,10 @@ export default defineComponent({
     const charId = ref('')
     const character = ref({})
     const songId = ref('')
-    const song = ref<SongInfo>({
+    const song = ref<Partial<SongInfo>>({
       song_id: '',
       song_name: null,
       artist: null,
-      charts: null,
       is_hidden: false,
       IsDownloadOnly: false,
       Category: null,
@@ -100,7 +99,6 @@ export default defineComponent({
       if (!newChar) throw 'Character not found'
       const newSong = newChar.song_info_list?.find((e: any) => e.song_id === songId.value)
       if (!newSong) throw 'Song not found'
-      const other = newChar.song_pack_id === 'other'
       character.value = newChar
       song.value = newSong
       if (newSong.charts) level.value = newSong.charts[diffId.value]?.Level || '?'

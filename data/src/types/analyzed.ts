@@ -1,8 +1,8 @@
 export type Difficulty = 'Easy' | 'Hard' | 'Chaos' | 'Glitch' | 'Crash' | 'Dream'
 
-export const difficultyName: Difficulty[] = ['Easy', 'Hard', 'Chaos', 'Glitch', 'Crash', 'Dream']
+export const difficultyNames: Difficulty[] = ['Easy', 'Hard', 'Chaos', 'Glitch', 'Crash', 'Dream']
 
-export const difficultyCode = difficultyName.map(d => d.toLowerCase())
+export const difficultyCodes = difficultyNames.map(d => d.toLowerCase())
 
 
 export type AnalyzedRhythm = {

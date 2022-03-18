@@ -15,7 +15,8 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@data/*": ["../data/src/*"]
     },
     "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node", "./declare"]
   },

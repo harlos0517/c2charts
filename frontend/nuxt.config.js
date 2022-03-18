@@ -1,3 +1,5 @@
+import path from 'path'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -54,5 +56,9 @@ export default {
 
   generate: {
     dir: '../docs',
+  },
+
+  alias: {
+    '@data': path.resolve(__dirname, '../data/src'),
   },
 }

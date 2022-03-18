@@ -581,7 +581,8 @@
       "event_ids": [],
       "note_ids": [
         99,
-        100
+        100,
+        101
       ]
     },
     {
@@ -597,9 +598,7 @@
         2
       ],
       "event_ids": [],
-      "note_ids": [
-        101
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 59520,
@@ -616,7 +615,8 @@
       "event_ids": [],
       "note_ids": [
         102,
-        103
+        103,
+        104
       ]
     },
     {
@@ -632,9 +632,7 @@
         2
       ],
       "event_ids": [],
-      "note_ids": [
-        104
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 63360,
@@ -651,7 +649,8 @@
       "event_ids": [],
       "note_ids": [
         105,
-        106
+        106,
+        107
       ]
     },
     {
@@ -667,9 +666,7 @@
         2
       ],
       "event_ids": [],
-      "note_ids": [
-        107
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 67200,

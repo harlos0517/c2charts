@@ -1,4 +1,4 @@
-import { Chart, EventOrder, Note, Page, Tempo } from '@/types/chart'
+import { Chart, EventOrder, Note, Page, Tempo } from './chart'
 
 export type RuntimeChart = Chart & {
   pages: RuntimePage[]
@@ -25,6 +25,7 @@ export type RuntimeEvent = EventOrder & {
 
 export type RuntimeNote = Note & {
   page: RuntimePage
+  real_page: RuntimePage
   next?: RuntimeNote
   y: number
   end_page?: RuntimePage

@@ -95,7 +95,9 @@ function process(data: ChartData) {
     const real_page_id = n.is_forward ? n.page_index - 1 : n.page_index
     const page = pages.find(page => page.id === page_id)
     if (!page) throw 'The page of this note is not found!'
-    page.note_ids.push(n_i)
+    const real_page = pages.find(page => page.id === real_page_id)
+    if (!real_page) throw 'The page of this note is not found!'
+    real_page.note_ids.push(n_i)
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { page_index, ...n_rest } = n

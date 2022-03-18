@@ -1,11 +1,11 @@
-import { Chart } from '@/types/chart'
+import { Chart } from './types/chart'
 import {
   RuntimePage,
   RuntimeNote,
   RuntimeTempo,
   RuntimeEvent,
   RuntimeChart,
-} from '@/types/runtimeChart'
+} from './types/runtimeChart'
 
 export const toRunTime = (data: Chart) => {
   const pages = data.pages as unknown as RuntimePage[]
@@ -29,8 +29,11 @@ export const toRunTime = (data: Chart) => {
     const page = pages.find(p => p.id === note.page_id)
     if (!page) throw `[note] Page not found! Finding ${note.page_id} in length ${pages.length}`
     note.page = page
+    const real_page = pages.find(p => p.id === note.real_page_id)
+    if (!real_page) throw `[note] Page not found! Finding ${note.real_page_id} in length ${pages.length}`
+    note.real_page = real_page
     note.next = notes[note.next_id]
-    note.y = (note.tick - note.page.start_tick) / note.page.delta_tick
+    note.y = (note.tick - note.real_page.start_tick) / note.real_page.delta_tick
     if (!note.hold_tick) return
     note.end_page = pages.find(p => p.id === note.end_page_id)
     note.endY = note.end_page

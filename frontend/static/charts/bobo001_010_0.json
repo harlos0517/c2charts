@@ -52,7 +52,8 @@
       "event_ids": [],
       "note_ids": [
         3,
-        4
+        4,
+        5
       ]
     },
     {
@@ -68,9 +69,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        5
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 7680,

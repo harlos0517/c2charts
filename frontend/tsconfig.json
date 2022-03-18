@@ -11,14 +11,14 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": false,
-    "noUncheckedIndexedAccess": true,
+    // "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
       "@data/*": ["../data/src/*"]
     },
-    "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node", "./declare"]
+    "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node", "@types/css-font-loading-module", "./declare"]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

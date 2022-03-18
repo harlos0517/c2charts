@@ -88,7 +88,8 @@
       "event_ids": [],
       "note_ids": [
         6,
-        7
+        7,
+        8
       ]
     },
     {
@@ -104,9 +105,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        8
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 5760,
@@ -161,7 +160,8 @@
       "note_ids": [
         14,
         15,
-        16
+        16,
+        17
       ]
     },
     {
@@ -177,9 +177,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        17
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 9600,
@@ -234,7 +232,8 @@
       "event_ids": [],
       "note_ids": [
         24,
-        25
+        25,
+        26
       ]
     },
     {
@@ -250,9 +249,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        26
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 13440,
@@ -383,7 +380,8 @@
       "event_ids": [],
       "note_ids": [
         45,
-        46
+        46,
+        47
       ]
     },
     {
@@ -399,9 +397,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        47
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 21120,
@@ -455,7 +451,8 @@
       "note_ids": [
         52,
         53,
-        54
+        54,
+        55
       ]
     },
     {
@@ -471,9 +468,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        55
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 24960,

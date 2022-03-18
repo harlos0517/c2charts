@@ -128,6 +128,7 @@ export default defineComponent({
     }
 
     async function render(newPageNum: number) {
+      if (!chart.value) return
       rendering.value = true
       await new Promise(res => setTimeout(res, 0))
       try {

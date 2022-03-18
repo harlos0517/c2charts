@@ -139,7 +139,9 @@
       ],
       "event_ids": [],
       "note_ids": [
-        2
+        2,
+        3,
+        4
       ]
     },
     {
@@ -162,10 +164,7 @@
         0
       ],
       "event_ids": [],
-      "note_ids": [
-        3,
-        4
-      ]
+      "note_ids": []
     },
     {
       "start_tick": 6720,

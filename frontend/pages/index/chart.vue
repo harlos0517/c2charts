@@ -53,7 +53,7 @@ import songPacksData from '@/assets/data/songPacks.json'
 import { SongPack, SongInfo } from '@data/types/songPack'
 import { Chart } from '@data/types/chart'
 
-import { loadAssets, processData } from '@/util/chart2images'
+import { loadAssets, ChartImageProcessor } from '@/util/chart2images'
 
 export default defineComponent({
   components: { BIconChevronLeft },
@@ -80,6 +80,7 @@ export default defineComponent({
     const imageUrls = ref<string[]>([])
     const rendering = ref(true)
     const chart = ref<Chart | null>(null)
+    const processor = ref<ChartImageProcessor | null>(null)
     const pageNum = ref(0)
 
     const handleScroll = () => {
@@ -133,9 +134,8 @@ export default defineComponent({
       await new Promise(res => setTimeout(res, 0))
       try {
         for (let i = curPageNum.value; i < newPageNum; i++) {
-          imageUrls.value.push(
-            processData(chart.value, pageNum.value, i) as unknown as string,
-          )
+          const url = processor.value?.processNext() || ''
+          imageUrls.value.push(url)
           curPageNum.value ++
         }
       } catch (err) {
@@ -157,6 +157,7 @@ export default defineComponent({
       chart.value = await $axios.$get(url)
       pageNum.value = chart.value?.pages?.length || 0
       getSongs()
+      processor.value = new ChartImageProcessor(chart.value)
       render(Math.min(pageNum.value, 16))
 
       window.addEventListener('scroll', handleScroll)

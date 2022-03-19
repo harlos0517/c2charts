@@ -21,7 +21,7 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 
 import songPacksData from '@/assets/data/songPacks.json'
-import { SongPack } from '../../../data/src/types/songPack'
+import { SongPack } from '@data/types/songPack'
 
 export default defineComponent({
   setup() {

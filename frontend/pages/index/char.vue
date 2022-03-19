@@ -9,6 +9,7 @@
         )
         .text-center.p-3.rounded-lg.mb-4(
           :style="`background-color: ${songPack.theme_color};`"
+          :class="{ 'text-dark': songPack.song_pack_id === 'ilka001' }"
         ) {{ songPack.song_pack_name }}
         NuxtLink.text-center.w-100.p-3.back.btn.text-white.rounded-lg.d-flex.flex-row(to="/")
           BIconChevronLeft
@@ -28,10 +29,10 @@
                   .flex-grow-1.text-right Composer
               template(v-if="songPack.song_pack_id!=='other'")
                 th.text-center.align-middle.diff.border-0(
-                  v-for="level in levels"
-                  v-if="hasAnyLevel(level)"
-                  :class="level.toLowerCase()"
-                ) {{ level.toUpperCase() }}
+                  v-for="diff in difficultyNames"
+                  v-if="hasAnyLevel(diff)"
+                  :class="diff.toLowerCase()"
+                ) {{ diff.toUpperCase() }}
               template(v-else)
                 th.text-center.align-middle.other.diff.border-0 ?
           tbody
@@ -42,15 +43,15 @@
                   .flex-grow-1.text-right {{ song.artist || '' }}
               template(v-if="songPack.song_pack_id!=='other'")
                 td.text-center.align-middle.py-2.diff(
-                  v-for="level in levels"
-                  v-if="hasAnyLevel(level)"
+                  v-for="diff in difficultyNames"
+                  v-if="hasAnyLevel(diff)"
                 )
                   NuxtLink.rounded-circle.m-auto(
-                    :class="level.toLowerCase()"
-                    v-if="song.charts[level]"
-                    :to="`/chart?charId=${songPack.song_pack_id}&songId=${song.song_id}&diff=${level.toLowerCase()}`"
+                    :class="diff.toLowerCase()"
+                    v-if="song.charts[diff]"
+                    :to="`/chart?charId=${songPack.song_pack_id}&songId=${song.song_id}&diff=${diff.toLowerCase()}`"
                   )
-                    | {{ song.charts[level].Level }}
+                    | {{ song.charts[diff].Level }}
               template(v-else)
                 td.text-center.align-middle.py-2.diff
                   NuxtLink.other.rounded-circle.m-auto(:to="`/chart?charId=${songPack.song_pack_id}&songId=${song.song_id}&diff=&diff=easy`") ?
@@ -61,7 +62,9 @@ import { defineComponent, useRoute } from '@nuxtjs/composition-api'
 import { BIconChevronLeft } from 'bootstrap-vue'
 
 import songPacksData from '@/assets/data/songPacks.json'
-import { SongPack } from '../../../data/src/types/songPack'
+import { SongPack } from '@data/types/songPack'
+import { Difficulty } from '@data/types/analyzed'
+import { difficultyNames } from '@/util/types'
 
 export default defineComponent({
   components: { BIconChevronLeft },
@@ -73,12 +76,10 @@ export default defineComponent({
     const songPack = songPacks.find(p => p.song_pack_id === id) || songPacks[0] || null
     const songPackId = songPack?.song_pack_id || null
 
-    const hasAnyLevel = (level: 'Easy' | 'Hard' | 'Chaos' | 'Glitch' | 'Crash' | 'Dream') =>
+    const hasAnyLevel = (level: Difficulty) =>
       songPack?.song_info_list.filter(s => s.charts ? s.charts[level] : false).length || 0
 
-    const levels = ['Easy', 'Hard', 'Chaos', 'Glitch', 'Crash', 'Dream']
-
-    return { songPack, songPackId, hasAnyLevel, levels }
+    return { songPack, songPackId, hasAnyLevel, difficultyNames }
   },
 })
 </script>

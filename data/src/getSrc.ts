@@ -7,7 +7,7 @@ const otherChartNames = []
 const prettify = (inFilePath: string, outFilePath: string) => {
   const data = FS.readFileSync(inFilePath, { encoding: 'utf-8' })
   const json = JSON.parse(data)
-  const prettify_data = JSON.stringify(json, null, '\t')
+  const prettify_data = JSON.stringify(json, null, '  ')
   FS.writeFileSync(outFilePath, prettify_data)
 }
 
@@ -39,4 +39,9 @@ export const copySongPackSrc = () => {
     srcDir + 'TextAsset/' + 'expansion_pack_data',
     assetsDir + 'expansion_pack_data.json',
   )
+}
+
+if (require.main === module) {
+  copyChartSrc()
+  copySongPackSrc()
 }

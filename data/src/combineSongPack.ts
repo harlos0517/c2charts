@@ -22,7 +22,16 @@ export const combineSongPack = () => {
     price: '',
     Category: 'Other',
     Descriptions: {},
-    song_info_list: song_data.other_song_info_list,
+    song_info_list: song_data.other_song_info_list.map(song => ({
+      ...song,
+      charts: {
+        Easy: {
+          Level: '?',
+          MusicID: '',
+          NeedUnlock: true,
+        },
+      },
+    })),
   })
 
   expansion_data.ExpansionPackList.forEach(ep => {
@@ -52,7 +61,15 @@ export const combineSongPack = () => {
     })
   })
 
-  const song_data_string = JSON.stringify(songPacks, null, '\t')
+  songPacks.forEach(songPack => {
+    songPack.song_info_list.sort((a, b) => a.song_id.localeCompare(b.song_id))
+  })
+
+  const song_data_string = JSON.stringify(songPacks, null, '  ')
   const path = generateAssetsDir + 'songPacks.json'
   FS.writeFileSync(path, song_data_string)
 }
+
+if (require.main === module)
+  combineSongPack()
+

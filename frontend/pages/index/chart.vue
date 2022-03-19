@@ -15,8 +15,10 @@
         span ?
       .flex-grow-1.flex-column.justify-content-between
         .m-0.my-3.h5
-          span.py-3.px-5.rounded-lg(:style="`background-color: ${character.theme_color};`")
-            | {{ character.song_pack_name }}
+          span.py-3.px-5.rounded-lg(
+            :style="`background-color: ${character.theme_color};`"
+            :class="{ 'text-dark': character.song_pack_id === 'ilka001' }"
+          ) {{ character.song_pack_name }}
         .m-0.my-1.h1 {{ song.song_name || song.song_id }}
         .m-0.my-1.h3 {{ song.artist || 'unknown' }}
         .m-0.my-1.h4
@@ -25,6 +27,7 @@
 
     #header-bar.d-flex.flex-row.align-items-center.position-fixed.w-100.py-2.px-4.px-lg-5(
       :style="`background-color: ${character.theme_color}; top: ${header ? 5 : 0}rem; opacity: ${header ? 1 : 0}`"
+      :class="{ 'text-dark': character.song_pack_id === 'ilka001' }"
     )
       .p-0.mr-4.mr-lg-5.ml-lg-n2.d-flex.justify-content-start.align-items-center
         NuxtLink.back.h-100.btn.p-0.px-lg-3.ml-2.ml-lg-5.text-white.rounded-lg(:to="`char?id=${character.song_pack_id}`")
@@ -50,10 +53,10 @@ import { defineComponent, onMounted, onUnmounted, ref, useContext, useRoute } fr
 import { BIconChevronLeft } from 'bootstrap-vue'
 
 import songPacksData from '@/assets/data/songPacks.json'
-import { SongPack, SongInfo } from '../../../data/src/types/songPack'
-import { Chart } from '../../../data/src/types/chart'
+import { SongPack, SongInfo } from '@data/types/songPack'
+import { Chart } from '@data/types/chart'
 
-import { loadAssets, processData } from '@/util/chart2images'
+import { loadAssets, ChartImageProcessor } from '@/util/chart2images'
 
 export default defineComponent({
   components: { BIconChevronLeft },
@@ -64,11 +67,10 @@ export default defineComponent({
     const charId = ref('')
     const character = ref({})
     const songId = ref('')
-    const song = ref<SongInfo>({
+    const song = ref<Partial<SongInfo>>({
       song_id: '',
       song_name: null,
       artist: null,
-      charts: null,
       is_hidden: false,
       IsDownloadOnly: false,
       Category: null,
@@ -81,6 +83,7 @@ export default defineComponent({
     const imageUrls = ref<string[]>([])
     const rendering = ref(true)
     const chart = ref<Chart | null>(null)
+    const processor = ref<ChartImageProcessor | null>(null)
     const pageNum = ref(0)
 
     const handleScroll = () => {
@@ -100,7 +103,6 @@ export default defineComponent({
       if (!newChar) throw 'Character not found'
       const newSong = newChar.song_info_list?.find((e: any) => e.song_id === songId.value)
       if (!newSong) throw 'Song not found'
-      const other = newChar.song_pack_id === 'other'
       character.value = newChar
       song.value = newSong
       if (newSong.charts) level.value = newSong.charts[diffId.value]?.Level || '?'
@@ -130,13 +132,13 @@ export default defineComponent({
     }
 
     async function render(newPageNum: number) {
+      if (!chart.value) return
       rendering.value = true
       await new Promise(res => setTimeout(res, 0))
       try {
         for (let i = curPageNum.value; i < newPageNum; i++) {
-          imageUrls.value.push(
-            processData(chart.value, pageNum.value, i) as unknown as string,
-          )
+          const url = processor.value?.processNext() || ''
+          imageUrls.value.push(url)
           curPageNum.value ++
         }
       } catch (err) {
@@ -158,6 +160,7 @@ export default defineComponent({
       chart.value = await $axios.$get(url)
       pageNum.value = chart.value?.pages?.length || 0
       getSongs()
+      processor.value = new ChartImageProcessor(chart.value)
       render(Math.min(pageNum.value, 16))
 
       window.addEventListener('scroll', handleScroll)

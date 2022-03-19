@@ -9,6 +9,7 @@
         )
         .text-center.p-3.rounded-lg.mb-4(
           :style="`background-color: ${songPack.theme_color};`"
+          :class="{ 'text-dark': songPack.song_pack_id === 'ilka001' }"
         ) {{ songPack.song_pack_name }}
         NuxtLink.text-center.w-100.p-3.back.btn.text-white.rounded-lg.d-flex.flex-row(to="/")
           BIconChevronLeft

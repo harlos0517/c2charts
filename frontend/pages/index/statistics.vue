@@ -43,7 +43,10 @@
           template(v-for="col in cols")
             template(v-if="col.show")
               template(v-if="col.name === 'Character'")
-                td(:class="col.valueClass || []" :style="`background-color: ${chart.char.color};`")
+                td(
+                  :class="[...(col.valueClass || []), { 'text-dark': chart.char.id === 'ilka001' }]"
+                  :style="`background-color: ${chart.char.color};`"
+                )
                   | {{ col.getValue(chart) }}
               template(v-else-if="col.name === 'Rhythm'")
                 td(:class="col.valueClass || []")

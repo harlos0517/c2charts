@@ -15,8 +15,10 @@
         span ?
       .flex-grow-1.flex-column.justify-content-between
         .m-0.my-3.h5
-          span.py-3.px-5.rounded-lg(:style="`background-color: ${character.theme_color};`")
-            | {{ character.song_pack_name }}
+          span.py-3.px-5.rounded-lg(
+            :style="`background-color: ${character.theme_color};`"
+            :class="{ 'text-dark': character.song_pack_id === 'ilka001' }"
+          ) {{ character.song_pack_name }}
         .m-0.my-1.h1 {{ song.song_name || song.song_id }}
         .m-0.my-1.h3 {{ song.artist || 'unknown' }}
         .m-0.my-1.h4
@@ -25,6 +27,7 @@
 
     #header-bar.d-flex.flex-row.align-items-center.position-fixed.w-100.py-2.px-4.px-lg-5(
       :style="`background-color: ${character.theme_color}; top: ${header ? 5 : 0}rem; opacity: ${header ? 1 : 0}`"
+      :class="{ 'text-dark': character.song_pack_id === 'ilka001' }"
     )
       .p-0.mr-4.mr-lg-5.ml-lg-n2.d-flex.justify-content-start.align-items-center
         NuxtLink.back.h-100.btn.p-0.px-lg-3.ml-2.ml-lg-5.text-white.rounded-lg(:to="`char?id=${character.song_pack_id}`")
